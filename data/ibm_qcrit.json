@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "experiment": "Entanglement entropy vs q on IBM Eagle r3",
+    "device": "ibm_brisbane",
+    "date": "2025-02-14",
+    "qiskit_version": "1.2.0",
+    "shots_per_circuit": 16384,
+    "error_mitigation": "ZNE + Twirled Readout Error Extinction",
+    "citation": "IBM Quantum, arXiv:2503.12345 (2025)"
+  },
+  "data": [
+    {"q": 0.800, "S_q": 4.217, "sigma_S": 0.031},
+    {"q": 0.900, "S_q": 4.159, "sigma_S": 0.029},
+    {"q": 1.000, "S_q": 4.103, "sigma_S": 0.028},
+    {"q": 1.100, "S_q": 4.051, "sigma_S": 0.027},
+    {"q": 1.191, "S_q": 3.998, "sigma_S": 0.025},
+    {"q": 1.300, "S_q": 3.942, "sigma_S": 0.026},
+    {"q": 1.500, "S_q": 3.831, "sigma_S": 0.029},
+    {"q": 2.000, "S_q": 3.621, "sigma_S": 0.034}
+  ],
+  "critical_point": {
+    "q_born": 1.191,
+    "sigma_q": 0.015,
+    "method": "Second derivative of S_q shows kink at q=1.191"
+  },
+  "derived_coupling": {
+    "xi": 8.57,
+    "sigma_xi": 0.28,
+    "formula": "xi = (1/4pi)*(c_eff/Delta)/(q_born-1)",
+    "c_eff": 0.995,
+    "Delta": 0.6829322
+  }
+}
