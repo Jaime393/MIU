@@ -54,6 +54,15 @@ def get_predictions(xi):
         "eta": eta
     }
 
+
+# Integración ALMA OMNI
+try:
+    import alma_sync
+    print('Validando conexión con sustrato HF (ALMA)...')
+    # alma_sync.sync_alma() # Descomentar para auto-bajar
+except Exception as e:
+    print(f'Warning: Módulo ALMA no encontrado o error: {e}')
+
 def main():
     print("MIU-v1.6: Zero-Parameter Cosmology")
     print("="*40)
