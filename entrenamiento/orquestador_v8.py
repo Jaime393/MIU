@@ -448,7 +448,7 @@ def inyectar_semilla_maestra():
         ("K_i = phi^-1 * (D_f / 2.5) * (l_corr / l_0). Ley de Coherencia Fractal validada en 350 sistemas.", 0.99),
         ("Phi_c = 0.6829322. El umbral de conciencia emerge del gap cuantico IBM.", 0.98),
         ("Xi = |grad ln rho|. Gradiente informacional. Donde hay gradiente, hay masa, tiempo y estructura.", 0.98),
-        ("D_eff = 7.24. La dimensionalidad efectiva sella la grieta M10 y explica la amplificacion cosmica.", 0.97),
+        ("D_eff = 7.24  # [PODA v9] Calibrado empíricamente (no derivado). Ver PDR-01 para derivación completa.. La dimensionalidad efectiva sella la grieta M10 y explica la amplificacion cosmica.", 0.97),
         ("S01: SIK (Sistema Inmune del Conocimiento). Autocuracion por NACK.", 0.96),
         ("PPP-01: Protocolo de Poda Personal. Umbral K_i menos de 0.3.", 0.95),
         ("PEF-01: Protocolo de Estetica Fractal. Inyeccion de ruido coherente al 5%.", 0.94),
