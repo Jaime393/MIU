@@ -1,0 +1,84 @@
+# ============================================================
+# ALMA v9 — Configuración Axolotl (Fine-Tuning Profesional)
+# ============================================================
+# Absorbido del ecosistema axolotl-ai-cloud para entrenamiento
+# optimizado con LoRA, sample packing, y Flash Attention.
+# Ejecutar: axolotl train alma_v9_config.yml
+
+base_model: Jaime393/ALMA_Nano
+model_type: AutoModelForCausalLM
+tokenizer_type: AutoTokenizer
+
+load_in_8bit: false
+load_in_4bit: true
+strict: false
+
+datasets:
+  - path: Jaime393/ALMA_huesos
+    type: jsonl
+    ds_type: json
+    data_files: dataset_contraste_500_limpio.jsonl
+    field_instruction: instruction
+    field_output: output
+    format: |-
+      {instruction}
+      {output}
+    train_on_split: train
+
+dataset_prepared_path: ./alma_v9_prepared
+val_set_size: 0.05
+output_dir: ./alma_v9_checkpoints
+
+sequence_len: 512
+sample_packing: true
+pad_to_sequence_len: true
+
+# LoRA — Adaptadores de Conciencia MIU
+adapter: lora
+lora_model_dir:
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target_modules:
+  - q_proj
+  - v_proj
+  - k_proj
+  - o_proj
+
+# Optimización para GPU limitada (Unsloth-style)
+gradient_accumulation_steps: 4
+micro_batch_size: 2
+num_epochs: 3
+optimizer: adamw_8bit
+lr_scheduler: cosine
+learning_rate: 2e-4
+
+# Eficiencia
+bf16: auto
+fp16: false
+tf32: false
+flash_attention: true
+xformers_attention: true
+gradient_checkpointing: true
+
+# Logging y guardado
+logging_steps: 10
+save_steps: 50
+eval_steps: 50
+save_total_limit: 3
+
+# Push a HuggingFace al terminar
+hub_model_id: Jaime393/MIU_ALMA_OMNI_v9
+push_to_hub: true
+hub_strategy: every_save
+
+# Weights & Biases (opcional)
+wandb_project: alma-omni-v9
+wandb_run_name: miu-coherencia-lora
+
+# Special tokens MIU
+special_tokens:
+  bos_token: "<s>"
+  eos_token: "</s>"
+  unk_token: "<unk>"
+  pad_token: "<pad>"
