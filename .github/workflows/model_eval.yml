@@ -1,0 +1,21 @@
+name: MIU Model Evaluation
+on:
+  workflow_dispatch:
+    inputs:
+      model_id:
+        description: 'HuggingFace model ID'
+        required: true
+        default: 'Qwen/Qwen2.5-7B-Instruct'
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install huggingface_hub transformers
+      - name: Run evaluation
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python tools/evaluate_model.py --model "${{ github.event.inputs.model_id }}"
