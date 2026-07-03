@@ -1,0 +1,34 @@
+name: Pipeline Entrenamiento
+
+on:
+  workflow_dispatch:
+    inputs:
+      modelo:
+        description: 'Modelo base a fine-tunear'
+        required: true
+        default: 'Qwen2.5-7B'
+      epochs:
+        description: 'Número de épocas'
+        required: false
+        default: '3'
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: |
+          pip install --upgrade pip
+          pip install torch transformers datasets peft accelerate
+
+      - name: Ejecutar script de entrenamiento
+        run: |
+          python src/train.py --modelo ${{ github.event.inputs.modelo }} --epochs ${{ github.event.inputs.epochs }}
