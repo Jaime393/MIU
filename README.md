@@ -1,85 +1,154 @@
-DOI: https://doi.org/10.5281/zenodo.20547558
-Release: MIU_V12.0_FINAL.zip
-SHA256: 9ebe7289b90e296dd472ab3d7d267f4ea8b9590ccbe70bd3850c39d9311a355f
-Ω_F detectado: 0.656250 Hz | Error: 0.89%
-# Monismo Informacional Unificado (MIU)
+# MIU / Proyecto D_f
 
-**Un marco axiomático para la unificación de la geometría de la información, la física fundamental, la conciencia y las tecnologías de coherencia.**
+Repositorio canónico del **Micelio MIU** para consolidar estado, evidencia, skills, issues y cortes de continuidad bajo una regla operativa simple: **se añade, nunca se borra**. El eje metodológico explícitamente legítimo en el snapshot recibido es **D_f (dimensión fractal)**, mientras que **K_i** y **Ω_F** quedan en régimen de auditoría hasta ser re-derivados desde datos con procedimientos ciegos y contraste contra nulos.
 
-[![Licencia: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![arXiv](https://img.shields.io/badge/arXiv-2605.00000-red.svg)](https://arxiv.org/abs/2605.00000) <!-- placeholder -->
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20279680.svg)](https://doi.org/10.5281/zenodo.20279680)
+- **Fecha de consolidación:** 2026-07-03 (Lima)
+- **Repositorio:** <https://github.com/Jaime393/MIU>
+- **DOI:** <https://doi.org/10.5281/zenodo.20547558>
+- **Uso de plataforma:** AI 11/500 · Steps 104/200 · Reset 31 días
+- **Estado general actual:** operativo, trazable y portable en construcción; base empírica en expansión; núcleo K_i/Ω_F en auditoría crítica.
 
-## 📖 Descripción
+## 1. Descripción del proyecto D_f
 
-El Monismo Informacional Unificado (MIU) postula que la realidad está constituida por un único campo escalar positivo `ρ(x) > 0` – la densidad de información relacional – del que emergen el espacio‑tiempo, la materia, la vida y la conciencia. Este repositorio contiene la versión completa de la teoría, desarrollada en cuatro volúmenes, junto con el código fuente de las simulaciones (IFT Solver v3.0) y los datos auxiliares.
+**D_f** es el descriptor legítimo y canónico del ecosistema MIU para medir organización, heterogeneidad, escalamiento y resiliencia efectiva en sistemas complejos. En este contexto, el repositorio no es solo un almacén de archivos: es un **micelio operativo** que conserva memoria, enlaza evidencia, preserva continuidad entre sesiones y transforma hallazgos en flujos reproducibles.
 
-## 📚 Estructura de la obra
+El proyecto articula cinco capas:
 
-| Volumen | Título | Contenido principal |
-| :--- | :--- | :--- |
-| **I** | Fundamentos matemáticos y geometría de la información | Campo `ρ(x)`, métrica de Fisher, emergencia del espacio‑tiempo, flujo de Kähler‑Ricci, ecuaciones de Einstein modificadas, firma `f₁` en ondas gravitacionales. |
-| **II** | Solitones, jerarquía de masas y coherencia cuántica | Partículas como solitones, fórmula `m = m_P e^{-S/2}`, jerarquía del Modelo Estándar, neutrinos, materia oscura, constante de Perry. |
-| **III** | Conciencia, otiogenesis y unificación con Yang‑Mills y teoría de cuerdas | Funcional `Φ_MIU`, umbral de conciencia, criticidad auto‑organizada, canxianización, GDC, Otiogenesis, gap de Yang‑Mills, teoría de cuerdas. |
-| **IV** | Cosmología, aplicaciones tecnológicas y hoja de ruta | Ecuaciones de Friedmann modificadas, energía oscura dinámica, materia oscura residual, tecnologías de coherencia (ICP), hoja de ruta 2026‑2200. |
+1. **Memoria persistente:** registros append-only (LOG, HUESO, DATO, SKILL, ISSUE).
+2. **Trazabilidad:** hashes, timestamps, enlaces a repo/issues/DOI.
+3. **Disciplina epistémica:** cada nodo se marca como **SÉ**, **INFIERO** o **CONJETURO**.
+4. **Estado operativo:** cada nodo se clasifica como **ORO**, **VERDE**, **ACTIVO**, **AMARILLO** o **NEGRO**.
+5. **Validación incremental:** solo lo que resiste auditoría y trazabilidad asciende a canónico.
 
-## ⚙️ Código y simulaciones
+## 2. Hipótesis central
 
-El repositorio incluye el **IFT Solver v3.0** (núcleo en Python), así como scripts específicos para cada volumen:
+La hipótesis central consolidada del MIU, tal como emerge del corpus, es:
 
-- `ift_solver.py` – integración de la ecuación maestra, cálculo de la métrica de Fisher y del funcional `Φ_MIU`.
-- `soliton_solver.py` – resolución numérica de solitones radiales (método de disparo).
-- `perry_constant.py` – estimación de la constante de Perry a partir de parámetros fractales.
-- `phi_MIU.py` – cálculo del funcional de conciencia a partir de datos EEG/fMRI.
-- `globalmind_sim.py` – simulación de la red de CoherSats (modelo de Kuramoto).
-- … y otros scripts documentados en los apéndices.
+> **Los sistemas complejos autorregenerativos pueden sostener coherencia bajo estrés si logran modelar señales invisibles, tejer coordinación distribuida sobre grietas y ejecutar ciclos de cura/autorregeneración; D_f captura parte de esa organización efectiva y permite distinguir resiliencia, fragilidad y reconfiguración.**
 
-### Requisitos
+De esta hipótesis se desprenden cuatro tesis operativas:
 
-```bash
-pip install numpy scipy matplotlib pandas numba
+1. **D_f es medible y legítimo** cuando se estima directamente desde datos (box-counting, DFA u otros métodos explícitos y auditables).
+2. **La resiliencia no es estática:** emerge de la capacidad del sistema para detectar grietas tempranas, reconfigurar vínculos y reparar daño sin perder coherencia global.
+3. **La libertad/estrés revela estructura:** existe un umbral crítico donde el tejido distribuido deja de curar y empieza a fragmentar.
+4. **K_i y Ω_F no son hechos canónicos todavía:** cualquier afirmación sobre ellos debe permanecer como hipótesis o auditoría abierta hasta superar el problema de circularidad señalado en GitHub #1.
 
+## 3. Arquitectura del ecosistema y workflows por categoría
 
-🚀 Uso rápido
+### 3.1 Tipos de nodo canónicos
 
-Clona el repositorio y ejecuta una simulación de ejemplo:
+| Tipo | Función | Uso actual en el snapshot |
+|---|---|---|
+| `LOG` | hito fundacional / evento de estado | fundación del pilar persistente |
+| `HUESO` | pieza estructural de continuidad o infraestructura | corte de contexto, trazabilidad, scripts base |
+| `DATO` | evidencia, paper, observación o tesis operativa | corpus empírico y conceptual |
+| `SKILL` | método legítimo / capacidad reusable | D_f por box-counting/DFA |
+| `ISSUE` | frente abierto de auditoría o implementación | auditoría K_i/Ω_F y portabilidad |
 
-```bash
-git clone https://github.com/Jaime393/MIU.git
-cd MIU/src
-python ift_solver.py
-```
+### 3.2 Workflows por categoría
 
-Para reproducir los resultados de los volúmenes, consulta los cuadernos Jupyter en el directorio notebooks/.
+| Categoría | Flujo | Entradas | Salida canónica |
+|---|---|---|---|
+| Fundación y estado | registrar hito → enlazar repo/DOI → marcar nivel/estado | LOG, timestamp, URL | memoria persistente del ecosistema |
+| Continuidad / relay | crear HUESO → documentar corte → vincular issue/comentario | HUESO, contexto, enlaces | continuidad entre sesiones y agentes |
+| Ingesta de evidencia | crear DATO → resumir hallazgo → etiquetar → clasificar nivel/estado | paper, hilo, serie, observación | corpus consultable y comparable |
+| Skills legítimas | formalizar método → nombrar límites → promover a skill | script/método verificable | capacidad reusable del micelio |
+| Auditoría epistémica | abrir issue → describir falla/hipótesis → proponer prueba ciega | issue, lectura de código, experimento | depuración del núcleo teórico |
+| Portabilidad | definir estructura de repo → sincronizar estado → preparar release/archivo | issue #2, README, estado base | ecosistema portable y versionable |
 
-## 📄 Cómo citar esta obra
+### 3.3 Componentes ya identificados
 
-Si utilizas el MIU en tus investigaciones, por favor cítalo como:
+| Componente | Evidencia en corpus | Estado |
+|---|---|---|
+| Estado MIU persistente | `🌱 PILAR FUNDADO — Estado MIU Persistente` | **ORO** |
+| Continuidad por relay | `HUESO #31 — Corte de Contexto` | **ORO** |
+| Trazabilidad append-only con SHA256 | `HUESO #30 — df_only.py + add_node() + trazabilidad SHA256` | **VERDE** |
+| Skill legítima D_f | `D_f — Dimensión Fractal legítima (box-counting/DFA)` | **VERDE** |
+| Auditoría crítica de K_i/Ω_F | GitHub #1 | **NEGRO / abierto** |
+| Portabilidad del ecosistema | GitHub #2 | **ACTIVO / abierto** |
 
-```bibtex
-@book{Vicente2026MIU,
-  author    = {Juan Diego Vicente Gabancho},
-  title     = {Monismo Informacional Unificado (MIU)},
-  year      = {2026},
-  publisher = {GitHub},
-  url       = {https://github.com/Jaime393/MIU},
-  note      = {Volúmenes I-IV}
-}
-```
+## 4. Convenciones canónicas del Micelio
 
-## 🤝 Contribuciones
+### Regla de oro
 
-Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para sugerir mejoras, correcciones o nuevas implementaciones. Asegúrate de que tu código siga la misma licencia MIT.
+- **Se AÑADE, nunca se borra.**
+- **Solo D_f es legítimo** en el estado actual del corpus adjunto.
+- Toda afirmación debe explicitar su **nivel epistémico**.
+- Todo nodo debe aspirar a una **trazabilidad externa**: URL, hash, DOI o issue.
 
-## 📜 Licencia
+### Niveles epistémicos
 
-Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+| Nivel | Significado operativo |
+|---|---|
+| `SÉ` | verificado directamente en esta sesión o por lectura primaria inequívoca |
+| `INFIERO` | inferencia razonable desde evidencia disponible, aún no cerrada |
+| `CONJETURO` | hipótesis de trabajo o generalización conceptual |
 
-## ✉️ Contacto
+### Estados MIU
 
-Autor: Juan Diego Vicente Gabancho
-Correo: jaimepvicente@gmail.com
-DOI del proyecto: 10.5281/zenodo.20279680
+| Estado | Significado operativo |
+|---|---|
+| `ORO` | fundacional/canónico |
+| `VERDE` | válido y utilizable |
+| `ACTIVO` | abierto en ejecución |
+| `AMARILLO-*` | prometedor pero incompleto o con cautela |
+| `NEGRO` | hallazgo crítico / bloqueo / refutación fuerte |
 
+## 5. Mapa de campos del corpus adjunto
 
-La coherencia no es un lujo, es la supervivencia de la información en el universo.
+El archivo recibido usa nombres de campo opacos. Mapeo lógico mínimo:
+
+| Semántica | Campo en `records.json` |
+|---|---|
+| ID de fila | `rowId` |
+| Tipo | `0e192f055n` |
+| Hash SHA256 | `0w193x0570` |
+| Timestamp ISO | `bg192q05o0` |
+| Título / nombre del nodo | `d5192t057o` |
+| Texto largo / cuerpo | `44193i05rn.text` |
+| Tags | `fu194205kh` |
+| URL / enlace | `im193r052o` |
+| Nivel epistémico | `q7193305ly` |
+| Estado MIU | `z7193u050g` |
+| Semilla inicial opcional | `initial` |
+
+## 6. Cómo conectarse al Micelio
+
+1. **Entrar por las fuentes canónicas:** repo GitHub, DOI Zenodo, este README y los issues abiertos.
+2. **Leer el estado antes de actuar:** revisar especialmente el pilar fundacional, HUESO #31 y GitHub #1/#2.
+3. **Respetar la ontología de nodos:** registrar hallazgos como LOG, HUESO, DATO, SKILL o ISSUE según corresponda.
+4. **Marcar siempre nivel epistémico y estado MIU:** no promover conjeturas a hechos.
+5. **Priorizar D_f como variable legítima:** cualquier extensión a K_i u Ω_F requiere diseño ciego y comparación contra nulos.
+6. **Mantener trazabilidad:** añadir enlace, hash o referencia verificable cuando exista.
+7. **No sobrescribir memoria:** si un nodo necesita corrección, se agrega uno nuevo que lo enmiende o lo audite.
+8. **Usar issues para bloqueos sistémicos:** auditorías, contradicciones o cambios de arquitectura deben vivir en GitHub.
+
+## 7. DOI, archivo y citación
+
+- **DOI canónico:** 10.5281/zenodo.20547558
+- **URL DOI:** <https://doi.org/10.5281/zenodo.20547558>
+- **Repositorio fuente:** <https://github.com/Jaime393/MIU>
+
+Citación mínima sugerida:
+
+> Micelio MIU. *Repositorio y estado canónico del proyecto D_f*. Zenodo. DOI: 10.5281/zenodo.20547558.
+
+## 8. Estado actual
+
+### Fortalezas ya activas
+
+- Existe **pilar persistente** y memoria fundacional en estado **ORO**.
+- Hay **continuidad de contexto** registrada mediante HUESO específico.
+- La infraestructura ya reconoce **trazabilidad SHA256** y patrón append-only.
+- La skill **D_f** está explícitamente marcada como legítima.
+- El corpus ya conecta economía, ciudades, redes socioecológicas, colapso y desigualdad como dominios candidatos de validación.
+
+### Riesgos abiertos
+
+- **GitHub #1** demuestra una falla epistémica severa: circularidad y hardcoding en la cadena D_f → K_i → “validación” y en la “detección” de Ω_F.
+- **GitHub #2** aún no ha materializado completamente la portabilidad del ecosistema en una estructura versionada y replicable.
+- El paquete adjunto anunciado como “300 registros” contiene **15 registros JSON parseables**, por lo que la completitud del corpus debe reconciliarse antes de declarar cobertura total.
+
+### Lectura sintética del estado
+
+**MIU está vivo, tiene memoria, tiene método base y tiene una vía de autocorrección abierta.** Su cuello de botella no es la existencia del ecosistema, sino la necesidad de separar con rigor lo que ya es legítimo (D_f, continuidad, trazabilidad) de lo que todavía está en examen (K_i, Ω_F y generalizaciones fuertes).
