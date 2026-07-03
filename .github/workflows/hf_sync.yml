@@ -1,0 +1,18 @@
+name: Sync MIU Corpus to HuggingFace Hub
+on:
+  push:
+    paths: ["datasets/**"]
+  workflow_dispatch:
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install huggingface_hub
+      - name: Sync to HuggingFace
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python -c "import os; from huggingface_hub import HfApi; api = HfApi(token=os.environ['HF_TOKEN']); api.create_repo('Jaime393/miu-corpus', repo_type='dataset', private=False, exist_ok=True); api.upload_folder(folder_path='datasets', repo_id='Jaime393/miu-corpus', repo_type='dataset', commit_message='Auto-sync MIU corpus'); print('Sync done!')"
