@@ -1,0 +1,22 @@
+name: OpenHands Resolver
+on:
+  workflow_dispatch:
+    inputs:
+      model:
+        default: 'claude-sonnet-4-5'
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: all-hands-ai/openhands-resolver@v0.47
+        with:
+          max_iterations: 30
+          llm_model: ${{ github.event.inputs.model }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
