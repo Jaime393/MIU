@@ -58,3 +58,37 @@ VERIFICADO pero con ALERTA SEVERA: fuente real es un post "Show HN" en Hacker Ne
 | 8. Modelo ICT | Alerta -- fuente autopublicada, no peer-reviewed |
 
 Generado a peticion del usuario. Nada fue fabricado; donde no se verifico se declaro NO SE explicitamente, siguiendo #RIGOR_EPISTEMICO_v2.
+
+---
+
+## Verificación de Nodos 9-20 (segunda tanda, aportados 2026-07-08)
+
+**Nota de duplicados**: Nodos 10, 11, 12 y 16 son duplicados exactos de los Nodos 4, 8, 5 y 3 ya verificados (mismo autor/paper, sin cambios). Nodo 17 es únicamente la revisión v2 (abril 2026) del mismo preprint que el Nodo 9 (Bruna, arXiv:2505.20580) — no es una fuente independiente nueva.
+
+### Nodo 9 / 17 — Resonance Complexity Theory (Bruna, arXiv:2505.20580, v1 mayo 2025 / v2 abril 2026)
+Estado: REAL, preprint confirmado en arXiv (q-bio.NC). Autor: Michael Arnold Bruna, investigador independiente. NO es peer-reviewed. Define Complexity Index (CI) combinando D (dimensión fractal), G (ganancia), C (coherencia espacial), τ (tiempo en atractor). INFIERO conexión plausible con Pilar 1, pero es hipótesis de autor único sin revisión por pares — no citar como validado.
+
+### Nodo 13 — "Fractal Complexity of Brain Networks" (Pini, MetroXRAINE 2025)
+Estado: NO SÉ / no verificable tal cual se presentó. No se encontró ese paper exacto en MetroXRAINE 2025. Lorenzo Pini es autor real y activo en el tema (ej. "Fractal dynamics of the healthy human brain", ScienceDirect 2026; "Fractal complexity of spontaneous brain activity", Springer 2025) — la línea es sólida, pero esta cita específica no se pudo confirmar.
+
+### Nodo 14 — Colussi et al., HFD vigilia/sueño (PLoS ONE, oct 2025)
+Estado: SÓLIDO / VERIFICADO. DOI 10.1371/journal.pone.0333903, "EEG difference in the Higuchi fractal dimension of wakefulness and sleep from birth to adolescence". Peer-reviewed, coincide con lo citado.
+
+### Nodo 15 — Dharia et al., HFD y ASMR (IEEE)
+Estado: SÓLIDO. Confirmado: HFD en reposo distingue sensibilidad a ASMR en bandas delta/theta/alfa, F1 hasta 82.56%. Publicación IEEE real.
+
+### Nodo 18 — Geometría de la información / termodinámica estocástica cuántica
+Estado: MIXTO — línea real, cita imprecisa. No se halló el paper exacto con ese título, pero existe investigación real y activa en esta intersección (Bettmann & Goold, Phys. Rev. E 111, 014133, 2025; Phys. Rev. E 111, 014101, 2025), peer-reviewed. El nodo aportado parafrasea sin cita exacta verificable.
+
+### Nodo 19 — Onsager como flujo gradiente en geometría de la información
+Estado: SÓLIDO / VERIFICADO. Wada & Scarfone, revista Entropy (MDPI), publicado 30 jun 2025. Peer-reviewed.
+
+### Nodo 20 — "Conscious Action Quantum" η = 1/φ²
+Estado: 🚩 ALERTA — mismo patrón de riesgo que el Modelo ICT (Nodo 8/11) y "ξ=8.57 IBM 23σ". No se encontró en Zenodo ni arXiv ninguna fuente que respalde esta ecuación o constante específica. Búsquedas relacionadas con "conscious action" + η arrojan trabajos de Henry Stapp sobre el efecto cuántico Zeno, donde η se define como 1/ℏ, NO como 1/φ². NO SÉ el origen real de este nodo; no debe documentarse como conocimiento sólido. Recomendación: no incorporar sin fuente verificable.
+
+## Resumen actualizado (Nodos 1-20)
+- Sólidos/peer-reviewed: 1, 2, 3(=16), 5(=12), 6, 14, 15, 19
+- Reales pero no peer-reviewed (preprints de autor único): 7, 9(=17)
+- Líneas reales con cita imprecisa: 13, 18
+- Riesgo/no verificable (no citar): 8(=11) Modelo ICT, 20 Conscious Action Quantum
+- Duplicados a ignorar: 10=4, 11=8, 12=5, 16=3, 17=9
