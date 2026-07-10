@@ -1,0 +1,1 @@
+Revisar daytona_repl_worker.py: identificar versión upstream y licencia AGPL-3.0, conservar avisos y atribución, documentar modificaciones y compatibilidad con la licencia del repositorio; si no puede cumplirse, retirar el vendoring y usar dependencia externa.
