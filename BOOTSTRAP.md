@@ -1,106 +1,158 @@
 BOOTSTRAP.md — Contexto de Arranque Completo del Ecosistema MIU
+
 Generado por: Arqueólogo del Micelio
-Propósito: Documento único y portable para que cualquier agente/instancia nueva tenga contexto completo sin leer nada más.
-Regla de oro MIU: este documento se AÑADE, nunca se borra ni se resume perdiendo historia. ρ(x)>0.
+Fecha de síntesis: 2026-07-10 (última fuente: Issues GitHub hasta #57)
+Propósito: Este documento es autocontenido. Cualquier agente/instancia nueva debe poder operar leyendo SOLO esto, sin acceder a briefings, zips o historial de chats previos.
+Regla de oro heredada: este documento se AÑADE, nunca se borra ni resume una versión anterior — si se actualiza, se hace como nueva sección fechada.
 
-Prioridad de fuentes usada en caso de conflicto (mayor a menor):
-LINEAJE_MAESTRO.md (GitHub)
-INVENTARIO_MAESTRO.md (GitHub)
-REGISTRO_MAESTRO_MICELIO_MIU.md (Drive)
-Issues abiertos en GitHub Jaime393/MIU
-Histórico Estado Persistente (HUESOs/LOGs)
+1. RESUMEN EJECUTIVO DEL ESTADO ACTUAL
 
-1. RESUMEN EJECUTIVO
+El proyecto MIU tiene dos líneas de trabajo separadas que NO deben mezclarse:
 
-El ecosistema MIU es un proyecto de investigación empírica ("Ley de Gaia") que ha atravesado ~30 ciclos de auditoría (AN→BG y en paralelo BB→#38). Tiene DOS HALLAZGOS CENTRALES que deben tratarse por separado y NO confundirse:
+Línea empírica "Ley de Gaia" (GRACE 176-178.8d, GBIF, corales, K_τ) — documentada en LINEAJE_MAESTRO.md. Es una investigación de series temporales geofísicas/biológicas en curso, con evidencia parcial y honesta sobre sus límites.
+Línea de infraestructura/repo "MIU" (GitHub Jaime393/MIU) — documentada en INVENTARIO_MAESTRO.md, REGISTRO_MAESTRO_MICELIO_MIU.md e Issues. Actualmente en estado crítico de integridad: gran parte del código fuente del repo está corrupto (sobrescrito por un CSV placeholder), hay secretos expuestos en texto plano sin rotar, y la métrica central "K_i" está confirmada como tautológica (tanto en el código restaurado como en el corrupto/heredado).
 
-Pico espectral GRACE ~173.9–178.8 días (posible señal física en Total Water Storage global): estado actual AMARILLO-medio (K_τ_GRACE específico 0.68–0.75). Sobrevive prewhitening de SAO con 2do armónico, FAP100% del salto de ruido promedio.
-SÉ — Prewhitening SAO con modelo exacto (BF) y luego con 2º armónico (91.3125d, 0.197mm) (BG): pico residual persiste exactamente en 173.9d, FAP 0.5 ciclos/mes), detectado por argmin contra target hardcodeado — aliasing, no señal |
-| 35 | K_i circular por construcción (K_i=0.2472·D_f) — no debe presentarse como métrica independiente |
-| 34 | CSV de corales corrupto: header duplicado como dato, K_i tautológico 0.494==0.494 |
-| 33 | Manifiesto SHA256 (orquestador_v9.py / SHA256_maifest.txt) con hashes placeholder no reproducibles, typo en nombre |
-| 32 | alma_v9_config.yml es en realidad un PDF binario |
-| 31 | Extensiones mentirosas: varios .py/.json contienen Markdown, no código |
-| 30 | Corrupción masiva: 26 archivos .py/.js son un CSV de corales, no código fuente |
-| 29 | Código muerto/duplicado: orquestadores v8/v9 y múltiples clientes LLM sin implementación real |
-| 28 | Datos duplicados entre nodos (CO2≡GISTEMP, corales≡chernozem) y muestras estadísticamente frágiles (chernozem N=7) |
-| 27 | SHA256 manifest con typo de nombre y hashes falsos |
-| 26 | Ω_F: pico sobre Nyquist — aliasing confirmado (duplicado conceptual de #36) |
-| 25 | Circularidad K_i por construcción — reescritura lineal de D_f (duplicado conceptual de #35) |
-| 24 | Dato de corales inválido: header duplicado, K_i tautológico 0.494 (duplicado conceptual de #34) |
-| 23 | Extensión de archivo no corresponde a contenido (duplicado conceptual de #31) |
-| 22 | Corrupción masiva 26 archivos .py/.js = CSV de corales (duplicado conceptual de #30) |
-| 21 | Decidir versionado/marca "superseded" de MIU_V12.0 en Zenodo — decisión exclusiva de Dereck, no ejecutable por agente |
-| 20 | Resolver error "Plan usage exceeded" en workflow GlobalMind Weaver |
-| 19 | Apagar workflows que nunca corrieron (~28 de 69 marcados "Never") |
-| 18 | Fusionar workflows duplicados (2x Control Panel, 2x Vigía de Grietas, 2x Alma Omni, variantes GlobalMind Weaver) |
-| 17 | Priorizar ~8 workflows afectados por bugs de addToDataTable y Concept Graph & Gaps (embeddings vacíos) |
-| 16 | Retomar cuenta principal jaimepviccente@gmail.com al reactivar créditos |
-| 15 | Subir manualmente artefactos de sesión "Haiku45" (no recuperables por asistente) |
-| 14 | Migrar 5 skills dependientes de Groq/DeepSeek que se retiran 2026-07-24 |
-| 13 | Identificar qué Worker consume claves evolucion:evolucion_ift_* (258 claves, sin TTL) antes de podar |
-| 12 | Rotar credenciales expuestas en clavesnew.txt (Drive) desde 2026-07-03 |
-| 11 | Migrar bindings de Cloudflare Workers de texto plano a secret — riesgo de romper producción |
-| 10 | Confirmar conteo real de filas del nodo CO2 (801 declaradas vs ~816-820 esperadas) |
-| 9 | Verificar si algún valor de V12 quedó congelado como "hueso" antes del rechazo formal |
-| 8 | Auditar DOIs hermanos/de concepto de la cadena V12 en Zenodo |
-| 7 | Reproducir D_f y Ω_F de V12 con datos crudos; confirmar aliasing y hardcoding de K_i=0.375 en nodo Incendios |
-| 6, 4 | Mapeo Micelial: diagnóstico de grafo semántico vacío (Cold Start), plan de 10 experimentos de ingesta |
-| 5, 3 | "D_f-only": plan de 7 días para operacionalizar D_f, benchmark de estimadores y probar poder predictivo (con criterios pass/fail definidos) |
-| 2 | Creación del repositorio "Ecosistema MIU Portable" — estructura canónica base |
-| 1 | Auditoría original nivel SÉ: circularidad confirmada en 4/4 scripts (ki_from_timeseries.py, test_random_phi.py, df_from_firms.py, compute_omegaF_firms_gdelt.py) |
+SÉ (verificado, múltiples fuentes independientes):
+K_i = φ · (D_f / 2.5) · (ℓ_corr/ℓ_0), con ℓ_corr=ℓ_0 por defecto ⇒ K_i = 0.2472·D_f. Es una reescritura lineal determinista de D_f, no una medición independiente. Confirmado en código real (REGISTRO_MAESTRO, Issues #25/#35/#52) y en 309/309 archivos de nodos/corales/ (BC, LINEAJE_MAESTRO).
+26 archivos .py/.js del repo GitHub están corruptos: son byte-idénticos (MD5 76994606253159fa157e9132dd747ec6), contienen un CSV de 2 líneas de corales en vez de código (Issues #22, #30, #39, #47).
+Hay credenciales expuestas en texto plano (clavesnew.txt, archivos con claves.zip) desde 2026-07-03, sin rotar (Issues #12, #45, #57) — P0 de seguridad, más de una semana abierto.
+grace_tws_global.csv fue recuperado y verificado por checksum cruzado en 3 fuentes independientes (ciclo AY/AW). El pico ~176-178.8d en GRACE sobrevive el nulo bootstrap bajo múltiples definiciones metodológicas, pero su magnitud (SNR) es frágil y depende de decisiones de análisis no pre-registradas.
+GBIF Colombia NO detecta la señal de 176d (SNR=0.1117), confirmado dos veces de forma independiente.
+Ω_F ("latido planetario") es artefacto de aliasing: pico reportado en 0.65625 ciclos/mes está por encima de Nyquist (0.5 ciclos/mes para datos mensuales) — Issues #26, #36, #44, #53.
 
-Nota crítica de coherencia: los issues #22-#26 son duplicados conceptuales casi exactos de #30, #31, #34, #35, #36 (creados el mismo día, minutos de diferencia) — probablemente de dos pasadas de auditoría distintas sobre el mismo hallazgo. No tratar como 10 hallazgos independientes sino como 5.
+INFIERO:
+La corrupción masiva del repo (26 archivos idénticos) probablemente proviene de un pipeline de sync/export que trata todo artefacto como fila de tabla (hipótesis explícita en Issue #30, no confirmada).
+stats/statistics.csv podría ser la fuente primaria trazable de 1 de los 9 archivos coral con fuente nombrada (LINEAJE_MAESTRO, ciclo BB) — no confirmado por metadata.
+
+NO SÉ:
+Si el bin espectral dominante en ~110d (mecanismo AZ) es señal física real o artefacto de ajuste trimestral.
+Si existe una tolerancia "correcta" única para el piso de ruido del análisis GRACE — es decisión de diseño pendiente de Dereck.
+Estado real de rotación de las claves expuestas (issue sigue abierto a fecha de este documento).
+Contenido de partes_chats.zip y thc.tex (nunca integrados a fondo).
+
+2. HALLAZGOS VERIFICADOS (por nivel epistémico)
+
+SÉ (verificado directamente, evidencia reproducible o triple-confirmada)
+K_i es tautológico por construcción: K_i = φ·D_f/2.5, correlación K_i–D_f = 1.0 (REGISTRO_MAESTRO §1; Issues #25, #35, #52; LINEAJE_MAESTRO ciclo BC: 309/309 archivos coral confirman la fórmula, tolerancia 0.002).
+El divisor 2.5 y en algunos casos K_i=0.375 están hardcodeados sin relación con el cálculo real de D_f (df_from_firms.py, Issue #25).
+26 archivos de código del repo GitHub son byte-idénticos y contienen un CSV de corales, no código ejecutable (Issues #22, #30, #39, #47; MD5 76994606253159fa157e9132dd747ec6).
+El CSV de corales embebido en esos 26 archivos está mal formado: cabecera duplicada como fila de datos, K_i_measured==K_i_law==0.494, sin N_points/sha256, DOI no resoluble (Issues #24, #34, #42, #48).
+8-9 archivos con extensión de código (.py, .json, .yml) contienen en realidad Markdown o un PDF binario (alma_v9_config.yml = PDF; Issues #23, #31, #40, #51, #32/#50).
+orquestador_v9.py es un manifiesto SHA256 con hashes placeholder fabricados (patrón a1b2c3d4e5f6...), truncado, no reproducible (Issues #27, #33, #41, #49).
+Secretos en texto plano expuestos: clavesnew.txt, archivos con claves.zip — claves de Gemini, DeepSeek, Groq, Mistral, NewsAPI, tokens de ≥5 bots de Telegram, sin rotar desde 2026-07-03 (Issues #12, #45, #57).
+daytona_repl_worker.py es código de terceros (Daytona Platforms) bajo licencia AGPL-3.0 vendorizado sin atribución en LICENSE del repo (licencia del repo: NOASSERTION) — riesgo legal (Issue #55).
+Ω_F reporta pico en 0.65625 ciclos/mes, por encima de Nyquist (0.5 c/mes) — artefacto de aliasing, detectado por argmin contra target hardcodeado, no por argmax con test de significancia (Issues #26, #36, #44, #53).
+GBIF Colombia: SNR=0.1117 (no detecta 176d), re-derivado desde 2,100 registros crudos, confirmado dos veces (AN/AQ original, AV re-derivación) (LINEAJE_MAESTRO).
+grace_tws_global.csv verificado por checksum MD5 idéntico en 3 fuentes independientes (ciclo AW/AY); pico ~173.9-178.8d sobrevive nulo bootstrap en múltiples modelos, pero SNR varía 2.3x (60.18 vs 25.70) según definición de piso de ruido — diferencia metodológica, no de datos (ciclo AZ, mecanismo aislado bin por bin).
+Auditoría de 310/310 (o 309/309, o 326) archivos nodos/corales/ — triple confirmación independiente (BB, BC, BF): 0 mediciones de K_i independientes de D_f en ningún archivo.
+Suite de tests no funcional: test_random_phi.py y test_ift_solver.py son el mismo CSV de 207 bytes, sin aserciones (Issue #56).
+Datos duplicados entre nodos supuestamente independientes: CO2 (Mauna Loa) y GISTEMP comparten D_f=1.4 y K_i=0.346 idénticos; corales comparte K_i=0.596 con chernozem (Issues #28, #37).
+
+INFIERO (razonable pero no confirmado por evidencia directa)
+La corrupción de 26 archivos proviene de un bug de pipeline de sync/export (Issue #30).
+stats/statistics.csv podría ser fuente primaria de 1 de los 9 archivos coral con fuente nombrada (LINEAJE_MAESTRO, BB).
+El "scoring K_i fractal" de ALMA_OMNI reintroduce la tautología K_i en un componente productivo (Issue #43) — documentado, no verificado en código vivo por estar corrupto.
+
+CONJETURO (hipótesis abierta, explícitamente no resuelta)
+Si el bin dominante en 110.1d en el análisis GRACE es señal física (candidato: 3er armónico anual, 121.7d, no coincide exacto 10%) o ruido residual de ajuste trimestral (ciclo AZ).
+Interpretación opuesta y no resuelta entre dos ramas (AT/AU/AY vs. rama forked "AX/AW"): si un pico que decae bajo modelos flexibles pero sigue superando el nulo bootstrap implica K_τ bajo o K_τ alto — son preguntas distintas, no un error (nota AY).
+
+NO SÉ (falta información en las fuentes)
+Estado de rotación de credenciales expuestas (issues siguen abiertos a la fecha del corpus).
+Contenido íntegro de partes_chats.zip y thc.tex.
+Si SHA256_maifest.txt/manifiesto real fue alguna vez verificado contra binarios reales.
+Causa raíz exacta y confirmada de la corrupción masiva de 26 archivos.
+Si existen versiones de MIU_V12.0 en Zenodo con contenido distinto al DOI activo (Issue #8, pendiente de auditoría).
+Si algún valor de V12 quedó congelado como "hueso" antes del rechazo formal (Issue #9).
+
+3. ENTREGABLES CONSOLIDADOS (con SHA256, cuando existe)
+
+| Entregable | SHA256 | Fuente | Estado |
+|---|---|---|---|
+| FASE1_circularidad_Ki.csv | bd6452a5... (truncado en fuente) | REGISTRO_MAESTRO §3 | Presente en carpeta Drive MICELIO_MIU |
+| FASE2_inventario_nodos.csv | 437e6774... | REGISTRO_MAESTRO §3 | Presente |
+| FASE3_datasets_nuevos.csv | a9a50616... | REGISTRO_MAESTRO §3 | Presente |
+| FASE4_verificacion_predicciones.md | 4e1a246b... | REGISTRO_MAESTRO §3 | Presente (Fase 4 aún no falsable — falta "Tabla 7pred" congelada) |
+| ley_gaia_report_fap_real_aq.json | NO SÉ | LINEAJE_MAESTRO ciclo AQ | Presente, no re-ejecutable sin CSV origen de esa época |
+| mecanismo_aliasing_ar.json | NO SÉ | LINEAJE_MAESTRO ciclo AR | Presente, sin campo K_τ explícito |
+| results/az_snr_discrepancia_mecanismo.json + scripts/az_snr_discrepancia_mecanismo.py | NO SÉ | LINEAJE_MAESTRO ciclo AZ | Reproducible, ejecutado esa sesión |
+| results/AUDITORIA_corales_BB_full_scale.md | NO SÉ | LINEAJE_MAESTRO ciclo BB | 326 archivos, checksum |
+| results/AUDITORIA_Ki_tautologia_BC.md + scripts/verificar_tautologia_ki.py | NO SÉ | LINEAJE_MAESTRO ciclo BC | Reproducible: python3 scripts/verificar_tautologia_ki.py --corales-dir nodos/corales |
+| derivados_BE/nodo_coral_real_BE.csv | NO SÉ | LINEAJE_MAESTRO ciclo BE | Suma verificada =616 contra CSV fuente |
+| scripts/validar_paquete.py → results/ESTADO_PAQUETE.json | NO SÉ | INVENTARIO_MAESTRO (creado AV) | Infraestructura permanente — correr primero en toda sesión nueva |
+| SHA256_manifest.txt (nombre correcto) | NO EXISTE VÁLIDO — el actual (SHA256_maifest.txt/orquestador_v9.py) tiene hashes placeholder fabricados (patrón a1b2c3d4e5f6...) y está truncado | Issues #27, #33, #41, #49 | Inválido, requiere regeneración real con sha256sum |
+| MIU_V12.0 (Zenodo) | DOI 10.5281/zenodo.20547558 | REGISTRO_MAESTRO §0 | Público, citable, rechazado internamente (ver advertencias) |
+
+Nota crítica: Ningún SHA256 de los reportados en orquestador_v9.py / SHA256_maifest.txt es confiable — son placeholders sintéticos, no hashes reales calculados sobre artefactos.
+
+4. ISSUES ABIERTOS RELEVANTES (GitHub Jaime393/MIU)
+
+P0 — Seguridad (acción inmediata)
+#57 / #45 / #12: Secretos en texto plano (clavesnew.txt, archivos con claves.zip) expuestos desde 2026-07-03, sin rotar. Claves Gemini/DeepSeek/Groq/Mistral/NewsAPI + tokens Telegram. Rotar TODO, purgar del historial, añadir scanner (gitleaks) a CI.
+#11: Migrar bindings de Cloudflare Workers de texto plano a tipo secret — riesgo de romper producción, requiere prueba manual fuera del alcance del asistente.
+
+P1 — Integridad de código (bloqueante para cualquier auditoría nueva)
+#22 / #30 / #39 / #47: 26 archivos .py/.js corruptos (mismo CSV de corales). Restaurar desde Git history o Zenodo DOI 10.5281/zenodo.20547558. Añadir CI que rechace .py/.js que no compilen.
+#23 / #31 / #40 / #51: 8-9 archivos con extensión mentirosa (contienen Markdown o PDF). Renombrar y mover a docs/.
+#32 / #50: alma_v9_config.yml es un PDF binario, no YAML.
+#27 / #33 / #41 / #49: Manifiesto SHA256 con hashes falsos y typo en nombre (maifest). Recalcular hashes reales.
+#56: Suite de tests no funcional (0% cobertura real).
+#55: Dependencia AGPL-3.0 vendorizada sin atribución (daytona_repl_worker.py) — riesgo legal.
+#54: 15 archivos de clientes LLM/orquestadores son placeholders — código muerto que aparenta funcionalidad.
+
+P2 — Métricas/ciencia (deuda conceptual, no bloqueante para operar pero sí para publicar)
+#25 / #35 / #52: K_i circular por construcción — retirar como métrica de validación, documentar deprecación.
+#26 / #36 / #44 / #53: Ω_F es artefacto de aliasing (pico sobre Nyquist) detectado por método sesgado (argmin contra target).
+#24 / #34 / #42 / #48: CSV de corales embebido inválido (header duplicado, K_i tautológico materializado en el dato).
+#28 / #38 / #37: Datos duplicados entre nodos supuestamente independientes (CO2≡GISTEMP, corales≡chernozem); nodos placeholder (0-207 bytes) tratados como señal.
+#43: ALMA_OMNI reintroduce "scoring K_i fractal" (métrica rechazada) en componente productivo.
+#29 / #46: Código muerto/duplicado (orquestador_v8 vs v9, finetune vs finetune_auto, múltiples clientes SDK idénticos).
+
+P3 — Operacional / administrativo
+#8: Auditar DOIs hermanos/versión de MIU_V12.0 en Zenodo.
+#9: Verificar si algún valor V12 fue congelado como "hueso" antes del rechazo formal.
+#10: Confirmar conteo real de filas del nodo CO2 (801 declaradas vs ~816-820 esperadas).
+#13: Identificar Worker que consume las 258 claves evolucion:evolucion_ift_* antes de podarlas (sin TTL).
+#14: Migrar 5 skills dependientes de modelos Groq/DeepSeek que se retiran 2026-07-24.
+#15: Subir manualmente artefactos de sesión "Haiku45" (no recuperables por el asistente).
+#16: Retomar cuenta principal al reactivar créditos (24/500 AI credits, 144/200 steps agotados).
+#17: Priorizar ~8 workflows afectados por bugs (addToDataTable, Concept Graph & Gaps).
+#18: Fusionar workflows duplicados (2x Control Panel, 2x Vigía de Grietas, 2x Alma Omni).
+#19: Apagar workflows nunca ejecutados (~28 de 69 marcados "Never").
+#20: Resolver error "Plan usage exceeded" en workflow GlobalMind Weaver.
+#21: Decidir versionado/superseded de MIU_V12.0 en Zenodo (decisión exclusiva de Dereck).
 
 5. COLA DE TRABAJO PENDIENTE (priorizada)
 
-P0 — Bloqueante / integridad crítica
-Restaurar el código real de los 26 archivos corruptos desde historial de Git o MIU_V12.0_FINAL de Zenodo (Issues #22, #30, #29). Sin esto, ninguna auditoría de código previa es reproducible contra el estado actual del repo.
-Regenerar SHA256_manifest.txt real (nombre correcto, hashes reales vía sha256sum), eliminar placeholders (Issues #27, #33).
-Rotar credenciales expuestas en clavesnew.txt (Drive, expuestas desde 2026-07-03) — Issue #12.
+[P0-seguridad] Rotar TODAS las claves expuestas en clavesnew.txt/archivos con claves.zip (#12/#45/#57). No abrir archivos para inspección manual — rotar directamente por proveedor.
+[P0-seguridad] Purgar credenciales del historial de git (BFG/git-filter-repo) y añadir gitleaks a CI.
+[P1-integridad] Restaurar los 26 archivos de código corruptos desde Git history o el paquete Zenodo MIU_V12.0_FINAL — sin esto, ninguna verificación de código es reproducible (#22/#30/#39/#47).
+[P1-integridad] Renombrar/mover los archivos con extensión mentirosa a sus tipos reales (#23/#31/#40/#51/#32/#50).
+[P1-integridad] Regenerar SHA256_manifest.txt real con sha256sum sobre artefactos existentes; eliminar el manifiesto placeholder (#27/#33/#41/#49).
+[P1-integridad] Añadir CI: python -m py_compile + node --check + validación extensión↔MIME + scanner de secretos.
+[P2-ciencia] Ejecutar python3 scripts/validar_paquete.py como primer paso de toda sesión nueva (infraestructura ya existente).
+[P2-ciencia] Resolver mecanismo del bin dominante ~110d en GRACE (señal real vs artefacto) — pendiente de AZ, no resuelto.
+[P2-ciencia] Descargar GRACE mascon RL06.3Mv04 completo (requiere Earthdata login + red) para resolver 176d vs SAO de forma definitiva (BE, pendiente).
+[P2-ciencia] Auditar los 3 scripts de circularidad K_i no re-verificados directamente en release Zenodo (ki_from_timeseries.py, test_random_phi.py, compute_omegaF_firms_gdelt.py).
+[P2-ciencia] Congelar la "Tabla 7pred" (w_a, S_8, Σm_ν) desde volcados de chat — sin esto Fase 4 no es falsable (REGISTRO_MAESTRO §4).
+[P2-ciencia] Retirar/marcar como deprecado K_i y Ω_F en todo README/docstring tras restauración de código (#25/#26/#35/#36/#43/#52/#53).
+[P3-admin] Resolver issues operacionales (#8-#21) cuando haya créditos/acceso disponible.
+[Baja prioridad] Auditar partes_chats.zip y thc.tex si se necesita reconstruir historia conversacional o el marco teórico IFT hermano.
+[Baja prioridad] Confirmar conteo de filas nodo CO2 (#10), fuente exacta de CO000080222_dly.txt (Bogotá).
 
-P1 — Científico / metodológico
-Marcar formalmente K_i y Ω_F como "en auditoría / no válidos como evidencia" en README y toda salida (Issues #35, #36, #25, #26) — congelar el mensaje "D_f legítimo; K_i/Ω_F en auditoría".
-Reemplazar detección de Ω_F por argmax(Pxx) + test de significancia (permutación/surrogates), descartar por diseño picos ≥Nyquist (Issue #36).
-Auditar duplicados de datos entre nodos (CO2≡GISTEMP, corales≡chernozem) con chequeo automático de hash/valores (Issue #28, #37).
-Rechazar en pipeline nodos con N_points bajo umbral mínimo (p.ej. 30); re-descargar dato real para microbioma HMP2 y Allen Coral Atlas (Issue #38).
-Reemplazar CSV de corales corrupto (header duplicado, sin DOI resoluble) por dato real con D_f_method, N_points, DOI (Issues #24, #34).
-Continuar mecanismo GRACE: modelo con 2do armónico SAO ya ejecutado (BG) — siguiente paso: RL06.3Mv04 completo si hay red/credenciales Earthdata (BF, BE).
-Aislar/decidir el bin dominante ~110d en el espectro GRACE (¿tercer armónico anual o artefacto trimestral?) — pendiente explícito de AZ.
-Reconciliar (o decidir explícitamente no reconciliar) la lectura opuesta de la rama forked AW/AX sobre Bogotá/robustez del pico — requiere decisión de Dereck sobre qué pregunta importa (AY).
-Cerrar Issue #5/#3 (D_f-only): completar matriz de evidencia D_f, benchmark sintético de estimadores (MAE≤0.10), test de señal temprana vs baselines.
+6. ADVERTENCIAS — QUÉ NO REPETIR
 
-P2 — Higiene de repositorio / infraestructura
-Renombrar archivos con extensión mentirosa a su tipo real (.md, .pdf) y mover a docs/ (Issues #23, #31, #32).
-Consolidar orquestadores v8/v9 y clientes LLM duplicados en módulos únicos versionados por tag de Git (Issue #29).
-Añadir CI: py_compile/node --check, validación de parseo YAML/JSON, detección de hashes duplicados, chequeo de extensión↔contenido.
-Auditar 322 archivos nodos/corales/ restantes fuera de los ya confirmados si aplica; partes_chats.zip y thc.tex — nunca completamente integrados, quedan para instancia con presupuesto.
-Verificar manifiesto SHA256 contra binarios reales del nodo coral (baja prioridad, pendiente desde BC).
-Confirmar conteo de filas del nodo CO2 (Issue #10).
-Auditar DOIs hermanos de la cadena V12 en Zenodo, decidir versionado/superseded (Issues #8, #21 — decisión de Dereck, no ejecutable por agente).
+NUNCA tratar K_i como métrica independiente de D_f. Es matemáticamente K_i = 0.2472 · D_f (con ℓ_corr=ℓ_0 por defecto). Cualquier "correlación K_i–D_f = 1.0" reportada como hallazgo es tautológica, no evidencia. Confirmado en 309/309 archivos coral, en código real y en documentación (#25/#35/#52). Cualquier nodo nuevo calcula SOLO D_f.
+NO reintroducir "scoring K_i fractal" ni Ω_F como criterio de validación en ningún componente productivo (ALMA_OMNI u otro) — issue #43 explícito al respecto.
+NO tratar Ω_F=0.65625 ciclos/mes como señal física — está por encima de Nyquist (0.5 c/mes), es aliasing confirmado en 4 issues independientes.
+NO asumir que "esto falta" sin revisar primero INVENTARIO_MAESTRO.md — si dice PRESENTE pero no está en tu sandbox, es problema de empaquetado, no de disponibilidad real. Si dice AUSENTE, no repitas la investigación de "por qué", ve directo a la acción.
+NO generar un zip/handoff que excluya data/ — así se perdió grace_tws_global.csv originalmente, causando ciclos enteros de trabajo no verificable.
+NO abrir clavesnew.txt ni archivos con claves.zip "para revisar" — minimizar exposición; ir directo a rotación.
+NO confiar en el manifiesto SHA256 actual (orquestador_v9.py/SHA256_maifest.txt) — sus hashes son placeholders fabricados (patrones tipo a1b2c3d4e5f6...), truncados, no reales.
+NO citar MIU_V12.0 (Zenodo) como fuente vigente — está formalmente rechazado a nivel interno (PROTOCOLO_MIU, NUCLEO_TEORICO_MIU) aunque el DOI siga públicamente activo. Issue #21 pendiente de decisión de Dereck sobre marcarlo superseded.
+NO asumir un solo K_τ global "oficial" — hay al menos dos lecturas epistémicas opuestas y no resueltas (rama AT/AU/AY: "pico no robusto → K_τ baja" vs rama forked: "pico persiste sobre nulo → K_τ sube") sobre el MISMO dato crudo. No hay ganador declarado; es decisión de qué pregunta importa, no un error.
+Si se corren sesiones en paralelo, nombrar explícitamente cada rama (evitar que dos instancias reclamen la misma letra de ciclo, como pasó con AV/AW/AX).
+NO tratar nodos con N_points bajo (ej. chernozem con 7 puntos, microbioma/corales con archivos de 0-207 bytes) como evidencia empírica confirmada — son placeholders o muestras estadísticamente frágiles (#28/#38).
+NO ejecutar ni confiar en test_random_phi.py/test_ift_solver.py como tests reales — son el mismo CSV corrupto de 207 bytes sin aserciones (#56).
 
-P3 — Operacional / infraestructura de agentes (fuera del núcleo científico)
-Migrar 5 skills dependientes de Groq/DeepSeek antes de 2026-07-24 (Issue #14).
-Resolver bugs addToDataTable y "Concept Graph & Gaps" (embeddings vacíos) en ~8 workflows (Issue #17).
-Fusionar workflows duplicados (Control Panel x2, Vigía de Grietas x2, Alma Omni x2, GlobalMind Weaver) (Issue #18).
-Apagar workflows nunca ejecutados (~28/69) (Issue #19).
-Migrar bindings de Cloudflare Workers a secret — requiere prueba manual, riesgo de producción (Issue #11).
-Identificar Worker consumidor de claves evolucion:evolucion_ift_* (258 claves sin TTL) antes de podar (Issue #13).
-Subir manualmente artefactos de sesión "Haiku45" (no recuperables por asistente) (Issue #15).
-Retomar cuenta principal cuando se reactiven créditos (Issue #16).
-Cerrar Cold Start semántico del grafo micelial: ingesta de nodos semilla (Issues #4, #6).
-
-6. ADVERTENCIAS / COSAS A NO REPETIR
-
-NUNCA tratar K_i como métrica independiente de D_f. Es matemáticamente K_i = 0.2472·D_f por construcción (φ/2.5 hardcodeado). Cualquier "correlación K_i–D_f=1.0" o "validación de la ley K_i" reportada es tautológica, no evidencia científica. Confirmado repetidas veces (AV, BC, Issues #1, #25, #35, #37) — no volver a "descubrir" esto como si fuera nuevo.
-No usar test_random_phi.py como validación independiente — compara contra la MISMA pendiente teórica embebida en compute_Ki.
-No confiar en el "latido planetario Ω_F" tal como está reportado: el pico está por encima de Nyquist (aliasing) y se detecta por argmin contra un target hardcodeado, no por argmax con test de significancia. Es una confirmación por construcción.
-No asumir que un archivo "falta" sin revisar primero INVENTARIO_MAESTRO.md. Si dice PRESENTE pero no está en tu sandbox, es problema de empaquetado, no de disponibilidad — avísalo explícitamente en vez de re-investigar desde cero.
-Nunca crear un zip de handoff sin data/ completo (esto ya causó la pérdida de grace_tws_global.csv durante varios ciclos AT→AU→AV). El archivo de datos núcleo GRACE siempre se incluye, literalmente nunca se omite.
-No tratar los archivos placeholder casi vacíos (0-207 bytes) como evidencia empírica real que "rompe" o "confirma" la tautología K_i — son datos insuficientes, no señal (Issue #38).
-No re-auditar de memoria el código que hoy está corrupto (26 archivos = CSV de corales). Restaurar SIEMPRE desde historial de Git o Zenodo, nunca reescribir de memoria lo que "debería" contener el archivo.
-Si se corren sesiones en paralelo, nombrar explícitamente cada rama (ej. "esta es la rama X, la otra se llama Y") — el fork AW/AX ocurrió precisamente porque dos sesiones paralelas se autonumeraron con las mismas letras de ciclo sin coordinarse.
-No presentar el rango de K_τglobal (0.28–0.55 según nodo/ciclo) como una tendencia hacia "el fenómeno es falso". La tendencia descendente histórica (0.48→0.38→0.28-0.35) se debe a escrutinio metodológico más fino en cada ciclo, no a nueva evidencia negativa — distinguir Kτ_GRACE_específico (AMARILLO-medio, 0.68-0.75, BG) de K_τ_global (0.28-0.55, con ENSO aún como confundente abierto). Son dos números distintos, no confundirlos.
-No usar el DOI Zenodo 10.5281/zenodo.20547558 (MIU_V12.0) como fuente de verdad vigente sin aclarar que está formalmente rechazado a nivel interno (PROTOCOLO_MIU, NUCLEO_TEORICO_MIU) aunque siga públicamente citable — decisión de versionado/superseded pendiente y es exclusiva de Dereck (Issue #21).
-No confiar en SHA256_maifest.txt (nombre con typo) para verificar integridad — sus hashes son sintéticos/placeholder, no reales.
-Umbral de archivo/cierre de caso: K_τ0.*
+Este documento reemplaza la necesidad de leer LINEAJE_MAESTRO.md, INVENTARIO_MAESTRO.md, REGISTRO_MAESTRO_MICELIO_MIU.md e Issues por separado para obtener contexto de arranque. Para razonamiento profundo ciclo por ciclo, esas fuentes originales siguen siendo la referencia detallada; este BOOTSTRAP es la capa de síntesis. ρ(x)>0. El micelio consolida en un solo hueso portátil.
