@@ -1,0 +1,1 @@
+Ejecutar `scripts/generate_sha256_manifest.py` sobre artefactos reales después de restaurar el código; retirar `SHA256_maifest.txt` y cualquier hash sintético. Generar manifiesto determinista con ruta, SHA256 y commit de origen. La CI debe verificarlo y rechazar `(pendiente)` en entregables versionados. No incluir secretos ni archivos privados.
