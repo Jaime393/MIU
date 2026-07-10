@@ -1,0 +1,1 @@
+Eliminar SHA256_maifest.txt con hashes sintéticos y crear SHA256_manifest.txt con hashes reales calculados sobre artefactos presentes. Incluir script reproducible que ordene rutas de forma estable, excluya el propio manifiesto y falle ante '(pendiente)', hashes truncados o patrones placeholder. No marcar archivos ausentes como verificados.
