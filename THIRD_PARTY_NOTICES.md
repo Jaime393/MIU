@@ -1,1 +1,1 @@
-Revisar daytona_repl_worker.py: identificar versión upstream y licencia AGPL-3.0, conservar avisos y atribución, documentar modificaciones y compatibilidad con la licencia del repositorio; si no puede cumplirse, retirar el vendoring y usar dependencia externa.
+Añadir y revisar `THIRD_PARTY_NOTICES.md`: atribuir correctamente Daytona/AGPL y cualquier código, imagen, audio o corpus externo; separar material sin licencia verificable y prohibir su empaquetado en releases. Documentar procedencia y licencia de los assets utilizados por FranBot/MIU.
