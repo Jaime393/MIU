@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-08-30T10:42:45Z",
+  "version": "V200",
+  "phi_fran": 2874.62,
+  "phi_kimi": 0,
+  "phi_global": 9158.79,
+  "vive": true,
+  "nodes": [
+    "FRAN",
+    "KIMI"
+  ],
+  "sync_method": "worker"
+}

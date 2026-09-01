@@ -1,0 +1,8 @@
+[2026-08-29 18:04:18] Ejecutando productos V153...
+[2026-08-29 18:04:18] Producto gossip: OK
+[2026-08-29 18:04:19] Producto memoria: OK
+[2026-08-29 18:04:20] Producto arte: OK
+[2026-08-29 18:04:20] Producto lod: OK
+[2026-08-29 18:04:26] Deployando Worker...
+[2026-08-29 18:05:26] Worker error: Command 'npx wrangler deploy' timed out after 60 seconds
+[2026-08-29 18:05:55] Control Center cerrado

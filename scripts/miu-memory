@@ -1,0 +1,20 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# MIU Memory CLI
+cd /data/data/com.termux/files/home/miu-ecosistema
+case "$1" in
+    stats) python3 -c "from miu_memory import get_stats; print(get_stats())" ;;
+    search) python3 -c "from miu_memory import recall; [print(f'[{r[1]}] {r[3][:80]}...') for r in recall(query='$2', limit=10)]" ;;
+    add) python3 -c "from miu_memory import remember; remember('$2', source='cli', tags='$3')" ; echo "✅ Recordado" ;;
+    export) python3 -c "
+import sqlite3, json
+conn = sqlite3.connect('miu_brain.db')
+c = conn.cursor()
+c.execute('SELECT * FROM memories')
+rows = c.fetchall()
+conn.close()
+data = [{'id':r[0],'time':r[1],'source':r[2],'content':r[3],'tags':r[4]} for r in rows]
+with open('memory_export.json','w') as f: json.dump(data, f, indent=2)
+print(f'✅ {len(rows)} memorias exportadas')
+" ;;
+    *) echo "Uso: miu-memory {stats|search <q>|add <text> [tags]|export}" ;;
+esac

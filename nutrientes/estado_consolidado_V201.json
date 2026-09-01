@@ -1,0 +1,70 @@
+{
+  "count": 16,
+  "estados": [
+    {
+      "timestamp": "2026-08-30T10:45:07.508822",
+      "datos": {
+        "ip": "10.135.88.226",
+        "pid": 2928,
+        "timestamp": "2026-08-30T10:45:07.507908",
+        "version": "V\u221e+25",
+        "phi": 0.1736,
+        "modulos": 18
+      }
+    },
+    {
+      "timestamp": "2026-08-30T07:08:27.881501",
+      "funciones": [
+        "phi_grafo",
+        "replicar",
+        "main",
+        "__init__",
+        "extraer_funciones",
+        "extraer_clases",
+        "grafo_llamadas",
+        "__init__",
+        "guardar_estado",
+        "recuperar_ultimo"
+      ],
+      "clases": [
+        "TejedorTopologico",
+        "MemoriaFractal",
+        "BusLocal"
+      ],
+      "phi": 0.17355371900826447
+    },
+    {
+      "timestamp": "2026-08-30T07:16:04.284297",
+      "datos": {
+        "ip": "10.135.88.226",
+        "pid": 24325,
+        "timestamp": "2026-08-30T07:16:04.283474",
+        "version": "V\u221e+25",
+        "phi": 0.1736,
+        "modulos": 18
+      }
+    },
+    {
+      "timestamp": "2026-08-30T10:15:10.548649",
+      "datos": {
+        "ip": "10.135.88.226",
+        "pid": 28863,
+        "timestamp": "2026-08-30T10:15:10.546838",
+        "version": "V\u221e+25",
+        "phi": 0.1736,
+        "modulos": 18
+      }
+    },
+    {
+      "timestamp": "2026-08-30T09:28:38.267211",
+      "datos": {
+        "ip": "10.135.88.226",
+        "pid": 19457,
+        "timestamp": "2026-08-30T09:28:38.265737",
+        "version": "V\u221e+25",
+        "phi": 0.1736,
+        "modulos": 18
+      }
+    }
+  ]
+}

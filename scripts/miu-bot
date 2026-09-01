@@ -1,0 +1,10 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# MIU Bot control
+cd /data/data/com.termux/files/home/miu-ecosistema
+case "$1" in
+    start) nohup python3 bots/bot_miu_relay.py > bot.log 2>&1 & echo "✅ Bot iniciado" ;;
+    stop) pkill -f bot_miu_relay.py; echo "✅ Bot detenido" ;;
+    log) tail -f bot.log ;;
+    status) pgrep -f bot_miu_relay.py > /dev/null && echo "✅ Corriendo" || echo "❌ Detenido" ;;
+    *) echo "Uso: miu-bot {start|stop|log|status}" ;;
+esac

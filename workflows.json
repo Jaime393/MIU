@@ -1,0 +1,6 @@
+{
+  "workflows": [
+    {"name":"sync_kimi_to_drive","trigger":"manual","steps":["drive"]},
+    {"name":"open_console","trigger":"keyword navegador","steps":["navegador"]}
+  ]
+}

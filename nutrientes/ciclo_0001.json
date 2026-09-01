@@ -1,0 +1,18 @@
+{
+  "ciclo": 1,
+  "semillas": [
+    {
+      "tipo": "conocimiento",
+      "phi": 0.322
+    },
+    {
+      "tipo": "reflexion",
+      "phi": 0.30900000000000005
+    },
+    {
+      "tipo": "codigo",
+      "phi": 0.30300000000000005
+    }
+  ],
+  "timestamp": "2026-08-30T10:10:28.072593"
+}

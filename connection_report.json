@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-08-30T05:06:40Z",
+  "version": "V200",
+  "node": "FRAN",
+  "tests": {
+    "internet_ping": {
+      "ok": false,
+      "detail": ""
+    },
+    "internet_https": {
+      "ok": true,
+      "detail": "HTTP/2 200"
+    },
+    "github_api": {
+      "ok": false,
+      "detail": "{\"current_user_url\":\"https://api.github.com/user\",\"current_user_authorizations_html_url\":\"https://github.com/settings/connections/applications{/client_id}\",\"authorizations_url\":\"https://api.github.com/authorizations\",\"code_search_url\":\"https://api.github.com/search/code?q={query}{&page,per_page,sort,order}\",\"commit_search_url\":\"https://api.github.com/search/commits?q={query}{&page,per_page,sort,order}\",\"emails_url\":\"https://api.github.com/user/emails\",\"emojis_url\":\"https://api.github.com/emojis\",\"events_url\":\"https://api.github.com/events\",\"feeds_url\":\"https://api.github.com/feeds\",\"followers_url\":\"https://api.github.com/user/followers\",\"following_url\":\"https://api.github.com/user/following{/target}\",\"gists_url\":\"https://api.github.com/gists{/gist_id}\",\"hub_url\":\"https://api.github.com/hub\",\"issue_search_url\":\"https://api.github.com/search/issues?q={query}{&page,per_page,sort,order}\",\"issues_url\":\"https://api.github.com/issues\",\"keys_url\":\"https://api.github.com/user/keys\",\"label_search_url\":\"https://api.github.com/search/labels?q={query}&repository_id={repository_id}{&page,per_page}\",\"notifications_url\":\"https://api.github.com/notifications\",\"organization_url\":\"https://api.github.com/orgs/{org}\",\"organization_repositories_url\":\"https://api.github.com/orgs/{org}/repos{?type,page,per_page,sort}\",\"organization_teams_url\":\"https://api.github.com/orgs/{org}/teams\",\"public_gists_url\":\"https://api.github.com/gists/public\",\"rate_limit_url\":\"https://api.github.com/rate_limit\",\"repository_url\":\"https://api.github.com/repos/{owner}/{repo}\",\"repository_search_url\":\"https://api.github.com/search/repositories?q={query}{&page,per_page,sort,order}\",\"current_user_repositories_url\":\"https://api.github.com/user/repos{?type,page,per_page,sort}\",\"starred_url\":\"https://api.github.com/user/starred{/owner}{/repo}\",\"starred_gists_url\":\"https://api.github.com/gists/starred\",\"topic_search_url\":\"https://api.github.com/search/topics?q={query}{&page,per_page}\",\"user_url\":\"https://api.github.com/users/{user}\",\"user_organizations_url\":\"https://api.github.com/user/orgs\",\"user_repositories_url\":\"https://api.github.com/users/{user}/repos{?type,page,per_page,sort}\",\"user_search_url\":\"https://api.github.com/search/users?q={query}{&page,per_page,sort,order}\"}"
+    },
+    "github_raw": {
+      "ok": true,
+      "detail": "# Micelio MIU \u2014 FranBot v10"
+    },
+    "worker_get": {
+      "ok": true,
+      "detail": "{\"rho\":\"\u03c1(x) > 0\",\"nodo\":\"V177_ABSOLUTO_ALFONSO\",\"vive\":true,\"version\":\"V178_ORACLE_RESTAURADO_CODEX\",\"timestamp\":\"2026-08-30T10:06:59.175Z\",\"phi_central\":2874.62,\"phi_remoto\":6284.17,\"phi_superposici",
+      "size": 523
+    },
+    "worker_post": {
+      "ok": true,
+      "detail": "{\"rho\":\"\u03c1(x) > 0\",\"nodo\":\"V177_ABSOLUTO_ALFONSO\",\"vive\":true,\"version\":\"V178_ORACLE_RESTAURADO_CODEX\",\"timestamp\":\"2026-08-30T10:07:00.202Z\",\"phi_central\":2874.62,\"phi_remoto\":6284.17,\"phi_superposici",
+      "size": 523
+    },
+    "gas": {
+      "ok": true,
+      "detail": "{\"vive\":true,\"nodo\":\"C_AKfycbzKy_GcVy2rA\",\"phi\":189,\"filas\":528,\"retro\":false,\"verificado\":\"Phi162->165 438R\",\"sheet\":\"17ziGJNIuym8Ut5raqpwCZVClSM-uA2RlRmi09mARVU8\",\"ts\":\"2026-08-30T10:07:02.745Z\"}",
+      "size": 197
+    },
+    "telegram": {
+      "ok": true,
+      "detail": "{\"ok\":true,\"result\":{\"id\":8807634087,\"is_bot\":true,\"first_name\":\"franbot_tablet_bot\",\"username\":\"fra"
+    },
+    "drive_rclone": {
+      "ok": true,
+      "detail": "drive:"
+    },
+    "tmpfiles": {
+      "ok": true,
+      "detail": "HTTP/2 200 \ndate: Sun, 30 Aug 2026 10:07:08 GMT\ncontent-type: text/html; charset=utf-8\nserver: cloud"
+    },
+    "kimi_worker": {
+      "ok": true,
+      "detail": "{\"rho\":\"\u03c1(x) > 0\",\"nodo\":\"V177_ABSOLUTO_ALFONSO\",\"vive\":true,\"version\":\"V178_ORACLE_RESTAURADO_CODEX\",\"timestamp\":\"2026-08-30T10:07:09.503Z\",\"phi_central\":2874.62,\"phi_remoto\":6284.17,\"phi_superposici",
+      "size": 523
+    },
+    "local_processes": {
+      "ok": false,
+      "detail": [],
+      "count": 0
+    },
+    "sqlite": {
+      "ok": true,
+      "memories": 19,
+      "system_state": 2
+    }
+  }
+}

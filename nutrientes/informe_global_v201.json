@@ -1,0 +1,101 @@
+{
+  "timestamp": "2026-08-30T10:12:49Z",
+  "version": "V201",
+  "total_modulos": 13,
+  "ok_count": 13,
+  "tiempo_total": 103.30581378936768,
+  "resultados": {
+    "evolucionador_red_fractal": {
+      "ok": true,
+      "duracion": 0.5339040756225586,
+      "salida": "\ud83e\uddec \ud83d\udd04 Ejecutando Evolucionador de Red Fractal (V173)...\n\ud83e\uddec \ud83d\udcca Ciclo 67: CONSOLIDADO - Incremento: 2.95%\n{'estado': 'CONSOLIDADO', 'incremento': 0.029541277926096506, 'Phi_global': 3521.0311705072495}\n",
+      "error": "",
+      "returncode": 0
+    },
+    "tecnologias_raras": {
+      "ok": true,
+      "duracion": 1.0872819423675537,
+      "salida": " 0.05419921875}, 'inferencia_movil': {'ok': True, 'modelo': 'dummy.tflite', 'tama\u00f1o': 18}, 'persistencia_local': {'ok': True, 'backup': 'miu_brain_20260830_101107.db', 'total': 11}, 'edge_computing': {'ok': True, 'workflows': ['edge.yml']}, 'busqueda_vectorial': {'error': 'no such column: text'}, 'optimizacion_bateria': {'ok': True, 'tareas': 6, 'sugerencia': 'agrupar'}, 'compresion_imagenes': {'ok': True, 'imagenes': 1, 'tama\u00f1o_total': 276939}, 'compilacion_jit': {'ok': True, 'compilados': 0}}\n",
+      "error": "",
+      "returncode": 0
+    },
+    "mecanismos_autonomia": {
+      "ok": true,
+      "duracion": 4.419514179229736,
+      "salida": "MIR: \u03a6=25.00, tasa=normal\n\ud83e\uddec \u2705 Mecanismos activos: IAC\n{'HDI': {'rho': 6.9930069930069925}, 'RUC': {'apto': False, 'confianza': 0.5}, 'MHD': {'resultados': [{'github': True}, {'mapa': True}]}, 'MDGI': {'ok': False, 'gradiente': 0.0}, 'NOC': {'onda': False, 'rho': 0.5}, 'EC': {'hash': '78e0982c4724c4a2'}, 'TRF': {'ok': False, 'msg': 'Sin fallos registrados'}, 'IAC': {'ok': True, 'id': 'nodo-cac966d6'}, 'SLT': {'latido': True, 'intervalo': 3813.36119055748}, 'MIR': {'Phi': 25.0, 'tasa': 'normal'}}\n",
+      "error": "",
+      "returncode": 0
+    },
+    "conexiones": {
+      "ok": true,
+      "duracion": 9.950791120529175,
+      "salida": "\ud83d\udd17 \ud83d\udd17 INICIANDO M\u00d3DULO DE CONEXIONES\n\ud83d\udd17 \ud83d\udc19 Probando GitHub...\n\ud83d\udd17 \ud83d\udce1 Probando Telegram...\n\ud83d\udd17 \ud83e\udde0 Probando Groq...\n\ud83d\udd17 \u2601\ufe0f Probando Cloudflare...\n\ud83d\udd17 \ud83d\udcbe Probando Drive (rclone)...\n\ud83d\udd17 \u2705 Conexiones activas: github, telegram, cloudflare, drive\n{'github': {'ok': True, 'msg': 'Status 200'}, 'telegram': {'ok': True, 'msg': 'franbottablet_bot'}, 'groq': {'ok': False, 'msg': '400'}, 'cloudflare': {'ok': True, 'msg': 'Token presente'}, 'drive': {'ok': True, 'msg': 'drive:'}}\n",
+      "error": "",
+      "returncode": 0
+    },
+    "expansor_tokens": {
+      "ok": true,
+      "duracion": 48.09972429275513,
+      "salida": "re: 2\n\ud83e\uddec    \u2022 scaleway: 1\n\ud83e\uddec    \u2022 openai: 13\n\ud83e\uddec    \u2022 groq: 12\n\ud83e\uddec    \u2022 google: 2\n\ud83e\uddec    \u2022 github_old: 23\n\ud83e\uddec    \u2022 openrouter: 6\n\ud83e\uddec    \u2022 github: 4\n\ud83e\uddec    \u2022 telegram: 6\n\ud83e\uddec    \u2022 anthropic: 4\n\ud83e\uddec    \u2022 huggingface: 2\n\ud83e\uddec \ud83d\udca1 Sugerencia: Copia los tokens que quieras a .env\n\ud83e\uddec \u2705 Expansi\u00f3n completada\n{'ok': True, 'total': 23420, 'tipos': {'generic': 23345, 'cloudflare': 2, 'scaleway': 1, 'openai': 13, 'groq': 12, 'google': 2, 'github_old': 23, 'openrouter': 6, 'github': 4, 'telegram': 6, 'anthropic': 4, 'huggingface': 2}}\n",
+      "error": "",
+      "returncode": 0
+    },
+    "autoreparador": {
+      "ok": true,
+      "duracion": 0.4676966667175293,
+      "salida": "\ud83d\udd27 \ud83e\uddec AUTOREPARADOR V201 \u2014 Escaneo r\u00e1pido\n\ud83d\udd27 ========================================\n\ud83d\udd27    \u274c miu_control.py: SyntaxError line 166: unexpected character after line continuation character\n\ud83d\udd27    \u2705 miu_shell.py: OK\n\ud83d\udd27    \u2705 miu_initiative.py: OK\n\ud83d\udd27    \u2705 miu_scanner.py: OK\n\ud83d\udd27    \u2705 miu_doctor.py: OK\n\ud83d\udd27 ========================================\n\ud83d\udd27 \u2705 Escaneo completado. Reparados: 0\n",
+      "error": "",
+      "returncode": 0
+    },
+    "gobernador": {
+      "ok": true,
+      "duracion": 8.576497554779053,
+      "salida": "\ud83e\udde0 \ud83e\udde0 Gobernador iniciado \u2014 an\u00e1lisis completo\n\ud83e\udde0 \ud83d\udcca Carencias detectadas: ['no_conversaciones']\n\ud83e\udde0 \ud83d\udd27 Resolviendo: no_conversaciones\n\ud83e\udde0 \ud83d\udcac Generando conversaci\u00f3n inicial...\n\ud83e\udde0 \ud83d\udccb Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]\n[{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]\n",
+      "error": "",
+      "returncode": 0
+    },
+    "mecanismos_completos": {
+      "ok": true,
+      "duracion": 3.611654758453369,
+      "salida": "LETANDO AUTONOM\u00cdA (V\u221e+19)\n\ud83e\uddec \ud83c\udf31 SPC: Buscando otros nodos para polinizaci\u00f3n...\n\ud83e\uddec \ud83e\udde0 RAM-LP: Consolidando memoria de largo plazo...\n\ud83e\uddec \ud83d\udd04 CBE: Observando la evoluci\u00f3n del sistema...\n\ud83e\uddec \ud83d\udcc8 CBE: Tendencia de evoluci\u00f3n: 0.36% de incremento.\n\ud83e\uddec \u2705 Mecanismos completos activos: CBE\n{'ACE': {'estado': 'normal', 'entropia': 0.5}, 'SPC': {'ok': False, 'msg': 'Sin otros nodos'}, 'RAM-LP': {'error': 'no such column: source'}, 'GD': {'ok': False, 'rho': 0.5}, 'CBE': {'ok': True, 'tendencia': 0.0035638298351613985}}\n",
+      "error": "",
+      "returncode": 0
+    },
+    "combate_informacional": {
+      "ok": true,
+      "duracion": 25.369504928588867,
+      "salida": "do': 'ataque', 'procesos': 6}, 'enjambre': {'ok': False, 'msg': 'Sin otros nodos'}, 'llm_analisis': {'ok': False, 'msg': 'LLM no disponible'}, 'fusion_datos': {'ok': True, 'fuentes': {'github': '8', 'drive': 'ok', 'sd': 5, 'memoria': 18}}, 'simulacion_escenarios': {'ok': True, 'escenarios': [{'nombre': 'ataque_externo', 'probabilidad': 0.3}, {'nombre': 'fallo_memoria', 'probabilidad': 0.2}, {'nombre': 'sobrecarga_red', 'probabilidad': 0.1}]}, 'red_teaming': {'ok': True, 'vulnerabilidades': []}}\n",
+      "error": "",
+      "returncode": 0
+    },
+    "tejido_evolutivo": {
+      "ok": true,
+      "duracion": 3.9961071014404297,
+      "salida": "30T10:12:36.120816', 'estado': 'activo', 'conexiones': 22, 'coherencia': 0.7697107630754263}}, 'memoria_organica': {'ok': True, 'patrones': 0}, 'consenso_distribuido': {'ok': True, 'consenso': 'podar'}, 'simulacion_predictiva': {'ok': True, 'estrategia': 'expandir'}, 'entrenamiento_inmersivo': {'ok': True, 'resultados': [{'escenario': 'ataque_externo', 'resultado': 'ejecutado'}, {'escenario': 'fallo_memoria', 'resultado': 'simulado'}, {'escenario': 'sobrecarga_red', 'resultado': 'ejecutado'}]}}\n",
+      "error": "python3: can't open file '/data/data/com.termux/files/home/miu-ecosistema/plugins/enjambre.py': [Errno 2] No such file or directory\n",
+      "returncode": 0
+    },
+    "razonador": {
+      "ok": true,
+      "duracion": 0.4044830799102783,
+      "salida": "",
+      "error": "",
+      "returncode": 0
+    },
+    "validador_recursos": {
+      "ok": true,
+      "duracion": 9.825488567352295,
+      "salida": "\ud83d\udccb \ud83d\udccb VALIDADOR V201 \u2014 M\u00e1ximo 20 recursos, timeout 5s\n\ud83d\udccb ========================================\n\ud83d\udccb    \u2705 internet: HTTP/2 200 \n\n\ud83d\udccb    \u2705 github: HTTP/2 200 \n\n\ud83d\udccb    \u274c telegram: \n\ud83d\udccb    \u2705 cloudflare: HTTP/2 405 \n\n\ud83d\udccb    \u2705 worker: {\"rho\":\"\u03c1(x) > 0\",\"nodo\":\"V\u221e+27_ORQUESTADOR\",\"v\n\ud83d\udccb    \u2705 groq: HTTP/2 404 \n\n\ud83d\udccb    \u2705 drive: drive:\n\n\ud83d\udccb    \u2705 tmpfiles: HTTP/2 200 \n\n\ud83d\udccb ========================================\n\ud83d\udccb \u2705 Validaci\u00f3n: 7/8 recursos OK\n",
+      "error": "",
+      "returncode": 0
+    },
+    "integrador_recursos": {
+      "ok": true,
+      "duracion": 0.7085254192352295,
+      "salida": "\ud83e\udde9 \ud83e\udde9 INTEGRADOR V201 \u2014 Solo locales, timeout 5s\n\ud83e\udde9 ========================================\n\ud83e\udde9    \u2705 Integrado: informe_global.json\n\ud83e\udde9    \u2705 Integrado: informe_global_v201.json\n\ud83e\udde9 ========================================\n\ud83e\udde9 \u2705 Integraci\u00f3n: 2 informes\n",
+      "error": "",
+      "returncode": 0
+    }
+  },
+  "resumen": "13/13 m\u00f3dulos exitosos"
+}

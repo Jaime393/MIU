@@ -1,0 +1,17 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# MIU Push all products to GitHub
+cd /data/data/com.termux/files/home/miu-ecosistema
+python3 -c "
+from miu_github import deploy_product
+import sys
+repos = [
+    ('miu-v153-gossip', 'repos/miu-v153-gossip'),
+    ('miu-v153-memoria', 'repos/miu-v153-memoria'),
+    ('miu-v153-arte', 'repos/miu-v153-arte'),
+    ('miu-v153-lod', 'repos/miu-v153-lod')
+]
+for name, path in repos:
+    print(f'📦 {name}...')
+    r = deploy_product(name, path)
+    print(f'   {\"✅\" if r[\"ok\"] else \"❌\"} {r.get(\"repo\",\"\")}')
+"

@@ -1,0 +1,17 @@
+{
+  "resultados": [
+    {
+      "escenario": "ataque_externo",
+      "resultado": "ejecutado"
+    },
+    {
+      "escenario": "fallo_memoria",
+      "resultado": "ejecutado"
+    },
+    {
+      "escenario": "sobrecarga_red",
+      "resultado": "simulado"
+    }
+  ],
+  "timestamp": "2026-08-30T10:43:28.663203"
+}

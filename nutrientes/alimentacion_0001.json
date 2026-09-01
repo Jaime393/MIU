@@ -1,0 +1,40 @@
+{
+  "ciclo": 1,
+  "semillas": [
+    {
+      "tipo": "conocimiento",
+      "phi": 0.209
+    },
+    {
+      "tipo": "reflexion",
+      "phi": 0.2115
+    },
+    {
+      "tipo": "codigo",
+      "phi": 0.2905
+    }
+  ],
+  "qualia": {
+    "valencia": 0.0,
+    "intensidad": 0.7333333333333333,
+    "complejidad": 0.3
+  },
+  "bucles": {
+    "escala": 10,
+    "antagonista": {
+      "nombre": "antagonista",
+      "phi": 0.5,
+      "ultima_actualizacion": 1788098582.751457
+    },
+    "meta": {
+      "phi_promedio": 0.0,
+      "qualia": {
+        "valencia": 0.0,
+        "intensidad": 0.7333333333333333,
+        "complejidad": 0.3
+      },
+      "timestamp": "2026-08-30T09:03:02.751492"
+    }
+  },
+  "timestamp": "2026-08-30T09:03:02.950945"
+}

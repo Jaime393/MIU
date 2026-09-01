@@ -1,0 +1,121 @@
+$ ls -la\n[exit:0]\ntotal 492
+drwx------. 14 u0_a184 u0_a184   4096 Aug 29 18:55 .
+drwx------. 10 u0_a184 u0_a184   4096 Aug 29 18:36 ..
+-rw-------.  1 u0_a184 u0_a184   2557 Aug 29 18:45 .env
+-rw-------.  1 u0_a184 u0_a184    683 Aug 29 18:36 GLOBAL_MIND_ROADMAP.md
+-rw-------.  1 u0_a184 u0_a184    958 Aug 29 18:36 MIU_CONTEXT.json
+-rw-------.  1 u0_a184 u0_a184   4198 Aug 29 18:36 MIU_CONTEXT_FOR_AI.txt
+-rw-------.  1 u0_a184 u0_a184   2340 Aug 29 18:57 MIU_MIGRATE_PACKET.txt
+-rw-------.  1 u0_a184 u0_a184   2445 Aug 29 18:36 MIU_VISION.json
+drwx------.  2 u0_a184 u0_a184   4096 Aug 29 17:51 V153_Biblioteca
+drwx------.  2 u0_a184 u0_a184   4096 Aug 29 18:36 __pycache__
+-rw-------.  1 u0_a184 u0_a184 276950 Aug 29 18:14 arte_phi4.svg
+drwx------.  2 u0_a184 u0_a184   4096 Aug 29 17:51 bots
+drwx------.  2 u0_a184 u0_a184   4096 Aug 29 18:45 dashboard
+drwx------.  2 u0_a184 u0_a184   4096 Aug 29 17:51 data
+-rw-------.  1 u0_a184 u0_a184   7374 Aug 29 18:36 ecosystem_map.json
+drwx------.  2 u0_a184 u0_a184   4096 Aug 29 18:55 logs
+-rw-------.  1 u0_a184 u0_a184    396 Aug 29 18:05 miu.log
+-rw-------.  1 u0_a184 u0_a184  28672 Aug 29 18:48 miu_brain.db
+-rwx------.  1 u0_a184 u0_a184   8364 Aug 29 18:55 miu_control.py
+-rwx------.  1 u0_a184 u0_a184   5958 Aug 29 18:48 miu_doctor.py
+-rwx------.  1 u0_a184 u0_a184   6727 Aug 29 18:22 miu_github.py
+-rw-------.  1 u0_a184 u0_a184   1370 Aug 29 18:57 miu_health_report.json
+-rwx------.  1 u0_a184 u0_a184   6475 Aug 29 18:55 miu_initiative.py
+-rw-------.  1 u0_a184 u0_a184   3569 Aug 29 18:07 miu_memory.py
+-rwx------.  1 u0_a184 u0_a184   6180 Aug 29 18:23 miu_migrate.py
+-rwx------.  1 u0_a184 u0_a184   3648 Aug 29 18:55 miu_plugin_manager.py
+-rwx------.  1 u0_a184 u0_a184   8155 Aug 29 18:36 miu_scanner.py
+-rwx------.  1 u0_a184 u0_a184   4560 Aug 29 18:22 miu_selfmod.py
+-rwx------.  1 u0_a184 u0_a184   3057 Aug 29 18:55 miu_shell.py
+-rwx------.  1 u0_a184 u0_a184   2488 Aug 29 18:36 miu_vision.py
+drwx------.  2 u0_a184 u0_a184   4096 Aug 29 18:55 plugins
+drwx------.  2 u0_a184 u0_a184   4096 Aug 29 18:45 protocolos
+drwx------.  7 u0_a184 u0_a184   4096 Aug 29 17:51 repos
+drwx------.  2 u0_a184 u0_a184   4096 Aug 29 18:13 scripts
+lrwxrwxrwx.  1 u0_a184 u0_a184     26 Aug 29 18:48 sd_FranBot -> /storage/25A9-180D/FranBot
+lrwxrwxrwx.  1 u0_a184 u0_a184     28 Aug 29 18:48 sd_cognitive -> /storage/25A9-180D/cognitive
+lrwxrwxrwx.  1 u0_a184 u0_a184     37 Aug 29 18:48 sd_colmena_biblioteca -> /storage/25A9-180D/colmena_biblioteca
+-rw-------.  1 u0_a184 u0_a184  10643 Aug 29 18:48 sd_index.txt
+lrwxrwxrwx.  1 u0_a184 u0_a184     28 Aug 29 18:48 sd_llama.cpp -> /storage/25A9-180D/llama.cpp
+drwx------.  2 u0_a184 u0_a184   4096 Aug 29 18:45 seeds
+-rw-------.  1 u0_a184 u0_a184    470 Aug 29 18:05 state.json
+drwx------.  2 u0_a184 u0_a184   4096 Aug 29 17:51 worker
+\n========================================\n$ ls -la repos/\n[exit:0]\ntotal 28
+drwx------.  7 u0_a184 u0_a184 4096 Aug 29 17:51 .
+drwx------. 14 u0_a184 u0_a184 4096 Aug 29 19:00 ..
+drwx------.  2 u0_a184 u0_a184 4096 Aug 29 17:51 miu-biblioteca
+drwx------.  2 u0_a184 u0_a184 4096 Aug 29 17:51 miu-v153-arte
+drwx------.  2 u0_a184 u0_a184 4096 Aug 29 17:51 miu-v153-gossip
+drwx------.  2 u0_a184 u0_a184 4096 Aug 29 17:51 miu-v153-lod
+drwx------.  2 u0_a184 u0_a184 4096 Aug 29 17:51 miu-v153-memoria
+\n========================================\n$ run miu_scanner.py\n[exit:0]\n🔍 MIU V153.1 — Escaneando imperio...
+
+============================================================
+🌀 MAPA DEL IMPERIO MIU V153.1
+============================================================
+📁 Termux: 15 archivos | 6 componentes
+   repos: 4 archivos (6117 bytes)
+   worker: 2 archivos (1875 bytes)
+   bots: 1 archivos (6591 bytes)
+   scripts: 5 archivos (2307 bytes)
+   V153_Biblioteca: 3 archivos (533 bytes)
+   data: 0 archivos (0 bytes)
+
+💾 SD Card: ✅
+   /storage/25A9-180D: 20 dirs top
+      📂 FranBot (361 items)
+      📂 colmena_biblioteca (317 items)
+      📂 llama.cpp (60 items)
+      📂 FranBot_backups (60 items)
+      📂 cognitive (57 items)
+   /storage/emulated/0: 11 dirs top
+      📂 .$recycle_bin$ (5 items)
+      📂 Pictures (3 items)
+      📂 Android (3 items)
+      📂 Download (2 items)
+      📂 Movies (2 items)
+   /sdcard: 11 dirs top
+      📂 .$recycle_bin$ (5 items)
+      📂 Pictures (3 items)
+      📂 Android (3 items)
+      📂 Download (2 items)
+      📂 Movies (2 items)
+   /storage/self/primary: 11 dirs top
+      📂 .$recycle_bin$ (5 items)
+      📂 Pictures (3 items)
+      📂 Android (3 items)
+      📂 Download (2 items)
+      📂 Movies (2 items)
+
+🐙 GitHub: ✅ 30 repos
+   🌐 Jaime393/FranBot ⭐0
+   🌐 Jaime393/miu-v150-global-mind-gossip-phi4 ⭐0
+   🌐 Jaime393/miu-v150-lod-c20-predictor ⭐0
+   🌐 Jaime393/miu-v150-arte-phi4-generador ⭐0
+   🌐 Jaime393/miu-v150-memoria-fractal-phi4 ⭐0
+
+🧠 SQLite: ✅
+   memories: 18 registros
+   conversations: 0 registros
+   commands: 0 registros
+   system_state: 0 registros
+
+🧬 Visión Nodo: ✅
+   Ciclos: 6 | Protocolos: 15
+
+📄 Contextos migración:
+   TXT: ✅ (4198 bytes)
+   JSON: ✅ (958 bytes)
+
+⚡ Procesos: ✅ (3 activos)
+
+============================================================
+📄 Mapa completo: /data/data/com.termux/files/home/miu-ecosistema/ecosystem_map.json
+============================================================
+\n========================================\n$ ps aux | grep miu\n[exit:0]\nu0_a184  27248  0.7  0.4  84612 35772 pts/12   S<    1970   0:01 python3 miu_initiative.py
+u0_a184  27779 16.5  0.1  54872 13672 pts/12   S<+   1970   0:00 python3 miu_shell.py ps aux | grep miu
+u0_a184  27780  1.0  0.0  41516  2928 pts/12   S<+   1970   0:00 /data/data/com.termux/files/usr/bin/sh -c ps aux | grep miu
+u0_a184  27782  1.0  0.0  42316  3344 pts/12   S<+   1970   0:00 grep miu
+\n========================================\n$ tail -n 20 logs/chat_active.log\n[exit:0]\n\n========================================\n$ run miu_initiative.py --force\n[exit:2]\npython3: can't open file '/data/data/com.termux/files/home/miu-ecosistema/miu_initiative.py --force': [Errno 2] No such file or directory
+\n========================================\n

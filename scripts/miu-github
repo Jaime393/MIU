@@ -1,0 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# MIU GitHub CLI directo
+cd /data/data/com.termux/files/home/miu-ecosistema
+python3 miu_github.py "$@"

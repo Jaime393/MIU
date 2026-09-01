@@ -1,0 +1,168 @@
+{
+  "timestamp": "2026-08-30T10:36:20.209515",
+  "sistema": {
+    "hostname": "localhost",
+    "platform": "Android-10-aarch64-64bit",
+    "machine": "aarch64",
+    "processor": "",
+    "python": "3.14.6 (main, Jul  5 2026, 10:35:55) [Clang 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f0",
+    "cwd": "/data/data/com.termux/files/home/miu-ecosistema",
+    "home": "/data/data/com.termux/files/home",
+    "termux": true
+  },
+  "navegadores": [],
+  "herramientas": [
+    {
+      "comando": "curl",
+      "ruta": "/data/data/com.termux/files/usr/bin/curl",
+      "version": "curl 8.21.0 (aarch64-unknown-linux-android) libcurl/8.21.0 O"
+    },
+    {
+      "comando": "wget",
+      "ruta": "/data/data/com.termux/files/usr/bin/wget",
+      "version": "GNU Wget 1.25.0 built on linux-android."
+    },
+    {
+      "comando": "git",
+      "ruta": "/data/data/com.termux/files/usr/bin/git",
+      "version": "git version 2.55.0"
+    },
+    {
+      "comando": "python3",
+      "ruta": "/data/data/com.termux/files/usr/bin/python3",
+      "version": "Python 3.14.6"
+    },
+    {
+      "comando": "python",
+      "ruta": "/data/data/com.termux/files/usr/bin/python",
+      "version": "Python 3.14.6"
+    },
+    {
+      "comando": "node",
+      "ruta": "/data/data/com.termux/files/usr/bin/node",
+      "version": "v26.4.0"
+    },
+    {
+      "comando": "npm",
+      "ruta": "/data/data/com.termux/files/usr/bin/npm",
+      "version": "desconocida"
+    },
+    {
+      "comando": "gcc",
+      "ruta": "/data/data/com.termux/files/usr/bin/gcc",
+      "version": "clang version 21.1.8"
+    },
+    {
+      "comando": "g++",
+      "ruta": "/data/data/com.termux/files/usr/bin/g++",
+      "version": "clang version 21.1.8"
+    },
+    {
+      "comando": "make",
+      "ruta": "/data/data/com.termux/files/usr/bin/make",
+      "version": "GNU Make 4.4.1"
+    },
+    {
+      "comando": "telnet",
+      "ruta": "/data/data/com.termux/files/usr/bin/telnet",
+      "version": "telnet (GNU inetutils) 2.7"
+    },
+    {
+      "comando": "ssh",
+      "ruta": "/data/data/com.termux/files/usr/bin/ssh",
+      "version": "desconocida"
+    },
+    {
+      "comando": "scp",
+      "ruta": "/data/data/com.termux/files/usr/bin/scp",
+      "version": "desconocida"
+    },
+    {
+      "comando": "nano",
+      "ruta": "/data/data/com.termux/files/usr/bin/nano",
+      "version": " GNU nano, version 9.2"
+    },
+    {
+      "comando": "tmux",
+      "ruta": "/data/data/com.termux/files/usr/bin/tmux",
+      "version": "desconocida"
+    }
+  ],
+  "servicios": [],
+  "puertos_abiertos": [],
+  "procesos": [
+    {
+      "usuario": "u0_a184",
+      "pid": 32262,
+      "cpu": "0.6",
+      "mem": "0.4",
+      "comando": "python3 plugins/expansor_web_v35_corregido.py"
+    },
+    {
+      "usuario": "u0_a184",
+      "pid": 32436,
+      "cpu": "0.2",
+      "mem": "0.2",
+      "comando": "python3 chat_orquestador.py"
+    },
+    {
+      "usuario": "u0_a184",
+      "pid": 1258,
+      "cpu": "13.2",
+      "mem": "0.2",
+      "comando": "python3 plugins/escaner_recursos.py"
+    },
+    {
+      "usuario": "u0_a184",
+      "pid": 32279,
+      "cpu": "0.0",
+      "mem": "0.1",
+      "comando": "elinks http://localhost:8080/pliegue_0001.html"
+    },
+    {
+      "usuario": "u0_a184",
+      "pid": 8774,
+      "cpu": "0.0",
+      "mem": "0.0",
+      "comando": "python3 /data/data/com.termux/files/home/miu-ecosistema/miu_"
+    },
+    {
+      "usuario": "u0_a184",
+      "pid": 1301,
+      "cpu": "1.0",
+      "mem": "0.0",
+      "comando": "ps aux --sort=-%mem"
+    },
+    {
+      "usuario": "u0_a184",
+      "pid": 8076,
+      "cpu": "0.0",
+      "mem": "0.0",
+      "comando": "/data/data/com.termux/files/usr/bin/bash -l"
+    },
+    {
+      "usuario": "u0_a184",
+      "pid": 4474,
+      "cpu": "0.0",
+      "mem": "0.0",
+      "comando": "/data/data/com.termux/files/usr/bin/bash -l"
+    },
+    {
+      "usuario": "u0_a184",
+      "pid": 4361,
+      "cpu": "0.0",
+      "mem": "0.0",
+      "comando": "/data/data/com.termux/files/usr/bin/bash -l"
+    }
+  ],
+  "variables_entorno": {
+    "PATH": "/data/data/com.termux/files/usr/bin:/data/data/com.termux/files/home/miu-ecosistema/node_modules/.bin:/data/data/com.termux/files/home/miu-ecosistema/scripts",
+    "HOME": "/data/data/com.termux/files/home",
+    "TERM": "xterm-256color",
+    "SHELL": "/data/data/com.termux/files/usr/bin/bash",
+    "LANG": "en_US.UTF-8",
+    "USER": "",
+    "ANDROID_ROOT": "/system",
+    "TERMUX_VERSION": "0.119.0-beta.3"
+  }
+}

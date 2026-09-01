@@ -1,0 +1,445 @@
+[2026-08-29 20:50:22.755696] 🧠 Gobernador iniciado — análisis completo
+[2026-08-29 20:50:26.466603] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-29 20:50:26.467688] 🔧 Resolviendo: no_conversaciones
+[2026-08-29 20:50:26.468476] 💬 Generando conversación inicial...
+[2026-08-29 20:50:26.472871] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named content'}}]
+[2026-08-29 21:23:41.990769] 🧠 Gobernador iniciado — análisis completo
+[2026-08-29 21:23:45.249669] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-29 21:23:45.250516] 🔧 Resolviendo: no_conversaciones
+[2026-08-29 21:23:45.251278] 💬 Generando conversación inicial...
+[2026-08-29 21:23:45.256623] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named text'}}]
+[2026-08-29 23:14:34.496894] 🧠 Gobernador iniciado — análisis completo
+[2026-08-29 23:14:53.720498] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-29 23:14:53.721604] 🔧 Resolviendo: no_conversaciones
+[2026-08-29 23:14:53.722576] 💬 Generando conversación inicial...
+[2026-08-29 23:14:53.727766] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named text'}}]
+[2026-08-30 04:51:46.877961] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 04:51:52.944024] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 04:51:52.944466] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 04:51:52.944693] 💬 Generando conversación inicial...
+[2026-08-30 04:51:52.947241] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named text'}}]
+[2026-08-30 05:30:12.876751] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 05:30:31.448290] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 05:30:31.449053] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 05:30:31.449501] 💬 Generando conversación inicial...
+[2026-08-30 05:30:31.452832] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named text'}}]
+[2026-08-30 05:57:14.341850] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 05:57:32.922531] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 05:57:32.922957] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 05:57:32.923183] 💬 Generando conversación inicial...
+[2026-08-30 05:57:32.927769] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named text'}}]
+[2026-08-30 05:59:06.685515] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 05:59:26.543070] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 05:59:26.543501] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 05:59:26.543733] 💬 Generando conversación inicial...
+[2026-08-30 05:59:26.546360] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named text'}}]
+[2026-08-30 06:27:13.499505] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 06:27:32.164923] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 06:27:32.165438] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 06:27:32.165709] 💬 Generando conversación inicial...
+[2026-08-30 06:27:32.168541] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named text'}}]
+[2026-08-30 06:28:09.124685] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 06:28:27.697387] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 06:28:27.697873] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 06:28:27.698142] 💬 Generando conversación inicial...
+[2026-08-30 06:28:27.701079] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named text'}}]
+[2026-08-30 06:35:03.122704] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 06:35:07.238061] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 06:35:07.238514] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 06:35:10.552993] 💬 Generando conversación inicial...
+[2026-08-30 06:35:10.555693] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named content'}}]
+[2026-08-30 06:35:25.980830] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 06:35:29.138257] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 06:35:29.138786] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 06:35:32.064064] 💬 Generando conversación inicial...
+[2026-08-30 06:35:32.067568] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named content'}}]
+[2026-08-30 06:36:31.284749] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 06:36:35.382873] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 06:36:35.383404] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 06:36:39.223296] 💬 Generando conversación inicial...
+[2026-08-30 06:36:39.226508] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named content'}}]
+[2026-08-30 06:36:55.837206] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 06:36:59.120617] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 06:36:59.121469] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 06:37:02.346913] 💬 Generando conversación inicial...
+[2026-08-30 06:37:02.351048] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named content'}}]
+[2026-08-30 06:37:03.527909] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 06:37:06.373437] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 06:37:06.373988] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 06:37:09.408308] 💬 Generando conversación inicial...
+[2026-08-30 06:37:09.412102] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named content'}}]
+[2026-08-30 06:38:00.837807] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 06:38:03.753571] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 06:38:03.754065] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 06:38:06.817297] 💬 Generando conversación inicial...
+[2026-08-30 06:38:06.820342] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named content'}}]
+[2026-08-30 06:49:46.749938] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 06:49:50.185695] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 06:49:50.186258] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 06:49:53.591853] 💬 Generando conversación inicial...
+[2026-08-30 06:49:53.594735] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named content'}}]
+[2026-08-30 06:54:58.161480] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 06:55:01.651668] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 06:55:01.652126] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 06:55:05.756939] 💬 Generando conversación inicial...
+[2026-08-30 06:55:05.759670] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named content'}}]
+[2026-08-30 06:58:19.794908] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 06:58:23.991994] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 06:58:23.992770] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 06:58:27.610967] 💬 Generando conversación inicial...
+[2026-08-30 06:58:27.615438] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named content'}}]
+[2026-08-30 07:04:05.149588] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 07:04:09.913919] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 07:04:09.914354] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 07:04:14.078676] 💬 Generando conversación inicial...
+[2026-08-30 07:04:14.081640] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named content'}}]
+[2026-08-30 07:13:33.740864] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 07:13:37.948690] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 07:13:37.949131] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 07:13:41.333904] 💬 Generando conversación inicial...
+[2026-08-30 07:13:41.337039] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named content'}}]
+[2026-08-30 07:18:09.998369] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 07:18:14.449498] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 07:18:14.450851] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 07:18:17.883562] 💬 Generando conversación inicial...
+[2026-08-30 07:18:17.886531] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named content'}}]
+[2026-08-30 07:20:35.818901] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 07:20:38.815817] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 07:20:38.816257] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 07:20:42.572393] 💬 Generando conversación inicial...
+[2026-08-30 07:20:42.577595] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named content'}}]
+[2026-08-30 07:21:50.596175] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 07:21:55.230910] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 07:21:55.231413] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 07:21:58.609811] 💬 Generando conversación inicial...
+[2026-08-30 07:21:58.612783] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named content'}}]
+[2026-08-30 07:23:53.650017] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 07:23:57.609104] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 07:23:57.609545] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 07:24:01.024750] 💬 Generando conversación inicial...
+[2026-08-30 07:24:01.027979] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 07:26:28.951324] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 07:26:32.049734] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 07:26:32.050433] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 07:26:35.308835] 💬 Generando conversación inicial...
+[2026-08-30 07:26:35.311814] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 07:45:12.277742] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 07:45:16.428161] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 07:45:16.429356] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 07:45:20.436870] 💬 Generando conversación inicial...
+[2026-08-30 07:45:20.441789] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 07:48:14.379472] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 07:48:17.884139] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 07:48:17.884562] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 07:48:20.780493] 💬 Generando conversación inicial...
+[2026-08-30 07:48:20.783356] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 08:19:20.028441] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 08:19:23.839805] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 08:19:23.840351] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 08:19:27.760711] 💬 Generando conversación inicial...
+[2026-08-30 08:19:27.763660] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 08:22:03.897721] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 08:22:08.854572] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 08:22:08.855190] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 08:22:13.024615] 💬 Generando conversación inicial...
+[2026-08-30 08:22:13.032055] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 08:27:01.813254] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 08:27:05.435161] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 08:27:05.435618] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 08:27:09.996394] 💬 Generando conversación inicial...
+[2026-08-30 08:27:10.003256] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 08:32:18.200268] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 08:32:23.231002] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 08:32:23.231641] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 08:32:27.892311] 💬 Generando conversación inicial...
+[2026-08-30 08:32:27.901675] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 08:46:07.507746] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 08:46:11.922656] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 08:46:11.923302] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 08:46:16.423363] 💬 Generando conversación inicial...
+[2026-08-30 08:46:16.427709] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 08:47:23.875011] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 08:47:28.901486] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 08:47:28.903943] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 08:47:33.481748] 💬 Generando conversación inicial...
+[2026-08-30 08:47:33.506097] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 08:49:23.975975] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 08:49:28.481950] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 08:49:28.482482] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 08:49:32.150018] 💬 Generando conversación inicial...
+[2026-08-30 08:49:32.160010] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 08:50:25.534925] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 08:50:30.437085] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 08:50:30.437542] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 08:50:33.845223] 💬 Generando conversación inicial...
+[2026-08-30 08:50:33.848808] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 09:07:25.480775] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 09:07:28.694624] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 09:07:28.695177] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 09:07:33.320132] 💬 Generando conversación inicial...
+[2026-08-30 09:07:33.323967] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 09:10:06.984631] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 09:10:10.845650] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 09:10:10.846116] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 09:10:13.632776] 💬 Generando conversación inicial...
+[2026-08-30 09:10:13.639394] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 09:25:35.251728] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 09:25:39.844771] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 09:25:39.845207] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 09:25:44.545164] 💬 Generando conversación inicial...
+[2026-08-30 09:25:44.547885] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 09:28:38.999015] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 09:28:44.129040] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 09:28:44.129493] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 09:28:48.023709] 💬 Generando conversación inicial...
+[2026-08-30 09:28:48.026907] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 10:11:57.154892] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 10:12:00.561078] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 10:12:00.839713] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 10:12:00.840368] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 10:12:03.749073] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 10:12:03.750027] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 10:12:05.335913] 💬 Generando conversación inicial...
+[2026-08-30 10:12:05.339356] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 10:12:07.433403] 💬 Generando conversación inicial...
+[2026-08-30 10:12:07.438373] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 10:15:11.602976] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 10:15:17.497097] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 10:15:17.498590] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 10:15:21.815008] 💬 Generando conversación inicial...
+[2026-08-30 10:15:21.823579] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 10:42:46.343754] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 10:42:50.512584] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 10:42:50.513022] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 10:42:54.487274] 💬 Generando conversación inicial...
+[2026-08-30 10:42:54.490143] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 10:45:08.221215] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 10:45:11.468506] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 10:45:11.468948] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 10:45:14.420853] 💬 Generando conversación inicial...
+[2026-08-30 10:45:14.423673] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 20:17:13.982957] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 20:17:17.868900] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 20:17:17.870205] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 20:17:24.659978] 💬 Generando conversación inicial...
+[2026-08-30 20:17:24.665160] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 20:19:44.450271] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 20:19:47.979721] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 20:19:47.980351] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 20:19:50.886406] 💬 Generando conversación inicial...
+[2026-08-30 20:19:50.889290] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 20:28:07.932905] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 20:28:11.862873] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 20:28:11.863427] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 20:28:17.091068] 💬 Generando conversación inicial...
+[2026-08-30 20:28:17.094676] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 20:30:49.395360] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 20:30:52.484070] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 20:30:52.484622] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 20:30:55.627026] 💬 Generando conversación inicial...
+[2026-08-30 20:30:55.630307] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 20:33:37.135890] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 20:33:40.594370] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 20:33:40.594840] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 20:33:45.531465] 💬 Generando conversación inicial...
+[2026-08-30 20:33:45.534598] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 20:35:57.110515] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 20:36:00.481898] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 20:36:00.482557] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 20:36:04.084357] 💬 Generando conversación inicial...
+[2026-08-30 20:36:04.087536] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 20:37:09.931600] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 20:37:13.787999] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 20:37:13.788481] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 20:37:17.204975] 💬 Generando conversación inicial...
+[2026-08-30 20:37:17.208741] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 20:39:25.982247] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 20:39:29.245439] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 20:39:29.245894] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 20:39:33.877166] 💬 Generando conversación inicial...
+[2026-08-30 20:39:33.891226] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 20:48:16.767335] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 20:48:20.771266] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 20:48:20.772168] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 20:48:25.374058] 💬 Generando conversación inicial...
+[2026-08-30 20:48:25.378917] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 20:50:40.685792] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 20:50:43.747370] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 20:50:43.747844] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 20:50:46.844399] 💬 Generando conversación inicial...
+[2026-08-30 20:50:46.847522] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 20:58:56.565963] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 20:59:00.230473] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 20:59:00.235193] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 20:59:05.214839] 💬 Generando conversación inicial...
+[2026-08-30 20:59:05.218725] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-30 21:01:20.387098] 🧠 Gobernador iniciado — análisis completo
+[2026-08-30 21:01:23.604747] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-30 21:01:23.605908] 🔧 Resolviendo: no_conversaciones
+[2026-08-30 21:01:26.497758] 💬 Generando conversación inicial...
+[2026-08-30 21:01:26.500927] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 01:15:58.684784] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 01:16:02.825957] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 01:16:02.826523] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 01:16:06.670370] 💬 Generando conversación inicial...
+[2026-08-31 01:16:06.673561] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 01:18:17.905735] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 01:18:20.818674] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 01:18:20.819122] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 01:18:23.746898] 💬 Generando conversación inicial...
+[2026-08-31 01:18:23.749780] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 01:28:32.082084] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 01:28:35.660946] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 01:28:35.661496] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 01:28:39.451064] 💬 Generando conversación inicial...
+[2026-08-31 01:28:39.454340] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 01:31:05.696735] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 01:31:08.651461] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 01:31:08.916041] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 01:31:08.916626] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 01:31:11.844000] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 01:31:11.844548] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 01:31:12.117183] 💬 Generando conversación inicial...
+[2026-08-31 01:31:12.120731] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 01:31:16.819051] 💬 Generando conversación inicial...
+[2026-08-31 01:31:16.822652] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 01:33:23.085302] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 01:33:26.403586] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 01:33:26.404132] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 01:33:29.653624] 💬 Generando conversación inicial...
+[2026-08-31 01:33:29.662314] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 02:23:19.038099] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 02:23:22.919661] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 02:23:22.920286] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 02:23:27.151912] 💬 Generando conversación inicial...
+[2026-08-31 02:23:27.155013] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 02:25:44.183037] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 02:25:47.082596] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 02:25:47.083081] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 02:25:50.787688] 💬 Generando conversación inicial...
+[2026-08-31 02:25:50.791348] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 02:45:06.524315] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 02:45:10.182734] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 02:45:10.183201] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 02:45:14.199320] 💬 Generando conversación inicial...
+[2026-08-31 02:45:14.202208] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 02:47:29.502534] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 02:47:32.303749] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 02:47:32.304172] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 02:47:35.266807] 💬 Generando conversación inicial...
+[2026-08-31 02:47:35.269624] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 02:54:05.099963] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 02:54:08.530170] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 02:54:08.530677] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 02:54:12.447668] 💬 Generando conversación inicial...
+[2026-08-31 02:54:12.450622] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 02:54:34.906130] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 02:54:37.862376] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 02:54:37.863031] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 02:54:40.627777] 💬 Generando conversación inicial...
+[2026-08-31 02:54:40.631054] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 02:56:53.845893] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 02:56:54.639215] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 02:56:56.759485] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 02:56:56.760002] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 02:56:59.030977] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 02:56:59.031436] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 02:57:00.368476] 💬 Generando conversación inicial...
+[2026-08-31 02:57:00.371821] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 02:57:02.524678] 💬 Generando conversación inicial...
+[2026-08-31 02:57:02.527864] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 04:23:07.811812] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 04:23:11.588104] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 04:23:11.588728] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 04:23:15.416940] 💬 Generando conversación inicial...
+[2026-08-31 04:23:15.421097] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 04:25:40.440716] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 04:25:43.809314] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 04:25:43.809994] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 04:25:46.855677] 💬 Generando conversación inicial...
+[2026-08-31 04:25:46.858955] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 04:46:29.684538] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 04:46:33.445209] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 04:46:33.446198] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 04:46:38.407845] 💬 Generando conversación inicial...
+[2026-08-31 04:46:38.411821] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 04:49:30.365012] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 04:49:54.963628] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 04:49:54.964222] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 04:50:00.086163] 💬 Generando conversación inicial...
+[2026-08-31 04:50:00.089470] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 06:44:42.444972] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 06:44:46.530223] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 06:44:46.530698] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 06:44:50.615479] 💬 Generando conversación inicial...
+[2026-08-31 06:44:50.618392] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 06:47:08.094454] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 06:47:11.939098] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 06:47:11.940681] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 06:47:16.039142] 💬 Generando conversación inicial...
+[2026-08-31 06:47:16.042742] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 06:47:19.574075] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 06:47:23.024513] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 06:47:23.025067] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 06:47:26.438336] 💬 Generando conversación inicial...
+[2026-08-31 06:47:26.441534] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 18:22:34.384709] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 18:22:37.561275] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 18:22:37.561699] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 18:22:43.178001] 💬 Generando conversación inicial...
+[2026-08-31 18:22:43.181089] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 18:25:08.395772] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 18:25:11.562322] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 18:25:11.562767] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 18:25:14.942767] 💬 Generando conversación inicial...
+[2026-08-31 18:25:14.945615] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 18:38:37.865185] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 18:38:41.836101] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 18:38:41.836693] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 18:38:46.068834] 💬 Generando conversación inicial...
+[2026-08-31 18:38:46.071968] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 18:41:11.052875] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 18:41:14.624073] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 18:41:14.624507] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 18:41:17.932556] 💬 Generando conversación inicial...
+[2026-08-31 18:41:17.936090] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 19:27:41.062203] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 19:27:46.808109] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 19:27:46.808576] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 19:27:50.943312] 💬 Generando conversación inicial...
+[2026-08-31 19:27:50.946501] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 19:30:19.006343] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 19:30:22.112331] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 19:30:22.112920] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 19:30:25.671758] 💬 Generando conversación inicial...
+[2026-08-31 19:30:25.674519] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 19:34:35.547014] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 19:34:39.231989] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 19:34:39.234145] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 19:34:44.646106] 💬 Generando conversación inicial...
+[2026-08-31 19:34:44.648928] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 19:37:06.780416] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 19:37:10.026757] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 19:37:10.027185] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 19:37:12.997568] 💬 Generando conversación inicial...
+[2026-08-31 19:37:13.000451] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 21:02:25.218780] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 21:02:30.110303] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 21:02:30.110994] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 21:02:34.767873] 💬 Generando conversación inicial...
+[2026-08-31 21:02:34.771256] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 21:05:30.202045] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 21:05:33.726643] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 21:05:33.727787] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 21:05:37.119345] 💬 Generando conversación inicial...
+[2026-08-31 21:05:37.124676] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 22:13:48.503786] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 22:13:53.224883] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 22:13:53.225314] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 22:13:58.272716] 💬 Generando conversación inicial...
+[2026-08-31 22:13:58.275485] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]
+[2026-08-31 22:16:15.846129] 🧠 Gobernador iniciado — análisis completo
+[2026-08-31 22:16:19.027350] 📊 Carencias detectadas: ['no_conversaciones']
+[2026-08-31 22:16:19.027833] 🔧 Resolviendo: no_conversaciones
+[2026-08-31 22:16:22.180391] 💬 Generando conversación inicial...
+[2026-08-31 22:16:22.183339] 📋 Resumen: [{'carencia': 'no_conversaciones', 'resultado': {'ok': False, 'err': 'table conversations has no column named source'}}]

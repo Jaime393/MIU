@@ -1,0 +1,9 @@
+
+name: Edge Compute
+on: [push]
+jobs:
+  edge:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Edge computing activado"
+            

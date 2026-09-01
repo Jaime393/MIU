@@ -1,0 +1,7 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# MIU Run Products
+cd /data/data/com.termux/files/home/miu-ecosistema
+for d in gossip memoria arte lod; do
+    echo "🌀 $d..."
+    python3 repos/miu-v153-$d/*.py
+done

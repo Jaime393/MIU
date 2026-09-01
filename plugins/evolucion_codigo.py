@@ -1,0 +1,71 @@
+import os  # autocurador
+#!/usr/bin/env python3
+"""
+PLUGIN: evolucion_codigo.py
+Lee plugins existentes, detecta problemas y genera parches automáticos.
+"""
+import json, time, hashlib, re
+from pathlib import Path
+
+MIU_DIR = Path("os.path.expanduser('~')/miu-ecosistema")
+PLUGINS = MIU_DIR / "plugins"
+SANDBOX = MIU_DIR / "_sandbox"
+NUTRIENTES = MIU_DIR / "nutrientes"
+
+def analizar_plugin(path):
+    with open(path, "r", encoding="utf-8", errors="ignore") as f:
+        code = f.read()
+    issues = []
+    if "_tmp/" in code:
+        issues.append("Usa _tmp/ (read-only en Android)")
+    if "pytnon" in code or "pytnon3" in code:
+        issues.append("Typos de 'python3' encontrados")
+    if code.count("try:") > code.count("except"):
+        issues.append("Posibles try sin except")
+    if "requests.get" in code and "timeout" not in code:
+        issues.append("Requests sin timeout")
+    if "open(" in code and "encoding" not in code:
+        issues.append("Open() sin encoding")
+    lineas = len(code.splitlines())
+    funciones = len(re.findall(r"^def ", code, re.MULTILINE))
+    return {
+        "file": path.name,
+        "lineas": lineas,
+        "funciones": funciones,
+        "issues": issues,
+        "hash": hashlib.sha256(code.encode()).hexdigest()[:16]
+    }
+
+def generar_parche(analisis):
+    parches = []
+    for a in analisis:
+        if "Usa _tmp/" in str(a["issues"]):
+            parches.append(f"# PARCHE {a['file']}: reemplazar _tmp/ por {MIU_DIR}/temp/")
+        if "Requests sin timeout" in str(a["issues"]):
+            parches.append(f"# PARCHE {a['file']}: agregar timeout=10 a requests")
+        if "Open() sin encoding" in str(a["issues"]):
+            parches.append(f"# PARCHE {a['file']}: agregar encoding='utf-8' a open()")
+    return "\n".join(parches)
+
+def ejecutar():
+    inicio = time.time()
+    SANDBOX.mkdir(exist_ok=True)
+    plugins = [p for p in PLUGINS.glob("*.py") if p.is_file()]
+    analisis = [analizar_plugin(p) for p in plugins]
+    with open(NUTRIENTES / "evolucion_analisis.json", "w") as f:
+        json.dump(analisis, f, indent=2)
+    parche = generar_parche(analisis)
+    parche_path = SANDBOX / "parche_autogenerado_v1.py"
+    with open(parche_path, "w") as f:
+        f.write(f"# Auto-generado\n# Timestamp: {time.time()}\n\n{parche}")
+    total_issues = sum(len(a["issues"]) for a in analisis)
+    duracion = time.time() - inicio
+    salida = f"🧬 Evolución: {len(plugins)} plugins analizados\n"
+    salida += f"   Issues: {total_issues} | Parche: {parche_path}\n"
+    for a in sorted(analisis, key=lambda x: len(x["issues"]), reverse=True)[:5]:
+        if a["issues"]:
+            salida += f"   • {a['file']}: {', '.join(a['issues'])}\n"
+    return {"ok": True, "duracion": duracion, "salida": salida}
+
+if __name__ == "__main__":
+    print(ejecutar()["salida"])

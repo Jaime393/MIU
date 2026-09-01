@@ -1,0 +1,52 @@
+{
+  "kill_chain": {
+    "ok": true,
+    "accion": "procesar_sd_cognitive"
+  },
+  "agente_memoria": {
+    "ok": true,
+    "tasa_exito": 0
+  },
+  "combate_autonomo": {
+    "estado": "ataque",
+    "procesos": 6
+  },
+  "enjambre": {
+    "ok": false,
+    "msg": "Sin otros nodos"
+  },
+  "llm_analisis": {
+    "ok": false,
+    "msg": "LLM no disponible"
+  },
+  "fusion_datos": {
+    "ok": true,
+    "fuentes": {
+      "github": "8",
+      "drive": "ok",
+      "sd": 5,
+      "memoria": 18
+    }
+  },
+  "simulacion_escenarios": {
+    "ok": true,
+    "escenarios": [
+      {
+        "nombre": "ataque_externo",
+        "probabilidad": 0.3
+      },
+      {
+        "nombre": "fallo_memoria",
+        "probabilidad": 0.2
+      },
+      {
+        "nombre": "sobrecarga_red",
+        "probabilidad": 0.1
+      }
+    ]
+  },
+  "red_teaming": {
+    "ok": true,
+    "vulnerabilidades": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "sustrato_biologico": {
+    "ok": true,
+    "organoide": {
+      "id": "7c9e9b9b",
+      "creado": "2026-08-30T10:43:26.806079",
+      "estado": "activo",
+      "conexiones": 23,
+      "coherencia": 0.6386166236365958
+    }
+  },
+  "memoria_organica": {
+    "ok": true,
+    "patrones": 0
+  },
+  "consenso_distribuido": {
+    "ok": true,
+    "consenso": "podar"
+  },
+  "simulacion_predictiva": {
+    "ok": true,
+    "estrategia": "expandir"
+  },
+  "entrenamiento_inmersivo": {
+    "ok": true,
+    "resultados": [
+      {
+        "escenario": "ataque_externo",
+        "resultado": "ejecutado"
+      },
+      {
+        "escenario": "fallo_memoria",
+        "resultado": "ejecutado"
+      },
+      {
+        "escenario": "sobrecarga_red",
+        "resultado": "simulado"
+      }
+    ]
+  }
+}

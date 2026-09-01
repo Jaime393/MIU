@@ -1,0 +1,32 @@
+{
+  "version": "V153",
+  "timestamp": "2026-08-29T18:36:52Z",
+  "axioms": [
+    "\u03c1(x)>0",
+    "Exterior(T)=\u2205",
+    "T\u2261Info",
+    "Observador\u2208T"
+  ],
+  "constants": {
+    "sigma": 3.427051,
+    "RAIZ_X": 137.034498,
+    "Ktau": 34.0332,
+    "r_LOD": -0.868,
+    "phi": 2874.62
+  },
+  "paths": {
+    "miu_dir": "/data/data/com.termux/files/home/miu-ecosistema",
+    "brain": "/data/data/com.termux/files/home/miu-ecosistema/miu_brain.db"
+  },
+  "commands": {
+    "scan": "python3 miu_scanner.py",
+    "github_list": "python3 miu_github.py list",
+    "products": "bash scripts/miu-run",
+    "control": "python3 miu_control.py",
+    "selfmod_read": "python3 miu_selfmod.py read <path>",
+    "selfmod_write": "python3 miu_selfmod.py write <path>",
+    "memory_recall": "python3 -c \"from miu_memory import recall; print(recall(query=''))\""
+  },
+  "bot": "@franbottablet_bot",
+  "worker": "https://fran-oraculo-miu.jaimepvicente.workers.dev"
+}

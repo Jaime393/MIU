@@ -1,0 +1,2230 @@
+[2026-08-29 21:20:05.126535] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-29 21:20:05.127236] ⚡ Ejecutando: autoreparador
+[2026-08-29 21:20:08.144153] ✅ autoreparador completado en 3.02s
+[2026-08-29 21:20:08.144907] ⚡ Ejecutando: gobernador
+[2026-08-29 21:20:08.780940] ❌ gobernador falló (código 1)
+[2026-08-29 21:20:08.781619] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-29 21:20:09.284541] ✅ evolucionador_red_fractal completado en 0.50s
+[2026-08-29 21:20:09.285220] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-29 21:20:13.996336] ✅ mecanismos_autonomia completado en 4.71s
+[2026-08-29 21:20:13.997008] ⚡ Ejecutando: mecanismos_completos
+[2026-08-29 21:20:18.275683] ✅ mecanismos_completos completado en 4.28s
+[2026-08-29 21:20:18.276522] ⚡ Ejecutando: combate_informacional
+[2026-08-29 21:20:41.338580] ✅ combate_informacional completado en 23.06s
+[2026-08-29 21:20:41.339231] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-29 21:20:48.227503] ✅ tejido_evolutivo completado en 6.89s
+[2026-08-29 21:20:48.228906] ⚡ Ejecutando: tecnologias_raras
+[2026-08-29 21:20:49.618646] ✅ tecnologias_raras completado en 1.39s
+[2026-08-29 21:20:49.619583] 📊 Resumen: 7/8 módulos exitosos en 44.49s
+[2026-08-29 21:20:49.622198] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-29 21:23:38.219940] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-29 21:23:38.228807] ⚡ Ejecutando: autoreparador
+[2026-08-29 21:23:41.628252] ✅ autoreparador completado en 3.40s
+[2026-08-29 21:23:41.628832] ⚡ Ejecutando: gobernador
+[2026-08-29 21:23:45.374149] ✅ gobernador completado en 3.74s
+[2026-08-29 21:23:45.376117] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-29 21:23:45.930249] ✅ evolucionador_red_fractal completado en 0.55s
+[2026-08-29 21:23:45.931178] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-29 21:23:50.974455] ✅ mecanismos_autonomia completado en 5.04s
+[2026-08-29 21:23:50.975146] ⚡ Ejecutando: mecanismos_completos
+[2026-08-29 21:23:54.797871] ✅ mecanismos_completos completado en 3.82s
+[2026-08-29 21:23:54.798793] ⚡ Ejecutando: combate_informacional
+[2026-08-29 21:24:15.113577] ✅ combate_informacional completado en 20.31s
+[2026-08-29 21:24:15.114051] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-29 21:24:24.888100] ✅ tejido_evolutivo completado en 9.77s
+[2026-08-29 21:24:24.888699] ⚡ Ejecutando: tecnologias_raras
+[2026-08-29 21:24:26.315607] ✅ tecnologias_raras completado en 1.43s
+[2026-08-29 21:24:26.316280] ⚡ Ejecutando: conexiones
+[2026-08-29 21:24:35.768368] ✅ conexiones completado en 9.45s
+[2026-08-29 21:24:35.769152] ⚡ Ejecutando: razonador
+[2026-08-29 21:24:42.463628] ✅ razonador completado en 6.69s
+[2026-08-29 21:24:42.464431] 📊 Resumen: 10/10 módulos exitosos en 64.24s
+[2026-08-29 21:24:42.467618] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-29 23:14:30.370452] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-29 23:14:30.375285] ⚡ Ejecutando: autoreparador
+[2026-08-29 23:14:34.085436] ✅ autoreparador completado en 3.71s
+[2026-08-29 23:14:34.086109] ⚡ Ejecutando: gobernador
+[2026-08-29 23:14:53.839147] ✅ gobernador completado en 19.75s
+[2026-08-29 23:14:53.840104] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-29 23:14:54.343450] ✅ evolucionador_red_fractal completado en 0.50s
+[2026-08-29 23:14:54.344327] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-29 23:14:59.340580] ✅ mecanismos_autonomia completado en 4.99s
+[2026-08-29 23:14:59.341616] ⚡ Ejecutando: mecanismos_completos
+[2026-08-29 23:15:18.996940] ✅ mecanismos_completos completado en 19.65s
+[2026-08-29 23:15:18.997734] ⚡ Ejecutando: combate_informacional
+[2026-08-29 23:16:58.312452] ✅ combate_informacional completado en 99.31s
+[2026-08-29 23:16:58.313341] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-29 23:18:58.417264] ⏰ tejido_evolutivo timeout (>120s)
+[2026-08-29 23:18:58.418291] ⚡ Ejecutando: tecnologias_raras
+[2026-08-29 23:18:59.655596] ✅ tecnologias_raras completado en 1.24s
+[2026-08-29 23:18:59.660881] ⚡ Ejecutando: conexiones
+[2026-08-29 23:19:52.442004] ✅ conexiones completado en 52.78s
+[2026-08-29 23:19:52.442493] ⚡ Ejecutando: razonador
+[2026-08-29 23:19:52.614057] ✅ razonador completado en 0.17s
+[2026-08-29 23:19:52.614642] 📊 Resumen: 9/10 módulos exitosos en 322.24s
+[2026-08-29 23:19:52.616970] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 04:51:43.581067] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 04:51:43.582668] ⚡ Ejecutando: autoreparador
+[2026-08-30 04:51:46.558329] ✅ autoreparador completado en 2.98s
+[2026-08-30 04:51:46.558878] ⚡ Ejecutando: gobernador
+[2026-08-30 04:51:53.032460] ✅ gobernador completado en 6.47s
+[2026-08-30 04:51:53.033065] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 04:51:53.457934] ✅ evolucionador_red_fractal completado en 0.42s
+[2026-08-30 04:51:53.458514] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 04:51:57.319559] ✅ mecanismos_autonomia completado en 3.86s
+[2026-08-30 04:51:57.320350] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 04:52:00.755825] ✅ mecanismos_completos completado en 3.43s
+[2026-08-30 04:52:00.756332] ⚡ Ejecutando: combate_informacional
+[2026-08-30 04:52:21.269427] ✅ combate_informacional completado en 20.51s
+[2026-08-30 04:52:21.270778] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 04:52:24.382509] ✅ tejido_evolutivo completado en 3.11s
+[2026-08-30 04:52:24.383019] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 04:52:25.541956] ✅ tecnologias_raras completado en 1.16s
+[2026-08-30 04:52:25.542628] ⚡ Ejecutando: conexiones
+[2026-08-30 04:52:32.317604] ✅ conexiones completado en 6.77s
+[2026-08-30 04:52:32.318386] ⚡ Ejecutando: razonador
+[2026-08-30 04:52:32.544420] ✅ razonador completado en 0.23s
+[2026-08-30 04:52:32.545146] 📊 Resumen: 10/10 módulos exitosos en 48.96s
+[2026-08-30 04:52:32.548035] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 05:28:12.440557] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 05:28:12.444702] ⚡ Ejecutando: autoreparador
+[2026-08-30 05:30:12.547924] ⏰ autoreparador timeout (>120s)
+[2026-08-30 05:30:12.548483] ⚡ Ejecutando: gobernador
+[2026-08-30 05:30:31.539824] ✅ gobernador completado en 18.99s
+[2026-08-30 05:30:31.542075] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 05:30:31.921846] ✅ evolucionador_red_fractal completado en 0.38s
+[2026-08-30 05:30:31.922320] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 05:30:35.591339] ✅ mecanismos_autonomia completado en 3.67s
+[2026-08-30 05:30:35.591821] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 05:30:54.470848] ✅ mecanismos_completos completado en 18.88s
+[2026-08-30 05:30:54.471339] ⚡ Ejecutando: combate_informacional
+[2026-08-30 05:32:30.321378] ✅ combate_informacional completado en 95.85s
+[2026-08-30 05:32:30.322130] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 05:32:38.745685] ✅ tejido_evolutivo completado en 8.42s
+[2026-08-30 05:32:38.746168] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 05:32:39.409709] ✅ tecnologias_raras completado en 0.66s
+[2026-08-30 05:32:39.410304] ⚡ Ejecutando: conexiones
+[2026-08-30 05:33:36.050018] ✅ conexiones completado en 56.64s
+[2026-08-30 05:33:36.050641] ⚡ Ejecutando: razonador
+[2026-08-30 05:33:36.347067] ✅ razonador completado en 0.30s
+[2026-08-30 05:33:36.347507] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 05:34:07.263704] ✅ expansor_tokens completado en 30.92s
+[2026-08-30 05:34:07.264197] ⚡ Ejecutando: validador_recursos
+[2026-08-30 05:36:07.374905] ⏰ validador_recursos timeout (>120s)
+[2026-08-30 05:36:07.375469] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 05:38:07.481287] ⏰ integrador_recursos timeout (>120s)
+[2026-08-30 05:38:07.482139] 📊 Resumen: 10/13 módulos exitosos en 595.04s
+[2026-08-30 05:38:07.484848] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 05:57:13.645289] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 05:57:13.649838] ⚡ Ejecutando: autoreparador
+[2026-08-30 05:57:14.058665] ✅ autoreparador completado en 0.41s
+[2026-08-30 05:57:14.059152] ⚡ Ejecutando: gobernador
+[2026-08-30 05:57:33.014691] ✅ gobernador completado en 18.95s
+[2026-08-30 05:57:33.015514] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 05:57:33.425925] ✅ evolucionador_red_fractal completado en 0.41s
+[2026-08-30 05:57:33.426447] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 05:57:37.211773] ✅ mecanismos_autonomia completado en 3.78s
+[2026-08-30 05:57:37.212660] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 05:57:56.119488] ✅ mecanismos_completos completado en 18.91s
+[2026-08-30 05:57:56.120503] ⚡ Ejecutando: combate_informacional
+[2026-08-30 05:59:32.342522] ✅ combate_informacional completado en 96.22s
+[2026-08-30 05:59:32.343068] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 05:59:35.176318] ✅ tejido_evolutivo completado en 2.83s
+[2026-08-30 05:59:35.176812] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 05:59:35.821004] ✅ tecnologias_raras completado en 0.64s
+[2026-08-30 05:59:35.821507] ⚡ Ejecutando: conexiones
+[2026-08-30 06:00:35.457887] ✅ conexiones completado en 59.64s
+[2026-08-30 06:00:35.458396] ⚡ Ejecutando: razonador
+[2026-08-30 06:00:35.740733] ✅ razonador completado en 0.28s
+[2026-08-30 06:00:35.741202] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 06:01:04.504958] ✅ expansor_tokens completado en 28.76s
+[2026-08-30 06:01:04.505472] ⚡ Ejecutando: validador_recursos
+[2026-08-30 06:01:35.293364] ✅ validador_recursos completado en 30.79s
+[2026-08-30 06:01:35.293995] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 06:01:35.712057] ✅ integrador_recursos completado en 0.42s
+[2026-08-30 06:01:35.712649] 📊 Resumen: 13/13 módulos exitosos en 262.06s
+[2026-08-30 06:01:35.714846] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 06:28:08.419979] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 06:28:08.420591] ⚡ Ejecutando: autoreparador
+[2026-08-30 06:28:08.839508] ✅ autoreparador completado en 0.42s
+[2026-08-30 06:28:08.840999] ⚡ Ejecutando: gobernador
+[2026-08-30 06:28:27.787065] ✅ gobernador completado en 18.95s
+[2026-08-30 06:28:27.787863] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 06:28:28.169169] ✅ evolucionador_red_fractal completado en 0.38s
+[2026-08-30 06:28:28.169732] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 06:28:31.846235] ✅ mecanismos_autonomia completado en 3.68s
+[2026-08-30 06:28:31.846724] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 06:28:50.821067] ✅ mecanismos_completos completado en 18.97s
+[2026-08-30 06:28:50.821587] ⚡ Ejecutando: combate_informacional
+[2026-08-30 06:30:25.329446] ✅ combate_informacional completado en 94.51s
+[2026-08-30 06:30:25.369288] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 06:30:31.511199] ✅ tejido_evolutivo completado en 6.14s
+[2026-08-30 06:30:31.512516] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 06:30:33.927304] ✅ tecnologias_raras completado en 2.41s
+[2026-08-30 06:30:33.928569] ⚡ Ejecutando: conexiones
+[2026-08-30 06:30:42.816349] ✅ conexiones completado en 8.89s
+[2026-08-30 06:30:42.818360] ⚡ Ejecutando: razonador
+[2026-08-30 06:30:43.127993] ✅ razonador completado en 0.31s
+[2026-08-30 06:30:43.128450] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 06:31:29.967999] ✅ expansor_tokens completado en 46.84s
+[2026-08-30 06:31:29.968837] ⚡ Ejecutando: validador_recursos
+[2026-08-30 06:31:40.857063] ✅ validador_recursos completado en 10.89s
+[2026-08-30 06:31:40.857701] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 06:31:41.350835] ✅ integrador_recursos completado en 0.49s
+[2026-08-30 06:31:41.351869] 📊 Resumen: 13/13 módulos exitosos en 212.93s
+[2026-08-30 06:31:41.356883] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 06:35:02.379263] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 06:35:02.380017] ⚡ Ejecutando: autoreparador
+[2026-08-30 06:35:02.802016] ✅ autoreparador completado en 0.42s
+[2026-08-30 06:35:02.802599] ⚡ Ejecutando: gobernador
+[2026-08-30 06:35:10.638870] ✅ gobernador completado en 7.84s
+[2026-08-30 06:35:10.639382] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 06:35:11.087216] ✅ evolucionador_red_fractal completado en 0.45s
+[2026-08-30 06:35:11.087841] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 06:35:15.289836] ✅ mecanismos_autonomia completado en 4.20s
+[2026-08-30 06:35:15.290476] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 06:35:18.992240] ✅ mecanismos_completos completado en 3.70s
+[2026-08-30 06:35:18.993181] ⚡ Ejecutando: combate_informacional
+[2026-08-30 06:35:25.230577] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 06:35:25.231383] ⚡ Ejecutando: autoreparador
+[2026-08-30 06:35:25.666360] ✅ autoreparador completado en 0.43s
+[2026-08-30 06:35:25.666866] ⚡ Ejecutando: gobernador
+[2026-08-30 06:35:32.171131] ✅ gobernador completado en 6.50s
+[2026-08-30 06:35:32.171778] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 06:35:32.551235] ✅ evolucionador_red_fractal completado en 0.38s
+[2026-08-30 06:35:32.551699] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 06:35:36.466772] ✅ mecanismos_autonomia completado en 3.91s
+[2026-08-30 06:35:36.467323] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 06:35:39.688184] ✅ combate_informacional completado en 20.69s
+[2026-08-30 06:35:39.688708] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 06:35:40.241544] ✅ mecanismos_completos completado en 3.77s
+[2026-08-30 06:35:40.242116] ⚡ Ejecutando: combate_informacional
+[2026-08-30 06:35:42.356383] ✅ tejido_evolutivo completado en 2.67s
+[2026-08-30 06:35:42.356940] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 06:35:43.095765] ✅ tecnologias_raras completado en 0.74s
+[2026-08-30 06:35:43.096354] ⚡ Ejecutando: conexiones
+[2026-08-30 06:35:49.595951] ✅ conexiones completado en 6.50s
+[2026-08-30 06:35:49.596591] ⚡ Ejecutando: claude_bridge
+[2026-08-30 06:35:52.728648] ✅ claude_bridge completado en 3.13s
+[2026-08-30 06:35:52.729366] ⚡ Ejecutando: razonador
+[2026-08-30 06:35:53.120999] ✅ razonador completado en 0.39s
+[2026-08-30 06:35:53.122104] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 06:36:00.819511] ✅ combate_informacional completado en 20.58s
+[2026-08-30 06:36:00.820543] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 06:36:04.519796] ✅ tejido_evolutivo completado en 3.70s
+[2026-08-30 06:36:04.520556] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 06:36:05.355488] ✅ tecnologias_raras completado en 0.83s
+[2026-08-30 06:36:05.356216] ⚡ Ejecutando: conexiones
+[2026-08-30 06:36:12.911414] ✅ conexiones completado en 7.55s
+[2026-08-30 06:36:12.912000] ⚡ Ejecutando: claude_bridge
+[2026-08-30 06:36:16.579639] ✅ claude_bridge completado en 3.67s
+[2026-08-30 06:36:16.580400] ⚡ Ejecutando: razonador
+[2026-08-30 06:36:16.947018] ✅ razonador completado en 0.37s
+[2026-08-30 06:36:16.948405] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 06:36:30.365109] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 06:36:30.365807] ⚡ Ejecutando: autoreparador
+[2026-08-30 06:36:30.898151] ✅ autoreparador completado en 0.53s
+[2026-08-30 06:36:30.899104] ⚡ Ejecutando: gobernador
+[2026-08-30 06:36:39.314706] ✅ gobernador completado en 8.41s
+[2026-08-30 06:36:39.315288] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 06:36:39.735469] ✅ evolucionador_red_fractal completado en 0.42s
+[2026-08-30 06:36:39.736085] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 06:36:44.203402] ✅ mecanismos_autonomia completado en 4.47s
+[2026-08-30 06:36:44.204411] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 06:36:45.396362] ✅ expansor_tokens completado en 52.27s
+[2026-08-30 06:36:45.397119] ⚡ Ejecutando: validador_recursos
+[2026-08-30 06:36:47.868388] ✅ mecanismos_completos completado en 3.66s
+[2026-08-30 06:36:47.869298] ⚡ Ejecutando: combate_informacional
+[2026-08-30 06:36:55.005586] ✅ validador_recursos completado en 9.61s
+[2026-08-30 06:36:55.006321] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 06:36:55.413043] ✅ integrador_recursos completado en 0.41s
+[2026-08-30 06:36:55.413685] 📊 Resumen: 14/14 módulos exitosos en 113.03s
+[2026-08-30 06:36:55.416154] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 06:36:55.766506] ✅ expansor_tokens completado en 38.82s
+[2026-08-30 06:36:55.767267] ⚡ Ejecutando: validador_recursos
+[2026-08-30 06:37:02.752624] ✅ validador_recursos completado en 6.98s
+[2026-08-30 06:37:02.753221] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 06:37:03.153622] ✅ integrador_recursos completado en 0.40s
+[2026-08-30 06:37:03.154370] 📊 Resumen: 14/14 módulos exitosos en 97.92s
+[2026-08-30 06:37:03.157286] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 06:37:08.193784] ✅ combate_informacional completado en 20.32s
+[2026-08-30 06:37:08.194304] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 06:37:11.084926] ✅ tejido_evolutivo completado en 2.89s
+[2026-08-30 06:37:11.085630] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 06:37:11.810522] ✅ tecnologias_raras completado en 0.72s
+[2026-08-30 06:37:11.811027] ⚡ Ejecutando: conexiones
+[2026-08-30 06:37:18.735507] ✅ conexiones completado en 6.92s
+[2026-08-30 06:37:18.735996] ⚡ Ejecutando: claude_bridge
+[2026-08-30 06:37:21.643274] ✅ claude_bridge completado en 2.91s
+[2026-08-30 06:37:21.643806] ⚡ Ejecutando: razonador
+[2026-08-30 06:37:21.947432] ✅ razonador completado en 0.30s
+[2026-08-30 06:37:21.947966] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 06:37:53.026787] ✅ expansor_tokens completado en 31.08s
+[2026-08-30 06:37:53.027387] ⚡ Ejecutando: validador_recursos
+[2026-08-30 06:37:59.964562] ✅ validador_recursos completado en 6.94s
+[2026-08-30 06:37:59.965192] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 06:38:00.434492] ✅ integrador_recursos completado en 0.47s
+[2026-08-30 06:38:00.435176] 📊 Resumen: 14/14 módulos exitosos en 90.07s
+[2026-08-30 06:38:00.437954] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 06:49:45.995525] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 06:49:45.996268] ⚡ Ejecutando: autoreparador
+[2026-08-30 06:49:46.436171] ✅ autoreparador completado en 0.44s
+[2026-08-30 06:49:46.436701] ⚡ Ejecutando: gobernador
+[2026-08-30 06:49:53.678279] ✅ gobernador completado en 7.24s
+[2026-08-30 06:49:53.678938] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 06:49:54.107127] ✅ evolucionador_red_fractal completado en 0.43s
+[2026-08-30 06:49:54.107603] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 06:49:57.927494] ✅ mecanismos_autonomia completado en 3.82s
+[2026-08-30 06:49:57.928092] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 06:50:03.123682] ✅ mecanismos_completos completado en 5.20s
+[2026-08-30 06:50:03.124752] ⚡ Ejecutando: combate_informacional
+[2026-08-30 06:50:24.455914] ✅ combate_informacional completado en 21.33s
+[2026-08-30 06:50:24.456664] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 06:50:28.789092] ✅ tejido_evolutivo completado en 4.33s
+[2026-08-30 06:50:28.789958] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 06:50:29.726632] ✅ tecnologias_raras completado en 0.94s
+[2026-08-30 06:50:29.727499] ⚡ Ejecutando: conexiones
+[2026-08-30 06:50:38.923752] ✅ conexiones completado en 9.20s
+[2026-08-30 06:50:38.924428] ⚡ Ejecutando: claude_bridge
+[2026-08-30 06:50:43.072439] ✅ claude_bridge completado en 4.15s
+[2026-08-30 06:50:43.073170] ⚡ Ejecutando: razonador
+[2026-08-30 06:50:43.482484] ✅ razonador completado en 0.41s
+[2026-08-30 06:50:43.483358] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 06:50:50.629772] ✅ razonador_fallback completado en 7.14s
+[2026-08-30 06:50:50.630680] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 06:51:30.704337] ✅ expansor_tokens completado en 40.07s
+[2026-08-30 06:51:30.704836] ⚡ Ejecutando: validador_recursos
+[2026-08-30 06:51:41.140851] ✅ validador_recursos completado en 10.44s
+[2026-08-30 06:51:41.141415] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 06:51:41.513741] ✅ integrador_recursos completado en 0.37s
+[2026-08-30 06:51:41.514424] 📊 Resumen: 15/15 módulos exitosos en 115.52s
+[2026-08-30 06:51:41.517188] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 06:54:57.389470] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 06:54:57.390182] ⚡ Ejecutando: autoreparador
+[2026-08-30 06:54:57.806655] ✅ autoreparador completado en 0.42s
+[2026-08-30 06:54:57.807329] ⚡ Ejecutando: gobernador
+[2026-08-30 06:55:05.842949] ✅ gobernador completado en 8.04s
+[2026-08-30 06:55:05.843459] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 06:55:06.243320] ✅ evolucionador_red_fractal completado en 0.40s
+[2026-08-30 06:55:06.243780] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 06:55:09.885219] ✅ mecanismos_autonomia completado en 3.64s
+[2026-08-30 06:55:09.885765] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 06:55:13.233952] ✅ mecanismos_completos completado en 3.35s
+[2026-08-30 06:55:13.234455] ⚡ Ejecutando: combate_informacional
+[2026-08-30 06:55:34.678655] ✅ combate_informacional completado en 21.44s
+[2026-08-30 06:55:34.682078] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 06:55:38.096127] ✅ tejido_evolutivo completado en 3.41s
+[2026-08-30 06:55:38.096866] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 06:55:38.834346] ✅ tecnologias_raras completado en 0.74s
+[2026-08-30 06:55:38.835127] ⚡ Ejecutando: conexiones
+[2026-08-30 06:55:44.868488] ✅ conexiones completado en 6.03s
+[2026-08-30 06:55:44.868986] ⚡ Ejecutando: claude_bridge
+[2026-08-30 06:55:47.607137] ✅ claude_bridge completado en 2.74s
+[2026-08-30 06:55:47.607636] ⚡ Ejecutando: razonador
+[2026-08-30 06:55:47.917867] ✅ razonador completado en 0.31s
+[2026-08-30 06:55:47.918431] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 06:55:54.527013] ✅ razonador_fallback completado en 6.61s
+[2026-08-30 06:55:54.527509] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 06:56:25.345742] ✅ expansor_tokens completado en 30.82s
+[2026-08-30 06:56:25.346240] ⚡ Ejecutando: validador_recursos
+[2026-08-30 06:56:34.850830] ✅ validador_recursos completado en 9.50s
+[2026-08-30 06:56:34.851638] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 06:56:35.293801] ✅ integrador_recursos completado en 0.44s
+[2026-08-30 06:56:35.294298] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 06:56:50.732992] ✅ expansor_dominio completado en 15.44s
+[2026-08-30 06:56:50.733597] 📊 Resumen: 16/16 módulos exitosos en 113.34s
+[2026-08-30 06:56:50.736015] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 06:58:18.800137] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 06:58:18.801087] ⚡ Ejecutando: autoreparador
+[2026-08-30 06:58:19.325284] ✅ autoreparador completado en 0.52s
+[2026-08-30 06:58:19.326181] ⚡ Ejecutando: gobernador
+[2026-08-30 06:58:27.740209] ✅ gobernador completado en 8.41s
+[2026-08-30 06:58:27.740803] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 06:58:28.132615] ✅ evolucionador_red_fractal completado en 0.39s
+[2026-08-30 06:58:28.133229] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 06:58:32.360018] ✅ mecanismos_autonomia completado en 4.23s
+[2026-08-30 06:58:32.360716] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 06:58:35.864451] ✅ mecanismos_completos completado en 3.50s
+[2026-08-30 06:58:35.865036] ⚡ Ejecutando: combate_informacional
+[2026-08-30 06:58:58.032236] ✅ combate_informacional completado en 22.17s
+[2026-08-30 06:58:58.034320] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 06:59:01.258087] ✅ tejido_evolutivo completado en 3.22s
+[2026-08-30 06:59:01.258594] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 06:59:01.921308] ✅ tecnologias_raras completado en 0.66s
+[2026-08-30 06:59:01.921793] ⚡ Ejecutando: conexiones
+[2026-08-30 06:59:08.791295] ✅ conexiones completado en 6.87s
+[2026-08-30 06:59:08.792913] ⚡ Ejecutando: claude_bridge
+[2026-08-30 06:59:12.614177] ✅ claude_bridge completado en 3.82s
+[2026-08-30 06:59:12.614698] ⚡ Ejecutando: razonador
+[2026-08-30 06:59:12.958108] ✅ razonador completado en 0.34s
+[2026-08-30 06:59:12.958626] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 06:59:19.646640] ✅ razonador_fallback completado en 6.69s
+[2026-08-30 06:59:19.647180] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 06:59:55.114395] ✅ expansor_tokens completado en 35.47s
+[2026-08-30 06:59:55.115259] ⚡ Ejecutando: validador_recursos
+[2026-08-30 07:00:07.292723] ✅ validador_recursos completado en 12.18s
+[2026-08-30 07:00:07.293733] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 07:00:07.792696] ✅ integrador_recursos completado en 0.50s
+[2026-08-30 07:00:07.793436] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 07:00:11.104654] ✅ expansor_dominio completado en 3.31s
+[2026-08-30 07:00:11.105543] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 07:00:38.922265] ✅ cazador_recursos completado en 27.82s
+[2026-08-30 07:00:38.923096] 📊 Resumen: 17/17 módulos exitosos en 140.12s
+[2026-08-30 07:00:38.926609] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 07:04:04.277406] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 07:04:04.278456] ⚡ Ejecutando: autoreparador
+[2026-08-30 07:04:04.785445] ✅ autoreparador completado en 0.51s
+[2026-08-30 07:04:04.786132] ⚡ Ejecutando: gobernador
+[2026-08-30 07:04:14.166132] ✅ gobernador completado en 9.38s
+[2026-08-30 07:04:14.166826] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 07:04:14.538688] ✅ evolucionador_red_fractal completado en 0.37s
+[2026-08-30 07:04:14.539167] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 07:04:18.590019] ✅ mecanismos_autonomia completado en 4.05s
+[2026-08-30 07:04:18.590785] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 07:04:22.786006] ✅ mecanismos_completos completado en 4.19s
+[2026-08-30 07:04:22.786526] ⚡ Ejecutando: combate_informacional
+[2026-08-30 07:04:46.081256] ✅ combate_informacional completado en 23.29s
+[2026-08-30 07:04:46.081744] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 07:04:48.948144] ✅ tejido_evolutivo completado en 2.87s
+[2026-08-30 07:04:48.948620] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 07:04:49.653832] ✅ tecnologias_raras completado en 0.70s
+[2026-08-30 07:04:49.654317] ⚡ Ejecutando: conexiones
+[2026-08-30 07:04:55.820579] ✅ conexiones completado en 6.17s
+[2026-08-30 07:04:55.821082] ⚡ Ejecutando: claude_bridge
+[2026-08-30 07:04:59.102376] ✅ claude_bridge completado en 3.28s
+[2026-08-30 07:04:59.102887] ⚡ Ejecutando: razonador
+[2026-08-30 07:04:59.429857] ✅ razonador completado en 0.33s
+[2026-08-30 07:04:59.430471] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 07:05:07.224924] ✅ razonador_fallback completado en 7.79s
+[2026-08-30 07:05:07.225750] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 07:05:42.246217] ✅ expansor_tokens completado en 35.02s
+[2026-08-30 07:05:42.247116] ⚡ Ejecutando: validador_recursos
+[2026-08-30 07:05:52.667283] ✅ validador_recursos completado en 10.42s
+[2026-08-30 07:05:52.667910] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 07:05:53.112309] ✅ integrador_recursos completado en 0.44s
+[2026-08-30 07:05:53.112887] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 07:05:59.259753] ✅ expansor_dominio completado en 6.15s
+[2026-08-30 07:05:59.260931] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 07:06:29.230327] ✅ cazador_recursos completado en 29.97s
+[2026-08-30 07:06:29.231142] ⚡ Ejecutando: consciencia
+[2026-08-30 07:06:30.342463] ✅ consciencia completado en 1.11s
+[2026-08-30 07:06:30.343609] 📊 Resumen: 18/18 módulos exitosos en 146.07s
+[2026-08-30 07:06:30.346939] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 07:13:32.883631] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 07:13:32.884688] ⚡ Ejecutando: autoreparador
+[2026-08-30 07:13:33.451457] ✅ autoreparador completado en 0.57s
+[2026-08-30 07:13:33.452634] ⚡ Ejecutando: gobernador
+[2026-08-30 07:13:41.422639] ✅ gobernador completado en 7.97s
+[2026-08-30 07:13:41.423149] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 07:13:41.809531] ✅ evolucionador_red_fractal completado en 0.39s
+[2026-08-30 07:13:41.811339] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 07:13:46.282727] ✅ mecanismos_autonomia completado en 4.47s
+[2026-08-30 07:13:46.283381] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 07:13:50.128164] ✅ mecanismos_completos completado en 3.84s
+[2026-08-30 07:13:50.128735] ⚡ Ejecutando: combate_informacional
+[2026-08-30 07:14:14.551603] ✅ combate_informacional completado en 24.42s
+[2026-08-30 07:14:14.552492] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 07:14:18.824623] ✅ tejido_evolutivo completado en 4.27s
+[2026-08-30 07:14:18.825519] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 07:14:19.576824] ✅ tecnologias_raras completado en 0.75s
+[2026-08-30 07:14:19.577434] ⚡ Ejecutando: conexiones
+[2026-08-30 07:14:25.591438] ✅ conexiones completado en 6.01s
+[2026-08-30 07:14:25.591930] ⚡ Ejecutando: claude_bridge
+[2026-08-30 07:14:28.915241] ✅ claude_bridge completado en 3.32s
+[2026-08-30 07:14:28.916038] ⚡ Ejecutando: razonador
+[2026-08-30 07:14:29.238133] ✅ razonador completado en 0.32s
+[2026-08-30 07:14:29.238607] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 07:14:36.029715] ✅ razonador_fallback completado en 6.79s
+[2026-08-30 07:14:36.030381] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 07:15:19.785185] ✅ expansor_tokens completado en 43.75s
+[2026-08-30 07:15:19.785708] ⚡ Ejecutando: validador_recursos
+[2026-08-30 07:15:31.093960] ✅ validador_recursos completado en 11.31s
+[2026-08-30 07:15:31.094531] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 07:15:31.461514] ✅ integrador_recursos completado en 0.37s
+[2026-08-30 07:15:31.462006] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 07:15:34.806844] ✅ expansor_dominio completado en 3.34s
+[2026-08-30 07:15:34.807545] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 07:16:02.434163] ✅ cazador_recursos completado en 27.63s
+[2026-08-30 07:16:02.434666] ⚡ Ejecutando: consciencia
+[2026-08-30 07:16:03.408788] ✅ consciencia completado en 0.97s
+[2026-08-30 07:16:03.409306] ⚡ Ejecutando: bus_local
+[2026-08-30 07:16:03.950988] ❌ bus_local falló (código 1)
+[2026-08-30 07:16:03.951642] ⚡ Ejecutando: fruto_mda
+[2026-08-30 07:16:04.373493] ✅ fruto_mda completado en 0.42s
+[2026-08-30 07:16:04.374134] 📊 Resumen: 19/20 módulos exitosos en 151.49s
+[2026-08-30 07:16:04.376865] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 07:18:09.015836] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 07:18:09.016893] ⚡ Ejecutando: autoreparador
+[2026-08-30 07:18:09.644636] ✅ autoreparador completado en 0.63s
+[2026-08-30 07:18:09.645416] ⚡ Ejecutando: gobernador
+[2026-08-30 07:18:17.987843] ✅ gobernador completado en 8.34s
+[2026-08-30 07:18:17.988646] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 07:18:18.507154] ✅ evolucionador_red_fractal completado en 0.52s
+[2026-08-30 07:18:18.507966] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 07:18:23.367420] ✅ mecanismos_autonomia completado en 4.86s
+[2026-08-30 07:18:23.368228] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 07:18:27.314631] ✅ mecanismos_completos completado en 3.95s
+[2026-08-30 07:18:27.315544] ⚡ Ejecutando: combate_informacional
+[2026-08-30 07:18:49.509527] ✅ combate_informacional completado en 22.19s
+[2026-08-30 07:18:49.510338] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 07:18:53.155991] ✅ tejido_evolutivo completado en 3.64s
+[2026-08-30 07:18:53.156603] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 07:18:53.963474] ✅ tecnologias_raras completado en 0.81s
+[2026-08-30 07:18:53.964189] ⚡ Ejecutando: conexiones
+[2026-08-30 07:19:01.505162] ✅ conexiones completado en 7.54s
+[2026-08-30 07:19:01.505883] ⚡ Ejecutando: claude_bridge
+[2026-08-30 07:19:05.784297] ✅ claude_bridge completado en 4.28s
+[2026-08-30 07:19:05.785064] ⚡ Ejecutando: razonador
+[2026-08-30 07:19:06.178308] ✅ razonador completado en 0.39s
+[2026-08-30 07:19:06.178914] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 07:19:13.421429] ✅ razonador_fallback completado en 7.24s
+[2026-08-30 07:19:13.422169] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 07:19:50.287564] ✅ expansor_tokens completado en 36.86s
+[2026-08-30 07:19:50.288561] ⚡ Ejecutando: validador_recursos
+[2026-08-30 07:19:59.621164] ✅ validador_recursos completado en 9.33s
+[2026-08-30 07:19:59.621829] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 07:20:00.076427] ✅ integrador_recursos completado en 0.45s
+[2026-08-30 07:20:00.077111] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 07:20:07.822651] ✅ expansor_dominio completado en 7.75s
+[2026-08-30 07:20:07.823153] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 07:20:33.046851] ✅ cazador_recursos completado en 25.22s
+[2026-08-30 07:20:33.047662] ⚡ Ejecutando: consciencia
+[2026-08-30 07:20:34.132689] ✅ consciencia completado en 1.08s
+[2026-08-30 07:20:34.133261] ⚡ Ejecutando: bus_local_corregido
+[2026-08-30 07:20:34.680684] ❌ bus_local_corregido falló (código 1)
+[2026-08-30 07:20:34.681157] ⚡ Ejecutando: fruto_mda
+[2026-08-30 07:20:35.187539] ✅ fruto_mda completado en 0.51s
+[2026-08-30 07:20:35.188305] ⚡ Ejecutando: retroalimentacion
+[2026-08-30 07:20:42.685066] ✅ retroalimentacion completado en 7.50s
+[2026-08-30 07:20:42.686150] 📊 Resumen: 20/21 módulos exitosos en 153.67s
+[2026-08-30 07:20:42.689610] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 07:23:52.893097] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 07:23:52.893753] ⚡ Ejecutando: autoreparador
+[2026-08-30 07:23:53.352526] ✅ autoreparador completado en 0.46s
+[2026-08-30 07:23:53.353036] ⚡ Ejecutando: gobernador
+[2026-08-30 07:24:01.115568] ✅ gobernador completado en 7.76s
+[2026-08-30 07:24:01.116109] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 07:24:01.552916] ✅ evolucionador_red_fractal completado en 0.44s
+[2026-08-30 07:24:01.553557] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 07:24:05.449549] ✅ mecanismos_autonomia completado en 3.90s
+[2026-08-30 07:24:05.450290] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 07:24:08.861741] ✅ mecanismos_completos completado en 3.41s
+[2026-08-30 07:24:08.862584] ⚡ Ejecutando: combate_informacional
+[2026-08-30 07:24:30.614759] ✅ combate_informacional completado en 21.75s
+[2026-08-30 07:24:30.615271] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 07:24:33.150231] ✅ tejido_evolutivo completado en 2.53s
+[2026-08-30 07:24:33.150917] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 07:24:33.888004] ✅ tecnologias_raras completado en 0.74s
+[2026-08-30 07:24:33.888691] ⚡ Ejecutando: conexiones
+[2026-08-30 07:24:41.208938] ✅ conexiones completado en 7.32s
+[2026-08-30 07:24:41.209933] ⚡ Ejecutando: claude_bridge
+[2026-08-30 07:24:45.082580] ✅ claude_bridge completado en 3.87s
+[2026-08-30 07:24:45.083224] ⚡ Ejecutando: razonador
+[2026-08-30 07:24:45.461456] ✅ razonador completado en 0.38s
+[2026-08-30 07:24:45.462087] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 07:24:51.518108] ✅ razonador_fallback completado en 6.06s
+[2026-08-30 07:24:51.519100] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 07:25:38.543930] ✅ expansor_tokens completado en 47.02s
+[2026-08-30 07:25:38.544590] ⚡ Ejecutando: validador_recursos
+[2026-08-30 07:25:50.024158] ✅ validador_recursos completado en 11.48s
+[2026-08-30 07:25:50.024840] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 07:25:50.462449] ✅ integrador_recursos completado en 0.44s
+[2026-08-30 07:25:50.463212] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 07:25:59.170438] ✅ expansor_dominio completado en 8.71s
+[2026-08-30 07:25:59.170940] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 07:26:26.516980] ✅ cazador_recursos completado en 27.35s
+[2026-08-30 07:26:26.517548] ⚡ Ejecutando: consciencia
+[2026-08-30 07:26:27.523344] ✅ consciencia completado en 1.01s
+[2026-08-30 07:26:27.524485] ⚡ Ejecutando: bus_local_corregido
+[2026-08-30 07:26:27.871658] ✅ bus_local_corregido completado en 0.35s
+[2026-08-30 07:26:27.872170] ⚡ Ejecutando: fruto_mda
+[2026-08-30 07:26:28.329946] ✅ fruto_mda completado en 0.46s
+[2026-08-30 07:26:28.330755] ⚡ Ejecutando: retroalimentacion
+[2026-08-30 07:26:35.402349] ✅ retroalimentacion completado en 7.07s
+[2026-08-30 07:26:35.403052] ⚡ Ejecutando: fruto_ecm
+[2026-08-30 07:26:35.798984] ✅ fruto_ecm completado en 0.40s
+[2026-08-30 07:26:35.799745] 📊 Resumen: 22/22 módulos exitosos en 162.91s
+[2026-08-30 07:26:35.803201] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 07:45:11.546487] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 07:45:11.548006] ⚡ Ejecutando: autoreparador
+[2026-08-30 07:45:11.968502] ✅ autoreparador completado en 0.42s
+[2026-08-30 07:45:11.968990] ⚡ Ejecutando: gobernador
+[2026-08-30 07:45:20.575450] ✅ gobernador completado en 8.61s
+[2026-08-30 07:45:20.576691] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 07:45:21.094610] ✅ evolucionador_red_fractal completado en 0.52s
+[2026-08-30 07:45:21.095396] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 07:45:26.417964] ✅ mecanismos_autonomia completado en 5.32s
+[2026-08-30 07:45:26.418941] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 07:45:31.106603] ✅ mecanismos_completos completado en 4.69s
+[2026-08-30 07:45:31.107933] ⚡ Ejecutando: combate_informacional
+[2026-08-30 07:45:56.809367] ✅ combate_informacional completado en 25.70s
+[2026-08-30 07:45:56.810610] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 07:46:01.467341] ✅ tejido_evolutivo completado en 4.66s
+[2026-08-30 07:46:01.469029] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 07:46:02.670989] ✅ tecnologias_raras completado en 1.20s
+[2026-08-30 07:46:02.671906] ⚡ Ejecutando: conexiones
+[2026-08-30 07:46:11.791842] ✅ conexiones completado en 9.12s
+[2026-08-30 07:46:11.792820] ⚡ Ejecutando: claude_bridge
+[2026-08-30 07:46:14.874062] ✅ claude_bridge completado en 3.08s
+[2026-08-30 07:46:14.874555] ⚡ Ejecutando: razonador
+[2026-08-30 07:46:15.176301] ✅ razonador completado en 0.30s
+[2026-08-30 07:46:15.176774] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 07:46:21.862836] ✅ razonador_fallback completado en 6.69s
+[2026-08-30 07:46:21.863805] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 07:47:19.562334] ✅ expansor_tokens completado en 57.70s
+[2026-08-30 07:47:19.569298] ⚡ Ejecutando: validador_recursos
+[2026-08-30 07:47:29.754392] ✅ validador_recursos completado en 10.18s
+[2026-08-30 07:47:29.755148] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 07:47:30.247845] ✅ integrador_recursos completado en 0.49s
+[2026-08-30 07:47:30.248385] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 07:47:38.099173] ✅ expansor_dominio completado en 7.85s
+[2026-08-30 07:47:38.100094] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 07:48:11.962692] ✅ cazador_recursos completado en 33.86s
+[2026-08-30 07:48:11.967156] ⚡ Ejecutando: consciencia
+[2026-08-30 07:48:12.994099] ✅ consciencia completado en 1.03s
+[2026-08-30 07:48:12.994590] ⚡ Ejecutando: bus_local_corregido
+[2026-08-30 07:48:13.323166] ✅ bus_local_corregido completado en 0.33s
+[2026-08-30 07:48:13.323651] ⚡ Ejecutando: fruto_mda
+[2026-08-30 07:48:13.779042] ✅ fruto_mda completado en 0.45s
+[2026-08-30 07:48:13.779620] ⚡ Ejecutando: retroalimentacion
+[2026-08-30 07:48:20.865135] ✅ retroalimentacion completado en 7.09s
+[2026-08-30 07:48:20.865629] ⚡ Ejecutando: fruto_ecm
+[2026-08-30 07:48:21.271459] ✅ fruto_ecm completado en 0.41s
+[2026-08-30 07:48:21.272357] 📊 Resumen: 22/22 módulos exitosos en 189.72s
+[2026-08-30 07:48:21.278822] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 08:19:19.281339] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 08:19:19.282809] ⚡ Ejecutando: autoreparador
+[2026-08-30 08:19:19.727503] ✅ autoreparador completado en 0.44s
+[2026-08-30 08:19:19.728056] ⚡ Ejecutando: gobernador
+[2026-08-30 08:19:27.855665] ✅ gobernador completado en 8.13s
+[2026-08-30 08:19:27.856196] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 08:19:28.312973] ✅ evolucionador_red_fractal completado en 0.46s
+[2026-08-30 08:19:28.313922] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 08:19:32.649299] ✅ mecanismos_autonomia completado en 4.33s
+[2026-08-30 08:19:32.649801] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 08:19:36.377204] ✅ mecanismos_completos completado en 3.73s
+[2026-08-30 08:19:36.377895] ⚡ Ejecutando: combate_informacional
+[2026-08-30 08:19:58.699442] ✅ combate_informacional completado en 22.32s
+[2026-08-30 08:19:58.700017] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 08:20:01.651822] ✅ tejido_evolutivo completado en 2.95s
+[2026-08-30 08:20:01.652367] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 08:20:02.360761] ✅ tecnologias_raras completado en 0.71s
+[2026-08-30 08:20:02.361626] ⚡ Ejecutando: conexiones
+[2026-08-30 08:20:08.644572] ✅ conexiones completado en 6.28s
+[2026-08-30 08:20:08.645132] ⚡ Ejecutando: claude_bridge
+[2026-08-30 08:20:11.701459] ✅ claude_bridge completado en 3.06s
+[2026-08-30 08:20:11.701980] ⚡ Ejecutando: razonador
+[2026-08-30 08:20:12.006063] ✅ razonador completado en 0.30s
+[2026-08-30 08:20:12.006555] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 08:20:19.868142] ✅ razonador_fallback completado en 7.86s
+[2026-08-30 08:20:19.868655] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 08:21:04.159202] ✅ expansor_tokens completado en 44.29s
+[2026-08-30 08:21:04.159854] ⚡ Ejecutando: validador_recursos
+[2026-08-30 08:21:15.062389] ✅ validador_recursos completado en 10.90s
+[2026-08-30 08:21:15.062942] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 08:21:15.467548] ✅ integrador_recursos completado en 0.40s
+[2026-08-30 08:21:15.468175] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 08:21:25.810147] ✅ expansor_dominio completado en 10.34s
+[2026-08-30 08:21:25.811031] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 08:22:00.441097] ✅ cazador_recursos completado en 34.63s
+[2026-08-30 08:22:00.449114] ⚡ Ejecutando: consciencia
+[2026-08-30 08:22:01.978019] ✅ consciencia completado en 1.53s
+[2026-08-30 08:22:01.978537] ⚡ Ejecutando: bus_local_corregido
+[2026-08-30 08:22:02.326387] ✅ bus_local_corregido completado en 0.35s
+[2026-08-30 08:22:02.327121] ⚡ Ejecutando: fruto_mda
+[2026-08-30 08:22:02.961201] ✅ fruto_mda completado en 0.63s
+[2026-08-30 08:22:02.961700] ⚡ Ejecutando: retroalimentacion
+[2026-08-30 08:22:13.146970] ✅ retroalimentacion completado en 10.18s
+[2026-08-30 08:22:13.147946] ⚡ Ejecutando: fruto_ecm
+[2026-08-30 08:22:13.673671] ✅ fruto_ecm completado en 0.52s
+[2026-08-30 08:22:13.675416] 📊 Resumen: 22/22 módulos exitosos en 174.39s
+[2026-08-30 08:22:13.685960] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 08:27:01.012709] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 08:27:01.014117] ⚡ Ejecutando: autoreparador
+[2026-08-30 08:27:01.480153] ✅ autoreparador completado en 0.47s
+[2026-08-30 08:27:01.480689] ⚡ Ejecutando: gobernador
+[2026-08-30 08:27:10.113807] ✅ gobernador completado en 8.63s
+[2026-08-30 08:27:10.114492] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 08:27:10.540688] ✅ evolucionador_red_fractal completado en 0.43s
+[2026-08-30 08:27:10.541154] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 08:27:14.703467] ✅ mecanismos_autonomia completado en 4.16s
+[2026-08-30 08:27:14.704201] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 08:27:20.034837] ✅ mecanismos_completos completado en 5.33s
+[2026-08-30 08:27:20.080316] ⚡ Ejecutando: combate_informacional
+[2026-08-30 08:28:39.597177] ✅ combate_informacional completado en 79.51s
+[2026-08-30 08:28:39.640623] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 08:28:46.451574] ✅ tejido_evolutivo completado en 6.81s
+[2026-08-30 08:28:46.459540] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 08:28:48.154780] ✅ tecnologias_raras completado en 1.67s
+[2026-08-30 08:28:48.155706] ⚡ Ejecutando: conexiones
+[2026-08-30 08:29:01.216821] ✅ conexiones completado en 13.06s
+[2026-08-30 08:29:01.228158] ⚡ Ejecutando: claude_bridge
+[2026-08-30 08:29:11.610559] ✅ claude_bridge completado en 10.38s
+[2026-08-30 08:29:11.650547] ⚡ Ejecutando: razonador
+[2026-08-30 08:29:12.894955] ✅ razonador completado en 1.24s
+[2026-08-30 08:29:12.895797] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 08:29:27.217945] ✅ razonador_fallback completado en 14.32s
+[2026-08-30 08:29:27.296627] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 08:31:07.615385] ✅ expansor_tokens completado en 100.32s
+[2026-08-30 08:31:07.645665] ⚡ Ejecutando: validador_recursos
+[2026-08-30 08:31:25.354296] ✅ validador_recursos completado en 17.71s
+[2026-08-30 08:31:25.391887] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 08:31:26.396345] ✅ integrador_recursos completado en 1.00s
+[2026-08-30 08:31:26.396988] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 08:31:35.927321] ✅ expansor_dominio completado en 9.53s
+[2026-08-30 08:31:36.015327] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 08:32:14.513639] ✅ cazador_recursos completado en 38.50s
+[2026-08-30 08:32:14.519948] ⚡ Ejecutando: consciencia
+[2026-08-30 08:32:16.233409] ✅ consciencia completado en 1.71s
+[2026-08-30 08:32:16.233971] ⚡ Ejecutando: bus_local_corregido
+[2026-08-30 08:32:16.670393] ✅ bus_local_corregido completado en 0.44s
+[2026-08-30 08:32:16.670981] ⚡ Ejecutando: fruto_mda
+[2026-08-30 08:32:17.298689] ✅ fruto_mda completado en 0.63s
+[2026-08-30 08:32:17.299494] ⚡ Ejecutando: retroalimentacion
+[2026-08-30 08:32:28.004054] ✅ retroalimentacion completado en 10.70s
+[2026-08-30 08:32:28.004795] ⚡ Ejecutando: fruto_ecm
+[2026-08-30 08:32:28.494493] ✅ fruto_ecm completado en 0.49s
+[2026-08-30 08:32:28.495599] 📊 Resumen: 22/22 módulos exitosos en 327.48s
+[2026-08-30 08:32:28.500935] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 08:46:06.622487] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 08:46:06.624749] ⚡ Ejecutando: autoreparador
+[2026-08-30 08:46:07.136721] ✅ autoreparador completado en 0.51s
+[2026-08-30 08:46:07.137484] ⚡ Ejecutando: gobernador
+[2026-08-30 08:46:16.538689] ✅ gobernador completado en 9.40s
+[2026-08-30 08:46:16.540018] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 08:46:17.036882] ✅ evolucionador_red_fractal completado en 0.50s
+[2026-08-30 08:46:17.037592] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 08:46:21.764792] ✅ mecanismos_autonomia completado en 4.73s
+[2026-08-30 08:46:21.765642] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 08:46:25.944395] ✅ mecanismos_completos completado en 4.18s
+[2026-08-30 08:46:25.945219] ⚡ Ejecutando: combate_informacional
+[2026-08-30 08:46:50.482116] ✅ combate_informacional completado en 24.54s
+[2026-08-30 08:46:50.484662] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 08:46:56.092246] ✅ tejido_evolutivo completado en 5.61s
+[2026-08-30 08:46:56.093378] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 08:46:56.904962] ✅ tecnologias_raras completado en 0.81s
+[2026-08-30 08:46:56.905568] ⚡ Ejecutando: conexiones
+[2026-08-30 08:47:04.720473] ✅ conexiones completado en 7.81s
+[2026-08-30 08:47:04.724650] ⚡ Ejecutando: claude_bridge
+[2026-08-30 08:47:08.669106] ✅ claude_bridge completado en 3.94s
+[2026-08-30 08:47:08.669692] ⚡ Ejecutando: razonador
+[2026-08-30 08:47:09.025657] ✅ razonador completado en 0.36s
+[2026-08-30 08:47:09.026179] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 08:47:16.371791] ✅ razonador_fallback completado en 7.35s
+[2026-08-30 08:47:16.372504] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 08:47:22.981578] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 08:47:22.982811] ⚡ Ejecutando: autoreparador
+[2026-08-30 08:47:23.510062] ✅ autoreparador completado en 0.53s
+[2026-08-30 08:47:23.510835] ⚡ Ejecutando: gobernador
+[2026-08-30 08:47:33.654529] ✅ gobernador completado en 10.14s
+[2026-08-30 08:47:33.656717] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 08:47:34.679328] ✅ evolucionador_red_fractal completado en 1.02s
+[2026-08-30 08:47:34.680780] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 08:47:43.610171] ✅ mecanismos_autonomia completado en 8.93s
+[2026-08-30 08:47:43.613147] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 08:47:47.466029] ✅ mecanismos_completos completado en 3.85s
+[2026-08-30 08:47:47.466709] ⚡ Ejecutando: combate_informacional
+[2026-08-30 08:48:16.531139] ✅ combate_informacional completado en 29.06s
+[2026-08-30 08:48:16.536721] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 08:48:20.758727] ✅ tejido_evolutivo completado en 4.22s
+[2026-08-30 08:48:20.761539] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 08:48:21.545678] ✅ tecnologias_raras completado en 0.78s
+[2026-08-30 08:48:21.546299] ⚡ Ejecutando: conexiones
+[2026-08-30 08:48:27.992393] ✅ expansor_tokens completado en 71.62s
+[2026-08-30 08:48:27.993240] ⚡ Ejecutando: validador_recursos
+[2026-08-30 08:48:30.358483] ✅ conexiones completado en 8.81s
+[2026-08-30 08:48:30.359032] ⚡ Ejecutando: claude_bridge
+[2026-08-30 08:48:33.414051] ✅ claude_bridge completado en 3.05s
+[2026-08-30 08:48:33.414719] ⚡ Ejecutando: razonador
+[2026-08-30 08:48:33.774591] ✅ razonador completado en 0.36s
+[2026-08-30 08:48:33.775350] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 08:48:40.015272] ✅ validador_recursos completado en 12.02s
+[2026-08-30 08:48:40.033604] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 08:48:40.171619] ✅ razonador_fallback completado en 6.40s
+[2026-08-30 08:48:40.173134] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 08:48:40.742616] ✅ integrador_recursos completado en 0.71s
+[2026-08-30 08:48:40.743273] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 08:48:51.259424] ✅ expansor_dominio completado en 10.52s
+[2026-08-30 08:48:51.260273] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 08:49:21.016378] ✅ cazador_recursos completado en 29.74s
+[2026-08-30 08:49:21.017904] ⚡ Ejecutando: consciencia
+[2026-08-30 08:49:22.430770] ✅ consciencia completado en 1.41s
+[2026-08-30 08:49:22.431353] ⚡ Ejecutando: bus_local_corregido
+[2026-08-30 08:49:22.812232] ✅ bus_local_corregido completado en 0.38s
+[2026-08-30 08:49:22.812840] ⚡ Ejecutando: fruto_mda
+[2026-08-30 08:49:23.281328] ✅ fruto_mda completado en 0.47s
+[2026-08-30 08:49:23.281895] ⚡ Ejecutando: retroalimentacion
+[2026-08-30 08:49:32.256574] ✅ retroalimentacion completado en 8.97s
+[2026-08-30 08:49:32.257305] ⚡ Ejecutando: fruto_ecm
+[2026-08-30 08:49:32.717575] ✅ expansor_tokens completado en 52.54s
+[2026-08-30 08:49:32.718291] ⚡ Ejecutando: validador_recursos
+[2026-08-30 08:49:33.846683] ✅ fruto_ecm completado en 1.59s
+[2026-08-30 08:49:33.847508] 📊 Resumen: 22/22 módulos exitosos en 207.22s
+[2026-08-30 08:49:33.851275] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 08:49:43.147480] ✅ validador_recursos completado en 10.43s
+[2026-08-30 08:49:43.148293] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 08:49:43.560825] ✅ integrador_recursos completado en 0.41s
+[2026-08-30 08:49:43.561449] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 08:49:49.543832] ✅ expansor_dominio completado en 5.98s
+[2026-08-30 08:49:49.544731] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 08:50:22.301314] ✅ cazador_recursos completado en 32.76s
+[2026-08-30 08:50:22.306763] ⚡ Ejecutando: consciencia
+[2026-08-30 08:50:23.728929] ✅ consciencia completado en 1.42s
+[2026-08-30 08:50:23.729584] ⚡ Ejecutando: bus_local_corregido
+[2026-08-30 08:50:24.144014] ✅ bus_local_corregido completado en 0.41s
+[2026-08-30 08:50:24.144593] ⚡ Ejecutando: fruto_mda
+[2026-08-30 08:50:24.734721] ✅ fruto_mda completado en 0.59s
+[2026-08-30 08:50:24.735422] ⚡ Ejecutando: retroalimentacion
+[2026-08-30 08:50:33.964445] ✅ retroalimentacion completado en 9.23s
+[2026-08-30 08:50:33.965524] ⚡ Ejecutando: fruto_ecm
+[2026-08-30 08:50:34.413579] ✅ fruto_ecm completado en 0.45s
+[2026-08-30 08:50:34.414308] 📊 Resumen: 22/22 módulos exitosos en 191.43s
+[2026-08-30 08:50:34.418002] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 09:07:24.682820] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 09:07:24.684699] ⚡ Ejecutando: autoreparador
+[2026-08-30 09:07:25.158547] ✅ autoreparador completado en 0.47s
+[2026-08-30 09:07:25.159183] ⚡ Ejecutando: gobernador
+[2026-08-30 09:07:33.424880] ✅ gobernador completado en 8.27s
+[2026-08-30 09:07:33.425616] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 09:07:33.854953] ✅ evolucionador_red_fractal completado en 0.43s
+[2026-08-30 09:07:33.855528] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 09:07:38.217187] ✅ mecanismos_autonomia completado en 4.36s
+[2026-08-30 09:07:38.217802] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 09:07:42.407597] ✅ mecanismos_completos completado en 4.19s
+[2026-08-30 09:07:42.408292] ⚡ Ejecutando: combate_informacional
+[2026-08-30 09:08:05.926731] ✅ combate_informacional completado en 23.52s
+[2026-08-30 09:08:05.927230] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 09:08:08.969337] ✅ tejido_evolutivo completado en 3.04s
+[2026-08-30 09:08:08.969828] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 09:08:09.762006] ✅ tecnologias_raras completado en 0.79s
+[2026-08-30 09:08:09.762476] ⚡ Ejecutando: conexiones
+[2026-08-30 09:08:17.332269] ✅ conexiones completado en 7.57s
+[2026-08-30 09:08:17.332820] ⚡ Ejecutando: claude_bridge
+[2026-08-30 09:08:20.683648] ✅ claude_bridge completado en 3.35s
+[2026-08-30 09:08:20.684143] ⚡ Ejecutando: razonador
+[2026-08-30 09:08:21.003770] ✅ razonador completado en 0.32s
+[2026-08-30 09:08:21.004344] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 09:08:28.615424] ✅ razonador_fallback completado en 7.61s
+[2026-08-30 09:08:28.615930] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 09:09:15.428515] ✅ expansor_tokens completado en 46.81s
+[2026-08-30 09:09:15.440803] ⚡ Ejecutando: validador_recursos
+[2026-08-30 09:09:26.919842] ✅ validador_recursos completado en 11.48s
+[2026-08-30 09:09:26.926029] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 09:09:27.355724] ✅ integrador_recursos completado en 0.43s
+[2026-08-30 09:09:27.356607] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 09:09:31.689774] ✅ expansor_dominio completado en 4.33s
+[2026-08-30 09:09:31.692332] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 09:10:04.211226] ✅ cazador_recursos completado en 32.52s
+[2026-08-30 09:10:04.212680] ⚡ Ejecutando: consciencia
+[2026-08-30 09:10:05.461585] ✅ consciencia completado en 1.25s
+[2026-08-30 09:10:05.462261] ⚡ Ejecutando: bus_local_corregido
+[2026-08-30 09:10:05.841019] ✅ bus_local_corregido completado en 0.38s
+[2026-08-30 09:10:05.841490] ⚡ Ejecutando: fruto_mda
+[2026-08-30 09:10:06.288938] ✅ fruto_mda completado en 0.45s
+[2026-08-30 09:10:06.289419] ⚡ Ejecutando: retroalimentacion
+[2026-08-30 09:10:13.730274] ✅ retroalimentacion completado en 7.44s
+[2026-08-30 09:10:13.730830] ⚡ Ejecutando: fruto_ecm
+[2026-08-30 09:10:14.142317] ✅ fruto_ecm completado en 0.41s
+[2026-08-30 09:10:14.143016] 📊 Resumen: 22/22 módulos exitosos en 169.46s
+[2026-08-30 09:10:14.146257] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 09:25:34.485399] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 09:25:34.488782] ⚡ Ejecutando: autoreparador
+[2026-08-30 09:25:34.923270] ✅ autoreparador completado en 0.43s
+[2026-08-30 09:25:34.923826] ⚡ Ejecutando: gobernador
+[2026-08-30 09:25:44.632411] ✅ gobernador completado en 9.71s
+[2026-08-30 09:25:44.632918] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 09:25:45.026143] ✅ evolucionador_red_fractal completado en 0.39s
+[2026-08-30 09:25:45.026747] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 09:25:48.913962] ✅ mecanismos_autonomia completado en 3.89s
+[2026-08-30 09:25:48.914691] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 09:25:52.538413] ✅ mecanismos_completos completado en 3.62s
+[2026-08-30 09:25:52.538993] ⚡ Ejecutando: combate_informacional
+[2026-08-30 09:26:14.497458] ✅ combate_informacional completado en 21.96s
+[2026-08-30 09:26:14.498042] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 09:26:17.265543] ✅ tejido_evolutivo completado en 2.77s
+[2026-08-30 09:26:17.266033] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 09:26:18.027502] ✅ tecnologias_raras completado en 0.76s
+[2026-08-30 09:26:18.028361] ⚡ Ejecutando: conexiones
+[2026-08-30 09:26:24.829689] ✅ conexiones completado en 6.80s
+[2026-08-30 09:26:24.830369] ⚡ Ejecutando: claude_bridge
+[2026-08-30 09:26:28.353558] ✅ claude_bridge completado en 3.52s
+[2026-08-30 09:26:28.354181] ⚡ Ejecutando: razonador
+[2026-08-30 09:26:28.658381] ✅ razonador completado en 0.30s
+[2026-08-30 09:26:28.658933] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 09:26:35.375248] ✅ razonador_fallback completado en 6.72s
+[2026-08-30 09:26:35.375956] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 09:27:32.770808] ✅ expansor_tokens completado en 57.39s
+[2026-08-30 09:27:32.772312] ⚡ Ejecutando: validador_recursos
+[2026-08-30 09:27:48.842973] ✅ validador_recursos completado en 16.07s
+[2026-08-30 09:27:48.843708] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 09:27:49.580302] ✅ integrador_recursos completado en 0.74s
+[2026-08-30 09:27:49.580806] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 09:28:02.368474] ✅ expansor_dominio completado en 12.79s
+[2026-08-30 09:28:02.369251] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 09:28:36.452871] ✅ cazador_recursos completado en 34.08s
+[2026-08-30 09:28:36.455961] ⚡ Ejecutando: consciencia
+[2026-08-30 09:28:37.560040] ✅ consciencia completado en 1.10s
+[2026-08-30 09:28:37.560581] ⚡ Ejecutando: bus_local_corregido
+[2026-08-30 09:28:37.901670] ✅ bus_local_corregido completado en 0.34s
+[2026-08-30 09:28:37.908004] ⚡ Ejecutando: fruto_mda
+[2026-08-30 09:28:38.367534] ✅ fruto_mda completado en 0.46s
+[2026-08-30 09:28:38.368022] ⚡ Ejecutando: retroalimentacion
+[2026-08-30 09:28:48.116105] ✅ retroalimentacion completado en 9.75s
+[2026-08-30 09:28:48.116601] ⚡ Ejecutando: fruto_ecm
+[2026-08-30 09:28:48.486738] ✅ fruto_ecm completado en 0.37s
+[2026-08-30 09:28:48.487373] 📊 Resumen: 22/22 módulos exitosos en 194.00s
+[2026-08-30 09:28:48.490425] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 10:11:59.766362] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 10:11:59.767950] ⚡ Ejecutando: autoreparador
+[2026-08-30 10:12:00.193457] ✅ autoreparador completado en 0.42s
+[2026-08-30 10:12:00.194026] ⚡ Ejecutando: gobernador
+[2026-08-30 10:12:07.533245] ✅ gobernador completado en 7.34s
+[2026-08-30 10:12:07.533785] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 10:12:07.942358] ✅ evolucionador_red_fractal completado en 0.41s
+[2026-08-30 10:12:07.942823] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 10:12:12.211889] ✅ mecanismos_autonomia completado en 4.27s
+[2026-08-30 10:12:12.212392] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 10:12:15.855446] ✅ mecanismos_completos completado en 3.64s
+[2026-08-30 10:12:15.856504] ⚡ Ejecutando: combate_informacional
+[2026-08-30 10:12:40.287518] ✅ combate_informacional completado en 24.43s
+[2026-08-30 10:12:40.292533] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 10:12:44.069194] ✅ tejido_evolutivo completado en 3.78s
+[2026-08-30 10:12:44.069797] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 10:12:45.163112] ✅ tecnologias_raras completado en 1.09s
+[2026-08-30 10:12:45.163777] ⚡ Ejecutando: conexiones
+[2026-08-30 10:12:51.736588] ✅ conexiones completado en 6.57s
+[2026-08-30 10:12:51.737687] ⚡ Ejecutando: claude_bridge
+[2026-08-30 10:12:55.609526] ✅ claude_bridge completado en 3.87s
+[2026-08-30 10:12:55.610241] ⚡ Ejecutando: razonador
+[2026-08-30 10:12:56.021043] ✅ razonador completado en 0.41s
+[2026-08-30 10:12:56.021757] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 10:13:03.207409] ✅ razonador_fallback completado en 7.19s
+[2026-08-30 10:13:03.207910] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 10:13:57.934793] ✅ expansor_tokens completado en 54.73s
+[2026-08-30 10:13:57.937055] ⚡ Ejecutando: validador_recursos
+[2026-08-30 10:14:07.982619] ✅ validador_recursos completado en 10.04s
+[2026-08-30 10:14:07.987462] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 10:14:08.524704] ✅ integrador_recursos completado en 0.54s
+[2026-08-30 10:14:08.526593] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 10:14:17.904293] ✅ expansor_dominio completado en 9.38s
+[2026-08-30 10:14:17.905146] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 10:15:08.007143] ✅ cazador_recursos completado en 50.10s
+[2026-08-30 10:15:08.011493] ⚡ Ejecutando: consciencia
+[2026-08-30 10:15:09.545244] ✅ consciencia completado en 1.53s
+[2026-08-30 10:15:09.545915] ⚡ Ejecutando: bus_local_corregido
+[2026-08-30 10:15:10.052191] ✅ bus_local_corregido completado en 0.51s
+[2026-08-30 10:15:10.053132] ⚡ Ejecutando: fruto_mda
+[2026-08-30 10:15:10.697019] ✅ fruto_mda completado en 0.64s
+[2026-08-30 10:15:10.698124] ⚡ Ejecutando: retroalimentacion
+[2026-08-30 10:15:21.929537] ✅ retroalimentacion completado en 11.23s
+[2026-08-30 10:15:21.930542] ⚡ Ejecutando: fruto_ecm
+[2026-08-30 10:15:22.432551] ✅ fruto_ecm completado en 0.50s
+[2026-08-30 10:15:22.433628] 📊 Resumen: 22/22 módulos exitosos en 202.67s
+[2026-08-30 10:15:22.437646] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 10:42:45.596737] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 10:42:45.600336] ⚡ Ejecutando: autoreparador
+[2026-08-30 10:42:46.052875] ✅ autoreparador completado en 0.45s
+[2026-08-30 10:42:46.053403] ⚡ Ejecutando: gobernador
+[2026-08-30 10:42:54.574141] ✅ gobernador completado en 8.52s
+[2026-08-30 10:42:54.574818] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 10:42:54.979040] ✅ evolucionador_red_fractal completado en 0.40s
+[2026-08-30 10:42:54.979531] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 10:42:58.783228] ✅ mecanismos_autonomia completado en 3.80s
+[2026-08-30 10:42:58.783773] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 10:43:02.542350] ✅ mecanismos_completos completado en 3.76s
+[2026-08-30 10:43:02.542867] ⚡ Ejecutando: combate_informacional
+[2026-08-30 10:43:25.495431] ✅ combate_informacional completado en 22.95s
+[2026-08-30 10:43:25.496022] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 10:43:29.007890] ✅ tejido_evolutivo completado en 3.51s
+[2026-08-30 10:43:29.008426] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 10:43:29.749783] ✅ tecnologias_raras completado en 0.74s
+[2026-08-30 10:43:29.751092] ⚡ Ejecutando: conexiones
+[2026-08-30 10:43:36.014301] ✅ conexiones completado en 6.26s
+[2026-08-30 10:43:36.014809] ⚡ Ejecutando: claude_bridge
+[2026-08-30 10:43:39.712273] ✅ claude_bridge completado en 3.70s
+[2026-08-30 10:43:39.713086] ⚡ Ejecutando: razonador
+[2026-08-30 10:43:40.026032] ✅ razonador completado en 0.31s
+[2026-08-30 10:43:40.026513] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 10:43:47.151726] ✅ razonador_fallback completado en 7.12s
+[2026-08-30 10:43:47.152230] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 10:44:22.633569] ✅ expansor_tokens completado en 35.48s
+[2026-08-30 10:44:22.634064] ⚡ Ejecutando: validador_recursos
+[2026-08-30 10:44:33.432062] ✅ validador_recursos completado en 10.80s
+[2026-08-30 10:44:33.432694] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 10:44:33.881472] ✅ integrador_recursos completado en 0.45s
+[2026-08-30 10:44:33.882018] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 10:44:40.433264] ✅ expansor_dominio completado en 6.55s
+[2026-08-30 10:44:40.433929] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 10:45:05.861644] ✅ cazador_recursos completado en 25.43s
+[2026-08-30 10:45:05.862282] ⚡ Ejecutando: consciencia
+[2026-08-30 10:45:06.829349] ✅ consciencia completado en 0.97s
+[2026-08-30 10:45:06.830107] ⚡ Ejecutando: bus_local_corregido
+[2026-08-30 10:45:07.164761] ✅ bus_local_corregido completado en 0.33s
+[2026-08-30 10:45:07.165281] ⚡ Ejecutando: fruto_mda
+[2026-08-30 10:45:07.604302] ✅ fruto_mda completado en 0.44s
+[2026-08-30 10:45:07.604933] ⚡ Ejecutando: retroalimentacion
+[2026-08-30 10:45:14.507478] ✅ retroalimentacion completado en 6.90s
+[2026-08-30 10:45:14.508162] ⚡ Ejecutando: fruto_ecm
+[2026-08-30 10:45:14.930544] ✅ fruto_ecm completado en 0.42s
+[2026-08-30 10:45:14.931210] 📊 Resumen: 22/22 módulos exitosos en 149.33s
+[2026-08-30 10:45:14.934489] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 20:17:13.261437] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 20:17:13.265632] ⚡ Ejecutando: autoreparador
+[2026-08-30 20:17:13.693573] ✅ autoreparador completado en 0.43s
+[2026-08-30 20:17:13.694096] ⚡ Ejecutando: gobernador
+[2026-08-30 20:17:24.746935] ✅ gobernador completado en 11.05s
+[2026-08-30 20:17:24.747446] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 20:17:25.570968] ✅ evolucionador_red_fractal completado en 0.82s
+[2026-08-30 20:17:25.571804] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 20:17:29.519150] ✅ mecanismos_autonomia completado en 3.95s
+[2026-08-30 20:17:29.530723] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 20:17:33.019250] ✅ mecanismos_completos completado en 3.49s
+[2026-08-30 20:17:33.022176] ⚡ Ejecutando: combate_informacional
+[2026-08-30 20:17:55.150863] ✅ combate_informacional completado en 22.13s
+[2026-08-30 20:17:55.151640] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 20:17:58.136409] ✅ tejido_evolutivo completado en 2.98s
+[2026-08-30 20:17:58.139001] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 20:17:58.990747] ✅ tecnologias_raras completado en 0.84s
+[2026-08-30 20:17:58.991330] ⚡ Ejecutando: conexiones
+[2026-08-30 20:18:06.476528] ✅ conexiones completado en 7.48s
+[2026-08-30 20:18:06.477159] ⚡ Ejecutando: claude_bridge
+[2026-08-30 20:18:10.080535] ✅ claude_bridge completado en 3.60s
+[2026-08-30 20:18:10.081109] ⚡ Ejecutando: razonador
+[2026-08-30 20:18:10.402410] ✅ razonador completado en 0.32s
+[2026-08-30 20:18:10.402916] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 20:18:17.626401] ✅ razonador_fallback completado en 7.22s
+[2026-08-30 20:18:17.627071] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 20:18:58.454760] ✅ expansor_tokens completado en 40.83s
+[2026-08-30 20:18:58.455392] ⚡ Ejecutando: validador_recursos
+[2026-08-30 20:19:09.804649] ✅ validador_recursos completado en 11.35s
+[2026-08-30 20:19:09.805151] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 20:19:10.175391] ✅ integrador_recursos completado en 0.37s
+[2026-08-30 20:19:10.175880] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 20:19:17.564182] ✅ expansor_dominio completado en 7.39s
+[2026-08-30 20:19:17.564676] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 20:19:42.112016] ✅ cazador_recursos completado en 24.55s
+[2026-08-30 20:19:42.112523] ⚡ Ejecutando: consciencia
+[2026-08-30 20:19:43.086942] ✅ consciencia completado en 0.97s
+[2026-08-30 20:19:43.087433] ⚡ Ejecutando: bus_local_corregido
+[2026-08-30 20:19:43.411017] ✅ bus_local_corregido completado en 0.32s
+[2026-08-30 20:19:43.411486] ⚡ Ejecutando: fruto_mda
+[2026-08-30 20:19:43.868714] ✅ fruto_mda completado en 0.46s
+[2026-08-30 20:19:43.869235] ⚡ Ejecutando: retroalimentacion
+[2026-08-30 20:19:50.970234] ✅ retroalimentacion completado en 7.10s
+[2026-08-30 20:19:50.970758] ⚡ Ejecutando: fruto_ecm
+[2026-08-30 20:19:51.337191] ✅ fruto_ecm completado en 0.37s
+[2026-08-30 20:19:51.337834] 📊 Resumen: 22/22 módulos exitosos en 158.07s
+[2026-08-30 20:19:51.341626] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 20:28:07.078362] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 20:28:07.079525] ⚡ Ejecutando: autoreparador
+[2026-08-30 20:28:07.590751] ✅ autoreparador completado en 0.51s
+[2026-08-30 20:28:07.591705] ⚡ Ejecutando: gobernador
+[2026-08-30 20:28:17.186665] ✅ gobernador completado en 9.59s
+[2026-08-30 20:28:17.187424] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 20:28:17.604215] ✅ evolucionador_red_fractal completado en 0.42s
+[2026-08-30 20:28:17.606634] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 20:28:21.764782] ✅ mecanismos_autonomia completado en 4.16s
+[2026-08-30 20:28:21.767280] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 20:28:25.401985] ✅ mecanismos_completos completado en 3.63s
+[2026-08-30 20:28:25.403160] ⚡ Ejecutando: combate_informacional
+[2026-08-30 20:28:49.279744] ✅ combate_informacional completado en 23.88s
+[2026-08-30 20:28:49.502078] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 20:28:53.083758] ✅ tejido_evolutivo completado en 3.58s
+[2026-08-30 20:28:53.084497] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 20:28:53.939254] ✅ tecnologias_raras completado en 0.85s
+[2026-08-30 20:28:53.939987] ⚡ Ejecutando: conexiones
+[2026-08-30 20:29:00.418529] ✅ conexiones completado en 6.48s
+[2026-08-30 20:29:00.419168] ⚡ Ejecutando: claude_bridge
+[2026-08-30 20:29:03.771126] ✅ claude_bridge completado en 3.35s
+[2026-08-30 20:29:03.771651] ⚡ Ejecutando: razonador
+[2026-08-30 20:29:04.107759] ✅ razonador completado en 0.34s
+[2026-08-30 20:29:04.109478] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 20:29:11.416252] ✅ razonador_fallback completado en 7.31s
+[2026-08-30 20:29:11.416771] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 20:30:02.720637] ✅ expansor_tokens completado en 51.30s
+[2026-08-30 20:30:02.721413] ⚡ Ejecutando: validador_recursos
+[2026-08-30 20:30:13.184408] ✅ validador_recursos completado en 10.46s
+[2026-08-30 20:30:13.186069] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 20:30:13.831110] ✅ integrador_recursos completado en 0.64s
+[2026-08-30 20:30:13.831676] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 20:30:22.347378] ✅ expansor_dominio completado en 8.52s
+[2026-08-30 20:30:22.348021] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 20:30:46.950464] ✅ cazador_recursos completado en 24.60s
+[2026-08-30 20:30:46.951030] ⚡ Ejecutando: consciencia
+[2026-08-30 20:30:47.965583] ✅ consciencia completado en 1.01s
+[2026-08-30 20:30:47.966152] ⚡ Ejecutando: bus_local_corregido
+[2026-08-30 20:30:48.331097] ✅ bus_local_corregido completado en 0.36s
+[2026-08-30 20:30:48.331942] ⚡ Ejecutando: fruto_mda
+[2026-08-30 20:30:48.773364] ✅ fruto_mda completado en 0.44s
+[2026-08-30 20:30:48.773919] ⚡ Ejecutando: retroalimentacion
+[2026-08-30 20:30:55.716709] ✅ retroalimentacion completado en 6.94s
+[2026-08-30 20:30:55.717271] ⚡ Ejecutando: fruto_ecm
+[2026-08-30 20:30:56.121817] ✅ fruto_ecm completado en 0.40s
+[2026-08-30 20:30:56.122650] 📊 Resumen: 22/22 módulos exitosos en 169.04s
+[2026-08-30 20:30:56.126005] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 20:33:36.404136] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 20:33:36.404719] ⚡ Ejecutando: autoreparador
+[2026-08-30 20:33:36.827388] ✅ autoreparador completado en 0.42s
+[2026-08-30 20:33:36.828098] ⚡ Ejecutando: gobernador
+[2026-08-30 20:33:45.620425] ✅ gobernador completado en 8.79s
+[2026-08-30 20:33:45.621123] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 20:33:46.007829] ✅ evolucionador_red_fractal completado en 0.39s
+[2026-08-30 20:33:46.008326] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 20:33:50.549155] ✅ mecanismos_autonomia completado en 4.54s
+[2026-08-30 20:33:50.550335] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 20:33:54.231697] ✅ mecanismos_completos completado en 3.68s
+[2026-08-30 20:33:54.232517] ⚡ Ejecutando: combate_informacional
+[2026-08-30 20:34:15.906896] ✅ combate_informacional completado en 21.67s
+[2026-08-30 20:34:15.907455] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 20:34:19.874364] ✅ tejido_evolutivo completado en 3.97s
+[2026-08-30 20:34:19.875112] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 20:34:20.822192] ✅ tecnologias_raras completado en 0.95s
+[2026-08-30 20:34:20.822913] ⚡ Ejecutando: conexiones
+[2026-08-30 20:34:27.812862] ✅ conexiones completado en 6.99s
+[2026-08-30 20:34:27.813567] ⚡ Ejecutando: claude_bridge
+[2026-08-30 20:34:30.917424] ✅ claude_bridge completado en 3.10s
+[2026-08-30 20:34:30.917937] ⚡ Ejecutando: razonador
+[2026-08-30 20:34:31.247106] ✅ razonador completado en 0.33s
+[2026-08-30 20:34:31.247843] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 20:34:39.327165] ✅ razonador_fallback completado en 8.08s
+[2026-08-30 20:34:39.327927] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 20:35:12.258488] ✅ expansor_tokens completado en 32.93s
+[2026-08-30 20:35:12.259027] ⚡ Ejecutando: validador_recursos
+[2026-08-30 20:35:24.447269] ✅ validador_recursos completado en 12.19s
+[2026-08-30 20:35:24.447801] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 20:35:24.825497] ✅ integrador_recursos completado en 0.38s
+[2026-08-30 20:35:24.826036] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 20:35:29.615571] ✅ expansor_dominio completado en 4.79s
+[2026-08-30 20:35:29.616095] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 20:35:54.594340] ✅ cazador_recursos completado en 24.98s
+[2026-08-30 20:35:54.596830] ⚡ Ejecutando: consciencia
+[2026-08-30 20:35:55.575252] ✅ consciencia completado en 0.98s
+[2026-08-30 20:35:55.575818] ⚡ Ejecutando: bus_local_corregido
+[2026-08-30 20:35:55.914988] ✅ bus_local_corregido completado en 0.34s
+[2026-08-30 20:35:55.915515] ⚡ Ejecutando: fruto_mda
+[2026-08-30 20:35:56.412124] ✅ fruto_mda completado en 0.50s
+[2026-08-30 20:35:56.412953] ⚡ Ejecutando: retroalimentacion
+[2026-08-30 20:36:04.173836] ✅ retroalimentacion completado en 7.76s
+[2026-08-30 20:36:04.174362] ⚡ Ejecutando: fruto_ecm
+[2026-08-30 20:36:04.565872] ✅ fruto_ecm completado en 0.39s
+[2026-08-30 20:36:04.566535] 📊 Resumen: 22/22 módulos exitosos en 148.16s
+[2026-08-30 20:36:04.569712] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 20:37:09.087643] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 20:37:09.088443] ⚡ Ejecutando: autoreparador
+[2026-08-30 20:37:09.579593] ✅ autoreparador completado en 0.49s
+[2026-08-30 20:37:09.580196] ⚡ Ejecutando: gobernador
+[2026-08-30 20:37:17.301658] ✅ gobernador completado en 7.72s
+[2026-08-30 20:37:17.302265] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 20:37:17.721100] ✅ evolucionador_red_fractal completado en 0.42s
+[2026-08-30 20:37:17.721601] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 20:37:21.867005] ✅ mecanismos_autonomia completado en 4.14s
+[2026-08-30 20:37:21.867583] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 20:37:26.197455] ✅ mecanismos_completos completado en 4.33s
+[2026-08-30 20:37:26.198237] ⚡ Ejecutando: combate_informacional
+[2026-08-30 20:37:48.386338] ✅ combate_informacional completado en 22.19s
+[2026-08-30 20:37:48.387458] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 20:37:51.877483] ✅ tejido_evolutivo completado en 3.49s
+[2026-08-30 20:37:51.878074] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 20:37:52.762466] ✅ tecnologias_raras completado en 0.88s
+[2026-08-30 20:37:52.763199] ⚡ Ejecutando: conexiones
+[2026-08-30 20:38:00.094948] ✅ conexiones completado en 7.33s
+[2026-08-30 20:38:00.095761] ⚡ Ejecutando: claude_bridge
+[2026-08-30 20:38:04.010660] ✅ claude_bridge completado en 3.91s
+[2026-08-30 20:38:04.011733] ⚡ Ejecutando: razonador
+[2026-08-30 20:38:04.357149] ✅ razonador completado en 0.34s
+[2026-08-30 20:38:04.357838] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 20:38:10.806793] ✅ razonador_fallback completado en 6.45s
+[2026-08-30 20:38:10.808075] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 20:38:43.122596] ✅ expansor_tokens completado en 32.31s
+[2026-08-30 20:38:43.123179] ⚡ Ejecutando: validador_recursos
+[2026-08-30 20:38:52.402470] ✅ validador_recursos completado en 9.28s
+[2026-08-30 20:38:52.403155] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 20:38:52.771355] ✅ integrador_recursos completado en 0.37s
+[2026-08-30 20:38:52.771903] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 20:39:01.651667] ✅ expansor_dominio completado en 8.88s
+[2026-08-30 20:39:01.652204] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 20:39:23.611832] ✅ cazador_recursos completado en 21.96s
+[2026-08-30 20:39:23.612460] ⚡ Ejecutando: consciencia
+[2026-08-30 20:39:24.597515] ✅ consciencia completado en 0.98s
+[2026-08-30 20:39:24.598058] ⚡ Ejecutando: bus_local_corregido
+[2026-08-30 20:39:24.937176] ✅ bus_local_corregido completado en 0.34s
+[2026-08-30 20:39:24.937694] ⚡ Ejecutando: fruto_mda
+[2026-08-30 20:39:25.375486] ✅ fruto_mda completado en 0.44s
+[2026-08-30 20:39:25.376091] ⚡ Ejecutando: retroalimentacion
+[2026-08-30 20:39:33.977564] ✅ retroalimentacion completado en 8.60s
+[2026-08-30 20:39:33.978187] ⚡ Ejecutando: fruto_ecm
+[2026-08-30 20:39:34.361680] ✅ fruto_ecm completado en 0.38s
+[2026-08-30 20:39:34.362622] 📊 Resumen: 22/22 módulos exitosos en 145.27s
+[2026-08-30 20:39:34.366935] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 20:48:15.923237] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 20:48:15.924577] ⚡ Ejecutando: autoreparador
+[2026-08-30 20:48:16.453146] ✅ autoreparador completado en 0.53s
+[2026-08-30 20:48:16.453965] ⚡ Ejecutando: gobernador
+[2026-08-30 20:48:25.509377] ✅ gobernador completado en 9.05s
+[2026-08-30 20:48:25.510973] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 20:48:26.057577] ✅ evolucionador_red_fractal completado en 0.55s
+[2026-08-30 20:48:26.058556] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 20:48:30.806069] ✅ mecanismos_autonomia completado en 4.75s
+[2026-08-30 20:48:30.806657] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 20:48:34.665318] ✅ mecanismos_completos completado en 3.86s
+[2026-08-30 20:48:34.665882] ⚡ Ejecutando: combate_informacional
+[2026-08-30 20:48:58.771325] ✅ combate_informacional completado en 24.10s
+[2026-08-30 20:48:58.772040] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 20:49:02.134090] ✅ tejido_evolutivo completado en 3.36s
+[2026-08-30 20:49:02.134772] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 20:49:03.034373] ✅ tecnologias_raras completado en 0.90s
+[2026-08-30 20:49:03.035015] ⚡ Ejecutando: conexiones
+[2026-08-30 20:49:10.588175] ✅ conexiones completado en 7.55s
+[2026-08-30 20:49:10.588845] ⚡ Ejecutando: claude_bridge
+[2026-08-30 20:49:14.084117] ✅ claude_bridge completado en 3.49s
+[2026-08-30 20:49:14.084848] ⚡ Ejecutando: razonador
+[2026-08-30 20:49:14.411337] ✅ razonador completado en 0.32s
+[2026-08-30 20:49:14.413786] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 20:49:22.436126] ✅ razonador_fallback completado en 8.02s
+[2026-08-30 20:49:22.436649] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 20:49:59.691783] ✅ expansor_tokens completado en 37.25s
+[2026-08-30 20:49:59.692462] ⚡ Ejecutando: validador_recursos
+[2026-08-30 20:50:08.920591] ✅ validador_recursos completado en 9.23s
+[2026-08-30 20:50:08.921157] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 20:50:09.320588] ✅ integrador_recursos completado en 0.40s
+[2026-08-30 20:50:09.321125] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 20:50:14.584761] ✅ expansor_dominio completado en 5.26s
+[2026-08-30 20:50:14.585306] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 20:50:38.188191] ✅ cazador_recursos completado en 23.60s
+[2026-08-30 20:50:38.188822] ⚡ Ejecutando: consciencia
+[2026-08-30 20:50:39.210962] ✅ consciencia completado en 1.02s
+[2026-08-30 20:50:39.211565] ⚡ Ejecutando: bus_local_corregido
+[2026-08-30 20:50:39.583486] ✅ bus_local_corregido completado en 0.37s
+[2026-08-30 20:50:39.584098] ⚡ Ejecutando: fruto_mda
+[2026-08-30 20:50:40.030156] ✅ fruto_mda completado en 0.45s
+[2026-08-30 20:50:40.030768] ⚡ Ejecutando: retroalimentacion
+[2026-08-30 20:50:46.933649] ✅ retroalimentacion completado en 6.90s
+[2026-08-30 20:50:46.934163] ⚡ Ejecutando: fruto_ecm
+[2026-08-30 20:50:47.365245] ✅ fruto_ecm completado en 0.43s
+[2026-08-30 20:50:47.365984] 📊 Resumen: 22/22 módulos exitosos en 151.44s
+[2026-08-30 20:50:47.369242] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-30 20:58:55.669327] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-30 20:58:55.675004] ⚡ Ejecutando: autoreparador
+[2026-08-30 20:58:56.212877] ✅ autoreparador completado en 0.54s
+[2026-08-30 20:58:56.213519] ⚡ Ejecutando: gobernador
+[2026-08-30 20:59:05.317051] ✅ gobernador completado en 9.10s
+[2026-08-30 20:59:05.317818] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-30 20:59:05.805052] ✅ evolucionador_red_fractal completado en 0.49s
+[2026-08-30 20:59:05.805752] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-30 20:59:10.068752] ✅ mecanismos_autonomia completado en 4.26s
+[2026-08-30 20:59:10.069285] ⚡ Ejecutando: mecanismos_completos
+[2026-08-30 20:59:13.884638] ✅ mecanismos_completos completado en 3.81s
+[2026-08-30 20:59:13.885371] ⚡ Ejecutando: combate_informacional
+[2026-08-30 20:59:37.567395] ✅ combate_informacional completado en 23.68s
+[2026-08-30 20:59:37.567917] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-30 20:59:41.037130] ✅ tejido_evolutivo completado en 3.47s
+[2026-08-30 20:59:41.037733] ⚡ Ejecutando: tecnologias_raras
+[2026-08-30 20:59:41.867668] ✅ tecnologias_raras completado en 0.83s
+[2026-08-30 20:59:41.868194] ⚡ Ejecutando: conexiones
+[2026-08-30 20:59:48.707614] ✅ conexiones completado en 6.84s
+[2026-08-30 20:59:48.708596] ⚡ Ejecutando: claude_bridge
+[2026-08-30 20:59:52.387973] ✅ claude_bridge completado en 3.68s
+[2026-08-30 20:59:52.388539] ⚡ Ejecutando: razonador
+[2026-08-30 20:59:52.682957] ✅ razonador completado en 0.29s
+[2026-08-30 20:59:52.683482] ⚡ Ejecutando: razonador_fallback
+[2026-08-30 21:00:00.267894] ✅ razonador_fallback completado en 7.58s
+[2026-08-30 21:00:00.268512] ⚡ Ejecutando: expansor_tokens
+[2026-08-30 21:00:33.540617] ✅ expansor_tokens completado en 33.27s
+[2026-08-30 21:00:33.541167] ⚡ Ejecutando: validador_recursos
+[2026-08-30 21:00:44.757603] ✅ validador_recursos completado en 11.22s
+[2026-08-30 21:00:44.758120] ⚡ Ejecutando: integrador_recursos
+[2026-08-30 21:00:45.143881] ✅ integrador_recursos completado en 0.39s
+[2026-08-30 21:00:45.144553] ⚡ Ejecutando: expansor_dominio
+[2026-08-30 21:00:55.623814] ✅ expansor_dominio completado en 10.48s
+[2026-08-30 21:00:55.624371] ⚡ Ejecutando: cazador_recursos
+[2026-08-30 21:01:17.884483] ✅ cazador_recursos completado en 22.26s
+[2026-08-30 21:01:17.885091] ⚡ Ejecutando: consciencia
+[2026-08-30 21:01:18.865359] ✅ consciencia completado en 0.98s
+[2026-08-30 21:01:18.866727] ⚡ Ejecutando: bus_local_corregido
+[2026-08-30 21:01:19.232073] ✅ bus_local_corregido completado en 0.36s
+[2026-08-30 21:01:19.232740] ⚡ Ejecutando: fruto_mda
+[2026-08-30 21:01:19.691271] ✅ fruto_mda completado en 0.46s
+[2026-08-30 21:01:19.691853] ⚡ Ejecutando: retroalimentacion
+[2026-08-30 21:01:26.583225] ✅ retroalimentacion completado en 6.89s
+[2026-08-30 21:01:26.583745] ⚡ Ejecutando: fruto_ecm
+[2026-08-30 21:01:26.942393] ✅ fruto_ecm completado en 0.36s
+[2026-08-30 21:01:26.943045] 📊 Resumen: 22/22 módulos exitosos en 151.27s
+[2026-08-30 21:01:26.946156] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-31 01:15:57.910742] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-31 01:15:57.912438] ⚡ Ejecutando: autoreparador
+[2026-08-31 01:15:58.388105] ✅ autoreparador completado en 0.48s
+[2026-08-31 01:15:58.388629] ⚡ Ejecutando: gobernador
+[2026-08-31 01:16:06.770398] ✅ gobernador completado en 8.38s
+[2026-08-31 01:16:06.771261] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-31 01:16:07.248549] ✅ evolucionador_red_fractal completado en 0.48s
+[2026-08-31 01:16:07.249038] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-31 01:16:11.114041] ✅ mecanismos_autonomia completado en 3.86s
+[2026-08-31 01:16:11.114749] ⚡ Ejecutando: mecanismos_completos
+[2026-08-31 01:16:14.710842] ✅ mecanismos_completos completado en 3.60s
+[2026-08-31 01:16:14.712079] ⚡ Ejecutando: combate_informacional
+[2026-08-31 01:16:36.885506] ✅ combate_informacional completado en 22.17s
+[2026-08-31 01:16:36.886201] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-31 01:16:40.411363] ✅ tejido_evolutivo completado en 3.52s
+[2026-08-31 01:16:40.411908] ⚡ Ejecutando: tecnologias_raras
+[2026-08-31 01:16:41.241525] ✅ tecnologias_raras completado en 0.83s
+[2026-08-31 01:16:41.242068] ⚡ Ejecutando: conexiones
+[2026-08-31 01:16:47.521813] ✅ conexiones completado en 6.28s
+[2026-08-31 01:16:47.522400] ⚡ Ejecutando: claude_bridge
+[2026-08-31 01:16:50.914442] ✅ claude_bridge completado en 3.39s
+[2026-08-31 01:16:50.914968] ⚡ Ejecutando: razonador
+[2026-08-31 01:16:51.257515] ✅ razonador completado en 0.34s
+[2026-08-31 01:16:51.258048] ⚡ Ejecutando: razonador_fallback
+[2026-08-31 01:16:57.573814] ✅ razonador_fallback completado en 6.32s
+[2026-08-31 01:16:57.574362] ⚡ Ejecutando: expansor_tokens
+[2026-08-31 01:17:39.452595] ✅ expansor_tokens completado en 41.88s
+[2026-08-31 01:17:39.453270] ⚡ Ejecutando: validador_recursos
+[2026-08-31 01:17:48.665233] ✅ validador_recursos completado en 9.21s
+[2026-08-31 01:17:48.666604] ⚡ Ejecutando: integrador_recursos
+[2026-08-31 01:17:49.092429] ✅ integrador_recursos completado en 0.42s
+[2026-08-31 01:17:49.094901] ⚡ Ejecutando: expansor_dominio
+[2026-08-31 01:17:52.747938] ✅ expansor_dominio completado en 3.65s
+[2026-08-31 01:17:52.748547] ⚡ Ejecutando: cazador_recursos
+[2026-08-31 01:18:15.468559] ✅ cazador_recursos completado en 22.72s
+[2026-08-31 01:18:15.469219] ⚡ Ejecutando: consciencia
+[2026-08-31 01:18:16.468470] ✅ consciencia completado en 1.00s
+[2026-08-31 01:18:16.469049] ⚡ Ejecutando: bus_local_corregido
+[2026-08-31 01:18:16.815370] ✅ bus_local_corregido completado en 0.35s
+[2026-08-31 01:18:16.815958] ⚡ Ejecutando: fruto_mda
+[2026-08-31 01:18:17.255422] ✅ fruto_mda completado en 0.44s
+[2026-08-31 01:18:17.255923] ⚡ Ejecutando: retroalimentacion
+[2026-08-31 01:18:23.832385] ✅ retroalimentacion completado en 6.58s
+[2026-08-31 01:18:23.833640] ⚡ Ejecutando: fruto_ecm
+[2026-08-31 01:18:24.212050] ✅ fruto_ecm completado en 0.38s
+[2026-08-31 01:18:24.212871] 📊 Resumen: 22/22 módulos exitosos en 146.30s
+[2026-08-31 01:18:24.216174] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-31 01:28:31.201447] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-31 01:28:31.211401] ⚡ Ejecutando: autoreparador
+[2026-08-31 01:28:31.745971] ✅ autoreparador completado en 0.53s
+[2026-08-31 01:28:31.746518] ⚡ Ejecutando: gobernador
+[2026-08-31 01:28:39.538930] ✅ gobernador completado en 7.79s
+[2026-08-31 01:28:39.539570] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-31 01:28:39.950069] ✅ evolucionador_red_fractal completado en 0.41s
+[2026-08-31 01:28:39.950710] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-31 01:28:44.148984] ✅ mecanismos_autonomia completado en 4.20s
+[2026-08-31 01:28:44.149623] ⚡ Ejecutando: mecanismos_completos
+[2026-08-31 01:28:47.487893] ✅ mecanismos_completos completado en 3.34s
+[2026-08-31 01:28:47.488451] ⚡ Ejecutando: combate_informacional
+[2026-08-31 01:29:11.817075] ✅ combate_informacional completado en 24.33s
+[2026-08-31 01:29:11.817790] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-31 01:29:15.078090] ✅ tejido_evolutivo completado en 3.26s
+[2026-08-31 01:29:15.078903] ⚡ Ejecutando: tecnologias_raras
+[2026-08-31 01:29:16.029246] ✅ tecnologias_raras completado en 0.95s
+[2026-08-31 01:29:16.030087] ⚡ Ejecutando: conexiones
+[2026-08-31 01:29:22.546471] ✅ conexiones completado en 6.52s
+[2026-08-31 01:29:22.546995] ⚡ Ejecutando: claude_bridge
+[2026-08-31 01:29:26.030602] ✅ claude_bridge completado en 3.48s
+[2026-08-31 01:29:26.031748] ⚡ Ejecutando: razonador
+[2026-08-31 01:29:26.399561] ✅ razonador completado en 0.37s
+[2026-08-31 01:29:26.400181] ⚡ Ejecutando: razonador_fallback
+[2026-08-31 01:29:34.090811] ✅ razonador_fallback completado en 7.69s
+[2026-08-31 01:29:34.091876] ⚡ Ejecutando: expansor_tokens
+[2026-08-31 01:30:25.818592] ✅ expansor_tokens completado en 51.73s
+[2026-08-31 01:30:25.819255] ⚡ Ejecutando: validador_recursos
+[2026-08-31 01:30:35.689970] ✅ validador_recursos completado en 9.87s
+[2026-08-31 01:30:35.690580] ⚡ Ejecutando: integrador_recursos
+[2026-08-31 01:30:36.130946] ✅ integrador_recursos completado en 0.44s
+[2026-08-31 01:30:36.131466] ⚡ Ejecutando: expansor_dominio
+[2026-08-31 01:30:38.706356] ✅ expansor_dominio completado en 2.57s
+[2026-08-31 01:30:38.706856] ⚡ Ejecutando: cazador_recursos
+[2026-08-31 01:31:03.136110] ✅ cazador_recursos completado en 24.43s
+[2026-08-31 01:31:03.136628] ⚡ Ejecutando: consciencia
+[2026-08-31 01:31:04.141123] ✅ consciencia completado en 1.00s
+[2026-08-31 01:31:04.141720] ⚡ Ejecutando: bus_local_corregido
+[2026-08-31 01:31:04.501092] ✅ bus_local_corregido completado en 0.36s
+[2026-08-31 01:31:04.501773] ⚡ Ejecutando: fruto_mda
+[2026-08-31 01:31:05.016267] ✅ fruto_mda completado en 0.51s
+[2026-08-31 01:31:05.016878] ⚡ Ejecutando: retroalimentacion
+[2026-08-31 01:31:07.870020] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-31 01:31:07.870627] ⚡ Ejecutando: autoreparador
+[2026-08-31 01:31:08.326241] ✅ autoreparador completado en 0.46s
+[2026-08-31 01:31:08.326784] ⚡ Ejecutando: gobernador
+[2026-08-31 01:31:12.221567] ✅ retroalimentacion completado en 7.20s
+[2026-08-31 01:31:12.222269] ⚡ Ejecutando: fruto_ecm
+[2026-08-31 01:31:12.651060] ✅ fruto_ecm completado en 0.43s
+[2026-08-31 01:31:12.651856] 📊 Resumen: 22/22 módulos exitosos en 161.44s
+[2026-08-31 01:31:12.655269] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-31 01:31:16.914228] ✅ gobernador completado en 8.59s
+[2026-08-31 01:31:16.915063] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-31 01:31:17.352241] ✅ evolucionador_red_fractal completado en 0.44s
+[2026-08-31 01:31:17.352804] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-31 01:31:21.225316] ✅ mecanismos_autonomia completado en 3.87s
+[2026-08-31 01:31:21.225988] ⚡ Ejecutando: mecanismos_completos
+[2026-08-31 01:31:24.993970] ✅ mecanismos_completos completado en 3.77s
+[2026-08-31 01:31:24.994585] ⚡ Ejecutando: combate_informacional
+[2026-08-31 01:31:45.267427] ✅ combate_informacional completado en 20.27s
+[2026-08-31 01:31:45.268013] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-31 01:31:48.477424] ✅ tejido_evolutivo completado en 3.21s
+[2026-08-31 01:31:48.477947] ⚡ Ejecutando: tecnologias_raras
+[2026-08-31 01:31:49.322578] ✅ tecnologias_raras completado en 0.84s
+[2026-08-31 01:31:49.323109] ⚡ Ejecutando: conexiones
+[2026-08-31 01:31:55.210350] ✅ conexiones completado en 5.89s
+[2026-08-31 01:31:55.210919] ⚡ Ejecutando: claude_bridge
+[2026-08-31 01:31:58.038135] ✅ claude_bridge completado en 2.83s
+[2026-08-31 01:31:58.038777] ⚡ Ejecutando: razonador
+[2026-08-31 01:31:58.358915] ✅ razonador completado en 0.32s
+[2026-08-31 01:31:58.359446] ⚡ Ejecutando: razonador_fallback
+[2026-08-31 01:32:03.943702] ✅ razonador_fallback completado en 5.58s
+[2026-08-31 01:32:03.944252] ⚡ Ejecutando: expansor_tokens
+[2026-08-31 01:32:34.731008] ✅ expansor_tokens completado en 30.79s
+[2026-08-31 01:32:34.731510] ⚡ Ejecutando: validador_recursos
+[2026-08-31 01:32:45.336556] ✅ validador_recursos completado en 10.60s
+[2026-08-31 01:32:45.337294] ⚡ Ejecutando: integrador_recursos
+[2026-08-31 01:32:45.767180] ✅ integrador_recursos completado en 0.43s
+[2026-08-31 01:32:45.767691] ⚡ Ejecutando: expansor_dominio
+[2026-08-31 01:32:57.580343] ✅ expansor_dominio completado en 11.81s
+[2026-08-31 01:32:57.581218] ⚡ Ejecutando: cazador_recursos
+[2026-08-31 01:33:20.644150] ✅ cazador_recursos completado en 23.06s
+[2026-08-31 01:33:20.644735] ⚡ Ejecutando: consciencia
+[2026-08-31 01:33:21.635657] ✅ consciencia completado en 0.99s
+[2026-08-31 01:33:21.636368] ⚡ Ejecutando: bus_local_corregido
+[2026-08-31 01:33:22.019288] ✅ bus_local_corregido completado en 0.38s
+[2026-08-31 01:33:22.020068] ⚡ Ejecutando: fruto_mda
+[2026-08-31 01:33:22.468958] ✅ fruto_mda completado en 0.45s
+[2026-08-31 01:33:22.469465] ⚡ Ejecutando: retroalimentacion
+[2026-08-31 01:33:29.755946] ✅ retroalimentacion completado en 7.29s
+[2026-08-31 01:33:29.758513] ⚡ Ejecutando: fruto_ecm
+[2026-08-31 01:33:30.189462] ✅ fruto_ecm completado en 0.43s
+[2026-08-31 01:33:30.190981] 📊 Resumen: 22/22 módulos exitosos en 142.32s
+[2026-08-31 01:33:30.195246] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-31 02:23:18.237575] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-31 02:23:18.239651] ⚡ Ejecutando: autoreparador
+[2026-08-31 02:23:18.742597] ✅ autoreparador completado en 0.50s
+[2026-08-31 02:23:18.743126] ⚡ Ejecutando: gobernador
+[2026-08-31 02:23:27.237380] ✅ gobernador completado en 8.49s
+[2026-08-31 02:23:27.238025] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-31 02:23:27.664646] ✅ evolucionador_red_fractal completado en 0.43s
+[2026-08-31 02:23:27.665883] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-31 02:23:31.472969] ✅ mecanismos_autonomia completado en 3.81s
+[2026-08-31 02:23:31.473641] ⚡ Ejecutando: mecanismos_completos
+[2026-08-31 02:23:34.762070] ✅ mecanismos_completos completado en 3.29s
+[2026-08-31 02:23:34.762578] ⚡ Ejecutando: combate_informacional
+[2026-08-31 02:23:55.442418] ✅ combate_informacional completado en 20.68s
+[2026-08-31 02:23:55.442937] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-31 02:23:58.407673] ✅ tejido_evolutivo completado en 2.96s
+[2026-08-31 02:23:58.408200] ⚡ Ejecutando: tecnologias_raras
+[2026-08-31 02:23:59.214852] ✅ tecnologias_raras completado en 0.81s
+[2026-08-31 02:23:59.215328] ⚡ Ejecutando: conexiones
+[2026-08-31 02:24:06.198870] ✅ conexiones completado en 6.98s
+[2026-08-31 02:24:06.199481] ⚡ Ejecutando: claude_bridge
+[2026-08-31 02:24:09.247314] ✅ claude_bridge completado en 3.05s
+[2026-08-31 02:24:09.247800] ⚡ Ejecutando: razonador
+[2026-08-31 02:24:09.537583] ✅ razonador completado en 0.29s
+[2026-08-31 02:24:09.538212] ⚡ Ejecutando: razonador_fallback
+[2026-08-31 02:24:15.942114] ✅ razonador_fallback completado en 6.40s
+[2026-08-31 02:24:15.942664] ⚡ Ejecutando: expansor_tokens
+[2026-08-31 02:25:00.874144] ✅ expansor_tokens completado en 44.93s
+[2026-08-31 02:25:00.874664] ⚡ Ejecutando: validador_recursos
+[2026-08-31 02:25:10.708882] ✅ validador_recursos completado en 9.83s
+[2026-08-31 02:25:10.709509] ⚡ Ejecutando: integrador_recursos
+[2026-08-31 02:25:11.183773] ✅ integrador_recursos completado en 0.47s
+[2026-08-31 02:25:11.184274] ⚡ Ejecutando: expansor_dominio
+[2026-08-31 02:25:20.511795] ✅ expansor_dominio completado en 9.33s
+[2026-08-31 02:25:20.512290] ⚡ Ejecutando: cazador_recursos
+[2026-08-31 02:25:41.884139] ✅ cazador_recursos completado en 21.37s
+[2026-08-31 02:25:41.884878] ⚡ Ejecutando: consciencia
+[2026-08-31 02:25:42.829761] ✅ consciencia completado en 0.94s
+[2026-08-31 02:25:42.830717] ⚡ Ejecutando: bus_local_corregido
+[2026-08-31 02:25:43.165996] ✅ bus_local_corregido completado en 0.33s
+[2026-08-31 02:25:43.166494] ⚡ Ejecutando: fruto_mda
+[2026-08-31 02:25:43.587174] ✅ fruto_mda completado en 0.42s
+[2026-08-31 02:25:43.587781] ⚡ Ejecutando: retroalimentacion
+[2026-08-31 02:25:50.885378] ✅ retroalimentacion completado en 7.30s
+[2026-08-31 02:25:50.886378] ⚡ Ejecutando: fruto_ecm
+[2026-08-31 02:25:51.237252] ✅ fruto_ecm completado en 0.35s
+[2026-08-31 02:25:51.237834] 📊 Resumen: 22/22 módulos exitosos en 153.00s
+[2026-08-31 02:25:51.240887] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-31 02:45:05.769033] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-31 02:45:05.771191] ⚡ Ejecutando: autoreparador
+[2026-08-31 02:45:06.210272] ✅ autoreparador completado en 0.44s
+[2026-08-31 02:45:06.211093] ⚡ Ejecutando: gobernador
+[2026-08-31 02:45:14.281302] ✅ gobernador completado en 8.07s
+[2026-08-31 02:45:14.281801] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-31 02:45:14.648466] ✅ evolucionador_red_fractal completado en 0.37s
+[2026-08-31 02:45:14.648925] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-31 02:45:18.283766] ✅ mecanismos_autonomia completado en 3.63s
+[2026-08-31 02:45:18.284277] ⚡ Ejecutando: mecanismos_completos
+[2026-08-31 02:45:21.963433] ✅ mecanismos_completos completado en 3.68s
+[2026-08-31 02:45:21.963938] ⚡ Ejecutando: combate_informacional
+[2026-08-31 02:45:43.097072] ✅ combate_informacional completado en 21.13s
+[2026-08-31 02:45:43.097570] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-31 02:45:46.345485] ✅ tejido_evolutivo completado en 3.25s
+[2026-08-31 02:45:46.345968] ⚡ Ejecutando: tecnologias_raras
+[2026-08-31 02:45:47.138442] ✅ tecnologias_raras completado en 0.79s
+[2026-08-31 02:45:47.138914] ⚡ Ejecutando: conexiones
+[2026-08-31 02:45:53.945666] ✅ conexiones completado en 6.81s
+[2026-08-31 02:45:53.946186] ⚡ Ejecutando: claude_bridge
+[2026-08-31 02:45:56.966881] ✅ claude_bridge completado en 3.02s
+[2026-08-31 02:45:56.967375] ⚡ Ejecutando: razonador
+[2026-08-31 02:45:57.254314] ✅ razonador completado en 0.29s
+[2026-08-31 02:45:57.254785] ⚡ Ejecutando: razonador_fallback
+[2026-08-31 02:46:03.296181] ✅ razonador_fallback completado en 6.04s
+[2026-08-31 02:46:03.296729] ⚡ Ejecutando: expansor_tokens
+[2026-08-31 02:46:48.504200] ✅ expansor_tokens completado en 45.21s
+[2026-08-31 02:46:48.504715] ⚡ Ejecutando: validador_recursos
+[2026-08-31 02:46:57.278957] ✅ validador_recursos completado en 8.77s
+[2026-08-31 02:46:57.279460] ⚡ Ejecutando: integrador_recursos
+[2026-08-31 02:46:57.630833] ✅ integrador_recursos completado en 0.35s
+[2026-08-31 02:46:57.631379] ⚡ Ejecutando: expansor_dominio
+[2026-08-31 02:47:03.665805] ✅ expansor_dominio completado en 6.03s
+[2026-08-31 02:47:03.666282] ⚡ Ejecutando: cazador_recursos
+[2026-08-31 02:47:26.618093] ✅ cazador_recursos completado en 22.95s
+[2026-08-31 02:47:26.618775] ⚡ Ejecutando: consciencia
+[2026-08-31 02:47:27.805201] ✅ consciencia completado en 1.19s
+[2026-08-31 02:47:27.806021] ⚡ Ejecutando: bus_local_corregido
+[2026-08-31 02:47:28.469579] ✅ bus_local_corregido completado en 0.66s
+[2026-08-31 02:47:28.470144] ⚡ Ejecutando: fruto_mda
+[2026-08-31 02:47:28.937957] ✅ fruto_mda completado en 0.47s
+[2026-08-31 02:47:28.938443] ⚡ Ejecutando: retroalimentacion
+[2026-08-31 02:47:35.348507] ✅ retroalimentacion completado en 6.41s
+[2026-08-31 02:47:35.348991] ⚡ Ejecutando: fruto_ecm
+[2026-08-31 02:47:35.699601] ✅ fruto_ecm completado en 0.35s
+[2026-08-31 02:47:35.700312] 📊 Resumen: 22/22 módulos exitosos en 149.93s
+[2026-08-31 02:47:35.703245] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-31 02:54:04.358700] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-31 02:54:04.365263] ⚡ Ejecutando: autoreparador
+[2026-08-31 02:54:04.791876] ✅ autoreparador completado en 0.43s
+[2026-08-31 02:54:04.792550] ⚡ Ejecutando: gobernador
+[2026-08-31 02:54:12.532036] ✅ gobernador completado en 7.74s
+[2026-08-31 02:54:12.532651] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-31 02:54:12.900482] ✅ evolucionador_red_fractal completado en 0.37s
+[2026-08-31 02:54:12.900963] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-31 02:54:16.719519] ✅ mecanismos_autonomia completado en 3.82s
+[2026-08-31 02:54:16.720122] ⚡ Ejecutando: mecanismos_completos
+[2026-08-31 02:54:19.903635] ✅ mecanismos_completos completado en 3.18s
+[2026-08-31 02:54:19.904431] ⚡ Ejecutando: combate_informacional
+[2026-08-31 02:54:34.074976] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-31 02:54:34.075763] ⚡ Ejecutando: autoreparador
+[2026-08-31 02:54:34.607640] ✅ autoreparador completado en 0.53s
+[2026-08-31 02:54:34.608328] ⚡ Ejecutando: gobernador
+[2026-08-31 02:54:40.687156] ✅ combate_informacional completado en 20.78s
+[2026-08-31 02:54:40.687773] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-31 02:54:40.720602] ✅ gobernador completado en 6.11s
+[2026-08-31 02:54:40.721236] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-31 02:54:41.213770] ✅ evolucionador_red_fractal completado en 0.49s
+[2026-08-31 02:54:41.214484] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-31 02:54:43.562616] ✅ tejido_evolutivo completado en 2.87s
+[2026-08-31 02:54:43.563315] ⚡ Ejecutando: tecnologias_raras
+[2026-08-31 02:54:44.480970] ✅ tecnologias_raras completado en 0.92s
+[2026-08-31 02:54:44.481535] ⚡ Ejecutando: conexiones
+[2026-08-31 02:54:45.421174] ✅ mecanismos_autonomia completado en 4.21s
+[2026-08-31 02:54:45.421799] ⚡ Ejecutando: mecanismos_completos
+[2026-08-31 02:54:48.815278] ✅ mecanismos_completos completado en 3.39s
+[2026-08-31 02:54:48.815870] ⚡ Ejecutando: combate_informacional
+[2026-08-31 02:54:52.484237] ✅ conexiones completado en 8.00s
+[2026-08-31 02:54:52.484745] ⚡ Ejecutando: claude_bridge
+[2026-08-31 02:54:55.989712] ✅ claude_bridge completado en 3.50s
+[2026-08-31 02:54:55.990566] ⚡ Ejecutando: razonador
+[2026-08-31 02:54:56.328867] ✅ razonador completado en 0.34s
+[2026-08-31 02:54:56.329487] ⚡ Ejecutando: razonador_fallback
+[2026-08-31 02:55:03.280227] ✅ razonador_fallback completado en 6.95s
+[2026-08-31 02:55:03.280927] ⚡ Ejecutando: expansor_tokens
+[2026-08-31 02:55:10.745087] ✅ combate_informacional completado en 21.93s
+[2026-08-31 02:55:10.747612] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-31 02:55:14.620731] ✅ tejido_evolutivo completado en 3.87s
+[2026-08-31 02:55:14.621621] ⚡ Ejecutando: tecnologias_raras
+[2026-08-31 02:55:15.474220] ✅ tecnologias_raras completado en 0.85s
+[2026-08-31 02:55:15.474830] ⚡ Ejecutando: conexiones
+[2026-08-31 02:55:22.882755] ✅ conexiones completado en 7.41s
+[2026-08-31 02:55:22.883416] ⚡ Ejecutando: claude_bridge
+[2026-08-31 02:55:26.217367] ✅ claude_bridge completado en 3.33s
+[2026-08-31 02:55:26.217964] ⚡ Ejecutando: razonador
+[2026-08-31 02:55:26.550134] ✅ razonador completado en 0.33s
+[2026-08-31 02:55:26.550738] ⚡ Ejecutando: razonador_fallback
+[2026-08-31 02:55:31.956250] ✅ razonador_fallback completado en 5.40s
+[2026-08-31 02:55:31.956815] ⚡ Ejecutando: expansor_tokens
+[2026-08-31 02:55:56.209458] ✅ expansor_tokens completado en 52.93s
+[2026-08-31 02:55:56.210152] ⚡ Ejecutando: validador_recursos
+[2026-08-31 02:56:06.067311] ✅ expansor_tokens completado en 34.11s
+[2026-08-31 02:56:06.067913] ⚡ Ejecutando: validador_recursos
+[2026-08-31 02:56:07.114724] ✅ validador_recursos completado en 10.90s
+[2026-08-31 02:56:07.115402] ⚡ Ejecutando: integrador_recursos
+[2026-08-31 02:56:07.491682] ✅ integrador_recursos completado en 0.38s
+[2026-08-31 02:56:07.492162] ⚡ Ejecutando: expansor_dominio
+[2026-08-31 02:56:14.463815] ✅ validador_recursos completado en 8.40s
+[2026-08-31 02:56:14.464321] ⚡ Ejecutando: integrador_recursos
+[2026-08-31 02:56:14.825895] ✅ integrador_recursos completado en 0.36s
+[2026-08-31 02:56:14.826389] ⚡ Ejecutando: expansor_dominio
+[2026-08-31 02:56:17.230556] ✅ expansor_dominio completado en 9.74s
+[2026-08-31 02:56:17.231047] ⚡ Ejecutando: cazador_recursos
+[2026-08-31 02:56:19.981090] ✅ expansor_dominio completado en 5.15s
+[2026-08-31 02:56:19.981618] ⚡ Ejecutando: cazador_recursos
+[2026-08-31 02:56:51.383640] ✅ cazador_recursos completado en 34.15s
+[2026-08-31 02:56:51.384446] ⚡ Ejecutando: consciencia
+[2026-08-31 02:56:52.198927] ✅ cazador_recursos completado en 32.22s
+[2026-08-31 02:56:52.200067] ⚡ Ejecutando: consciencia
+[2026-08-31 02:56:52.357904] ✅ consciencia completado en 0.97s
+[2026-08-31 02:56:52.358496] ⚡ Ejecutando: bus_local_corregido
+[2026-08-31 02:56:52.720678] ✅ bus_local_corregido completado en 0.36s
+[2026-08-31 02:56:52.721159] ⚡ Ejecutando: fruto_mda
+[2026-08-31 02:56:53.187605] ✅ consciencia completado en 0.99s
+[2026-08-31 02:56:53.188375] ⚡ Ejecutando: bus_local_corregido
+[2026-08-31 02:56:53.224962] ✅ fruto_mda completado en 0.50s
+[2026-08-31 02:56:53.225566] ⚡ Ejecutando: retroalimentacion
+[2026-08-31 02:56:53.536933] ✅ bus_local_corregido completado en 0.35s
+[2026-08-31 02:56:53.537493] ⚡ Ejecutando: fruto_mda
+[2026-08-31 02:56:53.995376] ✅ fruto_mda completado en 0.46s
+[2026-08-31 02:56:53.995949] ⚡ Ejecutando: retroalimentacion
+[2026-08-31 02:57:00.461996] ✅ retroalimentacion completado en 7.24s
+[2026-08-31 02:57:00.462615] ⚡ Ejecutando: fruto_ecm
+[2026-08-31 02:57:00.873747] ✅ fruto_ecm completado en 0.41s
+[2026-08-31 02:57:00.874580] 📊 Resumen: 22/22 módulos exitosos en 176.51s
+[2026-08-31 02:57:00.877584] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-31 02:57:02.620485] ✅ retroalimentacion completado en 8.62s
+[2026-08-31 02:57:02.621081] ⚡ Ejecutando: fruto_ecm
+[2026-08-31 02:57:03.000851] ✅ fruto_ecm completado en 0.38s
+[2026-08-31 02:57:03.001609] 📊 Resumen: 22/22 módulos exitosos en 148.93s
+[2026-08-31 02:57:03.004801] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-31 04:23:07.060772] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-31 04:23:07.062294] ⚡ Ejecutando: autoreparador
+[2026-08-31 04:23:07.504934] ✅ autoreparador completado en 0.44s
+[2026-08-31 04:23:07.505496] ⚡ Ejecutando: gobernador
+[2026-08-31 04:23:15.519037] ✅ gobernador completado en 8.01s
+[2026-08-31 04:23:15.519648] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-31 04:23:15.930902] ✅ evolucionador_red_fractal completado en 0.41s
+[2026-08-31 04:23:15.931493] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-31 04:23:20.197224] ✅ mecanismos_autonomia completado en 4.27s
+[2026-08-31 04:23:20.198068] ⚡ Ejecutando: mecanismos_completos
+[2026-08-31 04:23:24.846877] ✅ mecanismos_completos completado en 4.65s
+[2026-08-31 04:23:24.847476] ⚡ Ejecutando: combate_informacional
+[2026-08-31 04:23:47.578413] ✅ combate_informacional completado en 22.73s
+[2026-08-31 04:23:47.578973] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-31 04:23:51.046706] ✅ tejido_evolutivo completado en 3.47s
+[2026-08-31 04:23:51.047316] ⚡ Ejecutando: tecnologias_raras
+[2026-08-31 04:23:51.919749] ✅ tecnologias_raras completado en 0.87s
+[2026-08-31 04:23:51.920425] ⚡ Ejecutando: conexiones
+[2026-08-31 04:23:58.454550] ✅ conexiones completado en 6.53s
+[2026-08-31 04:23:58.455356] ⚡ Ejecutando: claude_bridge
+[2026-08-31 04:24:01.662445] ✅ claude_bridge completado en 3.21s
+[2026-08-31 04:24:01.662928] ⚡ Ejecutando: razonador
+[2026-08-31 04:24:02.005801] ✅ razonador completado en 0.34s
+[2026-08-31 04:24:02.006489] ⚡ Ejecutando: razonador_fallback
+[2026-08-31 04:24:08.419575] ✅ razonador_fallback completado en 6.41s
+[2026-08-31 04:24:08.420154] ⚡ Ejecutando: expansor_tokens
+[2026-08-31 04:24:55.868766] ✅ expansor_tokens completado en 47.45s
+[2026-08-31 04:24:55.869356] ⚡ Ejecutando: validador_recursos
+[2026-08-31 04:25:05.963221] ✅ validador_recursos completado en 10.09s
+[2026-08-31 04:25:05.963777] ⚡ Ejecutando: integrador_recursos
+[2026-08-31 04:25:08.633441] ✅ integrador_recursos completado en 2.67s
+[2026-08-31 04:25:08.633932] ⚡ Ejecutando: expansor_dominio
+[2026-08-31 04:25:13.409421] ✅ expansor_dominio completado en 4.77s
+[2026-08-31 04:25:13.410269] ⚡ Ejecutando: cazador_recursos
+[2026-08-31 04:25:37.796879] ✅ cazador_recursos completado en 24.39s
+[2026-08-31 04:25:37.797426] ⚡ Ejecutando: consciencia
+[2026-08-31 04:25:38.835315] ✅ consciencia completado en 1.04s
+[2026-08-31 04:25:38.836569] ⚡ Ejecutando: bus_local_corregido
+[2026-08-31 04:25:39.287395] ✅ bus_local_corregido completado en 0.45s
+[2026-08-31 04:25:39.287893] ⚡ Ejecutando: fruto_mda
+[2026-08-31 04:25:39.752269] ✅ fruto_mda completado en 0.46s
+[2026-08-31 04:25:39.752804] ⚡ Ejecutando: retroalimentacion
+[2026-08-31 04:25:46.945653] ✅ retroalimentacion completado en 7.19s
+[2026-08-31 04:25:46.946263] ⚡ Ejecutando: fruto_ecm
+[2026-08-31 04:25:47.369542] ✅ fruto_ecm completado en 0.42s
+[2026-08-31 04:25:47.370364] 📊 Resumen: 22/22 módulos exitosos en 160.31s
+[2026-08-31 04:25:47.374315] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-31 04:46:28.843192] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-31 04:46:28.845430] ⚡ Ejecutando: autoreparador
+[2026-08-31 04:46:29.309476] ✅ autoreparador completado en 0.46s
+[2026-08-31 04:46:29.310581] ⚡ Ejecutando: gobernador
+[2026-08-31 04:46:38.506255] ✅ gobernador completado en 9.19s
+[2026-08-31 04:46:38.506953] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-31 04:46:38.950263] ✅ evolucionador_red_fractal completado en 0.44s
+[2026-08-31 04:46:38.950815] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-31 04:46:43.112535] ✅ mecanismos_autonomia completado en 4.16s
+[2026-08-31 04:46:43.113181] ⚡ Ejecutando: mecanismos_completos
+[2026-08-31 04:46:47.360626] ✅ mecanismos_completos completado en 4.25s
+[2026-08-31 04:46:47.361430] ⚡ Ejecutando: combate_informacional
+[2026-08-31 04:47:07.513636] ✅ combate_informacional completado en 20.15s
+[2026-08-31 04:47:07.514230] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-31 04:47:10.438786] ✅ tejido_evolutivo completado en 2.92s
+[2026-08-31 04:47:10.439347] ⚡ Ejecutando: tecnologias_raras
+[2026-08-31 04:47:11.284192] ✅ tecnologias_raras completado en 0.84s
+[2026-08-31 04:47:11.284779] ⚡ Ejecutando: conexiones
+[2026-08-31 04:47:18.129099] ✅ conexiones completado en 6.84s
+[2026-08-31 04:47:18.132724] ⚡ Ejecutando: claude_bridge
+[2026-08-31 04:47:21.585974] ✅ claude_bridge completado en 3.45s
+[2026-08-31 04:47:21.586464] ⚡ Ejecutando: razonador
+[2026-08-31 04:47:21.904836] ✅ razonador completado en 0.32s
+[2026-08-31 04:47:21.905395] ⚡ Ejecutando: razonador_fallback
+[2026-08-31 04:47:28.220568] ✅ razonador_fallback completado en 6.31s
+[2026-08-31 04:47:28.221251] ⚡ Ejecutando: expansor_tokens
+[2026-08-31 04:48:17.846682] ✅ expansor_tokens completado en 49.62s
+[2026-08-31 04:48:17.847279] ⚡ Ejecutando: validador_recursos
+[2026-08-31 04:48:28.166669] ✅ validador_recursos completado en 10.32s
+[2026-08-31 04:48:28.167643] ⚡ Ejecutando: integrador_recursos
+[2026-08-31 04:48:28.595400] ✅ integrador_recursos completado en 0.43s
+[2026-08-31 04:48:28.595962] ⚡ Ejecutando: expansor_dominio
+[2026-08-31 04:48:32.459282] ✅ expansor_dominio completado en 3.86s
+[2026-08-31 04:48:32.460064] ⚡ Ejecutando: cazador_recursos
+[2026-08-31 04:49:27.945129] ✅ cazador_recursos completado en 55.48s
+[2026-08-31 04:49:27.945762] ⚡ Ejecutando: consciencia
+[2026-08-31 04:49:28.926364] ✅ consciencia completado en 0.98s
+[2026-08-31 04:49:28.927030] ⚡ Ejecutando: bus_local_corregido
+[2026-08-31 04:49:29.290229] ✅ bus_local_corregido completado en 0.36s
+[2026-08-31 04:49:29.290956] ⚡ Ejecutando: fruto_mda
+[2026-08-31 04:49:29.743177] ✅ fruto_mda completado en 0.45s
+[2026-08-31 04:49:29.743620] ⚡ Ejecutando: retroalimentacion
+[2026-08-31 04:50:00.182387] ✅ retroalimentacion completado en 30.44s
+[2026-08-31 04:50:00.182978] ⚡ Ejecutando: fruto_ecm
+[2026-08-31 04:50:00.603002] ✅ fruto_ecm completado en 0.42s
+[2026-08-31 04:50:00.603789] 📊 Resumen: 22/22 módulos exitosos en 211.76s
+[2026-08-31 04:50:00.607406] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-31 06:44:41.704644] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-31 06:44:41.706050] ⚡ Ejecutando: autoreparador
+[2026-08-31 06:44:42.138829] ✅ autoreparador completado en 0.43s
+[2026-08-31 06:44:42.139335] ⚡ Ejecutando: gobernador
+[2026-08-31 06:44:50.703854] ✅ gobernador completado en 8.56s
+[2026-08-31 06:44:50.704390] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-31 06:44:51.119825] ✅ evolucionador_red_fractal completado en 0.41s
+[2026-08-31 06:44:51.120784] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-31 06:44:56.952585] ✅ mecanismos_autonomia completado en 5.83s
+[2026-08-31 06:44:56.953638] ⚡ Ejecutando: mecanismos_completos
+[2026-08-31 06:45:01.228984] ✅ mecanismos_completos completado en 4.27s
+[2026-08-31 06:45:01.229957] ⚡ Ejecutando: combate_informacional
+[2026-08-31 06:45:24.625204] ✅ combate_informacional completado en 23.39s
+[2026-08-31 06:45:24.626085] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-31 06:45:27.607784] ✅ tejido_evolutivo completado en 2.98s
+[2026-08-31 06:45:27.608392] ⚡ Ejecutando: tecnologias_raras
+[2026-08-31 06:45:28.573419] ✅ tecnologias_raras completado en 0.96s
+[2026-08-31 06:45:28.574115] ⚡ Ejecutando: conexiones
+[2026-08-31 06:45:37.644964] ✅ conexiones completado en 9.07s
+[2026-08-31 06:45:37.645916] ⚡ Ejecutando: claude_bridge
+[2026-08-31 06:45:41.026009] ✅ claude_bridge completado en 3.38s
+[2026-08-31 06:45:41.026612] ⚡ Ejecutando: razonador
+[2026-08-31 06:45:41.356504] ✅ razonador completado en 0.33s
+[2026-08-31 06:45:41.357056] ⚡ Ejecutando: razonador_fallback
+[2026-08-31 06:45:49.264875] ✅ razonador_fallback completado en 7.91s
+[2026-08-31 06:45:49.265464] ⚡ Ejecutando: expansor_tokens
+[2026-08-31 06:46:37.238188] ✅ expansor_tokens completado en 47.97s
+[2026-08-31 06:46:37.238790] ⚡ Ejecutando: validador_recursos
+[2026-08-31 06:46:46.719009] ✅ validador_recursos completado en 9.48s
+[2026-08-31 06:46:46.719632] ⚡ Ejecutando: integrador_recursos
+[2026-08-31 06:46:47.151647] ✅ integrador_recursos completado en 0.43s
+[2026-08-31 06:46:47.152261] ⚡ Ejecutando: expansor_dominio
+[2026-08-31 06:46:50.376392] ✅ expansor_dominio completado en 3.22s
+[2026-08-31 06:46:50.377094] ⚡ Ejecutando: cazador_recursos
+[2026-08-31 06:47:17.176506] ✅ cazador_recursos completado en 26.80s
+[2026-08-31 06:47:17.177150] ⚡ Ejecutando: consciencia
+[2026-08-31 06:47:18.192585] ✅ consciencia completado en 1.01s
+[2026-08-31 06:47:18.193200] ⚡ Ejecutando: bus_local_corregido
+[2026-08-31 06:47:18.545817] ✅ bus_local_corregido completado en 0.35s
+[2026-08-31 06:47:18.546294] ⚡ Ejecutando: fruto_mda
+[2026-08-31 06:47:18.967382] ✅ fruto_mda completado en 0.42s
+[2026-08-31 06:47:18.967855] ⚡ Ejecutando: retroalimentacion
+[2026-08-31 06:47:26.522231] ✅ retroalimentacion completado en 7.55s
+[2026-08-31 06:47:26.522734] ⚡ Ejecutando: fruto_ecm
+[2026-08-31 06:47:26.866552] ✅ fruto_ecm completado en 0.34s
+[2026-08-31 06:47:26.867180] 📊 Resumen: 22/22 módulos exitosos en 165.16s
+[2026-08-31 06:47:26.870170] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-31 18:22:33.649110] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-31 18:22:33.650815] ⚡ Ejecutando: autoreparador
+[2026-08-31 18:22:34.104487] ✅ autoreparador completado en 0.45s
+[2026-08-31 18:22:34.105003] ⚡ Ejecutando: gobernador
+[2026-08-31 18:22:43.263256] ✅ gobernador completado en 9.16s
+[2026-08-31 18:22:43.263757] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-31 18:22:43.628992] ✅ evolucionador_red_fractal completado en 0.36s
+[2026-08-31 18:22:43.629451] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-31 18:22:47.978849] ✅ mecanismos_autonomia completado en 4.35s
+[2026-08-31 18:22:47.979411] ⚡ Ejecutando: mecanismos_completos
+[2026-08-31 18:22:51.132211] ✅ mecanismos_completos completado en 3.15s
+[2026-08-31 18:22:51.132717] ⚡ Ejecutando: combate_informacional
+[2026-08-31 18:23:13.368810] ✅ combate_informacional completado en 22.24s
+[2026-08-31 18:23:13.369389] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-31 18:23:16.374795] ✅ tejido_evolutivo completado en 3.00s
+[2026-08-31 18:23:16.377223] ⚡ Ejecutando: tecnologias_raras
+[2026-08-31 18:23:17.280591] ✅ tecnologias_raras completado en 0.90s
+[2026-08-31 18:23:17.281212] ⚡ Ejecutando: conexiones
+[2026-08-31 18:23:23.990779] ✅ conexiones completado en 6.71s
+[2026-08-31 18:23:23.991432] ⚡ Ejecutando: claude_bridge
+[2026-08-31 18:23:27.474944] ✅ claude_bridge completado en 3.48s
+[2026-08-31 18:23:27.475499] ⚡ Ejecutando: razonador
+[2026-08-31 18:23:27.784920] ✅ razonador completado en 0.31s
+[2026-08-31 18:23:27.785425] ⚡ Ejecutando: razonador_fallback
+[2026-08-31 18:23:33.763036] ✅ razonador_fallback completado en 5.98s
+[2026-08-31 18:23:33.763540] ⚡ Ejecutando: expansor_tokens
+[2026-08-31 18:24:24.032794] ✅ expansor_tokens completado en 50.27s
+[2026-08-31 18:24:24.033488] ⚡ Ejecutando: validador_recursos
+[2026-08-31 18:24:34.425625] ✅ validador_recursos completado en 10.39s
+[2026-08-31 18:24:34.426321] ⚡ Ejecutando: integrador_recursos
+[2026-08-31 18:24:34.803919] ✅ integrador_recursos completado en 0.38s
+[2026-08-31 18:24:34.804450] ⚡ Ejecutando: expansor_dominio
+[2026-08-31 18:24:43.794614] ✅ expansor_dominio completado en 8.99s
+[2026-08-31 18:24:43.795104] ⚡ Ejecutando: cazador_recursos
+[2026-08-31 18:25:06.022646] ✅ cazador_recursos completado en 22.23s
+[2026-08-31 18:25:06.023297] ⚡ Ejecutando: consciencia
+[2026-08-31 18:25:06.992304] ✅ consciencia completado en 0.97s
+[2026-08-31 18:25:06.992778] ⚡ Ejecutando: bus_local_corregido
+[2026-08-31 18:25:07.352271] ✅ bus_local_corregido completado en 0.36s
+[2026-08-31 18:25:07.352744] ⚡ Ejecutando: fruto_mda
+[2026-08-31 18:25:07.783214] ✅ fruto_mda completado en 0.43s
+[2026-08-31 18:25:07.783703] ⚡ Ejecutando: retroalimentacion
+[2026-08-31 18:25:15.026233] ✅ retroalimentacion completado en 7.24s
+[2026-08-31 18:25:15.026865] ⚡ Ejecutando: fruto_ecm
+[2026-08-31 18:25:15.427384] ✅ fruto_ecm completado en 0.40s
+[2026-08-31 18:25:15.428009] 📊 Resumen: 22/22 módulos exitosos en 161.78s
+[2026-08-31 18:25:15.431178] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-31 18:38:37.128834] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-31 18:38:37.133042] ⚡ Ejecutando: autoreparador
+[2026-08-31 18:38:37.545747] ✅ autoreparador completado en 0.41s
+[2026-08-31 18:38:37.546253] ⚡ Ejecutando: gobernador
+[2026-08-31 18:38:46.151647] ✅ gobernador completado en 8.60s
+[2026-08-31 18:38:46.152154] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-31 18:38:46.523777] ✅ evolucionador_red_fractal completado en 0.37s
+[2026-08-31 18:38:46.524250] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-31 18:38:50.247735] ✅ mecanismos_autonomia completado en 3.72s
+[2026-08-31 18:38:50.248316] ⚡ Ejecutando: mecanismos_completos
+[2026-08-31 18:38:53.900032] ✅ mecanismos_completos completado en 3.65s
+[2026-08-31 18:38:53.900742] ⚡ Ejecutando: combate_informacional
+[2026-08-31 18:39:15.085882] ✅ combate_informacional completado en 21.18s
+[2026-08-31 18:39:15.086376] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-31 18:39:18.242096] ✅ tejido_evolutivo completado en 3.16s
+[2026-08-31 18:39:18.242613] ⚡ Ejecutando: tecnologias_raras
+[2026-08-31 18:39:19.067043] ✅ tecnologias_raras completado en 0.82s
+[2026-08-31 18:39:19.067518] ⚡ Ejecutando: conexiones
+[2026-08-31 18:39:26.038943] ✅ conexiones completado en 6.97s
+[2026-08-31 18:39:26.039645] ⚡ Ejecutando: claude_bridge
+[2026-08-31 18:39:29.556468] ✅ claude_bridge completado en 3.52s
+[2026-08-31 18:39:29.557086] ⚡ Ejecutando: razonador
+[2026-08-31 18:39:29.891791] ✅ razonador completado en 0.33s
+[2026-08-31 18:39:29.892390] ⚡ Ejecutando: razonador_fallback
+[2026-08-31 18:39:37.163064] ✅ razonador_fallback completado en 7.27s
+[2026-08-31 18:39:37.163660] ⚡ Ejecutando: expansor_tokens
+[2026-08-31 18:40:18.979783] ✅ expansor_tokens completado en 41.82s
+[2026-08-31 18:40:18.980472] ⚡ Ejecutando: validador_recursos
+[2026-08-31 18:40:31.656469] ✅ validador_recursos completado en 12.68s
+[2026-08-31 18:40:31.657094] ⚡ Ejecutando: integrador_recursos
+[2026-08-31 18:40:32.063739] ✅ integrador_recursos completado en 0.41s
+[2026-08-31 18:40:32.064224] ⚡ Ejecutando: expansor_dominio
+[2026-08-31 18:40:42.548571] ✅ expansor_dominio completado en 10.48s
+[2026-08-31 18:40:42.549063] ⚡ Ejecutando: cazador_recursos
+[2026-08-31 18:41:06.395055] ✅ cazador_recursos completado en 23.85s
+[2026-08-31 18:41:06.395588] ⚡ Ejecutando: consciencia
+[2026-08-31 18:41:07.386595] ✅ consciencia completado en 0.99s
+[2026-08-31 18:41:07.387112] ⚡ Ejecutando: bus_local_corregido
+[2026-08-31 18:41:07.731954] ✅ bus_local_corregido completado en 0.34s
+[2026-08-31 18:41:07.733194] ⚡ Ejecutando: fruto_mda
+[2026-08-31 18:41:10.381558] ✅ fruto_mda completado en 2.65s
+[2026-08-31 18:41:10.382198] ⚡ Ejecutando: retroalimentacion
+[2026-08-31 18:41:18.026469] ✅ retroalimentacion completado en 7.64s
+[2026-08-31 18:41:18.027004] ⚡ Ejecutando: fruto_ecm
+[2026-08-31 18:41:18.401414] ✅ fruto_ecm completado en 0.37s
+[2026-08-31 18:41:18.402744] ⚡ Ejecutando: memoria_viva
+[2026-08-31 18:41:18.777044] ✅ memoria_viva completado en 0.37s
+[2026-08-31 18:41:18.777736] ⚡ Ejecutando: flujo_cruzado
+[2026-08-31 18:41:19.155487] ✅ flujo_cruzado completado en 0.38s
+[2026-08-31 18:41:19.155997] ⚡ Ejecutando: cazador_24h
+[2026-08-31 18:41:19.516341] ✅ cazador_24h completado en 0.36s
+[2026-08-31 18:41:19.517021] ⚡ Ejecutando: integrador_maestro
+[2026-08-31 18:41:19.903711] ✅ integrador_maestro completado en 0.39s
+[2026-08-31 18:41:19.904342] ⚡ Ejecutando: evolucion_codigo
+[2026-08-31 18:41:20.405403] ✅ evolucion_codigo completado en 0.50s
+[2026-08-31 18:41:20.406088] 📊 Resumen: 27/27 módulos exitosos en 163.27s
+[2026-08-31 18:41:20.409566] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-31 19:27:22.986942] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-31 19:27:22.988651] ⚡ Ejecutando: autodiagnostico
+[2026-08-31 19:27:23.161094] ❌ autodiagnostico falló (código 2)
+[2026-08-31 19:27:23.161575] ⚡ Ejecutando: autocurador
+[2026-08-31 19:27:23.518656] ✅ autocurador completado en 0.36s
+[2026-08-31 19:27:23.519209] ⚡ Ejecutando: gestor_apis
+[2026-08-31 19:27:24.211260] ✅ gestor_apis completado en 0.69s
+[2026-08-31 19:27:24.211752] ⚡ Ejecutando: vigilante_orquestador
+[2026-08-31 19:27:24.538550] ✅ vigilante_orquestador completado en 0.33s
+[2026-08-31 19:27:24.539051] ⚡ Ejecutando: polinizador_codigo
+[2026-08-31 19:27:40.336810] ✅ polinizador_codigo completado en 15.80s
+[2026-08-31 19:27:40.337390] ⚡ Ejecutando: autoreparador
+[2026-08-31 19:27:40.739850] ✅ autoreparador completado en 0.40s
+[2026-08-31 19:27:40.740465] ⚡ Ejecutando: gobernador
+[2026-08-31 19:27:51.032327] ✅ gobernador completado en 10.29s
+[2026-08-31 19:27:51.032904] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-31 19:27:51.410108] ✅ evolucionador_red_fractal completado en 0.38s
+[2026-08-31 19:27:51.410580] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-31 19:27:55.171214] ✅ mecanismos_autonomia completado en 3.76s
+[2026-08-31 19:27:55.171844] ⚡ Ejecutando: mecanismos_completos
+[2026-08-31 19:27:58.667988] ✅ mecanismos_completos completado en 3.50s
+[2026-08-31 19:27:58.668473] ⚡ Ejecutando: combate_informacional
+[2026-08-31 19:28:22.450052] ✅ combate_informacional completado en 23.78s
+[2026-08-31 19:28:22.450595] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-31 19:28:24.883905] ✅ tejido_evolutivo completado en 2.43s
+[2026-08-31 19:28:24.884658] ⚡ Ejecutando: tecnologias_raras
+[2026-08-31 19:28:25.707234] ✅ tecnologias_raras completado en 0.82s
+[2026-08-31 19:28:25.707705] ⚡ Ejecutando: conexiones
+[2026-08-31 19:28:32.728734] ✅ conexiones completado en 7.02s
+[2026-08-31 19:28:32.729219] ⚡ Ejecutando: claude_bridge
+[2026-08-31 19:28:36.462856] ✅ claude_bridge completado en 3.73s
+[2026-08-31 19:28:36.463440] ⚡ Ejecutando: razonador
+[2026-08-31 19:28:36.781683] ✅ razonador completado en 0.32s
+[2026-08-31 19:28:36.782270] ⚡ Ejecutando: razonador_fallback
+[2026-08-31 19:28:46.219682] ✅ razonador_fallback completado en 9.44s
+[2026-08-31 19:28:46.220542] ⚡ Ejecutando: expansor_tokens
+[2026-08-31 19:29:29.133761] ✅ expansor_tokens completado en 42.91s
+[2026-08-31 19:29:29.134446] ⚡ Ejecutando: validador_recursos
+[2026-08-31 19:29:45.315288] ✅ validador_recursos completado en 16.18s
+[2026-08-31 19:29:45.315978] ⚡ Ejecutando: integrador_recursos
+[2026-08-31 19:29:45.674614] ✅ integrador_recursos completado en 0.36s
+[2026-08-31 19:29:45.675245] ⚡ Ejecutando: expansor_dominio
+[2026-08-31 19:29:51.949111] ✅ expansor_dominio completado en 6.27s
+[2026-08-31 19:29:51.949731] ⚡ Ejecutando: cazador_recursos
+[2026-08-31 19:30:16.648997] ✅ cazador_recursos completado en 24.70s
+[2026-08-31 19:30:16.649522] ⚡ Ejecutando: consciencia
+[2026-08-31 19:30:17.625015] ✅ consciencia completado en 0.98s
+[2026-08-31 19:30:17.625517] ⚡ Ejecutando: bus_local_corregido
+[2026-08-31 19:30:17.955692] ✅ bus_local_corregido completado en 0.33s
+[2026-08-31 19:30:17.957365] ⚡ Ejecutando: fruto_mda
+[2026-08-31 19:30:18.418001] ✅ fruto_mda completado en 0.46s
+[2026-08-31 19:30:18.418479] ⚡ Ejecutando: retroalimentacion
+[2026-08-31 19:30:25.755134] ✅ retroalimentacion completado en 7.34s
+[2026-08-31 19:30:25.755627] ⚡ Ejecutando: fruto_ecm
+[2026-08-31 19:30:26.148632] ✅ fruto_ecm completado en 0.39s
+[2026-08-31 19:30:26.149289] ⚡ Ejecutando: memoria_viva
+[2026-08-31 19:30:26.498927] ✅ memoria_viva completado en 0.35s
+[2026-08-31 19:30:26.499415] ⚡ Ejecutando: flujo_cruzado
+[2026-08-31 19:30:26.819513] ✅ flujo_cruzado completado en 0.32s
+[2026-08-31 19:30:26.820382] ⚡ Ejecutando: cazador_24h
+[2026-08-31 19:30:27.185187] ✅ cazador_24h completado en 0.36s
+[2026-08-31 19:30:27.185779] ⚡ Ejecutando: integrador_maestro
+[2026-08-31 19:30:27.496287] ✅ integrador_maestro completado en 0.31s
+[2026-08-31 19:30:27.496760] ⚡ Ejecutando: evolucion_codigo
+[2026-08-31 19:30:27.937438] ✅ evolucion_codigo completado en 0.44s
+[2026-08-31 19:30:27.938370] 📊 Resumen: 31/32 módulos exitosos en 184.95s
+[2026-08-31 19:30:27.944615] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-31 19:34:17.515737] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-31 19:34:17.516299] ⚡ Ejecutando: autodiagnostico
+[2026-08-31 19:34:17.679311] ❌ autodiagnostico falló (código 2)
+[2026-08-31 19:34:17.679824] ⚡ Ejecutando: autocurador
+[2026-08-31 19:34:18.035112] ✅ autocurador completado en 0.35s
+[2026-08-31 19:34:18.035602] ⚡ Ejecutando: gestor_apis
+[2026-08-31 19:34:18.738365] ✅ gestor_apis completado en 0.70s
+[2026-08-31 19:34:18.738866] ⚡ Ejecutando: vigilante_orquestador
+[2026-08-31 19:34:19.067354] ✅ vigilante_orquestador completado en 0.33s
+[2026-08-31 19:34:19.067864] ⚡ Ejecutando: polinizador_codigo
+[2026-08-31 19:34:34.811144] ✅ polinizador_codigo completado en 15.74s
+[2026-08-31 19:34:34.811648] ⚡ Ejecutando: autoreparador
+[2026-08-31 19:34:35.229762] ✅ autoreparador completado en 0.42s
+[2026-08-31 19:34:35.231974] ⚡ Ejecutando: gobernador
+[2026-08-31 19:34:44.729136] ✅ gobernador completado en 9.50s
+[2026-08-31 19:34:44.729636] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-31 19:34:45.102741] ✅ evolucionador_red_fractal completado en 0.37s
+[2026-08-31 19:34:45.103205] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-31 19:34:48.887816] ✅ mecanismos_autonomia completado en 3.78s
+[2026-08-31 19:34:48.888312] ⚡ Ejecutando: mecanismos_completos
+[2026-08-31 19:34:52.313417] ✅ mecanismos_completos completado en 3.42s
+[2026-08-31 19:34:52.314115] ⚡ Ejecutando: combate_informacional
+[2026-08-31 19:35:13.994779] ✅ combate_informacional completado en 21.68s
+[2026-08-31 19:35:13.995292] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-31 19:35:17.282430] ✅ tejido_evolutivo completado en 3.29s
+[2026-08-31 19:35:17.283018] ⚡ Ejecutando: tecnologias_raras
+[2026-08-31 19:35:18.109231] ✅ tecnologias_raras completado en 0.83s
+[2026-08-31 19:35:18.109712] ⚡ Ejecutando: conexiones
+[2026-08-31 19:35:25.350000] ✅ conexiones completado en 7.24s
+[2026-08-31 19:35:25.350662] ⚡ Ejecutando: claude_bridge
+[2026-08-31 19:35:29.547032] ✅ claude_bridge completado en 4.20s
+[2026-08-31 19:35:29.547783] ⚡ Ejecutando: razonador
+[2026-08-31 19:35:29.842017] ✅ razonador completado en 0.29s
+[2026-08-31 19:35:29.842495] ⚡ Ejecutando: razonador_fallback
+[2026-08-31 19:35:38.328363] ✅ razonador_fallback completado en 8.48s
+[2026-08-31 19:35:38.329450] ⚡ Ejecutando: expansor_tokens
+[2026-08-31 19:36:18.589083] ✅ expansor_tokens completado en 40.26s
+[2026-08-31 19:36:18.589608] ⚡ Ejecutando: validador_recursos
+[2026-08-31 19:36:28.858729] ✅ validador_recursos completado en 10.27s
+[2026-08-31 19:36:28.859251] ⚡ Ejecutando: integrador_recursos
+[2026-08-31 19:36:29.220642] ✅ integrador_recursos completado en 0.36s
+[2026-08-31 19:36:29.231226] ⚡ Ejecutando: expansor_dominio
+[2026-08-31 19:36:40.556352] ✅ expansor_dominio completado en 11.32s
+[2026-08-31 19:36:40.557101] ⚡ Ejecutando: cazador_recursos
+[2026-08-31 19:37:04.301448] ✅ cazador_recursos completado en 23.74s
+[2026-08-31 19:37:04.302093] ⚡ Ejecutando: consciencia
+[2026-08-31 19:37:05.292073] ✅ consciencia completado en 0.99s
+[2026-08-31 19:37:05.292735] ⚡ Ejecutando: bus_local_corregido
+[2026-08-31 19:37:05.664142] ✅ bus_local_corregido completado en 0.37s
+[2026-08-31 19:37:05.664639] ⚡ Ejecutando: fruto_mda
+[2026-08-31 19:37:06.142137] ✅ fruto_mda completado en 0.48s
+[2026-08-31 19:37:06.142769] ⚡ Ejecutando: retroalimentacion
+[2026-08-31 19:37:13.081347] ✅ retroalimentacion completado en 6.94s
+[2026-08-31 19:37:13.081982] ⚡ Ejecutando: fruto_ecm
+[2026-08-31 19:37:13.462783] ✅ fruto_ecm completado en 0.38s
+[2026-08-31 19:37:13.463426] ⚡ Ejecutando: memoria_viva
+[2026-08-31 19:37:13.812511] ✅ memoria_viva completado en 0.35s
+[2026-08-31 19:37:13.813021] ⚡ Ejecutando: flujo_cruzado
+[2026-08-31 19:37:14.128980] ✅ flujo_cruzado completado en 0.32s
+[2026-08-31 19:37:14.129615] ⚡ Ejecutando: cazador_24h
+[2026-08-31 19:37:14.476781] ✅ cazador_24h completado en 0.35s
+[2026-08-31 19:37:14.477349] ⚡ Ejecutando: integrador_maestro
+[2026-08-31 19:37:14.812840] ✅ integrador_maestro completado en 0.33s
+[2026-08-31 19:37:14.813353] ⚡ Ejecutando: evolucion_codigo
+[2026-08-31 19:37:15.244710] ✅ evolucion_codigo completado en 0.43s
+[2026-08-31 19:37:15.245444] 📊 Resumen: 31/32 módulos exitosos en 177.73s
+[2026-08-31 19:37:15.249732] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-31 21:02:00.118327] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-31 21:02:00.363971] ⚡ Ejecutando: autodiagnostico
+[2026-08-31 21:02:00.547419] ❌ autodiagnostico falló (código 2)
+[2026-08-31 21:02:00.724178] ⚡ Ejecutando: autocurador
+[2026-08-31 21:02:01.404289] ✅ autocurador completado en 0.68s
+[2026-08-31 21:02:01.404822] ⚡ Ejecutando: gestor_apis
+[2026-08-31 21:02:02.156097] ✅ gestor_apis completado en 0.75s
+[2026-08-31 21:02:02.156603] ⚡ Ejecutando: vigilante_orquestador
+[2026-08-31 21:02:02.594839] ✅ vigilante_orquestador completado en 0.44s
+[2026-08-31 21:02:02.595723] ⚡ Ejecutando: polinizador_codigo
+[2026-08-31 21:02:24.285537] ✅ polinizador_codigo completado en 21.69s
+[2026-08-31 21:02:24.289182] ⚡ Ejecutando: autoreparador
+[2026-08-31 21:02:24.837235] ✅ autoreparador completado en 0.55s
+[2026-08-31 21:02:24.838250] ⚡ Ejecutando: gobernador
+[2026-08-31 21:02:34.878617] ✅ gobernador completado en 10.04s
+[2026-08-31 21:02:34.879218] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-31 21:02:35.367753] ✅ evolucionador_red_fractal completado en 0.49s
+[2026-08-31 21:02:35.368232] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-31 21:02:40.055310] ✅ mecanismos_autonomia completado en 4.69s
+[2026-08-31 21:02:40.056301] ⚡ Ejecutando: mecanismos_completos
+[2026-08-31 21:02:43.886377] ✅ mecanismos_completos completado en 3.83s
+[2026-08-31 21:02:43.887319] ⚡ Ejecutando: combate_informacional
+[2026-08-31 21:03:12.916128] ✅ combate_informacional completado en 29.03s
+[2026-08-31 21:03:12.916945] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-31 21:03:15.970359] ✅ tejido_evolutivo completado en 3.05s
+[2026-08-31 21:03:15.971129] ⚡ Ejecutando: tecnologias_raras
+[2026-08-31 21:03:16.966608] ✅ tecnologias_raras completado en 0.99s
+[2026-08-31 21:03:16.967427] ⚡ Ejecutando: conexiones
+[2026-08-31 21:03:27.437265] ✅ conexiones completado en 10.47s
+[2026-08-31 21:03:27.438250] ⚡ Ejecutando: claude_bridge
+[2026-08-31 21:03:31.633582] ✅ claude_bridge completado en 4.19s
+[2026-08-31 21:03:31.634094] ⚡ Ejecutando: razonador
+[2026-08-31 21:03:31.974086] ✅ razonador completado en 0.34s
+[2026-08-31 21:03:31.974673] ⚡ Ejecutando: razonador_fallback
+[2026-08-31 21:03:39.804871] ✅ razonador_fallback completado en 7.83s
+[2026-08-31 21:03:39.805698] ⚡ Ejecutando: expansor_tokens
+[2026-08-31 21:04:34.738434] ✅ expansor_tokens completado en 54.93s
+[2026-08-31 21:04:34.741426] ⚡ Ejecutando: validador_recursos
+[2026-08-31 21:04:46.239059] ✅ validador_recursos completado en 11.50s
+[2026-08-31 21:04:46.239723] ⚡ Ejecutando: integrador_recursos
+[2026-08-31 21:04:46.685271] ✅ integrador_recursos completado en 0.44s
+[2026-08-31 21:04:46.686075] ⚡ Ejecutando: expansor_dominio
+[2026-08-31 21:04:55.587494] ✅ expansor_dominio completado en 8.90s
+[2026-08-31 21:04:55.588039] ⚡ Ejecutando: cazador_recursos
+[2026-08-31 21:05:27.507937] ✅ cazador_recursos completado en 31.92s
+[2026-08-31 21:05:27.508956] ⚡ Ejecutando: consciencia
+[2026-08-31 21:05:28.689860] ✅ consciencia completado en 1.18s
+[2026-08-31 21:05:28.690575] ⚡ Ejecutando: bus_local_corregido
+[2026-08-31 21:05:29.084132] ✅ bus_local_corregido completado en 0.39s
+[2026-08-31 21:05:29.084782] ⚡ Ejecutando: fruto_mda
+[2026-08-31 21:05:29.551158] ✅ fruto_mda completado en 0.47s
+[2026-08-31 21:05:29.551632] ⚡ Ejecutando: retroalimentacion
+[2026-08-31 21:05:37.233393] ✅ retroalimentacion completado en 7.68s
+[2026-08-31 21:05:37.233965] ⚡ Ejecutando: fruto_ecm
+[2026-08-31 21:05:37.717406] ✅ fruto_ecm completado en 0.48s
+[2026-08-31 21:05:37.718081] ⚡ Ejecutando: memoria_viva
+[2026-08-31 21:05:38.208827] ✅ memoria_viva completado en 0.49s
+[2026-08-31 21:05:38.209455] ⚡ Ejecutando: flujo_cruzado
+[2026-08-31 21:05:38.647280] ✅ flujo_cruzado completado en 0.44s
+[2026-08-31 21:05:38.647803] ⚡ Ejecutando: cazador_24h
+[2026-08-31 21:05:39.103464] ✅ cazador_24h completado en 0.46s
+[2026-08-31 21:05:39.104952] ⚡ Ejecutando: integrador_maestro
+[2026-08-31 21:05:39.572337] ✅ integrador_maestro completado en 0.47s
+[2026-08-31 21:05:39.573438] ⚡ Ejecutando: evolucion_codigo
+[2026-08-31 21:05:40.357298] ✅ evolucion_codigo completado en 0.78s
+[2026-08-31 21:05:40.358973] 📊 Resumen: 31/32 módulos exitosos en 219.99s
+[2026-08-31 21:05:40.369440] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+[2026-08-31 22:13:26.414076] 🧠 INICIANDO ORQUESTADOR GLOBAL (V∞+23)
+[2026-08-31 22:13:26.415700] ⚡ Ejecutando: autodiagnostico
+[2026-08-31 22:13:26.573454] ❌ autodiagnostico falló (código 2)
+[2026-08-31 22:13:26.573870] ⚡ Ejecutando: autocurador
+[2026-08-31 22:13:26.955817] ✅ autocurador completado en 0.38s
+[2026-08-31 22:13:26.956279] ⚡ Ejecutando: gestor_apis
+[2026-08-31 22:13:27.620885] ✅ gestor_apis completado en 0.66s
+[2026-08-31 22:13:27.621300] ⚡ Ejecutando: vigilante_orquestador
+[2026-08-31 22:13:27.987215] ✅ vigilante_orquestador completado en 0.37s
+[2026-08-31 22:13:27.987686] ⚡ Ejecutando: polinizador_codigo
+[2026-08-31 22:13:47.756004] ✅ polinizador_codigo completado en 19.77s
+[2026-08-31 22:13:47.756470] ⚡ Ejecutando: autoreparador
+[2026-08-31 22:13:48.214490] ✅ autoreparador completado en 0.46s
+[2026-08-31 22:13:48.215009] ⚡ Ejecutando: gobernador
+[2026-08-31 22:13:58.356343] ✅ gobernador completado en 10.14s
+[2026-08-31 22:13:58.356765] ⚡ Ejecutando: evolucionador_red_fractal
+[2026-08-31 22:13:58.720007] ✅ evolucionador_red_fractal completado en 0.36s
+[2026-08-31 22:13:58.721523] ⚡ Ejecutando: mecanismos_autonomia
+[2026-08-31 22:14:02.514763] ✅ mecanismos_autonomia completado en 3.79s
+[2026-08-31 22:14:02.515170] ⚡ Ejecutando: mecanismos_completos
+[2026-08-31 22:14:06.136529] ✅ mecanismos_completos completado en 3.62s
+[2026-08-31 22:14:06.136971] ⚡ Ejecutando: combate_informacional
+[2026-08-31 22:14:24.483045] ✅ combate_informacional completado en 18.35s
+[2026-08-31 22:14:24.483460] ⚡ Ejecutando: tejido_evolutivo
+[2026-08-31 22:14:27.351281] ✅ tejido_evolutivo completado en 2.87s
+[2026-08-31 22:14:27.351713] ⚡ Ejecutando: tecnologias_raras
+[2026-08-31 22:14:29.761293] ✅ tecnologias_raras completado en 2.41s
+[2026-08-31 22:14:29.761792] ⚡ Ejecutando: conexiones
+[2026-08-31 22:14:37.003122] ✅ conexiones completado en 7.24s
+[2026-08-31 22:14:37.003634] ⚡ Ejecutando: claude_bridge
+[2026-08-31 22:14:40.435013] ✅ claude_bridge completado en 3.43s
+[2026-08-31 22:14:40.435502] ⚡ Ejecutando: razonador
+[2026-08-31 22:14:40.767089] ✅ razonador completado en 0.33s
+[2026-08-31 22:14:40.767638] ⚡ Ejecutando: razonador_fallback
+[2026-08-31 22:14:49.344775] ✅ razonador_fallback completado en 8.58s
+[2026-08-31 22:14:49.345196] ⚡ Ejecutando: expansor_tokens
+[2026-08-31 22:15:32.943950] ✅ expansor_tokens completado en 43.60s
+[2026-08-31 22:15:32.944480] ⚡ Ejecutando: validador_recursos
+[2026-08-31 22:15:43.448154] ✅ validador_recursos completado en 10.50s
+[2026-08-31 22:15:43.448597] ⚡ Ejecutando: integrador_recursos
+[2026-08-31 22:15:43.805518] ✅ integrador_recursos completado en 0.36s
+[2026-08-31 22:15:43.806010] ⚡ Ejecutando: expansor_dominio
+[2026-08-31 22:15:49.926618] ✅ expansor_dominio completado en 6.12s
+[2026-08-31 22:15:49.927162] ⚡ Ejecutando: cazador_recursos
+[2026-08-31 22:16:13.482220] ✅ cazador_recursos completado en 23.55s
+[2026-08-31 22:16:13.482641] ⚡ Ejecutando: consciencia
+[2026-08-31 22:16:14.424745] ✅ consciencia completado en 0.94s
+[2026-08-31 22:16:14.425155] ⚡ Ejecutando: bus_local_corregido
+[2026-08-31 22:16:14.747046] ✅ bus_local_corregido completado en 0.32s
+[2026-08-31 22:16:14.747603] ⚡ Ejecutando: fruto_mda
+[2026-08-31 22:16:15.263588] ✅ fruto_mda completado en 0.52s
+[2026-08-31 22:16:15.263992] ⚡ Ejecutando: retroalimentacion
+[2026-08-31 22:16:22.265374] ✅ retroalimentacion completado en 7.00s
+[2026-08-31 22:16:22.265800] ⚡ Ejecutando: fruto_ecm
+[2026-08-31 22:16:22.614857] ✅ fruto_ecm completado en 0.35s
+[2026-08-31 22:16:22.615470] ⚡ Ejecutando: memoria_viva
+[2026-08-31 22:16:22.969417] ✅ memoria_viva completado en 0.35s
+[2026-08-31 22:16:22.970108] ⚡ Ejecutando: flujo_cruzado
+[2026-08-31 22:16:23.306924] ✅ flujo_cruzado completado en 0.34s
+[2026-08-31 22:16:23.307391] ⚡ Ejecutando: cazador_24h
+[2026-08-31 22:16:23.617270] ✅ cazador_24h completado en 0.31s
+[2026-08-31 22:16:23.617683] ⚡ Ejecutando: integrador_maestro
+[2026-08-31 22:16:23.952234] ✅ integrador_maestro completado en 0.33s
+[2026-08-31 22:16:23.952816] ⚡ Ejecutando: evolucion_codigo
+[2026-08-31 22:16:24.396990] ✅ evolucion_codigo completado en 0.44s
+[2026-08-31 22:16:24.397542] 📊 Resumen: 31/32 módulos exitosos en 177.98s
+[2026-08-31 22:16:24.401165] 📄 Informe guardado: /data/data/com.termux/files/home/miu-ecosistema/nutrientes/informe_global.json
+🧠 ORQUESTADOR ABSOLUTO V∞+27 — flujo interconectado
+⚡ poder dado a mecanismos_autonomia.py para auto-repararse
+⚡ poder dado a gobernador.py para auto-repararse
+⚡ poder dado a maestro_autonomo.py para auto-repararse
+⚡ poder dado a razonador_fallback.py para auto-repararse
+⚡ poder dado a alimentador_fractal.py para auto-repararse
+⚡ poder dado a mecanismos_completos.py para auto-repararse
+⚡ poder dado a fruto_ecm.py para auto-repararse
+⚡ poder dado a conversador.py para auto-repararse
+⚡ poder dado a explorador_profundo.py para auto-repararse
+⚡ poder dado a publicar_estado_kimi.py para auto-repararse
+⚡ poder dado a absorber_avanzado.py para auto-repararse
+⚡ poder dado a cazador_recursos.py para auto-repararse
+⚡ poder dado a expansor_tokens.py para auto-repararse
+⚡ poder dado a scanner_plugin.py para auto-repararse
+⚡ poder dado a vigilante_orquestador.py para auto-repararse
+⚡ poder dado a proveedor_llm.py para auto-repararse
+⚡ poder dado a drive_mano_oracle.py para auto-repararse
+⚡ poder dado a diagnostico_completo.py para auto-repararse
+⚡ poder dado a combate_informacional.py para auto-repararse
+⚡ poder dado a memoria_viva.py para auto-repararse
+⚡ poder dado a renovador.py para auto-repararse
+⚡ poder dado a evolucionador_red_fractal.py para auto-repararse
+⚡ poder dado a auto_diagnoatico.py para auto-repararse
+⚡ poder dado a retroalimentador.py para auto-repararse
+⚡ poder dado a pliegue_ejecutable.py para auto-repararse
+⚡ poder dado a validador_recursos.py para auto-repararse
+⚡ poder dado a flujo_cruzado.py para auto-repararse
+⚡ poder dado a fruto_mda.py para auto-repararse
+⚡ poder dado a probador_recursos.py para auto-repararse
+⚡ poder dado a conexiones.py para auto-repararse
+⚡ poder dado a absorber.py para auto-repararse
+⚡ poder dado a nodo_autonomo.py para auto-repararse
+⚡ poder dado a integrador_maestro.py para auto-repararse
+⚡ poder dado a auto_desplegar_bus.py para auto-repararse
+⚡ poder dado a orquestador.py para auto-repararse
+⚡ poder dado a consciencia.py para auto-repararse
+⚡ poder dado a retroalimentacion.py para auto-repararse
+⚡ poder dado a evolucion_codigo.py para auto-repararse
+⚡ poder dado a escucha_ideas.py para auto-repararse
+⚡ poder dado a expansor_web.py para auto-repararse
+⚡ poder dado a explorador_absorbente.py para auto-repararse
+⚡ poder dado a notificador.py para auto-repararse
+⚡ poder dado a explorador_recursos.py para auto-repararse
+⚡ poder dado a integrador_recursos.py para auto-repararse
+⚡ poder dado a cazador_24h.py para auto-repararse
+⚡ poder dado a expansor_web_v35.py para auto-repararse
+⚡ poder dado a tejido_evolutivo.py para auto-repararse
+⚡ poder dado a alimentador_bucles.py para auto-repararse
+⚡ poder dado a polinizador_codigo.py para auto-repararse
+⚡ poder dado a guerra_fractal.py para auto-repararse
+⚡ poder dado a gravity_token_manager_v2.py para auto-repararse
+⚡ poder dado a orquestador_integrado_v24.py para auto-repararse
+⚡ poder dado a auto_registro.py para auto-repararse
+⚡ poder dado a bus_local.py para auto-repararse
+⚡ poder dado a autoreparador.py para auto-repararse
+⚡ poder dado a tejedor.py para auto-repararse
+⚡ poder dado a orquestador_integrado_v2.py para auto-repararse
+⚡ poder dado a tokenizador_autonomo.py para auto-repararse
+⚡ poder dado a claude_bridge.py para auto-repararse
+⚡ poder dado a tecnologias_raras.py para auto-repararse
+⚡ poder dado a gestor_apis.py para auto-repararse
+⚡ poder dado a absorber_conversaciones.py para auto-repararse
+⚡ poder dado a integracion_autenticador_orquestador_v24.py para auto-repararse
+⚡ poder dado a expansor_web_v35_corregido.py para auto-repararse
+⚡ poder dado a expansor_dominio.py para auto-repararse
+⚡ poder dado a mecanismos_autonomia.py para auto-repararse
+⚡ poder dado a gobernador.py para auto-repararse
+⚡ poder dado a maestro_autonomo.py para auto-repararse
+⚡ poder dado a razonador_fallback.py para auto-repararse
+⚡ poder dado a alimentador_fractal.py para auto-repararse
+⚡ poder dado a mecanismos_completos.py para auto-repararse
+⚡ poder dado a fruto_ecm.py para auto-repararse
+⚡ poder dado a conversador.py para auto-repararse
+⚡ poder dado a explorador_profundo.py para auto-repararse
+⚡ poder dado a publicar_estado_kimi.py para auto-repararse
+⚡ poder dado a absorber_avanzado.py para auto-repararse
+⚡ poder dado a cazador_recursos.py para auto-repararse
+⚡ poder dado a expansor_tokens.py para auto-repararse
+⚡ poder dado a scanner_plugin.py para auto-repararse
+⚡ poder dado a vigilante_orquestador.py para auto-repararse
+⚡ poder dado a proveedor_llm.py para auto-repararse
+⚡ poder dado a drive_mano_oracle.py para auto-repararse
+⚡ poder dado a diagnostico_completo.py para auto-repararse
+⚡ poder dado a combate_informacional.py para auto-repararse
+⚡ poder dado a memoria_viva.py para auto-repararse
+⚡ poder dado a renovador.py para auto-repararse
+⚡ poder dado a evolucionador_red_fractal.py para auto-repararse
+⚡ poder dado a auto_diagnoatico.py para auto-repararse
+⚡ poder dado a retroalimentador.py para auto-repararse
+⚡ poder dado a pliegue_ejecutable.py para auto-repararse
+⚡ poder dado a validador_recursos.py para auto-repararse
+⚡ poder dado a flujo_cruzado.py para auto-repararse
+⚡ poder dado a fruto_mda.py para auto-repararse
+⚡ poder dado a probador_recursos.py para auto-repararse
+⚡ poder dado a conexiones.py para auto-repararse
+⚡ poder dado a absorber.py para auto-repararse
+⚡ poder dado a nodo_autonomo.py para auto-repararse
+⚡ poder dado a integrador_maestro.py para auto-repararse
+⚡ poder dado a auto_desplegar_bus.py para auto-repararse
+⚡ poder dado a orquestador.py para auto-repararse
+⚡ poder dado a consciencia.py para auto-repararse
+⚡ poder dado a retroalimentacion.py para auto-repararse
+⚡ poder dado a evolucion_codigo.py para auto-repararse
+⚡ poder dado a escucha_ideas.py para auto-repararse
+⚡ poder dado a expansor_web.py para auto-repararse
+⚡ poder dado a explorador_absorbente.py para auto-repararse
+⚡ poder dado a notificador.py para auto-repararse
+⚡ poder dado a explorador_recursos.py para auto-repararse
+⚡ poder dado a integrador_recursos.py para auto-repararse
+⚡ poder dado a cazador_24h.py para auto-repararse
+⚡ poder dado a expansor_web_v35.py para auto-repararse
+⚡ poder dado a tejido_evolutivo.py para auto-repararse
+⚡ poder dado a alimentador_bucles.py para auto-repararse
+⚡ poder dado a polinizador_codigo.py para auto-repararse
+⚡ poder dado a guerra_fractal.py para auto-repararse
+⚡ poder dado a gravity_token_manager_v2.py para auto-repararse
+⚡ poder dado a orquestador_integrado_v24.py para auto-repararse
+⚡ poder dado a auto_registro.py para auto-repararse
+⚡ poder dado a bus_local.py para auto-repararse
+⚡ poder dado a autoreparador.py para auto-repararse
+⚡ poder dado a tejedor.py para auto-repararse
+⚡ poder dado a orquestador_integrado_v2.py para auto-repararse
+⚡ poder dado a tokenizador_autonomo.py para auto-repararse
+⚡ poder dado a claude_bridge.py para auto-repararse
+⚡ poder dado a tecnologias_raras.py para auto-repararse
+⚡ poder dado a gestor_apis.py para auto-repararse
+⚡ poder dado a absorber_conversaciones.py para auto-repararse
+⚡ poder dado a integracion_autenticador_orquestador_v24.py para auto-repararse
+⚡ poder dado a expansor_web_v35_corregido.py para auto-repararse
+⚡ poder dado a expansor_dominio.py para auto-repararse
+→ flujo: ejecutando metabolismo en /data/data/com.termux/files/home/FranBot_live
+· /data/data/com.termux/files/home/FranBot_live no responde, sigue flujo: Command '['python3', '/data/data/com.termux/files/home/FranBot_live/metabolismo_universal.py', '--ciclo']' timed out after 120 seconds
+→ flujo: ejecutando metabolismo en /storage/25A9-180D/FranBot
+· /storage/25A9-180D/FranBot no responde, sigue flujo: Command '['python3', '/storage/25A9-180D/FranBot/metabolismo_universal.py', '--ciclo']' timed out after 120 seconds
+Φ9158.79 vive:true — retroalimentación evolución completada

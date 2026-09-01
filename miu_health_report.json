@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-08-30T10:45:08Z",
+  "version": "V153.3",
+  "checks": {
+    "miu_memory.py": {
+      "ok": true,
+      "size": 3569
+    },
+    "miu_github.py": {
+      "ok": true,
+      "size": 6727
+    },
+    "miu_scanner.py": {
+      "ok": true,
+      "size": 8155
+    },
+    "miu_control.py": {
+      "ok": true,
+      "size": 8343
+    },
+    "protocolos/paf_01.py": {
+      "ok": true,
+      "size": 3950
+    },
+    "protocolos/pae_01.py": {
+      "ok": true,
+      "size": 3809
+    },
+    "protocolos/pcp_01.py": {
+      "ok": true,
+      "size": 3257
+    },
+    "seeds/SEED.sh": {
+      "ok": true,
+      "size": 2298
+    },
+    "dashboard/index.html": {
+      "ok": true,
+      "size": 4442
+    },
+    "python_imports": {
+      "ok": true,
+      "missing": []
+    },
+    "github": {
+      "ok": true,
+      "repos": 0
+    },
+    "sqlite": {
+      "ok": true,
+      "tables": {
+        "memories": 85,
+        "conversations": 0,
+        "commands": 0,
+        "system_state": 4
+      }
+    },
+    "sd": {
+      "ok": true,
+      "links": [
+        "sd_cognitive",
+        "sd_colmena_biblioteca",
+        "sd_llama.cpp",
+        "sd_index.txt",
+        "sd_FranBot"
+      ]
+    },
+    "processes": {
+      "ok": false,
+      "count": 0,
+      "names": []
+    },
+    "env": {
+      "ok": true,
+      "keys_found": 41,
+      "missing_critical": []
+    }
+  }
+}

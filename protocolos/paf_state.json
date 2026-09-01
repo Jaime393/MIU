@@ -1,0 +1,28 @@
+{
+  "node_id": "trama_termux",
+  "round": 1,
+  "reputation": 1.0,
+  "local_params": {
+    "phi_coherence": {
+      "value": 0.77,
+      "timestamp": "2026-08-29T18:45:10Z",
+      "node": "trama_termux"
+    },
+    "k_tau": {
+      "value": 34.0332,
+      "timestamp": "2026-08-29T18:45:10Z",
+      "node": "trama_termux"
+    },
+    "sigma": {
+      "value": 3.427051,
+      "timestamp": "2026-08-29T18:45:10Z",
+      "node": "trama_termux"
+    }
+  },
+  "global_params": {
+    "phi_coherence": 0.7949999999999999,
+    "k_tau": 34.0666,
+    "sigma": 3.427051
+  },
+  "timestamp": "2026-08-29T18:45:10Z"
+}

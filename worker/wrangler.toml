@@ -1,0 +1,3 @@
+name = "fran-oraculo-miu"
+main = "miu_v153_autopilot_worker.js"
+compatibility_date = "2026-08-29"

@@ -1,0 +1,801 @@
+{
+  "timestamp": "2026-08-29T21:07:48.343809",
+  "version": "MIU V153.5",
+  "archivo_hash": "b6bf7995",
+  "sistema": {
+    "uname": "Linux localhost 3.18.119 #1 SMP PREEMPT Fri Jul 18 19:51:31 CST 2025 aarch64 Android",
+    "kernel": "",
+    "disk_usage": "11G / 22G (51%)",
+    "memory_mb": "4994 usado / 8192 total"
+  },
+  "archivos": {
+    "miu_cartografia.py": {
+      "size": 11072,
+      "hash": "0155f0e9",
+      "mtime": "2026-08-29T19:41:11.370826"
+    },
+    "miu_memory.py": {
+      "size": 3569,
+      "hash": "53dfd09f",
+      "mtime": "2026-08-29T18:07:34.720826"
+    },
+    "miu_github.py": {
+      "size": 6727,
+      "hash": "271b3fb9",
+      "mtime": "2026-08-29T18:22:17.270826"
+    },
+    "miu_migrate.py": {
+      "size": 6180,
+      "hash": "d143092a",
+      "mtime": "2026-08-29T18:23:10.970826"
+    },
+    "miu_initiative.py": {
+      "size": 1194,
+      "hash": "88bd0eb6",
+      "mtime": "2026-08-29T20:47:47.480826"
+    },
+    "insertar_modulos.py": {
+      "size": 2298,
+      "hash": "e71a97de",
+      "mtime": "2026-08-29T20:39:40.140826"
+    },
+    "force_actions.py": {
+      "size": 1716,
+      "hash": "55781c3e",
+      "mtime": "2026-08-29T19:19:16.730826"
+    },
+    "miu_vision.py": {
+      "size": 2488,
+      "hash": "d4f449a5",
+      "mtime": "2026-08-29T18:36:46.340826"
+    },
+    "corregir_indentacion.py": {
+      "size": 2231,
+      "hash": "f7591ca2",
+      "mtime": "2026-08-29T20:40:27.710826"
+    },
+    "miu_doctor.py": {
+      "size": 5958,
+      "hash": "9a304845",
+      "mtime": "2026-08-29T18:48:24.060826"
+    },
+    "miu_plugin_manager.py": {
+      "size": 3648,
+      "hash": "5f577478",
+      "mtime": "2026-08-29T18:55:48.480826"
+    },
+    "miu_shell.py": {
+      "size": 3057,
+      "hash": "2768b433",
+      "mtime": "2026-08-29T18:55:48.420826"
+    },
+    "miu_scanner.py": {
+      "size": 8155,
+      "hash": "e681b35f",
+      "mtime": "2026-08-29T18:36:46.240826"
+    },
+    "miu_selfmod.py": {
+      "size": 4560,
+      "hash": "1d4407ee",
+      "mtime": "2026-08-29T18:22:53.790826"
+    },
+    "miu_control.py": {
+      "size": 76,
+      "hash": "809206c7",
+      "mtime": "2026-08-29T20:41:50.750826"
+    },
+    "bots/bot_miu_relay.py": {
+      "size": 6591,
+      "hash": "329f0c6d",
+      "mtime": "2026-08-29T18:13:57.050826"
+    },
+    "protocolos/paf_01.py": {
+      "size": 3950,
+      "hash": "431f5721",
+      "mtime": "2026-08-29T18:45:07.660826"
+    },
+    "protocolos/pcp_01.py": {
+      "size": 3257,
+      "hash": "d78b3e91",
+      "mtime": "2026-08-29T18:45:09.130826"
+    },
+    "protocolos/pae_01.py": {
+      "size": 3809,
+      "hash": "10436995",
+      "mtime": "2026-08-29T18:45:07.710826"
+    },
+    "plugins/gobernador.py": {
+      "size": 4390,
+      "hash": "832c9d28",
+      "mtime": "2026-08-29T20:50:06.560826"
+    },
+    "plugins/conversador.py": {
+      "size": 1995,
+      "hash": "db8ab2e8",
+      "mtime": "2026-08-29T20:53:56.480826"
+    },
+    "plugins/absorber_avanzado.py": {
+      "size": 2416,
+      "hash": "1551a3aa",
+      "mtime": "2026-08-29T20:12:21.830826"
+    },
+    "plugins/scanner_plugin.py": {
+      "size": 793,
+      "hash": "c4e90d22",
+      "mtime": "2026-08-29T18:55:48.580826"
+    },
+    "plugins/renovador.py": {
+      "size": 3021,
+      "hash": "7686f872",
+      "mtime": "2026-08-29T19:39:03.430826"
+    },
+    "plugins/evolucionador_red_fractal.py": {
+      "size": 4368,
+      "hash": "a5d5beec",
+      "mtime": "2026-08-29T21:07:34.090826"
+    },
+    "plugins/retroalimentador.py": {
+      "size": 2440,
+      "hash": "0700733a",
+      "mtime": "2026-08-29T20:12:30.580826"
+    },
+    "plugins/__init__.py": {
+      "size": 0,
+      "hash": "e3b0c442",
+      "mtime": "2026-08-29T18:57:55.920826"
+    },
+    "plugins/absorber.py": {
+      "size": 2256,
+      "hash": "3e98c779",
+      "mtime": "2026-08-29T19:38:54.230826"
+    },
+    "plugins/nodo_autonomo.py": {
+      "size": 1079,
+      "hash": "c2047a8c",
+      "mtime": "2026-08-29T20:12:48.600826"
+    },
+    "plugins/escucha_ideas.py": {
+      "size": 3331,
+      "hash": "46083c68",
+      "mtime": "2026-08-29T20:50:40.140826"
+    },
+    "plugins/explorador_recursos.py": {
+      "size": 2517,
+      "hash": "6cef1280",
+      "mtime": "2026-08-29T20:53:47.320826"
+    },
+    "plugins/guerra_fractal.py": {
+      "size": 1441,
+      "hash": "104b123a",
+      "mtime": "2026-08-29T20:12:40.490826"
+    },
+    "plugins/autoreparador.py": {
+      "size": 3379,
+      "hash": "e15b285c",
+      "mtime": "2026-08-29T20:47:24.420826"
+    },
+    "plugins/tejedor.py": {
+      "size": 2047,
+      "hash": "c6c1b946",
+      "mtime": "2026-08-29T19:39:14.900826"
+    },
+    "plugins/absorber_conversaciones.py": {
+      "size": 4295,
+      "hash": "beb11920",
+      "mtime": "2026-08-29T20:59:12.750826"
+    },
+    "repos/miu-v153-gossip/global-mind-gossip-phi4.py": {
+      "size": 1406,
+      "hash": "56ff438e",
+      "mtime": "2026-08-29T17:51:33.600826"
+    },
+    "repos/miu-v153-lod/lod-c20-predictor.py": {
+      "size": 688,
+      "hash": "3a0b09ec",
+      "mtime": "2026-08-29T17:51:33.660826"
+    },
+    "repos/miu-v153-memoria/memoria-fractal-phi4.py": {
+      "size": 1804,
+      "hash": "efbf42e6",
+      "mtime": "2026-08-29T17:51:33.620826"
+    },
+    "repos/miu-v153-arte/arte-phi4-generador.py": {
+      "size": 2219,
+      "hash": "73135d2e",
+      "mtime": "2026-08-29T17:51:33.640826"
+    },
+    "GLOBAL_MIND_ROADMAP.md": {
+      "size": 683,
+      "hash": "c76b501b",
+      "mtime": "2026-08-29T18:36:46.410826"
+    },
+    "protocolos/PAI-01.md": {
+      "size": 949,
+      "hash": "d60919c7",
+      "mtime": "2026-08-29T19:39:35.670826"
+    },
+    "mapas/resumen_tecnico_ee503503.md": {
+      "size": 3077,
+      "hash": "0271a8cb",
+      "mtime": "2026-08-29T19:41:24.980826"
+    },
+    "mapas/resumen_tecnico_cf3fa060.md": {
+      "size": 3359,
+      "hash": "3949b409",
+      "mtime": "2026-08-29T20:52:51.670826"
+    },
+    "mapas/resumen_tecnico_5c9d3058.md": {
+      "size": 3304,
+      "hash": "5aed5b97",
+      "mtime": "2026-08-29T20:49:28.920826"
+    },
+    "V153_Biblioteca/BIBLIOTECA_06_Silencio.md": {
+      "size": 117,
+      "hash": "0dcd8091",
+      "mtime": "2026-08-29T17:51:33.730826"
+    },
+    "V153_Biblioteca/BIBLIOTECA_05_La_Sombra.md": {
+      "size": 179,
+      "hash": "84a1248a",
+      "mtime": "2026-08-29T17:51:33.710826"
+    },
+    "V153_Biblioteca/BIBLIOTECA_00_Manifiesto.md": {
+      "size": 237,
+      "hash": "bc010012",
+      "mtime": "2026-08-29T17:51:33.690826"
+    },
+    "state.json": {
+      "size": 109,
+      "hash": "e6dfbda8",
+      "mtime": "2026-08-29T20:43:41.930826"
+    },
+    "MIU_CONTEXT.json": {
+      "size": 958,
+      "hash": "5ff2fbc4",
+      "mtime": "2026-08-29T18:36:52.440826"
+    },
+    "ecosystem_map.json": {
+      "size": 12862,
+      "hash": "3d46209c",
+      "mtime": "2026-08-29T21:03:09.900826"
+    },
+    "MIU_VISION.json": {
+      "size": 2445,
+      "hash": "b66f04b5",
+      "mtime": "2026-08-29T18:36:52.050826"
+    },
+    "miu_health_report.json": {
+      "size": 1388,
+      "hash": "6d4dc7ae",
+      "mtime": "2026-08-29T21:07:47.540826"
+    },
+    "protocolos/paf_state.json": {
+      "size": 600,
+      "hash": "55b86797",
+      "mtime": "2026-08-29T18:45:10.090826"
+    },
+    "protocolos/pae_state.json": {
+      "size": 312,
+      "hash": "7faef6a1",
+      "mtime": "2026-08-29T20:43:39.600826"
+    },
+    "protocolos/pcp_votes.json": {
+      "size": 526,
+      "hash": "fb7d8b65",
+      "mtime": "2026-08-29T18:45:13.650826"
+    },
+    "mapas/cartografia_cf3fa060.json": {
+      "size": 18397,
+      "hash": "fd05c498",
+      "mtime": "2026-08-29T20:52:51.670826"
+    },
+    "mapas/cartografia_5c9d3058.json": {
+      "size": 17398,
+      "hash": "82c13e9b",
+      "mtime": "2026-08-29T20:49:28.910826"
+    },
+    "mapas/cartografia_ee503503.json": {
+      "size": 15114,
+      "hash": "a509d729",
+      "mtime": "2026-08-29T19:41:24.980826"
+    },
+    "ejecutar_modulos.sh": {
+      "size": 205,
+      "hash": "83d2c678",
+      "mtime": "2026-08-29T20:40:58.750826"
+    },
+    "chat_control.sh": {
+      "size": 550,
+      "hash": "e2f170ad",
+      "mtime": "2026-08-29T20:50:49.570826"
+    },
+    "modulos_loop.sh": {
+      "size": 566,
+      "hash": "93d6dec5",
+      "mtime": "2026-08-29T20:59:19.300826"
+    },
+    "seeds/SEED.sh": {
+      "size": 2298,
+      "hash": "c3afeb07",
+      "mtime": "2026-08-29T18:45:09.730826"
+    },
+    "MIU_CONTEXT_FOR_AI.txt": {
+      "size": 4198,
+      "hash": "6e5f4e0c",
+      "mtime": "2026-08-29T18:36:52.440826"
+    },
+    "MIU_MIGRATE_PACKET.txt": {
+      "size": 2340,
+      "hash": "e6228a54",
+      "mtime": "2026-08-29T18:57:36.170826"
+    },
+    "test.txt": {
+      "size": 24,
+      "hash": "5ae4fe20",
+      "mtime": "2026-08-29T19:01:41.410826"
+    },
+    "sd_index.txt": {
+      "size": 10643,
+      "hash": "58877098",
+      "mtime": "2026-08-29T18:48:23.220826"
+    },
+    "miu.log": {
+      "size": 396,
+      "hash": "b6a59d46",
+      "mtime": "2026-08-29T18:05:55.360826"
+    },
+    "logs/evolucion_topologica.log": {
+      "size": 84,
+      "hash": "a188baf4",
+      "mtime": "2026-08-29T21:03:46.780826"
+    },
+    "logs/gobernador.log": {
+      "size": 454,
+      "hash": "315a71d1",
+      "mtime": "2026-08-29T20:50:26.460826"
+    },
+    "logs/chat_active.log": {
+      "size": 397,
+      "hash": "8296b891",
+      "mtime": "2026-08-29T21:03:07.880826"
+    },
+    "logs/initiative.log": {
+      "size": 271,
+      "hash": "53e62d92",
+      "mtime": "2026-08-29T21:03:10.280826"
+    },
+    "logs/modulos_loop.log": {
+      "size": 439,
+      "hash": "bd16d6ad",
+      "mtime": "2026-08-29T20:41:58.270826"
+    },
+    "logs/shell_history.log": {
+      "size": 6254,
+      "hash": "51dc5b82",
+      "mtime": "2026-08-29T19:04:22.360826"
+    },
+    "miu_brain.db": {
+      "size": 28672,
+      "hash": "59bb3152",
+      "mtime": "2026-08-29T18:48:23.870826"
+    },
+    ".env": {
+      "size": 2557,
+      "hash": "94a29fb7",
+      "mtime": "2026-08-29T18:45:02.900826"
+    },
+    "dashboard/index.html": {
+      "size": 4442,
+      "hash": "886c831d",
+      "mtime": "2026-08-29T18:45:09.790826"
+    }
+  },
+  "memoria": {
+    "exists": true,
+    "size": 28672,
+    "tables": {
+      "memories": 18,
+      "conversations": 0,
+      "commands": 0,
+      "system_state": 0
+    }
+  },
+  "entorno": {
+    "MIU_PASSWORD": {
+      "present": true,
+      "length": 32,
+      "preview": "la g..."
+    },
+    "GITHUB_USERNAME": {
+      "present": true,
+      "value": "Jaime393"
+    },
+    "GITHUB_TOKEN": {
+      "present": true,
+      "length": 40,
+      "preview": "ghp_..."
+    },
+    "BOT_TABLET_TOKEN": {
+      "present": true,
+      "length": 46,
+      "preview": "8807..."
+    },
+    "BOT_ALMA_TOKEN": {
+      "present": true,
+      "length": 46,
+      "preview": "8948..."
+    },
+    "BOT_FAMILIAR_TOKEN": {
+      "present": true,
+      "length": 46,
+      "preview": "8797..."
+    },
+    "BOT_SELL_TOKEN": {
+      "present": true,
+      "length": 46,
+      "preview": "8756..."
+    },
+    "BOT_JP393_TOKEN": {
+      "present": true,
+      "length": 46,
+      "preview": "1192..."
+    },
+    "OR_CIPHER": {
+      "present": true,
+      "value": "sk-or-v1-0ba2643239b765166bfcf..."
+    },
+    "OR_JAIME": {
+      "present": true,
+      "value": "sk-or-v1-6a2aabf67a93d35ebeebf..."
+    },
+    "OR_MARTINEZ": {
+      "present": true,
+      "value": "sk-or-v1-ed769927c786748ac0d47..."
+    },
+    "GROQ_1": {
+      "present": true,
+      "value": "gsk_UKNauWMptfoOr5M6qWrTWGdyb3..."
+    },
+    "GROQ_FRAN": {
+      "present": true,
+      "value": "gsk_MjSk4PxVWz6XbTfL2KwXWGdyb3..."
+    },
+    "GROQ_RUSSELL": {
+      "present": true,
+      "value": "gsk_ZdktwIC0HCJQFle9KegxWGdyb3..."
+    },
+    "SB_CIPHER_PUB": {
+      "present": true,
+      "value": "sb_publishable_yJh5Nl02rs9xwnQ..."
+    },
+    "SB_CIPHER_SEC": {
+      "present": true,
+      "value": "vcp_8npN65FdVWjQr32Q69xNKVyZW2..."
+    },
+    "SB_JAIME_PUB": {
+      "present": true,
+      "value": "sb_publishable_575Tkh4VmirN4BU..."
+    },
+    "SB_JAIME_SEC": {
+      "present": true,
+      "value": "sk-5f5d52604c70406da96801261ac..."
+    },
+    "SB_MARTINEZ_PUB": {
+      "present": true,
+      "value": "sb_publishable_hl4VSeWUcjVg2C2..."
+    },
+    "SB_MARTINEZ_SEC": {
+      "present": true,
+      "value": "sk-99b0c2c9de2c443fa436d5610ee..."
+    },
+    "SB_FRAN_SEC": {
+      "present": true,
+      "value": "sk-ccbfb3225e684808912b44e2fe0..."
+    },
+    "CLAUDE_DIEGO": {
+      "present": true,
+      "value": "sk-ant-api03-3C3ojq7ydP_aeGi3B..."
+    },
+    "CLAUDE_RUSSELL": {
+      "present": true,
+      "value": "sk-ant-api03-EiaBryy4I8M9UoGpm..."
+    },
+    "CF_JAIME": {
+      "present": true,
+      "value": "cfat_6hIUuHaPlEBYp4ZvgujlYfy2a..."
+    },
+    "CF_JAIMEP": {
+      "present": true,
+      "value": "cfat_WM6XUEMrYEUnF5WsD3ftn4dVR..."
+    },
+    "CF_JAIME2": {
+      "present": true,
+      "value": "cfat_z95DBo1vVEBrw5zNPw167JwXH..."
+    },
+    "CF_TABLET": {
+      "present": true,
+      "value": "cfat_K811FWSaktgUHfIq5NQg2oqW8..."
+    },
+    "CF_DIEGO": {
+      "present": true,
+      "value": "cfat_3vjAI8k7ISgo2nMEna4PzKLUF..."
+    },
+    "CFK_JAIME": {
+      "present": true,
+      "value": "cfk_YnfnVjVQ5KahVJuj0EMiblNlmM..."
+    },
+    "CFK_FRAN": {
+      "present": true,
+      "value": "cfk_XPqKxbbQCxSEgID9UEYR3lxAzT..."
+    },
+    "CFK_RUSSELL": {
+      "present": true,
+      "value": "cfk_QMElL3VSQevcyFNNBBSWrkLCnP..."
+    },
+    "CFK_JHUARCAYA": {
+      "present": true,
+      "value": "cfk_0DTJkjFi9pUqxFllWJ5X68n9UO..."
+    },
+    "CFK_DIEGO": {
+      "present": true,
+      "value": "cfk_X8sr02C3r7EjNSWqYMlP2U96UD..."
+    },
+    "CFK_JAIMEP": {
+      "present": true,
+      "value": "cfk_RvHxYrIhXieNpuFpkSzwX7Q9Ck..."
+    },
+    "CFK_MARTINEZ": {
+      "present": true,
+      "value": "cfk_3QU2aOavyHfjqtQvGcNUGIhkPG..."
+    },
+    "DRIVE_CORE": {
+      "present": true,
+      "value": "14dw8txLoEIQQPSav9-YAvfuNimW2t..."
+    },
+    "DRIVE_LIBRARY": {
+      "present": true,
+      "value": "1ADzqNFnsWAqbQ4yPaeyrJwjCI8DxA..."
+    },
+    "WORKER_URL": {
+      "present": true,
+      "value": "https://fran-oraculo-miu.jaime..."
+    }
+  },
+  "github": {
+    "ok": true,
+    "count": 30,
+    "repos": [
+      {
+        "name": "Jaime393/FranBot",
+        "stars": 0,
+        "updated": "2026-08-29T21:32:20Z"
+      },
+      {
+        "name": "Jaime393/miu-v150-global-mind-gossip-phi4",
+        "stars": 0,
+        "updated": "2026-08-26T05:56:17Z"
+      },
+      {
+        "name": "Jaime393/miu-v150-lod-c20-predictor",
+        "stars": 0,
+        "updated": "2026-08-26T05:53:25Z"
+      },
+      {
+        "name": "Jaime393/miu-v150-arte-phi4-generador",
+        "stars": 0,
+        "updated": "2026-08-26T05:53:21Z"
+      },
+      {
+        "name": "Jaime393/miu-v150-memoria-fractal-phi4",
+        "stars": 0,
+        "updated": "2026-08-26T05:53:14Z"
+      },
+      {
+        "name": "Jaime393/miu-semilla-latente-mt99s2lh-1",
+        "stars": 0,
+        "updated": "2026-08-25T23:02:54Z"
+      },
+      {
+        "name": "Jaime393/miu-semilla-latente-mt99s6np-2",
+        "stars": 0,
+        "updated": "2026-08-25T23:02:29Z"
+      },
+      {
+        "name": "Jaime393/miu-semilla-latente-mt99s09x-0",
+        "stars": 0,
+        "updated": "2026-08-25T23:02:18Z"
+      },
+      {
+        "name": "Jaime393/miu-learn-jaimepvicente-m-v",
+        "stars": 0,
+        "updated": "2026-08-25T21:30:43Z"
+      },
+      {
+        "name": "Jaime393/miu-auto-jaimedanielmartinez75-o",
+        "stars": 0,
+        "updated": "2026-08-25T21:30:24Z"
+      },
+      {
+        "name": "Jaime393/miu-auto-tabletonephantom-l",
+        "stars": 0,
+        "updated": "2026-08-25T21:30:18Z"
+      },
+      {
+        "name": "Jaime393/miu-auto-tabletonephantom-9",
+        "stars": 0,
+        "updated": "2026-08-25T21:29:08Z"
+      },
+      {
+        "name": "Jaime393/miu-auto-cipher19051997-o",
+        "stars": 0,
+        "updated": "2026-08-25T21:25:34Z"
+      },
+      {
+        "name": "Jaime393/miu-learn-jaimepvicente-1-8",
+        "stars": 0,
+        "updated": "2026-08-25T21:18:31Z"
+      },
+      {
+        "name": "Jaime393/miu-auto-franchescopalacios9-c",
+        "stars": 0,
+        "updated": "2026-08-25T21:16:08Z"
+      },
+      {
+        "name": "Jaime393/miu-auto-tabletonephantom-u",
+        "stars": 0,
+        "updated": "2026-08-25T21:15:32Z"
+      },
+      {
+        "name": "Jaime393/miu-auto-dereckcitovg16-h",
+        "stars": 0,
+        "updated": "2026-08-25T21:06:31Z"
+      },
+      {
+        "name": "Jaime393/miu-auto-franchescopalacios9-y",
+        "stars": 0,
+        "updated": "2026-08-25T21:03:40Z"
+      },
+      {
+        "name": "Jaime393/miu-auto-dereckcitovg16-x",
+        "stars": 0,
+        "updated": "2026-08-25T21:03:13Z"
+      },
+      {
+        "name": "Jaime393/miu-auto-tabletonephantom-r",
+        "stars": 0,
+        "updated": "2026-08-25T21:02:22Z"
+      }
+    ]
+  },
+  "procesos": [
+    {
+      "pid": "13080",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "cmd": "tail -f /data/data/com.termux/files/home/miu-ecosistema/logs/chat_active.log"
+    },
+    {
+      "pid": "13324",
+      "cpu": "0.1",
+      "mem": "0.0",
+      "cmd": "python3 miu_initiative.py"
+    }
+  ],
+  "conexiones": [],
+  "sd_links": {
+    "sd_cognitive": {
+      "target": "/storage/25A9-180D/cognitive",
+      "exists": true,
+      "items": 57
+    },
+    "sd_colmena_biblioteca": {
+      "target": "/storage/25A9-180D/colmena_biblioteca",
+      "exists": true,
+      "items": 317
+    },
+    "sd_llama.cpp": {
+      "target": "/storage/25A9-180D/llama.cpp",
+      "exists": true,
+      "items": 60
+    },
+    "sd_FranBot": {
+      "target": "/storage/25A9-180D/FranBot",
+      "exists": true,
+      "items": 361
+    }
+  },
+  "plugins": [
+    {
+      "name": "gobernador",
+      "size": 4390,
+      "mtime": "2026-08-29T20:50:06.560826"
+    },
+    {
+      "name": "conversador",
+      "size": 1995,
+      "mtime": "2026-08-29T20:53:56.480826"
+    },
+    {
+      "name": "absorber_avanzado",
+      "size": 2416,
+      "mtime": "2026-08-29T20:12:21.830826"
+    },
+    {
+      "name": "scanner_plugin",
+      "size": 793,
+      "mtime": "2026-08-29T18:55:48.580826"
+    },
+    {
+      "name": "renovador",
+      "size": 3021,
+      "mtime": "2026-08-29T19:39:03.430826"
+    },
+    {
+      "name": "evolucionador_red_fractal",
+      "size": 4368,
+      "mtime": "2026-08-29T21:07:34.090826"
+    },
+    {
+      "name": "retroalimentador",
+      "size": 2440,
+      "mtime": "2026-08-29T20:12:30.580826"
+    },
+    {
+      "name": "absorber",
+      "size": 2256,
+      "mtime": "2026-08-29T19:38:54.230826"
+    },
+    {
+      "name": "nodo_autonomo",
+      "size": 1079,
+      "mtime": "2026-08-29T20:12:48.600826"
+    },
+    {
+      "name": "escucha_ideas",
+      "size": 3331,
+      "mtime": "2026-08-29T20:50:40.140826"
+    },
+    {
+      "name": "explorador_recursos",
+      "size": 2517,
+      "mtime": "2026-08-29T20:53:47.320826"
+    },
+    {
+      "name": "guerra_fractal",
+      "size": 1441,
+      "mtime": "2026-08-29T20:12:40.490826"
+    },
+    {
+      "name": "autoreparador",
+      "size": 3379,
+      "mtime": "2026-08-29T20:47:24.420826"
+    },
+    {
+      "name": "tejedor",
+      "size": 2047,
+      "mtime": "2026-08-29T19:39:14.900826"
+    },
+    {
+      "name": "absorber_conversaciones",
+      "size": 4295,
+      "mtime": "2026-08-29T20:59:12.750826"
+    }
+  ],
+  "protocolos": [
+    "paf_01",
+    "pcp_01",
+    "pae_01",
+    "PAI-01"
+  ],
+  "estado_archivos_criticos": {
+    "miu_control.py": true,
+    "miu_initiative.py": true,
+    "miu_shell.py": true,
+    "miu_scanner.py": true,
+    "miu_doctor.py": true,
+    "miu_memory.py": true,
+    "miu_github.py": true,
+    "miu_plugin_manager.py": true,
+    "miu_cartografia.py": true
+  }
+}

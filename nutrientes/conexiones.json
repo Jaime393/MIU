@@ -1,0 +1,22 @@
+{
+  "github": {
+    "ok": true,
+    "msg": "Status 200"
+  },
+  "telegram": {
+    "ok": true,
+    "msg": "franbottablet_bot"
+  },
+  "groq": {
+    "ok": false,
+    "msg": "400"
+  },
+  "cloudflare": {
+    "ok": true,
+    "msg": "Token presente"
+  },
+  "drive": {
+    "ok": true,
+    "msg": "drive:"
+  }
+}

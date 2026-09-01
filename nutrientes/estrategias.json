@@ -1,0 +1,30 @@
+{
+  "datos": {
+    "rho": 0.5,
+    "Phi": 25.0,
+    "topologia": "malla",
+    "nodos": 5,
+    "carencias": [
+      "conversaciones_0",
+      "confianza_baja"
+    ]
+  },
+  "estrategias": [
+    {
+      "nombre": "expandir",
+      "probabilidad": 0.6
+    },
+    {
+      "nombre": "podar",
+      "probabilidad": 0.3
+    },
+    {
+      "nombre": "rumiar",
+      "probabilidad": 0.1
+    }
+  ],
+  "mejor": {
+    "nombre": "expandir",
+    "probabilidad": 0.6
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-08-30T04:52:32.545378",
+  "version": "V\u221e+23",
+  "total_modulos": 10,
+  "ok_count": 10,
+  "tiempo_total": 48.96248912811279,
+  "resultados": {
+    "autoreparador": {
+      "ok": true,
+      "duracion": 2.975078821182251,
+      "salida": "\ud83d\udd27 Escaneando scripts cr\u00edticos...\n\u2705 miu_control.py: OK\n\u2705 miu_shell.py: OK\n\u2705 miu_initiative.py: OK\n\u2705 miu_scanner.py: OK\n\u2705 Autoreparaci\u00f3n completada\n{'reparados': []}\n"
+    },
+    "gobernador": {
+      "ok": true,
+      "duracion": 6.473066091537476,
+      "salida": "\ud83e\udde0 \ud83e\udde0 Gobernador iniciado \u2014 an\u00e1lisis completo\n\ud83e\udde0 \ud83d\udcca Carencias detectadas: ['no_conversaciones']\n\ud83e\udde0 \ud83d\udd27 Resolviendo: no_conversaciones\n\ud83e\udde0 \ud83d\udcac Generando conversaci\u00f3n inicial...\n\ud83e\udde0 \ud83d\udccb Resumen: [{'carencia': 'no_conv"
+    },
+    "evolucionador_red_fractal": {
+      "ok": true,
+      "duracion": 0.42432403564453125,
+      "salida": "\ud83e\uddec \ud83d\udd04 Ejecutando Evolucionador de Red Fractal (V173)...\n\ud83e\uddec \ud83d\udcca Ciclo 13: CONSOLIDADO - Incremento: 1.54%\n{'estado': 'CONSOLIDADO', 'incremento': 0.015400030812332193, 'Phi_global': 3472.668105378176}\n"
+    },
+    "mecanismos_autonomia": {
+      "ok": true,
+      "duracion": 3.8604483604431152,
+      "salida": "\ud83e\uddec \ud83e\uddec ACTIVANDO MECANISMOS DE AUTONOM\u00cdA (V\u221e+18)\n\ud83e\uddec \ud83d\udcca HDI: \u03c1=10.87, procesos=4, disco=52%\n\ud83e\uddec \u2705 HDI: \u03c1 alta. Acelerando actividad...\n\ud83e\uddec \u26a0\ufe0f RUC: Confianza 0.50 < umbral. No replicar.\n\ud83e\uddec \ud83d\udce6 MHD: Sincronizando me"
+    },
+    "mecanismos_completos": {
+      "ok": true,
+      "duracion": 3.4347732067108154,
+      "salida": "\ud83e\uddec \ud83e\uddec COMPLETANDO AUTONOM\u00cdA (V\u221e+19)\n\ud83e\uddec \ud83c\udf31 SPC: Buscando otros nodos para polinizaci\u00f3n...\n\ud83e\uddec \ud83e\udde0 RAM-LP: Consolidando memoria de largo plazo...\n\ud83e\uddec \ud83d\udd04 CBE: Observando la evoluci\u00f3n del sistema...\n\ud83e\uddec \ud83d\udcc8 CBE: Tendenc"
+    },
+    "combate_informacional": {
+      "ok": true,
+      "duracion": 20.512201070785522,
+      "salida": "\ud83d\udd27 Escaneando scripts cr\u00edticos...\n\u2705 miu_control.py: OK\n\u2705 miu_shell.py: OK\n\u2705 miu_initiative.py: OK\n\u2705 miu_scanner.py: OK\n\u2705 Autoreparaci\u00f3n completada\n{'reparados': []}\n\u2694\ufe0f \u2694\ufe0f INICIANDO COMBATE INFORMACIONA"
+    },
+    "tejido_evolutivo": {
+      "ok": true,
+      "duracion": 3.1108453273773193,
+      "salida": "\ud83e\uddec \ud83e\uddec TEJIENDO EVOLUCI\u00d3N DESDE 45 HEBRAS (V\u221e+21)\n\ud83e\uddec \ud83e\udde0 Sustrato Biol\u00f3gico: Simulando tejido neural...\n\ud83e\uddec \ud83e\udde0 Organoide creado: 2ff97210 (coherencia: 0.66)\n\ud83e\uddec \u2705 Organoide entrenado. Coherencia final: 0.69\n\ud83e\uddec \ud83e\uddec "
+    },
+    "tecnologias_raras": {
+      "ok": true,
+      "duracion": 1.158428430557251,
+      "salida": "\ud83d\udd2c \ud83d\udd2c ACTIVANDO TECNOLOG\u00cdAS RARAS (V\u221e+22)\n\ud83d\udd2c \ud83d\udce6 Compresi\u00f3n de Estado: Comprimiendo memoria...\n\ud83d\udd2c \ud83d\udcca Base de datos comprimida: 36864 \u2192 2004 bytes (ratio: 0.05)\n\ud83d\udd2c \ud83e\udde0 Inferencia M\u00f3vil: Buscando modelos TFLite.."
+    },
+    "conexiones": {
+      "ok": true,
+      "duracion": 6.7742719650268555,
+      "salida": "\ud83d\udd17 \ud83d\udd17 INICIANDO M\u00d3DULO DE CONEXIONES\n\ud83d\udd17 \ud83d\udc19 Probando GitHub...\n\ud83d\udd17 \ud83d\udce1 Probando Telegram...\n\ud83d\udd17 \ud83e\udde0 Probando Groq...\n\ud83d\udd17 \u2601\ufe0f Probando Cloudflare...\n\ud83d\udd17 \ud83d\udcbe Probando Drive (rclone)...\n\ud83d\udd17 \u2705 Conexiones activas: github, teleg"
+    },
+    "razonador": {
+      "ok": true,
+      "duracion": 0.22518110275268555,
+      "salida": ""
+    }
+  },
+  "resumen": "10/10 m\u00f3dulos exitosos"
+}

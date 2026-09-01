@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-08-30T07:08:27.881501",
+  "funciones": [
+    "phi_grafo",
+    "replicar",
+    "main",
+    "__init__",
+    "extraer_funciones",
+    "extraer_clases",
+    "grafo_llamadas",
+    "__init__",
+    "guardar_estado",
+    "recuperar_ultimo"
+  ],
+  "clases": [
+    "TejedorTopologico",
+    "MemoriaFractal",
+    "BusLocal"
+  ],
+  "phi": 0.17355371900826447
+}

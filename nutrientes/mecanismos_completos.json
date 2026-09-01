@@ -1,0 +1,21 @@
+{
+  "ACE": {
+    "estado": "normal",
+    "entropia": 0.5
+  },
+  "SPC": {
+    "ok": false,
+    "msg": "Sin otros nodos"
+  },
+  "RAM-LP": {
+    "error": "no such column: source"
+  },
+  "GD": {
+    "ok": false,
+    "rho": 0.5
+  },
+  "CBE": {
+    "ok": true,
+    "tendencia": 0.010400587869795993
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-08-30T07:16:03.319189",
+  "observacion": {
+    "salud": "estable",
+    "memoria": "normal",
+    "conversaciones": 0,
+    "procesos_activos": 3,
+    "tokens_disponibles": 24073
+  },
+  "sentimiento": "fuerte",
+  "necesidad": "conversar",
+  "evolucion": "r\u00e1pida",
+  "carencias": [
+    "El nodo est\u00e1 solo. Necesita conversar."
+  ]
+}

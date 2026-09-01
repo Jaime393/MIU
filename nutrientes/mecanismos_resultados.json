@@ -1,0 +1,46 @@
+{
+  "HDI": {
+    "rho": 10.75268817204301
+  },
+  "RUC": {
+    "apto": false,
+    "confianza": 0.5
+  },
+  "MHD": {
+    "resultados": [
+      {
+        "github": true
+      },
+      {
+        "mapa": true
+      }
+    ]
+  },
+  "MDGI": {
+    "ok": false,
+    "gradiente": 0.0
+  },
+  "NOC": {
+    "onda": false,
+    "rho": 0.5
+  },
+  "EC": {
+    "hash": "78e0982c4724c4a2"
+  },
+  "TRF": {
+    "ok": false,
+    "msg": "Sin fallos registrados"
+  },
+  "IAC": {
+    "ok": true,
+    "id": "nodo-cac966d6"
+  },
+  "SLT": {
+    "latido": true,
+    "intervalo": 1907.2088248729706
+  },
+  "MIR": {
+    "Phi": 25.0,
+    "tasa": "normal"
+  }
+}

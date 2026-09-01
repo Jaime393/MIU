@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+"""
+Módulo de Autoreparación — Resiliencia del micelio
+Detecta fallos, reinicia procesos, restaura scripts desde plantillas.
+"""
+import os, sys, time, subprocess, shutil
+from pathlib import Path
+
+MIU_DIR = Path("/data/data/com.termux/files/home/miu-ecosistema")
+BACKUP_DIR = MIU_DIR / "backups"
+BACKUP_DIR.mkdir(exist_ok=True)
+
+# Plantillas de respaldo para scripts críticos (contenido mínimo funcional)
+PLANTILLAS = {
+    "miu_control.py": '''#!/usr/bin/env python3\nprint("MIU Control Center — versión de respaldo")\n''',
+    "miu_shell.py": '''#!/usr/bin/env python3\nimport subprocess, sys\nprint("Shell de respaldo")\n''',
+}
+
+def verificar_script(nombre):
+    ruta = MIU_DIR / nombre
+    if not ruta.exists():
+        return "FALTA"
+    # Si el script tiene errores de sintaxis (falla al importar)
+    try:
+        subprocess.run(["python3", "-m", "py_compile", str(ruta)], check=True, capture_output=True)
+        return "OK"
+    except subprocess.CalledProcessError:
+        return "ERROR_SINTAXIS"
+
+def reparar_script(nombre):
+    ruta = MIU_DIR / nombre
+    # 1. Intentar restaurar desde backup local
+    backup = BACKUP_DIR / f"{nombre}.bak"
+    if backup.exists():
+        shutil.copy(backup, ruta)
+        return f"Restaurado desde backup: {nombre}"
+    # 2. Si no hay backup, usar plantilla
+    if nombre in PLANTILLAS:
+        with open(ruta, "w") as f:
+            f.write(PLANTILLAS[nombre])
+        return f"Creado desde plantilla: {nombre}"
+    return f"No se pudo reparar: {nombre}"
+
+def run(args=None):
+    print("🔧 Escaneando scripts críticos...")
+    reparados = []
+    for nombre in ["miu_control.py", "miu_shell.py", "miu_initiative.py", "miu_scanner.py"]:
+        estado = verificar_script(nombre)
+        if estado != "OK":
+            print(f"⚠️ {nombre}: {estado}")
+            resultado = reparar_script(nombre)
+            reparados.append(resultado)
+        else:
+            print(f"✅ {nombre}: OK")
+    
+    # 2. Verificar proceso del loop
+    r = subprocess.run("ps aux | grep miu_initiative | grep -v grep", shell=True, capture_output=True)
+    if not r.stdout:
+        print("⚠️ Loop de iniciativa no está corriendo. Reiniciando...")
+        subprocess.Popen(["nohup", "python3", str(MIU_DIR/"miu_initiative.py"), ">", str(MIU_DIR/"logs/initiative.log"), "2>&1", "&"])
+        reparados.append("Loop reiniciado")
+    
+    print("✅ Autoreparación completada")
+    return {"reparados": reparados}
+
+if __name__ == "__main__":
+    print(run())

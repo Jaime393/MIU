@@ -1,0 +1,39 @@
+{
+  "compresion_estado": {
+    "ok": true,
+    "ratio": 0.05499967981557377
+  },
+  "inferencia_movil": {
+    "ok": true,
+    "modelo": "dummy.tflite",
+    "tama\u00f1o": 18
+  },
+  "persistencia_local": {
+    "ok": true,
+    "backup": "miu_brain_20260830_104329.db",
+    "total": 11
+  },
+  "edge_computing": {
+    "ok": true,
+    "workflows": [
+      "edge.yml"
+    ]
+  },
+  "busqueda_vectorial": {
+    "error": "no such column: text"
+  },
+  "optimizacion_bateria": {
+    "ok": true,
+    "tareas": 6,
+    "sugerencia": "agrupar"
+  },
+  "compresion_imagenes": {
+    "ok": true,
+    "imagenes": 1,
+    "tama\u00f1o_total": 276939
+  },
+  "compilacion_jit": {
+    "ok": true,
+    "compilados": 0
+  }
+}

@@ -1,0 +1,15 @@
+.env
+.vault.json
+*.db
+*.db.zlib
+__pycache__/
+nutrientes/archivo/
+nutrientes/tokens_encontrados.json
+logs/
+backups/
+.miu/
+gemelos/
+www/pliegue_*.html
+nutrientes/recursos_cazados.json
+nutrientes/recursos_activos.json
+recursos_cazados.json

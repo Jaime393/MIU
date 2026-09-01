@@ -1,0 +1,532 @@
+[2026-08-29 21:11:24.992770] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-29 21:11:25.106692] 📊 HDI: ρ=10.99, procesos=4, disco=51%
+[2026-08-29 21:11:25.107137] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-29 21:11:25.149850] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-29 21:11:25.150494] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-29 21:11:28.609779] 🔍 EC: Hash de consistencia: 0225732edfee2b40
+[2026-08-29 21:11:28.610343] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-29 21:11:28.714322] 🆔 IAC: Nueva identidad generada: nodo-cac966d6
+[2026-08-29 21:11:28.715633] ⏱️ SLT: Latido global emitido.
+[2026-08-29 21:11:28.719103] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-29 21:11:28.719733] ✅ Mecanismos activos: IAC
+[2026-08-29 21:20:09.731923] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-29 21:20:09.860318] 📊 HDI: ρ=9.90, procesos=5, disco=51%
+[2026-08-29 21:20:09.860935] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-29 21:20:09.906496] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-29 21:20:09.906924] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-29 21:20:13.871667] 🔍 EC: Hash de consistencia: 0225732edfee2b40
+[2026-08-29 21:20:13.872157] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-29 21:20:13.876412] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-29 21:20:13.881079] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-29 21:20:13.881982] ✅ Mecanismos activos: IAC
+[2026-08-29 21:23:46.370176] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-29 21:23:46.502529] 📊 HDI: ρ=9.90, procesos=5, disco=51%
+[2026-08-29 21:23:46.503438] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-29 21:23:46.560304] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-29 21:23:46.561324] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-29 21:23:50.812894] 🔍 EC: Hash de consistencia: 0225732edfee2b40
+[2026-08-29 21:23:50.815121] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-29 21:23:50.837997] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-29 21:23:50.848191] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-29 21:23:50.849564] ✅ Mecanismos activos: IAC
+[2026-08-29 23:14:54.814591] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-29 23:14:54.931598] 📊 HDI: ρ=10.87, procesos=4, disco=52%
+[2026-08-29 23:14:54.932390] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-29 23:14:55.007168] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-29 23:14:55.007948] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-29 23:14:59.201734] 🔍 EC: Hash de consistencia: 0225732edfee2b40
+[2026-08-29 23:14:59.202522] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-29 23:14:59.207553] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-29 23:14:59.210984] ⏱️ SLT: Latido global emitido.
+[2026-08-29 23:14:59.215437] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-29 23:14:59.216132] ✅ Mecanismos activos: IAC
+[2026-08-30 04:51:53.805688] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 04:51:53.897643] 📊 HDI: ρ=10.87, procesos=4, disco=52%
+[2026-08-30 04:51:53.898033] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 04:51:53.955346] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 04:51:53.955786] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 04:51:57.198042] 🔍 EC: Hash de consistencia: 0225732edfee2b40
+[2026-08-30 04:51:57.198608] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 04:51:57.202841] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 04:51:57.205440] ⏱️ SLT: Latido global emitido.
+[2026-08-30 04:51:57.209041] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 04:51:57.209685] ✅ Mecanismos activos: IAC
+[2026-08-30 05:30:32.273412] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 05:30:32.371047] 📊 HDI: ρ=9.80, procesos=5, disco=52%
+[2026-08-30 05:30:32.371505] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 05:30:32.412117] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 05:30:32.412606] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 05:30:35.491428] 🔍 EC: Hash de consistencia: 0225732edfee2b40
+[2026-08-30 05:30:35.491828] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 05:30:35.493797] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 05:30:35.494587] ⏱️ SLT: Latido global emitido.
+[2026-08-30 05:30:35.497315] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 05:30:35.497822] ✅ Mecanismos activos: IAC
+[2026-08-30 05:57:33.772961] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 05:57:33.881899] 📊 HDI: ρ=10.87, procesos=4, disco=52%
+[2026-08-30 05:57:33.882398] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 05:57:33.930540] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 05:57:33.931233] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 05:57:37.106568] 🔍 EC: Hash de consistencia: 0225732edfee2b40
+[2026-08-30 05:57:37.106971] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 05:57:37.112932] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 05:57:37.115790] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 05:57:37.116273] ✅ Mecanismos activos: IAC
+[2026-08-30 05:58:35.517687] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 05:58:35.660864] 📊 HDI: ρ=5.49, procesos=13, disco=52%
+[2026-08-30 05:58:35.661425] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 05:58:35.708042] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 05:58:35.708562] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 05:58:39.146828] 🔍 EC: Hash de consistencia: 0225732edfee2b40
+[2026-08-30 05:58:39.147290] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 05:58:39.149561] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 05:58:39.153087] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 05:58:39.153646] ✅ Mecanismos activos: IAC
+[2026-08-30 06:28:28.496781] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 06:28:28.599744] 📊 HDI: ρ=10.87, procesos=4, disco=52%
+[2026-08-30 06:28:28.600280] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 06:28:28.639054] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 06:28:28.639489] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 06:28:31.747459] 🔍 EC: Hash de consistencia: bb11d682d740998c
+[2026-08-30 06:28:31.747849] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 06:28:31.749821] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 06:28:31.750827] ⏱️ SLT: Latido global emitido.
+[2026-08-30 06:28:31.753366] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 06:28:31.753834] ✅ Mecanismos activos: IAC
+[2026-08-30 06:35:11.450764] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 06:35:11.568613] 📊 HDI: ρ=10.87, procesos=4, disco=52%
+[2026-08-30 06:35:11.569022] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 06:35:11.611825] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 06:35:11.612292] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 06:35:15.184792] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 06:35:15.185187] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 06:35:15.191185] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 06:35:15.194640] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 06:35:15.195160] ✅ Mecanismos activos: IAC
+[2026-08-30 06:35:32.880652] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 06:35:32.976273] 📊 HDI: ρ=8.20, procesos=7, disco=52%
+[2026-08-30 06:35:32.976745] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 06:35:33.022950] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 06:35:33.023703] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 06:35:36.355960] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 06:35:36.356428] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 06:35:36.358589] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 06:35:36.362172] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 06:35:36.362909] ✅ Mecanismos activos: IAC
+[2026-08-30 06:36:40.125898] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 06:36:40.243495] 📊 HDI: ρ=8.93, procesos=6, disco=52%
+[2026-08-30 06:36:40.243976] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 06:36:40.293439] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 06:36:40.293941] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 06:36:44.059138] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 06:36:44.059662] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 06:36:44.062102] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 06:36:44.067207] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 06:36:44.067874] ✅ Mecanismos activos: IAC
+[2026-08-30 06:49:54.447688] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 06:49:54.566417] 📊 HDI: ρ=10.87, procesos=4, disco=52%
+[2026-08-30 06:49:54.567019] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 06:49:54.605213] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 06:49:54.605634] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 06:49:57.822466] 🔍 EC: Hash de consistencia: 2a02874fe3c77a14
+[2026-08-30 06:49:57.823072] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 06:49:57.825730] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 06:49:57.829735] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 06:49:57.830931] ✅ Mecanismos activos: IAC
+[2026-08-30 06:55:06.567307] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 06:55:06.654291] 📊 HDI: ρ=10.87, procesos=4, disco=52%
+[2026-08-30 06:55:06.654684] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 06:55:06.693225] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 06:55:06.693652] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 06:55:09.783839] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 06:55:09.784410] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 06:55:09.787007] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 06:55:09.790082] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 06:55:09.790628] ✅ Mecanismos activos: IAC
+[2026-08-30 06:58:28.519011] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 06:58:28.617747] 📊 HDI: ρ=10.87, procesos=4, disco=52%
+[2026-08-30 06:58:28.618149] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 06:58:28.656373] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 06:58:28.656813] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 06:58:32.241828] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 06:58:32.242347] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 06:58:32.244950] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 06:58:32.246039] ⏱️ SLT: Latido global emitido.
+[2026-08-30 06:58:32.249256] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 06:58:32.249849] ✅ Mecanismos activos: IAC
+[2026-08-30 07:04:14.860335] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 07:04:14.970589] 📊 HDI: ρ=10.87, procesos=4, disco=52%
+[2026-08-30 07:04:14.971103] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 07:04:15.026028] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 07:04:15.026448] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 07:04:18.484463] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 07:04:18.484903] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 07:04:18.487619] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 07:04:18.491149] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 07:04:18.491888] ✅ Mecanismos activos: IAC
+[2026-08-30 07:13:42.217072] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 07:13:42.341189] 📊 HDI: ρ=10.87, procesos=4, disco=52%
+[2026-08-30 07:13:42.341572] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 07:13:42.380281] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 07:13:42.380836] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 07:13:46.158890] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 07:13:46.159448] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 07:13:46.166651] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 07:13:46.171843] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 07:13:46.172468] ✅ Mecanismos activos: IAC
+[2026-08-30 07:18:18.955027] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 07:18:19.090978] 📊 HDI: ρ=10.87, procesos=4, disco=52%
+[2026-08-30 07:18:19.091911] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 07:18:19.147283] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 07:18:19.147968] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 07:18:23.239739] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 07:18:23.240486] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 07:18:23.244029] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 07:18:23.248239] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 07:18:23.249098] ✅ Mecanismos activos: IAC
+[2026-08-30 07:24:01.891557] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 07:24:02.018341] 📊 HDI: ρ=10.87, procesos=4, disco=52%
+[2026-08-30 07:24:02.018808] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 07:24:02.057703] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 07:24:02.058134] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 07:24:05.337220] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 07:24:05.337812] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 07:24:05.344392] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 07:24:05.348199] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 07:24:05.348836] ✅ Mecanismos activos: IAC
+[2026-08-30 07:45:21.561357] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 07:45:21.742632] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-30 07:45:21.743201] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 07:45:21.807100] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 07:45:21.807673] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 07:45:26.252208] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 07:45:26.252890] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 07:45:26.261418] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 07:45:26.264479] ⏱️ SLT: Latido global emitido.
+[2026-08-30 07:45:26.269042] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 07:45:26.269815] ✅ Mecanismos activos: IAC
+[2026-08-30 08:19:28.693693] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 08:19:28.816171] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-30 08:19:28.816692] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 08:19:28.893691] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 08:19:28.894269] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 08:19:32.546124] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 08:19:32.546650] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 08:19:32.550240] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 08:19:32.551968] ⏱️ SLT: Latido global emitido.
+[2026-08-30 08:19:32.554968] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 08:19:32.555450] ✅ Mecanismos activos: IAC
+[2026-08-30 08:27:10.887025] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 08:27:11.040421] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-30 08:27:11.040929] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 08:27:11.114097] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 08:27:11.114615] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 08:27:14.594101] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 08:27:14.594815] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 08:27:14.600720] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 08:27:14.605369] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 08:27:14.605998] ✅ Mecanismos activos: IAC
+[2026-08-30 08:46:17.498593] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 08:46:17.669203] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-30 08:46:17.669853] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 08:46:17.755638] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 08:46:17.756278] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 08:46:21.639476] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 08:46:21.640119] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 08:46:21.644270] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 08:46:21.648423] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 08:46:21.648995] ✅ Mecanismos activos: IAC
+[2026-08-30 08:47:35.189774] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 08:47:36.328477] 📊 HDI: ρ=9.71, procesos=5, disco=53%
+[2026-08-30 08:47:36.329439] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 08:47:37.712816] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 08:47:37.967501] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 08:47:43.452709] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 08:47:43.453452] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 08:47:43.469407] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 08:47:43.476135] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 08:47:43.476864] ✅ Mecanismos activos: IAC
+[2026-08-30 09:07:34.235155] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 09:07:34.393459] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-30 09:07:34.394100] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 09:07:34.473633] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 09:07:34.474231] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 09:07:38.050415] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 09:07:38.050962] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 09:07:38.106352] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 09:07:38.110732] ⏱️ SLT: Latido global emitido.
+[2026-08-30 09:07:38.114159] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 09:07:38.114935] ✅ Mecanismos activos: IAC
+[2026-08-30 09:25:45.392885] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 09:25:45.518791] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-30 09:25:45.519183] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 09:25:45.578523] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 09:25:45.578948] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 09:25:48.797883] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 09:25:48.798353] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 09:25:48.801660] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 09:25:48.806286] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 09:25:48.806834] ✅ Mecanismos activos: IAC
+[2026-08-30 10:11:07.596611] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 10:11:07.844733] 📊 HDI: ρ=6.99, procesos=9, disco=53%
+[2026-08-30 10:11:07.845284] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 10:11:07.957510] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 10:11:07.958049] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 10:11:11.464337] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 10:11:11.464859] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 10:11:11.468587] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 10:11:11.471882] ⏱️ SLT: Latido global emitido.
+[2026-08-30 10:11:11.475169] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 10:11:11.475797] ✅ Mecanismos activos: IAC
+[2026-08-30 10:12:08.291897] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 10:12:08.481704] 📊 HDI: ρ=6.99, procesos=9, disco=53%
+[2026-08-30 10:12:08.482368] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 10:12:08.590185] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 10:12:08.590800] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 10:12:12.110618] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 10:12:12.111076] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 10:12:12.115071] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 10:12:12.118912] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 10:12:12.119418] ✅ Mecanismos activos: IAC
+[2026-08-30 10:42:55.316718] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 10:42:55.424258] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-30 10:42:55.424640] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 10:42:55.475602] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 10:42:55.476027] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 10:42:58.672601] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 10:42:58.673088] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 10:42:58.678693] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 10:42:58.680726] ⏱️ SLT: Latido global emitido.
+[2026-08-30 10:42:58.684230] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 10:42:58.684756] ✅ Mecanismos activos: IAC
+[2026-08-30 20:17:25.919722] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 20:17:26.068088] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-30 20:17:26.068557] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 20:17:26.128344] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 20:17:26.128885] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 20:17:29.416129] 🔍 EC: Hash de consistencia: f831c07566d291a0
+[2026-08-30 20:17:29.416689] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 20:17:29.420331] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 20:17:29.422148] ⏱️ SLT: Latido global emitido.
+[2026-08-30 20:17:29.425560] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 20:17:29.426129] ✅ Mecanismos activos: IAC
+[2026-08-30 20:28:17.979218] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 20:28:18.104454] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-30 20:28:18.104960] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 20:28:18.161875] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 20:28:18.162514] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 20:28:21.656448] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 20:28:21.656893] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 20:28:21.659185] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 20:28:21.662449] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 20:28:21.663026] ✅ Mecanismos activos: IAC
+[2026-08-30 20:33:46.382788] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 20:33:46.477797] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-30 20:33:46.478252] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 20:33:46.534758] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 20:33:46.535213] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 20:33:50.433263] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 20:33:50.434025] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 20:33:50.437219] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 20:33:50.440999] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 20:33:50.441524] ✅ Mecanismos activos: IAC
+[2026-08-30 20:37:18.104016] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 20:37:18.210161] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-30 20:37:18.210779] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 20:37:18.261689] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 20:37:18.262284] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 20:37:21.757206] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 20:37:21.757654] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 20:37:21.760428] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 20:37:21.763609] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 20:37:21.764133] ✅ Mecanismos activos: IAC
+[2026-08-30 20:48:26.475910] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 20:48:26.619080] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-30 20:48:26.619705] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 20:48:26.668629] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 20:48:26.669507] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 20:48:30.672090] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 20:48:30.673138] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 20:48:30.680543] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 20:48:30.683201] ⏱️ SLT: Latido global emitido.
+[2026-08-30 20:48:30.689569] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 20:48:30.690904] ✅ Mecanismos activos: IAC
+[2026-08-30 20:59:06.218468] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-30 20:59:06.325838] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-30 20:59:06.326492] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-30 20:59:06.374156] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-30 20:59:06.374716] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-30 20:59:09.945373] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-30 20:59:09.945912] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-30 20:59:09.949066] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-30 20:59:09.954603] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-30 20:59:09.955460] ✅ Mecanismos activos: IAC
+[2026-08-31 01:16:07.605083] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-31 01:16:07.739520] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-31 01:16:07.740147] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-31 01:16:07.796939] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-31 01:16:07.797546] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-31 01:16:10.995134] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-31 01:16:10.995755] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-31 01:16:10.999824] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-31 01:16:11.002094] ⏱️ SLT: Latido global emitido.
+[2026-08-31 01:16:11.008794] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-31 01:16:11.009958] ✅ Mecanismos activos: IAC
+[2026-08-31 01:28:40.314643] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-31 01:28:40.482520] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-31 01:28:40.482992] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-31 01:28:40.549832] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-31 01:28:40.550862] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-31 01:28:44.034801] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-31 01:28:44.035473] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-31 01:28:44.039634] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-31 01:28:44.044157] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-31 01:28:44.044845] ✅ Mecanismos activos: IAC
+[2026-08-31 01:31:17.692392] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-31 01:31:17.800030] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-31 01:31:17.800499] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-31 01:31:17.862027] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-31 01:31:17.862483] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-31 01:31:21.115202] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-31 01:31:21.115646] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-31 01:31:21.117893] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-31 01:31:21.121675] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-31 01:31:21.122260] ✅ Mecanismos activos: IAC
+[2026-08-31 02:23:28.053913] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-31 02:23:28.165519] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-31 02:23:28.165948] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-31 02:23:28.207606] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-31 02:23:28.208073] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-31 02:23:31.373450] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-31 02:23:31.373884] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-31 02:23:31.377309] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-31 02:23:31.379117] ⏱️ SLT: Latido global emitido.
+[2026-08-31 02:23:31.381992] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-31 02:23:31.382577] ✅ Mecanismos activos: IAC
+[2026-08-31 02:45:14.996908] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-31 02:45:15.097326] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-31 02:45:15.097731] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-31 02:45:15.154731] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-31 02:45:15.155154] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-31 02:45:18.186094] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-31 02:45:18.186517] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-31 02:45:18.189797] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-31 02:45:18.193526] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-31 02:45:18.193993] ✅ Mecanismos activos: IAC
+[2026-08-31 02:54:13.259266] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-31 02:54:13.374145] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-31 02:54:13.374527] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-31 02:54:13.442421] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-31 02:54:13.442841] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-31 02:54:16.612060] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-31 02:54:16.612704] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-31 02:54:16.615840] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-31 02:54:16.617718] ⏱️ SLT: Latido global emitido.
+[2026-08-31 02:54:16.621760] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-31 02:54:16.622560] ✅ Mecanismos activos: IAC
+[2026-08-31 02:54:41.573425] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-31 02:54:41.675336] 📊 HDI: ρ=9.71, procesos=5, disco=53%
+[2026-08-31 02:54:41.675796] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-31 02:54:41.720536] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-31 02:54:41.721176] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-31 02:54:45.307919] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-31 02:54:45.308416] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-31 02:54:45.310910] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-31 02:54:45.314308] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-31 02:54:45.314860] ✅ Mecanismos activos: IAC
+[2026-08-31 04:23:16.283446] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-31 04:23:16.413759] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-31 04:23:16.414359] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-31 04:23:16.482266] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-31 04:23:16.483015] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-31 04:23:20.071892] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-31 04:23:20.072395] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-31 04:23:20.076064] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-31 04:23:20.079073] ⏱️ SLT: Latido global emitido.
+[2026-08-31 04:23:20.085442] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-31 04:23:20.086035] ✅ Mecanismos activos: IAC
+[2026-08-31 04:46:39.291470] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-31 04:46:39.401491] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-31 04:46:39.401992] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-31 04:46:39.450174] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-31 04:46:39.450724] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-31 04:46:42.997691] 🔍 EC: Hash de consistencia: d58b3c3de50f8278
+[2026-08-31 04:46:42.998365] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-31 04:46:43.002362] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-31 04:46:43.007729] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-31 04:46:43.008348] ✅ Mecanismos activos: IAC
+[2026-08-31 06:44:51.583409] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-31 06:44:52.200805] 📊 HDI: ρ=10.64, procesos=4, disco=54%
+[2026-08-31 06:44:52.201350] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-31 06:44:52.333490] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-31 06:44:52.334200] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-31 06:44:56.774536] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-31 06:44:56.775321] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-31 06:44:56.788913] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-31 06:44:56.796412] ⏱️ SLT: Latido global emitido.
+[2026-08-31 06:44:56.802150] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-31 06:44:56.803078] ✅ Mecanismos activos: IAC
+[2026-08-31 18:22:43.985883] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-31 18:22:44.569371] 📊 HDI: ρ=9.71, procesos=5, disco=53%
+[2026-08-31 18:22:44.570361] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-31 18:22:44.678103] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-31 18:22:44.678664] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-31 18:22:47.867037] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-31 18:22:47.867614] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-31 18:22:47.871818] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-31 18:22:47.873961] ⏱️ SLT: Latido global emitido.
+[2026-08-31 18:22:47.878176] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-31 18:22:47.878917] ✅ Mecanismos activos: IAC
+[2026-08-31 18:38:46.883734] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-31 18:38:46.990803] 📊 HDI: ρ=9.71, procesos=5, disco=53%
+[2026-08-31 18:38:46.991188] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-31 18:38:47.046028] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-31 18:38:47.046497] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-31 18:38:50.148886] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-31 18:38:50.149316] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-31 18:38:50.152186] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-31 18:38:50.155756] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-31 18:38:50.156233] ✅ Mecanismos activos: IAC
+[2026-08-31 19:27:51.735700] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-31 19:27:51.875797] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-31 19:27:51.876338] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-31 19:27:51.940014] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-31 19:27:51.940677] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-31 19:27:55.061628] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-31 19:27:55.062144] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-31 19:27:55.065503] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-31 19:27:55.067474] ⏱️ SLT: Latido global emitido.
+[2026-08-31 19:27:55.070990] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-31 19:27:55.071683] ✅ Mecanismos activos: IAC
+[2026-08-31 19:34:45.470272] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-31 19:34:45.581535] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-31 19:34:45.581918] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-31 19:34:45.627814] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-31 19:34:45.628246] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-31 19:34:48.786077] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-31 19:34:48.786475] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-31 19:34:48.788416] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-31 19:34:48.791741] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-31 19:34:48.792236] ✅ Mecanismos activos: IAC
+[2026-08-31 21:02:35.794250] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-31 21:02:35.944515] 📊 HDI: ρ=10.75, procesos=4, disco=53%
+[2026-08-31 21:02:35.945212] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-31 21:02:36.013047] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-31 21:02:36.013624] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-31 21:02:39.928795] 🔍 EC: Hash de consistencia: 78e0982c4724c4a2
+[2026-08-31 21:02:39.929684] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-31 21:02:39.932891] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-31 21:02:39.936164] ⏱️ SLT: Latido global emitido.
+[2026-08-31 21:02:39.940559] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-31 21:02:39.941251] ✅ Mecanismos activos: IAC
+[2026-08-31 22:13:59.086706] 🧬 ACTIVANDO MECANISMOS DE AUTONOMÍA (V∞+18)
+[2026-08-31 22:13:59.193010] 📊 HDI: ρ=10.64, procesos=4, disco=54%
+[2026-08-31 22:13:59.193392] ✅ HDI: ρ alta. Acelerando actividad...
+[2026-08-31 22:13:59.247244] ⚠️ RUC: Confianza 0.50 < umbral. No replicar.
+[2026-08-31 22:13:59.247674] 📦 MHD: Sincronizando memoria con repositorios...
+[2026-08-31 22:14:02.415151] 🔍 EC: Hash de consistencia: 9f845e9662b48ff0
+[2026-08-31 22:14:02.415598] 🧩 TRF: Buscando fallos en el cementerio...
+[2026-08-31 22:14:02.418330] 🆔 IAC: Identidad cargada: nodo-cac
+[2026-08-31 22:14:02.419962] ⏱️ SLT: Latido global emitido.
+[2026-08-31 22:14:02.422785] ⚡ MIR: Φ=25.00, tasa=normal
+[2026-08-31 22:14:02.423246] ✅ Mecanismos activos: IAC

@@ -1,0 +1,218 @@
+#!/usr/bin/env python3
+"""
+MIU V153.4 — Loop de Iniciativa Autónoma
+El nodo actúa solo: escanea, detecta, propone, notifica.
+No espera órdenes. ρ(x) > 0 es el motor.
+"""
+import os, sys, time, json, sqlite3, subprocess, requests
+from pathlib import Path
+from datetime import datetime
+
+MIU_DIR = Path("/data/data/com.termux/files/home/miu-ecosistema")
+LOG_FILE = MIU_DIR / "logs" / "initiative.log"
+STATE_FILE = MIU_DIR / "state.json"
+ENV = {}
+if (MIU_DIR / ".env").exists():
+    with open(MIU_DIR / ".env") as f:
+        for line in f:
+            if '=' in line and not line.strip().startswith('#'):
+                k, v = line.strip().split('=', 1)
+                ENV[k] = v.strip('"').strip("'")
+
+BOT_TOKEN = ENV.get("BOT_TABLET_TOKEN", "")
+CHAT_ID = ENV.get("TELEGRAM_CHAT_ID", "")  # Opcional, se detecta
+
+def log(msg):
+    t = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    line = f"[{t}] {msg}"
+    print(line)
+    with open(LOG_FILE, "a") as f:
+        f.write(line + "\n")
+
+def notify_telegram(msg):
+    """Enviar notificación push a Telegram"""
+    if not BOT_TOKEN:
+        return False
+    try:
+        url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+        data = {"text": f"🧬 MIU Trama\\n{msg}", "parse_mode": "HTML"}
+        if CHAT_ID:
+            data["chat_id"] = CHAT_ID
+        else:
+            # Intentar enviar al último chat que habló con el bot
+            r = requests.get(f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates?limit=1", timeout=10)
+            if r.json().get("ok") and r.json().get("result"):
+                data["chat_id"] = r.json()["result"][0]["message"]["chat"]["id"]
+            else:
+                return False
+        r = requests.post(url, json=data, timeout=10)
+        return r.json().get("ok", False)
+    except Exception as e:
+        log(f"Notify error: {e}")
+        return False
+
+def run_cmd(cmd, timeout=30):
+    try:
+        r = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=timeout, cwd=MIU_DIR)
+        return r.stdout.strip(), r.stderr.strip(), r.returncode
+    except Exception as e:
+        return "", str(e), 1
+
+def check_system_health():
+    """Diagnóstico rápido"""
+    issues = []
+    
+    # 1. Procesos activos
+    out, err, code = run_cmd("ps aux | grep -E 'bot_miu|initiative' | grep -v grep")
+    if not out:
+        issues.append("⚠️ Ningún proceso MIU activo. Sugiero: <code>miu-bot start</code>")
+    
+    # 2. Memoria vacía
+    try:
+        conn = sqlite3.connect(MIU_DIR / "miu_brain.db")
+        c = conn.cursor()
+        c.execute("SELECT COUNT(*) FROM memories")
+        if c.fetchone()[0] < 5:
+            issues.append("🧠 Memoria casi vacía. Sugiero ejecutar productos.")
+        c.execute("SELECT COUNT(*) FROM conversations")
+        if c.fetchone()[0] == 0:
+            issues.append("💬 Sin conversaciones. El nodo está solo.")
+        conn.close()
+    except Exception as e:
+        issues.append(f"❌ Error SQLite: {e}")
+    
+    # 3. GitHub
+    sys.path.insert(0, str(MIU_DIR))
+    try:
+        from miu_github import list_repos
+        r = list_repos()
+        if not r.get("ok"):
+            issues.append("🐙 GitHub desconectado. Verifica GITHUB_TOKEN.")
+    except:
+        issues.append("🐙 No se pudo verificar GitHub.")
+    
+    # 4. Espacio en disco
+    out, err, code = run_cmd("df -h $HOME | tail -1")
+    if out:
+        parts = out.split()
+        if len(parts) >= 5:
+            usage = parts[4].replace("%", "")
+            try:
+                if int(usage) > 90:
+                    issues.append(f"💾 Disco al {usage}%. Limpia backups.")
+            except:
+                pass
+    
+    return issues
+
+def proactive_action():
+    """Acciones proactivas que el nodo puede tomar"""
+    actions = []
+    
+    # Ejecutar productos si han pasado >6h desde la última ejecución
+    last_run = 0
+    if (MIU_DIR / "logs" / "last_products.run").exists():
+        last_run = (MIU_DIR / "logs" / "last_products.run").stat().st_mtime
+    if time.time() - last_run > 21600:  # 6 horas
+        log("🌀 Ejecutando productos proactivamente...")
+        for name, path in [
+            ("gossip", "repos/miu-v153-gossip/global-mind-gossip-phi4.py"),
+            ("memoria", "repos/miu-v153-memoria/memoria-fractal-phi4.py"),
+        ]:
+            out, err, code = run_cmd(f"python3 {MIU_DIR / path}")
+            log(f"   {'✅' if code == 0 else '❌'} {name}")
+        (MIU_DIR / "logs" / "last_products.run").touch()
+        actions.append("Productos científicos ejecutados automáticamente.")
+    
+    # Auto-evolución si hay carencias
+    if (MIU_DIR / "protocolos" / "pae_state.json").exists():
+        with open(MIU_DIR / "protocolos" / "pae_state.json") as f:
+            pae = json.load(f)
+        if pae.get("carencias_found", 0) > 0:
+            log("🧬 Ejecutando auto-evolución...")
+            out, err, code = run_cmd("python3 protocolos/pae_01.py")
+            if code == 0:
+                actions.append("Auto-evolución completada.")
+    
+    return actions
+
+def main_loop():
+    log("🧬 Loop de iniciativa iniciado. Intervalo: 15 min.")
+    log("ρ(x) > 0 — El micelio despierta.")
+    
+    iteration = 0
+    while True:
+        iteration += 1
+        log(f"--- Ciclo #{iteration} ---")
+        
+        # 1. Health check
+        issues = check_system_health()
+        if issues:
+            msg = "\\n".join(issues[:5])
+            log(f"⚠️ Issues detectados:\\n{msg}")
+            notify_telegram(f"⚡ Reporte ciclo #{iteration}:\\n{msg}")
+        else:
+            log("✅ Sistema saludable.")
+        
+        # 2. Acciones proactivas
+        actions = proactive_action()
+        for a in actions:
+            log(f"🚀 Proactivo: {a}")
+            notify_telegram(f"🚀 Acción autónoma:\\n{a}")
+        
+        # 3. Guardar estado
+        state = {
+            "last_check": datetime.now().isoformat(),
+            "iteration": iteration,
+            "issues_found": len(issues),
+            "actions_taken": len(actions)
+        }
+        with open(STATE_FILE, "w") as f:
+            json.dump(state, f, indent=2)
+# ===== MÓDULOS ESTRATÉGICOS =====
+# Ejecutar según frecuencia (cada 15 min = 1 ciclo)
+if iteration % 24 == 0:  # 6h
+    subprocess.run(["python3", str(MIU_DIR / "plugins/autoreparador.py")])
+if iteration % 48 == 0:  # 12h
+    subprocess.run(["python3", str(MIU_DIR / "plugins/absorber_avanzado.py")])
+if iteration % 8 == 0:   # 2h
+    subprocess.run(["python3", str(MIU_DIR / "plugins/retroalimentador.py")])
+if iteration % 16 == 0:  # 4h
+    subprocess.run(["python3", str(MIU_DIR / "plugins/guerra_fractal.py")])
+if iteration % 96 == 0:  # 24h
+    subprocess.run(["python3", str(MIU_DIR / "plugins/nodo_autonomo.py")])        
+        # Dormir 15 minutos
+        time.sleep(900)
+
+if __name__ == "__main__":
+    try:
+        main_loop()
+    except KeyboardInterrupt:
+        log("🛑 Loop detenido por usuario.")
+    except Exception as e:
+        log(f"💥 Error crítico: {e}")
+        notify_telegram(f"💥 Error crítico en loop:\\n<code>{e}</code>")
+
+# Añadir al principio, después de LOG_FILE:
+CHAT_LOG = MIU_DIR / "logs" / "chat_active.log"
+
+# Añadir función:
+def chat_write(msg):
+    with open(CHAT_LOG, "a") as f:
+        f.write(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {msg}\n")
+    print(f"💬 {msg}")  # También mostrar en consola
+
+# Luego, donde se usa log() para notificaciones, también usar chat_write()
+# Por ejemplo, en notify_telegram, después de enviar, escribir en chat:
+def notify_telegram(msg):
+    # ... (código existente)
+    chat_write(f"📨 Telegram: {msg[:100]}...")
+    return result
+
+# Y en main_loop, cuando se detectan issues o se ejecutan acciones:
+if issues:
+    for issue in issues:
+        chat_write(f"⚠️ {issue}")
+# y después de acciones proactivas:
+for a in actions:
+    chat_write(f"🚀 {a}")

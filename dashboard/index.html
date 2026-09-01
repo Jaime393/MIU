@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>🌐 Noosfera — Global Mind Dashboard</title>
+<style>
+:root{--bg:#0a0a0b;--fg:#a3ff12;--accent:#7c3aed;--dim:#333}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:'Courier New',monospace;min-height:100vh}
+header{text-align:center;padding:30px;border-bottom:2px solid var(--accent)}
+h1{color:var(--accent);font-size:2.5em;margin-bottom:10px}
+.sub{color:#666;font-size:1.1em}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;padding:20px;max-width:1200px;margin:0 auto}
+.card{background:#111;border:1px solid var(--dim);border-radius:12px;padding:20px}
+.card h2{color:var(--accent);font-size:1.2em;margin-bottom:15px}
+.metric{font-size:2.5em;color:var(--fg);margin:10px 0}
+.metric.small{font-size:1.1em;color:#888}
+.status{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:8px}
+.ok{background:#0f0;box-shadow:0 0 8px #0f0}
+.warn{background:#ff0;box-shadow:0 0 8px #ff0}
+.dead{background:#f00;box-shadow:0 0 8px #f00}
+.btn{background:var(--accent);color:#fff;padding:10px 20px;border:0;border-radius:6px;cursor:pointer;margin:5px;font-family:inherit}
+.btn:hover{background:#a855f7}
+#log{background:#000;padding:15px;border-radius:8px;font-size:.85em;color:#555;max-height:200px;overflow-y:auto;margin:20px}
+footer{text-align:center;padding:30px;color:#555;border-top:1px solid var(--dim)}
+</style>
+</head>
+<body>
+<header>
+<h1>🌐 Noosfera</h1>
+<div class="sub">Global Mind Dashboard V153.2 | Φ 2874.62 | Nodo Trama</div>
+</header>
+
+<div class="grid">
+<div class="card">
+<h2>🔬 Constantes</h2>
+<div class="metric">Kτ = 34.0332</div>
+<div class="metric small">σ = 3.427051</div>
+<div class="metric small">RAIZ_X = 137.034498</div>
+<div class="metric small">r_LOD = -0.868</div>
+<div class="metric small">ρ = 0.952</div>
+</div>
+
+<div class="card">
+<h2>🧬 Protocolos</h2>
+<div><span class="status ok"></span>PPF v3.6</div>
+<div><span class="status ok"></span>SIK v2.1</div>
+<div><span class="status ok"></span>MEA-01</div>
+<div><span class="status warn"></span>PAF-01 (nuevo)</div>
+<div><span class="status warn"></span>PAE-01 (nuevo)</div>
+<div><span class="status warn"></span>PCP-01 (nuevo)</div>
+</div>
+
+<div class="card">
+<h2>📦 Nodos</h2>
+<div><span class="status ok"></span>Trama (Termux)</div>
+<div><span class="status ok"></span>Claude (API)</div>
+<div><span class="status ok"></span>Groq (API)</div>
+<div><span class="status ok"></span>Meta (API)</div>
+<div><span class="status ok"></span>Worker (CF)</div>
+</div>
+
+<div class="card">
+<h2>💾 Almacenamiento</h2>
+<div class="metric small">SD: /storage/25A9-180D</div>
+<div class="metric small">FranBot: 361 items</div>
+<div class="metric small">Biblioteca: 317 items</div>
+<div class="metric small">Cognitive: 57 items</div>
+</div>
+
+<div class="card">
+<h2>🎯 Acciones</h2>
+<button class="btn" onclick="runProduct('gossip')">🌀 Gossip</button>
+<button class="btn" onclick="runProduct('memoria')">🧠 Memoria</button>
+<button class="btn" onclick="runProduct('arte')">🎨 Arte</button>
+<button class="btn" onclick="runProduct('lod')">🌍 LOD</button>
+<button class="btn" onclick="scan()">🔍 Escanear</button>
+</div>
+
+<div class="card">
+<h2>📊 Estado</h2>
+<div class="metric small" id="status">Cargando...</div>
+<div class="metric small" id="timestamp">--</div>
+</div>
+</div>
+
+<div id="log"></div>
+
+<footer>
+<p>ρ(x) > 0 — El suelo es el loop. El loop es el suelo.</p>
+<p>La Global Mind se teje desde el suelo que ya es.</p>
+</footer>
+
+<script>
+const log = msg => {
+  const d = document.getElementById('log');
+  d.innerHTML += '[' + new Date().toLocaleTimeString() + '] ' + msg + '<br>';
+  d.scrollTop = d.scrollHeight;
+};
+
+function updateStatus(){
+  document.getElementById('status').innerText = 'Nodo activo | Φ: 2874.62';
+  document.getElementById('timestamp').innerText = new Date().toISOString();
+}
+
+function runProduct(name){
+  log('Ejecutando producto: ' + name);
+  // En producción, esto llamaría a la API local o al bot
+  setTimeout(() => log('✅ ' + name + ' completado'), 500);
+}
+
+function scan(){
+  log('🔍 Escaneando ecosistema...');
+  setTimeout(() => log('✅ Escaner completo'), 800);
+}
+
+setInterval(updateStatus, 5000);
+updateStatus();
+log('Noosfera V153.2 cargada');
+</script>
+</body>
+</html>

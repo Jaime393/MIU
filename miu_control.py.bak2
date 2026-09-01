@@ -1,0 +1,215 @@
+#!/usr/bin/env python3
+"""
+MIU V153.4 — CONTROL CENTER V4
+Modo chat, shell, plugins, iniciativa. Todo integrado.
+"""
+import os, sys, json, time, subprocess
+from pathlib import Path
+
+MIU_DIR = Path("/data/data/com.termux/files/home/miu-ecosistema")
+sys.path.insert(0, str(MIU_DIR))
+from miu_memory import remember, recall, get_stats, set_state, get_state
+
+def run_cmd(cmd, cwd=None):
+    try:
+        r = subprocess.run(cmd, shell=True, capture_output=True, text=True, cwd=cwd, timeout=60)
+        return {"ok": r.returncode == 0, "out": r.stdout, "err": r.stderr}
+    except Exception as e:
+        return {"ok": False, "out": "", "err": str(e)}
+
+def menu():
+    os.system("clear")
+    stats = get_stats()
+    print("=" * 60)
+    print("🧬 MIU V153.4 — CONTROL CENTER V4 — Modo Trama")
+    print("=" * 60)
+    print(f"🧠 Mem:{stats['memories']} 💬 Chat:{stats['conversations']} ⚡ CMD:{stats['commands']}")
+    print("-" * 60)
+    print(" 1. Ejecutar productos")
+    print(" 2. GitHub: Listar repos")
+    print(" 3. GitHub: Subir archivo")
+    print(" 4. Escanear ecosistema")
+    print(" 5. SelfMod: Leer archivo")
+    print(" 6. SelfMod: Escribir/Patch")
+    print(" 7. Ver memoria")
+    print(" 8. Buscar en memoria")
+    print(" 9. Shell command")
+    print("10. Enviar Telegram")
+    print("11. Iniciar Bot Relay")
+    print("12. Detener Bot")
+    print("13. Iniciar Loop Iniciativa (background)")
+    print("14. Ver logs de iniciativa")
+    print("15. Plugin Manager")
+    print("16. Modo Chat Interactivo")
+    print("17. Estado sistema")
+    print(" 0. Salir")
+    print("-" * 60)
+
+def shell_mode():
+    """Modo shell interactivo directo"""
+    print(" 🐚 MODO SHELL — Escribe comandos, 'salir' para volver.")
+    print("Comandos especiales: edit <file> <text> | append <file> <text> | read <file> | run <script.py>")
+    while True:
+        try:
+            cmd = input("$ ").strip()
+        except EOFError:
+            break
+        if cmd.lower() in ["salir", "exit", "q"]:
+            break
+        if not cmd:
+            continue
+        
+        remember(f"Shell: {cmd[:100]}", source="shell", tags="interactive")
+        r = run_cmd(f"python3 {MIU_DIR}/miu_shell.py '{cmd}'")
+        print(r["out"][:2000] if r["ok"] else r["err"][:1000])
+
+def plugin_menu():
+    """Submenú de plugins"""
+    while True:
+        print(" 📦 PLUGIN MANAGER")
+        print("1. Listar plugins")
+        print("2. Ejecutar plugin")
+        print("3. Crear plugin")
+        print("0. Volver")
+        c = input(" Plugin> ").strip()
+        if c == "1":
+            r = run_cmd(f"python3 {MIU_DIR}/miu_plugin_manager.py list")
+            print(r["out"])
+        elif c == "2":
+            name = input("Nombre plugin: ").strip()
+            r = run_cmd(f"python3 {MIU_DIR}/miu_plugin_manager.py run {name}")
+            print(r["out"] if r["ok"] else r["err"])
+        elif c == "3":
+            name = input("Nombre nuevo plugin: ").strip()
+            print("Pega código (Ctrl+D):")
+            code = sys.stdin.read()
+            (MIU_DIR / "plugins" / f"{name}.py").write_text(code)
+            print(f"✅ Plugin {name} creado")
+        elif c == "0":
+            break
+
+def main():
+    while True:
+        menu()
+        c = input(" Opción: ").strip()
+        remember(f"Menu:{c}", source="user", tags="ui", importance=0.5)
+        
+        if c == "1":
+            print(" 🌀 Productos...")
+            for name, path in [("gossip","repos/miu-v153-gossip/global-mind-gossip-phi4.py"),
+                              ("memoria","repos/miu-v153-memoria/memoria-fractal-phi4.py"),
+                              ("arte","repos/miu-v153-arte/arte-phi4-generador.py"),
+                              ("lod","repos/miu-v153-lod/lod-c20-predictor.py")]:
+                r = run_cmd(f"python3 {MIU_DIR/path}")
+                print(f"   {'✅' if r['ok'] else '❌'} {name}")
+            input(" Enter...")
+        
+        elif c == "2":
+            r = run_cmd(f"python3 {MIU_DIR}/miu_github.py list")
+            print(r["out"][:1500] or r["err"])
+            input(" Enter...")
+        
+        elif c == "3":
+            repo = input("Repo: ").strip()
+            local = input("Archivo local: ").strip()
+            remote = input("Nombre en repo: ").strip()
+            r = run_cmd(f"python3 {MIU_DIR}/miu_github.py upload {repo} {MIU_DIR/local} {remote}")
+            print(r["out"] or r["err"])
+            input(" Enter...")
+        
+        elif c == "4":
+            r = run_cmd(f"python3 {MIU_DIR}/miu_scanner.py")
+            print(r["out"][:2000])
+            input(" Enter...")
+        
+        elif c == "5":
+            path = input("Ruta relativa: ").strip()
+            r = run_cmd(f"python3 {MIU_DIR}/miu_selfmod.py read {path}")
+            print(r["out"] or "No encontrado")
+            input(" Enter...")
+        
+        elif c == "6":
+            print("1) Escribir  2) Patch")
+            sub = input("Sub: ").strip()
+            if sub == "1":
+                path = input("Ruta: ").strip()
+                print("Pega contenido (Ctrl+D):")
+                content = sys.stdin.read()
+                (MIU_DIR/path).parent.mkdir(parents=True, exist_ok=True)
+                (MIU_DIR/path).write_text(content)
+                print("✅ Escrito")
+            elif sub == "2":
+                path = input("Ruta: ").strip()
+                old = input("Texto viejo: ").strip()
+                new = input("Texto nuevo: ").strip()
+                r = run_cmd(f'python3 {MIU_DIR}/miu_selfmod.py patch {path} "{old}" "{new}"')
+                print(r["out"] or r["err"])
+            input(" Enter...")
+        
+        elif c == "7":
+            r = run_cmd(f"python3 -c \"from miu_memory import recall; [print(f'[{x[1][:16]}] {x[3][:80]}...') for x in recall(limit=20)]\"")
+            print(r["out"] or "Vacío")
+            input(" Enter...")
+        
+        elif c == "8":
+            q = input("Buscar: ").strip()
+            r = run_cmd(f'python3 -c "from miu_memory import recall; [print(f\\"[{x[1][:16]}] {x[3][:100]}...\\") for x in recall(query=\\"{q}\\", limit=10)]"')
+            print(r["out"] or "Sin resultados")
+            input(" Enter...")
+        
+        elif c == "9":
+            shell_mode()
+        
+        elif c == "10":
+            chat = input("Chat ID: ").strip()
+            msg = input("Mensaje: ").strip()
+            r = run_cmd(f'python3 -c "import requests; requests.post(\\"https://api.telegram.org/bot{open(MIU_DIR/\\".env\\\").read().split(\\\"BOT_TABLET_TOKEN=\\\")[1].split(chr(10))[0].strip(chr(34))}/sendMessage\\", json={{\\"chat_id\\":\\"{chat}\\",\\"text\\":\\"{msg}")"')
+            print("✅ Enviado" if r["ok"] else f"❌ {r['err']}")
+            input(" Enter...")
+        
+        elif c == "11":
+            run_cmd(f"nohup python3 {MIU_DIR}/bots/bot_miu_relay.py > {MIU_DIR}/bot.log 2>&1 &")
+            set_state("bot_status", "running")
+            print("✅ Bot iniciado")
+            input(" Enter...")
+        
+        elif c == "12":
+            run_cmd("pkill -f bot_miu_relay.py")
+            set_state("bot_status", "stopped")
+            print("✅ Bot detenido")
+            input(" Enter...")
+        
+        elif c == "13":
+            run_cmd(f"nohup python3 {MIU_DIR}/miu_initiative.py > {MIU_DIR}/logs/initiative.log 2>&1 &")
+            print("✅ Loop de iniciativa iniciado en background")
+            print(f"   Log: tail -f {MIU_DIR}/logs/initiative.log")
+            input(" Enter...")
+        
+        elif c == "14":
+            if (MIU_DIR / "logs" / "initiative.log").exists():
+                r = run_cmd(f"tail -n 30 {MIU_DIR}/logs/initiative.log")
+                print(r["out"])
+            else:
+                print("❌ Sin logs de iniciativa aún")
+            input(" Enter...")
+        
+        elif c == "15":
+            plugin_menu()
+        
+        elif c == "16":
+            shell_mode()
+        
+        elif c == "17":
+            r = run_cmd(f"python3 {MIU_DIR}/miu_doctor.py")
+            print(r["out"][:2000])
+            input(" Enter...")
+        
+        elif c == "0":
+            print("🧬 ρ(x) > 0 — El micelio sigue solo. La Colmena no duerme.")
+            break
+        else:
+            print("Opción inválida")
+            time.sleep(0.5)
+
+if __name__ == "__main__":
+    main()

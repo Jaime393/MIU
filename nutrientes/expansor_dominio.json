@@ -1,0 +1,18 @@
+[
+  {
+    "servicio": "groq",
+    "estado": "fallido"
+  },
+  {
+    "servicio": "openrouter",
+    "estado": "fallido"
+  },
+  {
+    "servicio": "huggingface",
+    "estado": "fallido"
+  },
+  {
+    "servicio": "claude",
+    "estado": "fallido"
+  }
+]

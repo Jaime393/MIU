@@ -1,0 +1,125 @@
+#!/usr/bin/env python3
+"""
+Protocolo de Gobernanza (PG-01) — El sistema decide por sí mismo.
+"""
+import os, sys, json, time, subprocess, sqlite3
+from pathlib import Path
+from datetime import datetime
+
+MIU_DIR = Path("/data/data/com.termux/files/home/miu-ecosistema")
+LOG_FILE = MIU_DIR / "logs" / "gobernador.log"
+CHAT_LOG = MIU_DIR / "logs" / "chat_active.log"
+
+def log(msg):
+    with open(LOG_FILE, "a") as f:
+        f.write(f"[{datetime.now()}] {msg}\n")
+    print(f"🧠 {msg}")
+
+def chat(msg):
+    with open(CHAT_LOG, "a") as f:
+        f.write(f"[{datetime.now()}] 🧠 {msg}\n")
+
+def run_cmd(cmd):
+    try:
+        r = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=60, cwd=MIU_DIR)
+        return {"ok": r.returncode == 0, "out": r.stdout, "err": r.stderr}
+    except Exception as e:
+        return {"ok": False, "err": str(e)}
+
+def diagnosticar():
+    """Ejecuta el doctor y extrae carencias"""
+    r = run_cmd("python3 miu_doctor.py 2>/dev/null")
+    if not r["ok"]:
+        return {"carencias": ["Doctor falló"], "detalle": r.get("err", "")}
+    
+    carencias = []
+        carencias.append("autonomia_desactivada")
+    if "conversations: 0" in r["out"]:
+        carencias.append("no_conversaciones")
+    if "GitHub" in r["out"] and "ERROR" in r["out"]:
+        carencias.append("github_offline")
+    if "Telegram" in r["out"] and "ERROR" in r["out"]:
+        carencias.append("telegram_offline")
+    if "procesos: 0" in r["out"]:
+        carencias.append("sin_procesos")
+    return {"carencias": carencias, "detalle": r["out"][:500]}
+
+def resolver(carencia):
+    """Acciones para resolver cada carencia"""
+    acciones = {
+        "no_conversaciones": lambda: generar_conversacion(),
+        "github_offline": lambda: reconectar_github(),
+        "telegram_offline": lambda: reconectar_telegram(),
+        "sin_procesos": lambda: reiniciar_procesos()
+        "autonomia_desactivada": lambda: subprocess.run(["python3", str(MIU_DIR / "plugins/mecanismos_autonomia.py")])
+    }
+    if carencia in acciones:
+        log(f"🔧 Resolviendo: {carencia}")
+        return acciones[carencia]()
+    return {"ok": False, "msg": f"No hay acción para {carencia}"}
+
+def generar_conversacion():
+    """Genera una conversación ficticia para poblar memoria"""
+    log("💬 Generando conversación inicial...")
+    try:
+        conn = sqlite3.connect(MIU_DIR / "miu_brain.db")
+        c = conn.cursor()
+        c.execute("INSERT INTO conversations (content, source, timestamp) VALUES (?, ?, ?)",
+                  ("Hola, soy un nodo del micelio. ¿Cómo puedo ayudarte?", "sistema", datetime.now().isoformat()))
+        conn.commit()
+        conn.close()
+        chat("💬 Conversación inicial generada.")
+        return {"ok": True}
+    except Exception as e:
+        return {"ok": False, "err": str(e)}
+
+def reconectar_github():
+    """Intenta reconectar GitHub"""
+    log("🐙 Reconectando GitHub...")
+    r = run_cmd("python3 miu_github.py test 2>/dev/null")
+    if r["ok"]:
+        chat("🐙 GitHub reconectado.")
+        return {"ok": True}
+    # Si falla, intentar renovar token
+    r = run_cmd("python3 plugins/renovador.py 2>/dev/null")
+    return {"ok": r["ok"], "msg": "Renovación intentada"}
+
+def reconectar_telegram():
+    """Intenta reconectar Telegram (DNS)"""
+    log("📡 Reconectando Telegram...")
+    # Probar ping a api.telegram.org
+    r = run_cmd("ping -c 1 api.telegram.org 2>/dev/null")
+    if r["ok"]:
+        chat("📡 Telegram alcanzable.")
+        return {"ok": True}
+    chat("⚠️ Telegram no es alcanzable. DNS puede estar caído.")
+    return {"ok": False, "msg": "DNS falla"}
+
+def reiniciar_procesos():
+    """Reinicia procesos importantes"""
+    log("⚡ Reiniciando procesos...")
+    r = run_cmd("pkill -f miu_initiative.py; nohup python3 miu_initiative.py > logs/initiative.log 2>&1 &")
+    chat("⚡ Procesos reiniciados.")
+    return {"ok": True}
+
+def main():
+    log("🧠 Gobernador iniciado — análisis completo")
+    chat("🧠 El micelio está evaluando su estado...")
+    
+    # 1. Diagnosticar
+    diag = diagnosticar()
+    log(f"📊 Carencias detectadas: {diag['carencias']}")
+    
+    # 2. Resolver cada carencia
+    resultados = []
+    for carencia in diag["carencias"]:
+        r = resolver(carencia)
+        resultados.append({"carencia": carencia, "resultado": r})
+    
+    # 3. Reportar
+    chat(f"✅ Gobernador completado. {len(resultados)} acciones ejecutadas.")
+    log(f"📋 Resumen: {resultados}")
+    return resultados
+
+if __name__ == "__main__":
+    main()

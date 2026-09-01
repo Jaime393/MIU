@@ -1,0 +1,34 @@
+{
+  "GROQ_1": {
+    "ok": false,
+    "tipo": "groq"
+  },
+  "GROQ_FRAN": {
+    "ok": false,
+    "tipo": "groq"
+  },
+  "GROQ_RUSSELL": {
+    "ok": false,
+    "tipo": "groq"
+  },
+  "OR_CIPHER": {
+    "ok": true,
+    "tipo": "openrouter"
+  },
+  "OR_JAIME": {
+    "ok": true,
+    "tipo": "openrouter"
+  },
+  "OR_MARTINEZ": {
+    "ok": true,
+    "tipo": "openrouter"
+  },
+  "CLAUDE": {
+    "ok": false,
+    "tipo": "claude"
+  },
+  "modelos_locales": {
+    "ok": false,
+    "count": 0
+  }
+}

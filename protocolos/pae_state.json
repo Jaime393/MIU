@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-08-29T20:43:39Z",
+  "carencias_found": 1,
+  "patches_generated": 1,
+  "patches": [
+    {
+      "carencia": {
+        "tipo": "github_import",
+        "target": "miu_github.py",
+        "severidad": 0.5
+      },
+      "patch": "# No hay patch autom\u00e1tico para github_import"
+    }
+  ],
+  "alfa": 0.9000000000000004,
+  "beta": 0.10000000000000007
+}
