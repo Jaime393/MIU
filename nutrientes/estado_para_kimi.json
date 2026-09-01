@@ -1,6 +1,6 @@
 {
   "version": "V\u221e+23",
-  "timestamp": "2026-08-30T10:45:14.935939",
+  "timestamp": "2026-08-31T22:16:24.402637",
   "phi_fran": 2874.62,
   "phi_global": 3480.75,
   "modules_ok": 22,
@@ -17,5 +17,10 @@
   "proximo_objetivo": "escalar gossip / fix worker cache",
   "memoria_total": 63,
   "gemelos_activos": 2,
-  "tokens_encontrados": 1076
+  "tokens_encontrados": 1076,
+  "_metabolismo": {
+    "timestamp": 1788272441.694501,
+    "phi": 1.6180339887,
+    "nodo": "oski"
+  }
 }

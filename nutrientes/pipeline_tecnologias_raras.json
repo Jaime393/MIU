@@ -1,0 +1,12 @@
+{
+  "tipo": "flujo_cruzado",
+  "origen": "autoreparador",
+  "destino": "tecnologias_raras",
+  "contexto": "\ud83d\udd27 \ud83e\uddec AUTOREPARADOR V201 \u2014 Escaneo r\u00e1pido\n\ud83d\udd27 ========================================\n\ud83d\udd27    \u274c miu_control.py: SyntaxError line 166: unexpected character after line continuation character\n\ud83d\udd27    \u2705 miu_shell.",
+  "timestamp": 1788232583.2212906,
+  "_metabolismo": {
+    "timestamp": 1788272441.6546378,
+    "phi": 1.6180339887,
+    "nodo": "get_chat_info"
+  }
+}

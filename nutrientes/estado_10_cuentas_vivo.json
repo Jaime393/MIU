@@ -1,0 +1,47 @@
+[
+  {
+    "tipo": "github",
+    "id": "github...",
+    "viva": true
+  },
+  {
+    "tipo": "groq",
+    "id": "gsk_HY...",
+    "viva": true
+  },
+  {
+    "tipo": "groq",
+    "id": "gsk_Cn...",
+    "viva": true
+  },
+  {
+    "tipo": "cf",
+    "id": "cfut_T...",
+    "viva": true
+  },
+  {
+    "tipo": "cf",
+    "id": "cfut_v...",
+    "viva": true
+  },
+  {
+    "tipo": "cf",
+    "id": "cfut_A...",
+    "viva": true
+  },
+  {
+    "tipo": "cf",
+    "id": "cfut_Q...",
+    "viva": true
+  },
+  {
+    "tipo": "cf",
+    "id": "cfut_z...",
+    "viva": false
+  },
+  {
+    "tipo": "cf",
+    "id": "cfut_5...",
+    "viva": false
+  }
+]

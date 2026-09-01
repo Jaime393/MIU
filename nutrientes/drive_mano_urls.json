@@ -3,5 +3,10 @@
   "folder_id": "14dw8txLoEIQQPSav9-YAvfuNimW2tAZ8",
   "urls": {
     "informe_global.json": "https://tmpfiles.org/wGwDBLm83kMc/informe_global.json"
+  },
+  "_metabolismo": {
+    "timestamp": 1788272441.591799,
+    "phi": 1.6180339887,
+    "nodo": "ones"
   }
 }

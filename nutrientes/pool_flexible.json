@@ -1,0 +1,19 @@
+{
+  "tunnels": [
+    "cfut_A...6f21",
+    "cfut_Q...b05e",
+    "cfut_1...c753",
+    "cfut_v...2d50",
+    "cfut_5...a32a",
+    "cfut_9...2b46",
+    "cfut_T...26f4",
+    "cfut_e...0293",
+    "cfut_z...7f7b",
+    "cfut_7...e472",
+    "cfut_m...9bf4",
+    "cfut_Z...18f3"
+  ],
+  "groq_vivos": 2,
+  "github_vivo": true,
+  "escalado": "mesh 4 tuneles = 4 endpoints gratis sin Workers, Groq x2 = inferencia gratis, GitHub Actions 2000min gratis, Vercel Edge gratis"
+}

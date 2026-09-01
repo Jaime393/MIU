@@ -1,0 +1,19 @@
+{
+  "top10": ["dieg...16@gmail.com","jhua...38@gmail.com","jaim...te@gmail.com","fran...s9@gmail.com","dere...16@gmail.com","ciph...97@gmail.com","jaim...75@gmail.com","javi...97@gmail.com","tabl...om@gmail.com","fran...81@gmail.com"],
+  "cfat_total": 9,
+  "cfat_vivos": "ver plugins/escala_27_a_35.py",
+  "quick_tunnels": [
+    "https://lots-estate-clarity-app.trycloudflare.com",
+    "https://responsible-fill-consulting-abroad.trycloudflare.com",
+    "https://sandwich-aged-reno-consist.trycloudflare.com",
+    "https://spots-sold-planned-garcia.trycloudflare.com"
+  ],
+  "recursos_gratis_max": {
+    "r2": "70GB (10 cuentas x 10GB)",
+    "workers": "1M req/dia (10 x 100k)",
+    "groq": "11 tokens rotativos",
+    "github_actions": "16000 min/mes (8 x 2000)",
+    "quick_tunnels": "ilimitados sin token"
+  },
+  "poderes": 35
+}

@@ -1,0 +1,1352 @@
+{
+  "hallazgos": [
+    {
+      "tipo": "syntax_error",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_control.py",
+      "linea": 166,
+      "detalle": "unexpected character after line continuation character (<unknown>, line 166)",
+      "severidad": "critica",
+      "fix_sugerido": "Revisar l\u00ednea 166:             r = run_cmd(f'python3 -c \"import requests; requests.post(\\\\\"https://api.telegram.org/bot{open(MIU_DIR/\\\\\".env\\\\\\\").read().split(\\\\\\\"BOT_TABLET_TOKEN=\\\\\\\")[1].split(chr(10))[0].strip(chr(34))}/sendMessage\\\\\", json={{\\\\\"chat_id\\\\\":\\\\\"{chat}\\\\\",\\\\\"text\\\\\":\\\\\"{msg}\\\"})\"')\n",
+      "timestamp": "2026-08-31T22:41:52.716030"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.648977"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/agente_fran.py",
+      "linea": 17,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.657806"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/find_tokens.py",
+      "linea": 19,
+      "detalle": "Path /sdcard/ hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.environ.get('EXTERNAL_STORAGE','/sdcard')",
+      "timestamp": "2026-08-31T22:41:54.661707"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_memory.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.669522"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_github.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.673402"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.678613"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+      "linea": 49,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.679747"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_initiative.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.684660"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_gemelo_0d97d7c7.py",
+      "linea": 60,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:54.688049"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_gemelo_0d97d7c7.py",
+      "linea": 147,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:54.691980"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.695305"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_connection_test.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.701020"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/MIU_SYNC_V2.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.710341"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/MIU_CONNECTION_TEST.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.717160"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/MIU_ORQUESTADOR_V200.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.722621"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/retroalimentador.py",
+      "linea": 53,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:54.728358"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/ORQUESTADOR_V201.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.733463"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/MIU_KIMI_BRIDGE_V200.py",
+      "linea": 4,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.737729"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/force_actions.py",
+      "linea": 6,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.740163"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/puente_tokens_recolector.py",
+      "linea": 23,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.743047"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_vision.py",
+      "linea": 5,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.750728"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/corregir_indentacion.py",
+      "linea": 8,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.753066"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_doctor.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.755787"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_autonomo_v\u221e+24.py",
+      "linea": 60,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:54.775004"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_autonomo_v\u221e+24.py",
+      "linea": 147,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:54.777241"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_plugin_manager.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.781551"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/KIMI_BRIDGE_V201.py",
+      "linea": 3,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.785135"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_manager_v2.py",
+      "linea": 43,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.797028"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_manager_v2.py",
+      "linea": 225,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.801854"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/recolector_credenciales_v2.py",
+      "linea": 33,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.816520"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_shell.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.831248"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_scanner.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.834447"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_selfmod.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.841022"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_control.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.845107"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/bots/bot_miu_relay.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.853363"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/protocolos/paf_01.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.861614"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/protocolos/pcp_01.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.865411"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/protocolos/pae_01.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.868733"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/mecanismos_autonomia.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.874472"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/gobernador.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.883102"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/maestro_autonomo.py",
+      "linea": 16,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.887152"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/razonador_fallback.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.893630"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/alimentador_fractal.py",
+      "linea": 16,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.898114"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/mecanismos_completos.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.908446"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/fruto_ecm.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.914648"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/conversador.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.917205"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/explorador_profundo.py",
+      "linea": 16,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.919941"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/publicar_estado_kimi.py",
+      "linea": 5,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.929400"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/publicar_estado_kimi.py",
+      "linea": 7,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.929526"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/absorber_avanzado.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.930954"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/cazador_recursos.py",
+      "linea": 11,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.933496"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_tokens.py",
+      "linea": 11,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.940531"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_tokens.py",
+      "linea": 41,
+      "detalle": "Path /sdcard/ hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.environ.get('EXTERNAL_STORAGE','/sdcard')",
+      "timestamp": "2026-08-31T22:41:54.941376"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_tokens.py",
+      "linea": 42,
+      "detalle": "Path /sdcard/ hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.environ.get('EXTERNAL_STORAGE','/sdcard')",
+      "timestamp": "2026-08-31T22:41:54.941437"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/scanner_plugin.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.945739"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/vigilante_orquestador.py",
+      "linea": 14,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.947494"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/proveedor_llm.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.950635"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/drive_mano_oracle.py",
+      "linea": 5,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.953693"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/diagnostico_completo.py",
+      "linea": 8,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.956182"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/combate_informacional.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.958089"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/memoria_viva.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.965915"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/renovador.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.969710"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/evolucionador_red_fractal.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.972748"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/auto_diagnoatico.py",
+      "linea": 5,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:54.994359"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/auto_diagnoatico.py",
+      "linea": 13,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.994635"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/auto_diagnoatico.py",
+      "linea": 48,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:54.995526"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/auto_diagnoatico.py",
+      "linea": 50,
+      "detalle": "Path /sdcard/ hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.environ.get('EXTERNAL_STORAGE','/sdcard')",
+      "timestamp": "2026-08-31T22:41:54.995622"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/retroalimentador.py",
+      "linea": 8,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:54.998280"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/pliegue_ejecutable.py",
+      "linea": 17,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.001122"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/escaner_recursos.py",
+      "linea": 15,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.006578"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/validador_recursos.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.015584"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/flujo_cruzado.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.017652"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/fruto_mda.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.020170"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/probador_recursos.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.024198"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/conexiones.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.027082"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/absorber.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.029710"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/nodo_autonomo.py",
+      "linea": 8,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.032887"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/integrador_maestro.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.034594"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/auto_desplegar_bus.py",
+      "linea": 14,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.037544"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador.py",
+      "linea": 24,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.044479"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador.py",
+      "linea": 174,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.048261"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/consciencia.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.052654"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/retroalimentacion.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.056849"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/evolucion_codigo.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.073313"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/evolucion_codigo.py",
+      "linea": 18,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:55.073596"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/evolucion_codigo.py",
+      "linea": 19,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:55.073649"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/evolucion_codigo.py",
+      "linea": 41,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:55.074209"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/evolucion_codigo.py",
+      "linea": 42,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:55.074262"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/escucha_ideas.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.075729"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_web.py",
+      "linea": 16,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.078820"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/explorador_absorbente.py",
+      "linea": 16,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.087389"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/notificador.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.100112"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/autocurador.py",
+      "linea": 12,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.102448"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/autocurador.py",
+      "linea": 69,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:55.103905"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/autocurador.py",
+      "linea": 72,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:55.104011"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/autocurador.py",
+      "linea": 73,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:55.104065"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/autocurador.py",
+      "linea": 75,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:55.104142"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/explorador_recursos.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.106409"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/integrador_recursos.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.108549"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/cazador_24h.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.110609"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_web_v35.py",
+      "linea": 17,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.112833"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/tejido_evolutivo.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.122161"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/alimentador_bucles.py",
+      "linea": 17,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.128750"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/polinizador_codigo.py",
+      "linea": 12,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.141433"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/guerra_fractal.py",
+      "linea": 8,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.144011"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/gravity_token_manager_v2.py",
+      "linea": 11,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.145381"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador_integrado_v24.py",
+      "linea": 19,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.149604"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador_integrado_v24.py",
+      "linea": 38,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:55.150182"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador_integrado_v24.py",
+      "linea": 290,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:55.156541"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/auto_registro.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.163391"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/bus_local.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.165393"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/autoreparador.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.166764"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/tejedor.py",
+      "linea": 8,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.168941"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador_integrado_v2.py",
+      "linea": 19,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.172121"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador_integrado_v2.py",
+      "linea": 38,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:55.172648"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador_integrado_v2.py",
+      "linea": 290,
+      "detalle": "Usa /tmp/ (read-only en Android)",
+      "severidad": "alta",
+      "fix_sugerido": "os.environ.get(\"TMPDIR\",\"_tmp\")",
+      "timestamp": "2026-08-31T22:41:55.178781"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/tokenizador_autonomo.py",
+      "linea": 15,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.185638"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/claude_bridge.py",
+      "linea": 10,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.194347"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/tecnologias_raras.py",
+      "linea": 19,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.197763"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/gestor_apis.py",
+      "linea": 12,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.206210"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/sistema_inmunologico.py",
+      "linea": 16,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.211179"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/absorber_conversaciones.py",
+      "linea": 9,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.224671"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/integracion_autenticador_orquestador_v24.py",
+      "linea": 8,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.227412"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/integracion_autenticador_orquestador_v24.py",
+      "linea": 35,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.228101"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_web_v35_corregido.py",
+      "linea": 17,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.229639"
+    },
+    {
+      "tipo": "path_hardcodeado",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_dominio.py",
+      "linea": 12,
+      "detalle": "Path absoluto de Termux hardcodeado",
+      "severidad": "media",
+      "fix_sugerido": "os.path.expanduser('~')",
+      "timestamp": "2026-08-31T22:41:55.238215"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+      "linea": 33,
+      "detalle": "No se puede importar: prevenor",
+      "severidad": "alta",
+      "fix_sugerido": "pip install prevenor  # o eliminar si no se usa",
+      "timestamp": "2026-08-31T22:41:56.486695"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py",
+      "linea": 84,
+      "detalle": "No se puede importar: miu_github",
+      "severidad": "alta",
+      "fix_sugerido": "pip install miu_github",
+      "timestamp": "2026-08-31T22:41:56.581748"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo.py",
+      "linea": 23,
+      "detalle": "No se puede importar: cryptography",
+      "severidad": "alta",
+      "fix_sugerido": "pip install cryptography",
+      "timestamp": "2026-08-31T22:41:56.695617"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo.py",
+      "linea": 24,
+      "detalle": "No se puede importar: cryptography",
+      "severidad": "alta",
+      "fix_sugerido": "pip install cryptography",
+      "timestamp": "2026-08-31T22:41:56.696623"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo.py",
+      "linea": 25,
+      "detalle": "No se puede importar: cryptography",
+      "severidad": "alta",
+      "fix_sugerido": "pip install cryptography",
+      "timestamp": "2026-08-31T22:41:56.697535"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo.py",
+      "linea": 29,
+      "detalle": "No se puede importar: cryptography",
+      "severidad": "alta",
+      "fix_sugerido": "pip install cryptography",
+      "timestamp": "2026-08-31T22:41:56.700572"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo.py",
+      "linea": 30,
+      "detalle": "No se puede importar: cryptography",
+      "severidad": "alta",
+      "fix_sugerido": "pip install cryptography",
+      "timestamp": "2026-08-31T22:41:56.701478"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo.py",
+      "linea": 31,
+      "detalle": "No se puede importar: cryptography",
+      "severidad": "alta",
+      "fix_sugerido": "pip install cryptography",
+      "timestamp": "2026-08-31T22:41:56.702288"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_doctor.py",
+      "linea": 41,
+      "detalle": "No se puede importar: miu_github",
+      "severidad": "alta",
+      "fix_sugerido": "pip install miu_github",
+      "timestamp": "2026-08-31T22:41:57.359649"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo_v2.py",
+      "linea": 26,
+      "detalle": "No se puede importar: prevenor",
+      "severidad": "alta",
+      "fix_sugerido": "pip install prevenor  # o eliminar si no se usa",
+      "timestamp": "2026-08-31T22:41:57.566108"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo_v2.py",
+      "linea": 35,
+      "detalle": "No se puede importar: circuit_breaker",
+      "severidad": "alta",
+      "fix_sugerido": "pip install circuit_breaker  # o eliminar si no se usa",
+      "timestamp": "2026-08-31T22:41:57.566844"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/miu_scanner.py",
+      "linea": 64,
+      "detalle": "No se puede importar: miu_github",
+      "severidad": "alta",
+      "fix_sugerido": "pip install miu_github",
+      "timestamp": "2026-08-31T22:41:57.960711"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/bots/bot_miu_relay.py",
+      "linea": 11,
+      "detalle": "No se puede importar: miu_memory",
+      "severidad": "alta",
+      "fix_sugerido": "pip install miu_memory",
+      "timestamp": "2026-08-31T22:41:58.061550"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/bots/bot_miu_relay.py",
+      "linea": 117,
+      "detalle": "No se puede importar: miu_memory",
+      "severidad": "alta",
+      "fix_sugerido": "pip install miu_memory",
+      "timestamp": "2026-08-31T22:41:59.377890"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/protocolos/pae_01.py",
+      "linea": 43,
+      "detalle": "No se puede importar: miu_github",
+      "severidad": "alta",
+      "fix_sugerido": "pip install miu_github",
+      "timestamp": "2026-08-31T22:41:59.439278"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_web.py",
+      "linea": 255,
+      "detalle": "No se puede importar: plugins",
+      "severidad": "alta",
+      "fix_sugerido": "pip install plugins",
+      "timestamp": "2026-08-31T22:42:01.074265"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/explorador_absorbente.py",
+      "linea": 284,
+      "detalle": "No se puede importar: orquestador_bridge",
+      "severidad": "alta",
+      "fix_sugerido": "pip install orquestador_bridge",
+      "timestamp": "2026-08-31T22:42:01.159953"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/tecnologias_raras.py",
+      "linea": 10,
+      "detalle": "No se puede importar: msgpack",
+      "severidad": "alta",
+      "fix_sugerido": "pip install msgpack  # o eliminar si no se usa",
+      "timestamp": "2026-08-31T22:42:02.043997"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/tecnologias_raras.py",
+      "linea": 14,
+      "detalle": "No se puede importar: cryptography",
+      "severidad": "alta",
+      "fix_sugerido": "pip install cryptography  # o eliminar si no se usa",
+      "timestamp": "2026-08-31T22:42:02.044623"
+    },
+    {
+      "tipo": "import_roto",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/plugins/tecnologias_raras.py",
+      "linea": 15,
+      "detalle": "No se puede importar: cryptography",
+      "severidad": "alta",
+      "fix_sugerido": "pip install cryptography",
+      "timestamp": "2026-08-31T22:42:02.045150"
+    },
+    {
+      "tipo": "dir_faltante",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/memoria",
+      "linea": 0,
+      "detalle": "Falta directorio cr\u00edtico: memoria",
+      "severidad": "alta",
+      "fix_sugerido": "mkdir -p /data/data/com.termux/files/home/miu-ecosistema/memoria",
+      "timestamp": "2026-08-31T22:42:03.105323"
+    },
+    {
+      "tipo": "dir_faltante",
+      "archivo": "/data/data/com.termux/files/home/miu-ecosistema/temp",
+      "linea": 0,
+      "detalle": "Falta directorio cr\u00edtico: temp",
+      "severidad": "alta",
+      "fix_sugerido": "mkdir -p /data/data/com.termux/files/home/miu-ecosistema/temp",
+      "timestamp": "2026-08-31T22:42:03.105650"
+    }
+  ],
+  "total": 149,
+  "timestamp": "2026-08-31T22:42:03.106620",
+  "_metabolismo": {
+    "timestamp": 1788272441.8637788,
+    "phi": 1.6180339887,
+    "nodo": "test_mirrors_add_action"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "tipo": "flujo_cruzado",
+  "origen": "consciencia",
+  "destino": "gobernador",
+  "contexto": "\ud83e\udde0 \ud83e\udde0 INICIANDO CONSCIENCIA EVOLUCIONADA\n\ud83e\udde0 \ud83d\udcdd Reflexi\u00f3n guardada en reflexion_20260831_210528.json\n\ud83e\udde0 ==================================================\n\ud83e\udde0 \ud83d\udcca Salud: estable\n\ud83e\udde0 \ud83e\udde0 Memoria: 127 registros\n\ud83e\udde0 \ud83d\udcac C",
+  "timestamp": 1788232583.2190347,
+  "_metabolismo": {
+    "timestamp": 1788272441.6758363,
+    "phi": 1.6180339887,
+    "nodo": "navegar_gradientes_854"
+  }
+}

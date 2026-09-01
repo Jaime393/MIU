@@ -1,7 +1,7 @@
 {
   "kill_chain": {
     "ok": true,
-    "accion": "procesar_sd_cognitive"
+    "accion": "reparar_control"
   },
   "agente_memoria": {
     "ok": true,
@@ -9,7 +9,7 @@
   },
   "combate_autonomo": {
     "estado": "ataque",
-    "procesos": 6
+    "procesos": 3
   },
   "enjambre": {
     "ok": false,
@@ -22,7 +22,7 @@
   "fusion_datos": {
     "ok": true,
     "fuentes": {
-      "github": "8",
+      "github": "0",
       "drive": "ok",
       "sd": 5,
       "memoria": 18
@@ -48,5 +48,10 @@
   "red_teaming": {
     "ok": true,
     "vulnerabilidades": []
+  },
+  "_metabolismo": {
+    "timestamp": 1788272441.9010842,
+    "phi": 1.6180339887,
+    "nodo": "observar_senales_905"
   }
 }

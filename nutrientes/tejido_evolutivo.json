@@ -2,11 +2,11 @@
   "sustrato_biologico": {
     "ok": true,
     "organoide": {
-      "id": "7c9e9b9b",
-      "creado": "2026-08-30T10:43:26.806079",
+      "id": "d51b09c7",
+      "creado": "2026-08-31T22:14:25.765566",
       "estado": "activo",
-      "conexiones": 23,
-      "coherencia": 0.6386166236365958
+      "conexiones": 18,
+      "coherencia": 0.5855669601569302
     }
   },
   "memoria_organica": {
@@ -15,7 +15,7 @@
   },
   "consenso_distribuido": {
     "ok": true,
-    "consenso": "podar"
+    "consenso": "esperar"
   },
   "simulacion_predictiva": {
     "ok": true,
@@ -37,5 +37,10 @@
         "resultado": "simulado"
       }
     ]
+  },
+  "_metabolismo": {
+    "timestamp": 1788272441.6221528,
+    "phi": 1.6180339887,
+    "nodo": "TestTerminatePid"
   }
 }

@@ -1,0 +1,199 @@
+{
+  "autoreparador": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.891782",
+    "promedio_duracion": 0.45233529162406916,
+    "alertas": 0
+  },
+  "gobernador": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.892390",
+    "promedio_duracion": 9.47045587468147,
+    "alertas": 0
+  },
+  "evolucionador_red_fractal": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.892840",
+    "promedio_duracion": 0.4073101534843444,
+    "alertas": 0
+  },
+  "mecanismos_autonomia": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.893267",
+    "promedio_duracion": 4.030345538139343,
+    "alertas": 0
+  },
+  "mecanismos_completos": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.893792",
+    "promedio_duracion": 3.634131061553955,
+    "alertas": 0
+  },
+  "combate_informacional": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.894307",
+    "promedio_duracion": 24.023267725944514,
+    "alertas": 0
+  },
+  "tejido_evolutivo": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.894940",
+    "promedio_duracion": 3.0459166073799127,
+    "alertas": 0
+  },
+  "tecnologias_raras": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.895582",
+    "promedio_duracion": 0.8752463409900664,
+    "alertas": 0
+  },
+  "conexiones": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.896226",
+    "promedio_duracion": 8.084100139379501,
+    "alertas": 0
+  },
+  "claude_bridge": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.896793",
+    "promedio_duracion": 3.893646112442016,
+    "alertas": 0
+  },
+  "razonador": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.897548",
+    "promedio_duracion": 0.3248302798271179,
+    "alertas": 0
+  },
+  "razonador_fallback": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.898356",
+    "promedio_duracion": 8.011471647262573,
+    "alertas": 0
+  },
+  "expansor_tokens": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.899165",
+    "promedio_duracion": 45.584396503448474,
+    "alertas": 0
+  },
+  "validador_recursos": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.900060",
+    "promedio_duracion": 12.331636637926099,
+    "alertas": 0
+  },
+  "integrador_recursos": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.900868",
+    "promedio_duracion": 0.4012061660289764,
+    "alertas": 0
+  },
+  "expansor_dominio": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.901501",
+    "promedio_duracion": 9.566530156373975,
+    "alertas": 0
+  },
+  "cazador_recursos": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.901955",
+    "promedio_duracion": 26.371676194667813,
+    "alertas": 0
+  },
+  "consciencia": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.902381",
+    "promedio_duracion": 1.0449116108417509,
+    "alertas": 0
+  },
+  "bus_local_corregido": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.902794",
+    "promedio_duracion": 0.36226208448410024,
+    "alertas": 0
+  },
+  "fruto_mda": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.903210",
+    "promedio_duracion": 1.2154912507534026,
+    "alertas": 0
+  },
+  "retroalimentacion": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.903629",
+    "promedio_duracion": 7.461589484930037,
+    "alertas": 0
+  },
+  "fruto_ecm": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.904163",
+    "promedio_duracion": 0.41069182610511773,
+    "alertas": 0
+  },
+  "memoria_viva": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.904663",
+    "promedio_duracion": 0.3997329120635986,
+    "alertas": 0
+  },
+  "flujo_cruzado": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.905136",
+    "promedio_duracion": 0.3737598757743834,
+    "alertas": 0
+  },
+  "cazador_24h": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.905596",
+    "promedio_duracion": 0.38631102442741383,
+    "alertas": 0
+  },
+  "integrador_maestro": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.906088",
+    "promedio_duracion": 0.3882680995464325,
+    "alertas": 0
+  },
+  "evolucion_codigo": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.906803",
+    "promedio_duracion": 0.5616182553768158,
+    "alertas": 0
+  },
+  "autodiagnostico": {
+    "fallos": 3,
+    "ultimo_ok": null,
+    "promedio_duracion": 0.171875,
+    "alertas": 0
+  },
+  "autocurador": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.888421",
+    "promedio_duracion": 0.45290625333786005,
+    "alertas": 0
+  },
+  "gestor_apis": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.889095",
+    "promedio_duracion": 0.7115815329551696,
+    "alertas": 0
+  },
+  "vigilante_orquestador": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.889808",
+    "promedio_duracion": 0.36009444952011105,
+    "alertas": 0
+  },
+  "polinizador_codigo": {
+    "fallos": 0,
+    "ultimo_ok": "2026-08-31T22:13:27.890881",
+    "promedio_duracion": 17.5533696103096,
+    "alertas": 0
+  },
+  "_metabolismo": {
+    "timestamp": 1788272441.6325643,
+    "phi": 1.6180339887,
+    "nodo": "rgcs"
+  }
+}

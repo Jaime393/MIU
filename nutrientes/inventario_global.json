@@ -1,0 +1,6560 @@
+{
+  "timestamp": "2026-08-31T04:48:19.095665",
+  "archivos": {
+    "scripts": [
+      {
+        "ruta": "/data/data/com.termux/files/home/chat_orquestador.py",
+        "nombre": "chat_orquestador.py",
+        "tama\u00f1o": 4623,
+        "modificado": "2026-08-29T16:47:31.830825"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/franbot.py",
+        "nombre": "franbot.py",
+        "tama\u00f1o": 6257,
+        "modificado": "2026-07-22T20:47:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/telegram_bot_v2.py",
+        "nombre": "telegram_bot_v2.py",
+        "tama\u00f1o": 2463,
+        "modificado": "2026-07-23T09:35:16"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/franbot_core_v2.py",
+        "nombre": "franbot_core_v2.py",
+        "tama\u00f1o": 2268,
+        "modificado": "2026-07-23T09:35:16"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/brain_v2.py",
+        "nombre": "brain_v2.py",
+        "tama\u00f1o": 4090,
+        "modificado": "2026-07-23T09:35:16"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/franbot_start.sh",
+        "nombre": "franbot_start.sh",
+        "tama\u00f1o": 280,
+        "modificado": "2026-07-23T10:38:18"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/genesis_franbot.sh",
+        "nombre": "genesis_franbot.sh",
+        "tama\u00f1o": 13564,
+        "modificado": "2026-07-23T13:10:34"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/spores/franbot_spore_20260723_1123/sensor_rss.py",
+        "nombre": "sensor_rss.py",
+        "tama\u00f1o": 1703,
+        "modificado": "2026-07-23T11:23:22"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/spores/franbot_spore_20260723_1123/install.sh",
+        "nombre": "install.sh",
+        "tama\u00f1o": 698,
+        "modificado": "2026-07-23T11:23:22"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/spores/franbot_spore_20260723_1123/dream.py",
+        "nombre": "dream.py",
+        "tama\u00f1o": 2151,
+        "modificado": "2026-07-23T11:23:22"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/spores/franbot_spore_20260723_1123/core.py",
+        "nombre": "core.py",
+        "tama\u00f1o": 2708,
+        "modificado": "2026-07-23T11:23:22"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/web_panel/server.py",
+        "nombre": "server.py",
+        "tama\u00f1o": 2620,
+        "modificado": "2026-07-23T12:30:12"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/telegram_bot/bot.py",
+        "nombre": "bot.py",
+        "tama\u00f1o": 7253,
+        "modificado": "2026-07-23T12:30:12"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/telegram_bot/bot_imperial.py",
+        "nombre": "bot_imperial.py",
+        "tama\u00f1o": 14906,
+        "modificado": "2026-07-23T12:38:12"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/telegram_bot/bot_requests.py",
+        "nombre": "bot_requests.py",
+        "tama\u00f1o": 6277,
+        "modificado": "2026-07-23T12:45:22"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/telegram_bot/bot_colmena.py",
+        "nombre": "bot_colmena.py",
+        "tama\u00f1o": 7316,
+        "modificado": "2026-07-23T12:52:48"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/telegram_bot/enjambre.py",
+        "nombre": "enjambre.py",
+        "tama\u00f1o": 2448,
+        "modificado": "2026-07-23T13:15:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/telegram_bot/bot_final.py",
+        "nombre": "bot_final.py",
+        "tama\u00f1o": 14231,
+        "modificado": "2026-07-23T14:54:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/explorer/explorador.py",
+        "nombre": "explorador.py",
+        "tama\u00f1o": 8739,
+        "modificado": "2026-07-23T14:54:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/auto_escribir.py",
+        "nombre": "auto_escribir.py",
+        "tama\u00f1o": 1247,
+        "modificado": "2026-07-23T14:30:58"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/agente_manos.py",
+        "nombre": "agente_manos.py",
+        "tama\u00f1o": 5047,
+        "modificado": "2026-07-23T14:37:22"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/agente_manos_v10.py",
+        "nombre": "agente_manos_v10.py",
+        "tama\u00f1o": 5047,
+        "modificado": "2026-07-23T14:37:22"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/worker_bridge.py",
+        "nombre": "worker_bridge.py",
+        "tama\u00f1o": 2376,
+        "modificado": "2026-07-23T14:48:20"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/modulos_auto/telegram_token_txt_procesador.py",
+        "nombre": "telegram_token_txt_procesador.py",
+        "tama\u00f1o": 227,
+        "modificado": "2026-07-23T14:54:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/modulos_auto/slime_core_log_procesador.py",
+        "nombre": "slime_core_log_procesador.py",
+        "tama\u00f1o": 215,
+        "modificado": "2026-07-23T14:54:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/modulos_auto/skills_json_procesador.py",
+        "nombre": "skills_json_procesador.py",
+        "tama\u00f1o": 204,
+        "modificado": "2026-07-23T14:54:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/modulos_auto/shadow_log_procesador.py",
+        "nombre": "shadow_log_procesador.py",
+        "tama\u00f1o": 207,
+        "modificado": "2026-07-23T14:54:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/modulos_auto/secrets_json_procesador.py",
+        "nombre": "secrets_json_procesador.py",
+        "tama\u00f1o": 210,
+        "modificado": "2026-07-23T14:54:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/modulos_auto/life_log_procesador.py",
+        "nombre": "life_log_procesador.py",
+        "tama\u00f1o": 203,
+        "modificado": "2026-07-23T14:54:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/modulos_auto/franbot_final_20260723_1358_log_procesador.py",
+        "nombre": "franbot_final_20260723_1358_log_procesador.py",
+        "tama\u00f1o": 223,
+        "modificado": "2026-07-23T14:54:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/modulos_auto/explorador_log_procesador.py",
+        "nombre": "explorador_log_procesador.py",
+        "tama\u00f1o": 223,
+        "modificado": "2026-07-23T14:54:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/modulos_auto/evolucion_log_procesador.py",
+        "nombre": "evolucion_log_procesador.py",
+        "tama\u00f1o": 213,
+        "modificado": "2026-07-23T14:54:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/modulos_auto/dna_json_procesador.py",
+        "nombre": "dna_json_procesador.py",
+        "tama\u00f1o": 202,
+        "modificado": "2026-07-23T14:54:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/modulos_auto/cron_log_procesador.py",
+        "nombre": "cron_log_procesador.py",
+        "tama\u00f1o": 203,
+        "modificado": "2026-07-23T14:54:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/modulos_auto/conciencia_log_procesador.py",
+        "nombre": "conciencia_log_procesador.py",
+        "tama\u00f1o": 233,
+        "modificado": "2026-07-23T14:54:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/modulos_auto/apis_json_procesador.py",
+        "nombre": "apis_json_procesador.py",
+        "tama\u00f1o": 204,
+        "modificado": "2026-07-23T14:54:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/modulos_auto/memories_json_procesador.py",
+        "nombre": "memories_json_procesador.py",
+        "tama\u00f1o": 212,
+        "modificado": "2026-07-23T15:00:00"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/modulos_auto/evolve_log_procesador.py",
+        "nombre": "evolve_log_procesador.py",
+        "tama\u00f1o": 217,
+        "modificado": "2026-07-23T15:00:02"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/actions/modulos_auto/energia_json_procesador.py",
+        "nombre": "energia_json_procesador.py",
+        "tama\u00f1o": 224,
+        "modificado": "2026-07-23T15:00:02"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/memory/brain.py",
+        "nombre": "brain.py",
+        "tama\u00f1o": 3275,
+        "modificado": "2026-07-23T14:24:48"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/consciousness/conciencia.py",
+        "nombre": "conciencia.py",
+        "tama\u00f1o": 7804,
+        "modificado": "2026-07-23T14:52:28"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/evolution/evolve_core.py",
+        "nombre": "evolve_core.py",
+        "tama\u00f1o": 8510,
+        "modificado": "2026-07-23T14:37:22"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/scripts/sync_drive.sh",
+        "nombre": "sync_drive.sh",
+        "tama\u00f1o": 2876,
+        "modificado": "2026-07-22T22:17:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/scripts/drive_download.sh",
+        "nombre": "drive_download.sh",
+        "tama\u00f1o": 1273,
+        "modificado": "2026-07-23T00:33:48"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/scripts/handoff_tablet.sh",
+        "nombre": "handoff_tablet.sh",
+        "tama\u00f1o": 1543,
+        "modificado": "2026-07-23T11:45:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/scripts/sensor_newsapi.py",
+        "nombre": "sensor_newsapi.py",
+        "tama\u00f1o": 1182,
+        "modificado": "2026-07-23T13:15:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/scripts/cron_master.sh",
+        "nombre": "cron_master.sh",
+        "tama\u00f1o": 1134,
+        "modificado": "2026-07-23T13:15:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/scripts/mapa_red.sh",
+        "nombre": "mapa_red.sh",
+        "tama\u00f1o": 336,
+        "modificado": "2026-07-23T13:16:16"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/scripts/health_check.sh",
+        "nombre": "health_check.sh",
+        "tama\u00f1o": 771,
+        "modificado": "2026-07-23T14:22:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/scripts/send_alert.sh",
+        "nombre": "send_alert.sh",
+        "tama\u00f1o": 229,
+        "modificado": "2026-07-23T14:23:24"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/scripts/self_update.sh",
+        "nombre": "self_update.sh",
+        "tama\u00f1o": 190,
+        "modificado": "2026-07-23T14:23:34"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/scripts/update_worker.sh",
+        "nombre": "update_worker.sh",
+        "tama\u00f1o": 520,
+        "modificado": "2026-07-23T14:27:58"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/scripts/recordatorio_alma.sh",
+        "nombre": "recordatorio_alma.sh",
+        "tama\u00f1o": 316,
+        "modificado": "2026-07-23T14:27:58"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/scripts/colmena_sync.py",
+        "nombre": "colmena_sync.py",
+        "tama\u00f1o": 3412,
+        "modificado": "2026-07-23T14:27:58"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/scripts/autonomia_total.sh",
+        "nombre": "autonomia_total.sh",
+        "tama\u00f1o": 1323,
+        "modificado": "2026-07-23T14:52:28"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/scripts/start_autonomous.sh",
+        "nombre": "start_autonomous.sh",
+        "tama\u00f1o": 284,
+        "modificado": "2026-07-23T15:00:06"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/core/shadow.py",
+        "nombre": "shadow.py",
+        "tama\u00f1o": 3941,
+        "modificado": "2026-07-23T13:24:08"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/core/reposo.py",
+        "nombre": "reposo.py",
+        "tama\u00f1o": 2900,
+        "modificado": "2026-07-23T13:24:08"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/core/predator.py",
+        "nombre": "predator.py",
+        "tama\u00f1o": 3530,
+        "modificado": "2026-07-23T13:24:08"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/core/great_sage.py",
+        "nombre": "great_sage.py",
+        "tama\u00f1o": 3146,
+        "modificado": "2026-07-23T13:24:08"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/core/consciencia_local.py",
+        "nombre": "consciencia_local.py",
+        "tama\u00f1o": 6276,
+        "modificado": "2026-07-23T13:40:22"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/core/podador.py",
+        "nombre": "podador.py",
+        "tama\u00f1o": 3239,
+        "modificado": "2026-07-23T14:02:12"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/core/metricas.py",
+        "nombre": "metricas.py",
+        "tama\u00f1o": 4153,
+        "modificado": "2026-07-23T14:02:12"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/core/modelo_mundo.py",
+        "nombre": "modelo_mundo.py",
+        "tama\u00f1o": 3310,
+        "modificado": "2026-07-23T14:04:54"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/core/comunicacion.py",
+        "nombre": "comunicacion.py",
+        "tama\u00f1o": 3072,
+        "modificado": "2026-07-23T14:04:54"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/core/auto_modificacion.py",
+        "nombre": "auto_modificacion.py",
+        "tama\u00f1o": 3476,
+        "modificado": "2026-07-23T14:04:54"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/core/auto_escalado.py",
+        "nombre": "auto_escalado.py",
+        "tama\u00f1o": 3272,
+        "modificado": "2026-07-23T14:04:54"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/core/slime_core.py",
+        "nombre": "slime_core.py",
+        "tama\u00f1o": 5614,
+        "modificado": "2026-07-23T14:30:58"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/core/autonomous_growth.py",
+        "nombre": "autonomous_growth.py",
+        "tama\u00f1o": 6217,
+        "modificado": "2026-07-23T15:00:06"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/orquestador_5000.py",
+        "nombre": "orquestador_5000.py",
+        "tama\u00f1o": 797,
+        "modificado": "2026-08-29T16:41:33.230825"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/memory/brain.py",
+        "nombre": "brain.py",
+        "tama\u00f1o": 3315,
+        "modificado": "2026-07-27T13:54:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/sync_drive.sh",
+        "nombre": "sync_drive.sh",
+        "tama\u00f1o": 108,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/drive_download.sh",
+        "nombre": "drive_download.sh",
+        "tama\u00f1o": 1271,
+        "modificado": "2026-07-28T17:31:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/handoff_tablet.sh",
+        "nombre": "handoff_tablet.sh",
+        "tama\u00f1o": 1543,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/colmena_sync.py",
+        "nombre": "colmena_sync.py",
+        "tama\u00f1o": 3449,
+        "modificado": "2026-07-27T13:54:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/cron_master.sh",
+        "nombre": "cron_master.sh",
+        "tama\u00f1o": 1420,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/sensor_newsapi.py",
+        "nombre": "sensor_newsapi.py",
+        "tama\u00f1o": 1222,
+        "modificado": "2026-07-27T13:54:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/mapa_red.sh",
+        "nombre": "mapa_red.sh",
+        "tama\u00f1o": 336,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/health_check.sh",
+        "nombre": "health_check.sh",
+        "tama\u00f1o": 771,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/send_alert.sh",
+        "nombre": "send_alert.sh",
+        "tama\u00f1o": 229,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/self_update.sh",
+        "nombre": "self_update.sh",
+        "tama\u00f1o": 190,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/update_worker.sh",
+        "nombre": "update_worker.sh",
+        "tama\u00f1o": 520,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/recordatorio_alma.sh",
+        "nombre": "recordatorio_alma.sh",
+        "tama\u00f1o": 316,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/autonomia_total.sh",
+        "nombre": "autonomia_total.sh",
+        "tama\u00f1o": 1323,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/start_autonomous.sh",
+        "nombre": "start_autonomous.sh",
+        "tama\u00f1o": 284,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/supervisor_eterno.sh",
+        "nombre": "supervisor_eterno.sh",
+        "tama\u00f1o": 1077,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/supervisor_ligero.sh",
+        "nombre": "supervisor_ligero.sh",
+        "tama\u00f1o": 1188,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/guardian_perpetuo.sh",
+        "nombre": "guardian_perpetuo.sh",
+        "tama\u00f1o": 488,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/latido.sh",
+        "nombre": "latido.sh",
+        "tama\u00f1o": 402,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/run_plugins.py",
+        "nombre": "run_plugins.py",
+        "tama\u00f1o": 1486,
+        "modificado": "2026-07-27T13:54:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/orquestador.sh",
+        "nombre": "orquestador.sh",
+        "tama\u00f1o": 203,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/eterno.sh",
+        "nombre": "eterno.sh",
+        "tama\u00f1o": 627,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/franbot_service.py",
+        "nombre": "franbot_service.py",
+        "tama\u00f1o": 1390,
+        "modificado": "2026-07-27T13:54:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/parse_credentials.py",
+        "nombre": "parse_credentials.py",
+        "tama\u00f1o": 5467,
+        "modificado": "2026-07-27T13:54:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/immortal_supervisor.sh",
+        "nombre": "immortal_supervisor.sh",
+        "tama\u00f1o": 878,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/aggressive_launcher.py",
+        "nombre": "aggressive_launcher.py",
+        "tama\u00f1o": 2346,
+        "modificado": "2026-07-27T13:54:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/plugin_diagnostic.py",
+        "nombre": "plugin_diagnostic.py",
+        "tama\u00f1o": 2567,
+        "modificado": "2026-07-27T13:54:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/auto_repair.sh",
+        "nombre": "auto_repair.sh",
+        "tama\u00f1o": 940,
+        "modificado": "2026-07-28T17:31:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/supervisor.sh",
+        "nombre": "supervisor.sh",
+        "tama\u00f1o": 363,
+        "modificado": "2026-07-28T13:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/start_all.sh",
+        "nombre": "start_all.sh",
+        "tama\u00f1o": 585,
+        "modificado": "2026-07-28T13:41:40"
+      }
+    ],
+    "documentos": [
+      {
+        "ruta": "/data/data/com.termux/files/home/storage/shared/Android/data/com.killapps.closeapps.closerunningapps/files/mb/other/mraid_js.txt",
+        "nombre": "mraid_js.txt",
+        "tama\u00f1o": 13188,
+        "modificado": "2026-08-27T05:01:02.700815"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/storage/shared/Android/data/com.killapps.closeapps.closerunningapps/files/mb/other/omsdk/om_js_content.txt",
+        "nombre": "om_js_content.txt",
+        "tama\u00f1o": 39743,
+        "modificado": "2026-08-30T05:19:26.760828"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/storage/shared/Android/data/com.scheler.superproxy/files/mb/other/mraid_js.txt",
+        "nombre": "mraid_js.txt",
+        "tama\u00f1o": 13188,
+        "modificado": "2026-08-12T09:45:22.510803"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/storage/shared/Android/data/com.scheler.superproxy/files/mb/other/omsdk/om_js_content.txt",
+        "nombre": "om_js_content.txt",
+        "tama\u00f1o": 39743,
+        "modificado": "2026-08-30T06:30:31.620828"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/miu-ecosistema/HUESO_44_auditoria_tablet_2026-07-23.md",
+        "nombre": "HUESO_44_auditoria_tablet_2026-07-23.md",
+        "tama\u00f1o": 864,
+        "modificado": "2026-07-23T12:10:28"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/config/telegram_token.txt",
+        "nombre": "telegram_token.txt",
+        "tama\u00f1o": 47,
+        "modificado": "2026-07-23T14:21:28"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/crash_log_backup.md",
+        "nombre": "crash_log_backup.md",
+        "tama\u00f1o": 3686,
+        "modificado": "2026-08-31T03:54:23.750795"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/telegram_token.txt",
+        "nombre": "telegram_token.txt",
+        "tama\u00f1o": 47,
+        "modificado": "2026-07-23T14:21:28"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/config/telegram_token.txt",
+        "nombre": "telegram_token.txt",
+        "tama\u00f1o": 47,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/Copilot Images/cuentas.txt",
+        "nombre": "cuentas.txt",
+        "tama\u00f1o": 2594042,
+        "modificado": "2026-08-03T18:03:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/Copilot Images/tokens.txt",
+        "nombre": "tokens.txt",
+        "tama\u00f1o": 12061766,
+        "modificado": "2026-08-03T18:04:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/txt.txt",
+        "nombre": "txt.txt",
+        "tama\u00f1o": 522,
+        "modificado": "2026-08-29T18:41:58"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/global.txt",
+        "nombre": "global.txt",
+        "tama\u00f1o": 8567,
+        "modificado": "2026-08-29T05:04:42"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/tokens.txt",
+        "nombre": "tokens.txt",
+        "tama\u00f1o": 69931,
+        "modificado": "2026-08-28T22:58:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/miu.txt",
+        "nombre": "miu.txt",
+        "tama\u00f1o": 73769,
+        "modificado": "2026-08-28T13:51:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/MIU_CLEAN_CODE_v7.gs.pdf",
+        "nombre": "MIU_CLEAN_CODE_v7.gs.pdf",
+        "tama\u00f1o": 54527,
+        "modificado": "2026-08-23T22:04:06"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/MIU_SIMPLE_SOLO_2_PEGADAS.md.pdf",
+        "nombre": "MIU_SIMPLE_SOLO_2_PEGADAS.md.pdf",
+        "tama\u00f1o": 60695,
+        "modificado": "2026-08-23T21:41:26"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/scripts/bot_telegram.txt",
+        "nombre": "bot_telegram.txt",
+        "tama\u00f1o": 1292,
+        "modificado": "2026-08-01T09:24:06"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/last_run.txt",
+        "nombre": "last_run.txt",
+        "tama\u00f1o": 18,
+        "modificado": "2026-07-26T23:31:22"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/direct_email.txt",
+        "nombre": "direct_email.txt",
+        "tama\u00f1o": 41,
+        "modificado": "2026-07-27T00:23:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/last_hunt.txt",
+        "nombre": "last_hunt.txt",
+        "tama\u00f1o": 16,
+        "modificado": "2026-07-27T00:23:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/last_consolidated.txt",
+        "nombre": "last_consolidated.txt",
+        "tama\u00f1o": 18,
+        "modificado": "2026-07-27T06:35:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/ipfs_cid.txt",
+        "nombre": "ipfs_cid.txt",
+        "tama\u00f1o": 46,
+        "modificado": "2026-07-27T08:04:22"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/last_bot_index.txt",
+        "nombre": "last_bot_index.txt",
+        "tama\u00f1o": 1,
+        "modificado": "2026-07-27T06:35:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/last_run.txt",
+        "nombre": "last_run.txt",
+        "tama\u00f1o": 17,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/direct_email.txt",
+        "nombre": "direct_email.txt",
+        "tama\u00f1o": 41,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/last_hunt.txt",
+        "nombre": "last_hunt.txt",
+        "tama\u00f1o": 18,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/last_consolidated.txt",
+        "nombre": "last_consolidated.txt",
+        "tama\u00f1o": 18,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/ipfs_cid.txt",
+        "nombre": "ipfs_cid.txt",
+        "tama\u00f1o": 46,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/last_bot_index.txt",
+        "nombre": "last_bot_index.txt",
+        "tama\u00f1o": 1,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/seed_url.txt",
+        "nombre": "seed_url.txt",
+        "tama\u00f1o": 1,
+        "modificado": "2026-07-26T20:53:24"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/almas/arquitecto_ligero.alma.txt",
+        "nombre": "arquitecto_ligero.alma.txt",
+        "tama\u00f1o": 1163474,
+        "modificado": "2026-07-26T22:54:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/tokens_usb.txt",
+        "nombre": "tokens_usb.txt",
+        "tama\u00f1o": 174766,
+        "modificado": "2026-07-26T22:50:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/tokens_usb_reales.txt",
+        "nombre": "tokens_usb_reales.txt",
+        "tama\u00f1o": 4313,
+        "modificado": "2026-07-26T22:54:16"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/miu-ecosistema/HUESO_44_auditoria_tablet_2026-07-23.md",
+        "nombre": "HUESO_44_auditoria_tablet_2026-07-23.md",
+        "tama\u00f1o": 864,
+        "modificado": "2026-07-23T12:10:28"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cloudflare/WORKERS_INVENTORY.md",
+        "nombre": "WORKERS_INVENTORY.md",
+        "tama\u00f1o": 373,
+        "modificado": "2026-08-01T09:24:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/franbot/CHANGELOG.md",
+        "nombre": "CHANGELOG.md",
+        "tama\u00f1o": 373,
+        "modificado": "2026-07-24T07:06:54"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT/build/bayes.pdf",
+        "nombre": "bayes.pdf",
+        "tama\u00f1o": 341973,
+        "modificado": "2026-07-24T07:07:02"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/POST_PROCESS/KAPTON_BOTTOM.pdf",
+        "nombre": "KAPTON_BOTTOM.pdf",
+        "tama\u00f1o": 23982,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/POST_PROCESS/OFI_1Q.pdf",
+        "nombre": "OFI_1Q.pdf",
+        "tama\u00f1o": 24402,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/POST_PROCESS/OFI_3Q.pdf",
+        "nombre": "OFI_3Q.pdf",
+        "tama\u00f1o": 24462,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/POST_PROCESS/OFI_KAPTON_INTERFACE.pdf",
+        "nombre": "OFI_KAPTON_INTERFACE.pdf",
+        "tama\u00f1o": 24133,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/POST_PROCESS/OFI_MIDDLE.pdf",
+        "nombre": "OFI_MIDDLE.pdf",
+        "tama\u00f1o": 24411,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/POST_PROCESS/SIC_OFI.pdf",
+        "nombre": "SIC_OFI.pdf",
+        "tama\u00f1o": 24446,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/POST_PROCESS/SIC_TOP.pdf",
+        "nombre": "SIC_TOP.pdf",
+        "tama\u00f1o": 23671,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/README.md",
+        "nombre": "README.md",
+        "tama\u00f1o": 623,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/MarkovModel/README.md",
+        "nombre": "README.md",
+        "tama\u00f1o": 12872,
+        "modificado": "2026-07-24T07:07:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/MarkovModel/markov-text.pdf",
+        "nombre": "markov-text.pdf",
+        "tama\u00f1o": 163275,
+        "modificado": "2026-07-24T07:07:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/classboltitf/README.md",
+        "nombre": "README.md",
+        "tama\u00f1o": 6503,
+        "modificado": "2026-07-24T07:07:16"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/kmeans-image-compression/README.md",
+        "nombre": "README.md",
+        "tama\u00f1o": 5527,
+        "modificado": "2026-07-24T07:07:24"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu_language/README.md",
+        "nombre": "README.md",
+        "tama\u00f1o": 2586,
+        "modificado": "2026-07-24T07:11:36"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu/README.md",
+        "nombre": "README.md",
+        "tama\u00f1o": 387,
+        "modificado": "2026-07-24T07:11:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-fpp-pretest/README.md",
+        "nombre": "README.md",
+        "tama\u00f1o": 91,
+        "modificado": "2026-07-24T07:11:42"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/java-problem-solution/JavaProgramingTest/Compro-Application-Test.pdf",
+        "nombre": "Compro-Application-Test.pdf",
+        "tama\u00f1o": 4587331,
+        "modificado": "2026-07-24T07:11:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/java-problem-solution/JavaProgramingTest/MIUPROBLEM.md",
+        "nombre": "MIUPROBLEM.md",
+        "tama\u00f1o": 0,
+        "modificado": "2026-07-24T07:11:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/java-problem-solution/JavaProgramingTest/README.md",
+        "nombre": "README.md",
+        "tama\u00f1o": 779,
+        "modificado": "2026-07-24T07:11:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/java-problem-solution/JavaProgramingTest/Sample-MUM-Entrance-Exam.pdf",
+        "nombre": "Sample-MUM-Entrance-Exam.pdf",
+        "tama\u00f1o": 378519,
+        "modificado": "2026-07-24T07:11:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/java-problem-solution/JavaProgramingTest/practise-questions.pdf",
+        "nombre": "practise-questions.pdf",
+        "tama\u00f1o": 243391,
+        "modificado": "2026-07-24T07:11:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/java-problem-solution/MIU Technical interview/Interview guidelines.pdf",
+        "nombre": "Interview guidelines.pdf",
+        "tama\u00f1o": 125681,
+        "modificado": "2026-07-24T07:11:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/java-problem-solution/MIU Technical interview/README.md",
+        "nombre": "README.md",
+        "tama\u00f1o": 730,
+        "modificado": "2026-07-24T07:11:58"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/MIU-Questions-Practice/README.md",
+        "nombre": "README.md",
+        "tama\u00f1o": 117,
+        "modificado": "2026-07-24T07:12:00"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/README.md",
+        "nombre": "README.md",
+        "tama\u00f1o": 643,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/src/MIU/Question14/Question14.txt",
+        "nombre": "Question14.txt",
+        "tama\u00f1o": 959,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/src/MIU/Question15/Question15.txt",
+        "nombre": "Question15.txt",
+        "tama\u00f1o": 1103,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/src/MIU/Question16/Question16-isMadhavArray.txt",
+        "nombre": "Question16-isMadhavArray.txt",
+        "tama\u00f1o": 2066,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/src/MIU/Question17/Question17-isInertial.txt",
+        "nombre": "Question17-isInertial.txt",
+        "tama\u00f1o": 3531,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/src/MIU/Question18/readme.md",
+        "nombre": "readme.md",
+        "tama\u00f1o": 1845,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/src/MIU/Question19/Question19-findPorcupineNumber.txt",
+        "nombre": "Question19-findPorcupineNumber.txt",
+        "tama\u00f1o": 1180,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/src/MIU/Question2/Question2-sumEvenOdd.txt",
+        "nombre": "Question2-sumEvenOdd.txt",
+        "tama\u00f1o": 1803,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/src/MIU/Question22/Question22-sumFactor.txt",
+        "nombre": "Question22-sumFactor.txt",
+        "tama\u00f1o": 1734,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/src/MIU/Question23/Question23-isEvenSpaced.txt",
+        "nombre": "Question23-isEvenSpaced.txt",
+        "tama\u00f1o": 1608,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/src/MIU/Question24/Question24-isSub.txt",
+        "nombre": "Question24-isSub.txt",
+        "tama\u00f1o": 459,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/src/MIU/Question25/Question25-isSym.txt",
+        "nombre": "Question25-isSym.txt",
+        "tama\u00f1o": 962,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/src/MIU/Question3/Question3.txt",
+        "nombre": "Question3.txt",
+        "tama\u00f1o": 3519,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/src/MIU/Question5/Question5.txt",
+        "nombre": "Question5.txt",
+        "tama\u00f1o": 2412,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/src/MIU/Question6/Question6.txt",
+        "nombre": "Question6.txt",
+        "tama\u00f1o": 1685,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/src/MIU/Question7/Question7-nextPerfectSquare.txt",
+        "nombre": "Question7-nextPerfectSquare.txt",
+        "tama\u00f1o": 1405,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/src/MIU/Question8/Question8-n-upcount.txt",
+        "nombre": "Question8-n-upcount.txt",
+        "tama\u00f1o": 1789,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-t-tests/src/MIU/Question9/Question9-primeCount.txt",
+        "nombre": "Question9-primeCount.txt",
+        "tama\u00f1o": 2082,
+        "modificado": "2026-07-24T07:12:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/MIU-System/README.md",
+        "nombre": "README.md",
+        "tama\u00f1o": 2770,
+        "modificado": "2026-07-24T07:12:48"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/java-OOP-example/.github/ISSUE_TEMPLATE/bug_report.md",
+        "nombre": "bug_report.md",
+        "tama\u00f1o": 834,
+        "modificado": "2026-07-24T07:12:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/java-OOP-example/.github/ISSUE_TEMPLATE/feature_request.md",
+        "nombre": "feature_request.md",
+        "tama\u00f1o": 595,
+        "modificado": "2026-07-24T07:12:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/java-OOP-example/Problem TI.md",
+        "nombre": "Problem TI.md",
+        "tama\u00f1o": 272,
+        "modificado": "2026-07-24T07:12:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/java-OOP-example/README.md",
+        "nombre": "README.md",
+        "tama\u00f1o": 2345,
+        "modificado": "2026-07-24T07:12:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/cinema/README.md",
+        "nombre": "README.md",
+        "tama\u00f1o": 8,
+        "modificado": "2026-07-24T07:12:54"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/cinema/miu.txt",
+        "nombre": "miu.txt",
+        "tama\u00f1o": 40144,
+        "modificado": "2026-07-24T07:12:54"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/pift-paper-2023/README.md",
+        "nombre": "README.md",
+        "tama\u00f1o": 3232,
+        "modificado": "2026-07-24T07:13:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/pift-paper-2023/examples/example01.md",
+        "nombre": "example01.md",
+        "tama\u00f1o": 1525,
+        "modificado": "2026-07-24T07:13:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/pift-paper-2023/examples/example02.md",
+        "nombre": "example02.md",
+        "tama\u00f1o": 2695,
+        "modificado": "2026-07-24T07:13:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/pift-paper-2023/examples/example03.md",
+        "nombre": "example03.md",
+        "tama\u00f1o": 3932,
+        "modificado": "2026-07-24T07:13:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/pift-paper-2023/examples/paper_figures/example01_beta=1.00e+02.pdf",
+        "nombre": "example01_beta=1.00e+02.pdf",
+        "tama\u00f1o": 175504,
+        "modificado": "2026-07-24T07:13:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/pift-paper-2023/examples/paper_figures/example01_beta=1.00e+03.pdf",
+        "nombre": "example01_beta=1.00e+03.pdf",
+        "tama\u00f1o": 174984,
+        "modificado": "2026-07-24T07:13:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/pift-paper-2023/examples/paper_figures/example01_beta=1.00e+04.pdf",
+        "nombre": "example01_beta=1.00e+04.pdf",
+        "tama\u00f1o": 174592,
+        "modificado": "2026-07-24T07:13:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/pift-paper-2023/examples/paper_figures/example01_beta=1.00e+05.pdf",
+        "nombre": "example01_beta=1.00e+05.pdf",
+        "tama\u00f1o": 174235,
+        "modificado": "2026-07-24T07:13:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/pift-paper-2023/examples/paper_figures/example02a.pdf",
+        "nombre": "example02a.pdf",
+        "tama\u00f1o": 195900,
+        "modificado": "2026-07-24T07:13:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/pift-paper-2023/examples/paper_figures/example02b.pdf",
+        "nombre": "example02b.pdf",
+        "tama\u00f1o": 195903,
+        "modificado": "2026-07-24T07:13:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/pift-paper-2023/examples/paper_figures/example03a_fitted_post_predictive.pdf",
+        "nombre": "example03a_fitted_post_predictive.pdf",
+        "tama\u00f1o": 109988,
+        "modificado": "2026-07-24T07:13:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/pift-paper-2023/examples/paper_figures/example03a_fitted_prior_predictive.pdf",
+        "nombre": "example03a_fitted_prior_predictive.pdf",
+        "tama\u00f1o": 109295,
+        "modificado": "2026-07-24T07:13:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/pift-paper-2023/examples/paper_figures/example03a_theta.pdf",
+        "nombre": "example03a_theta.pdf",
+        "tama\u00f1o": 193306,
+        "modificado": "2026-07-24T07:13:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/pift-paper-2023/examples/paper_figures/example03a_theta_post.pdf",
+        "nombre": "example03a_theta_post.pdf",
+        "tama\u00f1o": 90353,
+        "modificado": "2026-07-24T07:13:04"
+      }
+    ],
+    "datos": [
+      {
+        "ruta": "/data/data/com.termux/files/home/storage/shared/Android/data/com.google.android.apps.maps/cache/diskcache/map_cache.db",
+        "nombre": "map_cache.db",
+        "tama\u00f1o": 4096,
+        "modificado": "2026-08-25T17:54:17.372001"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/storage/shared/Android/data/com.moonshot.kimichat/files/sheet_20260831_033655_generated_by_Kimi_AI.csv",
+        "nombre": "sheet_20260831_033655_generated_by_Kimi_AI.csv",
+        "tama\u00f1o": 672,
+        "modificado": "2026-08-31T03:36:55.110795"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/explorer/explorador.log",
+        "nombre": "explorador.log",
+        "tama\u00f1o": 2381,
+        "modificado": "2026-07-23T15:00:02"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/memory/brain.db",
+        "nombre": "brain.db",
+        "tama\u00f1o": 18792448,
+        "modificado": "2026-07-23T14:52:26"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/consciousness/conciencia.log",
+        "nombre": "conciencia.log",
+        "tama\u00f1o": 1555,
+        "modificado": "2026-07-23T15:00:00"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/backups/brain_20260723_1500.db",
+        "nombre": "brain_20260723_1500.db",
+        "tama\u00f1o": 18792448,
+        "modificado": "2026-07-23T15:00:02"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/evolution/evolve.log",
+        "nombre": "evolve.log",
+        "tama\u00f1o": 496,
+        "modificado": "2026-07-23T15:00:06"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/logs/shadow.log",
+        "nombre": "shadow.log",
+        "tama\u00f1o": 4080,
+        "modificado": "2026-07-23T13:58:06"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/logs/slime_core.log",
+        "nombre": "slime_core.log",
+        "tama\u00f1o": 1326,
+        "modificado": "2026-07-23T13:58:08"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/logs/evolucion.log",
+        "nombre": "evolucion.log",
+        "tama\u00f1o": 90,
+        "modificado": "2026-07-23T14:02:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/logs/life.log",
+        "nombre": "life.log",
+        "tama\u00f1o": 6535,
+        "modificado": "2026-07-23T14:09:02"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/logs/cron.log",
+        "nombre": "cron.log",
+        "tama\u00f1o": 50,
+        "modificado": "2026-07-23T14:30:00"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/logs/autonomous.log",
+        "nombre": "autonomous.log",
+        "tama\u00f1o": 571,
+        "modificado": "2026-07-23T15:00:08"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/memory/brain.db",
+        "nombre": "brain.db",
+        "tama\u00f1o": 17227776,
+        "modificado": "2026-07-27T07:50:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785224103.py.log",
+        "nombre": "nodo_1785224103.py.log",
+        "tama\u00f1o": 224,
+        "modificado": "2026-07-28T02:41:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785224145.py.log",
+        "nombre": "nodo_1785224145.py.log",
+        "tama\u00f1o": 189,
+        "modificado": "2026-07-28T02:40:54"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785224185.py.log",
+        "nombre": "nodo_1785224185.py.log",
+        "tama\u00f1o": 190,
+        "modificado": "2026-07-28T02:41:34"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785224227.py.log",
+        "nombre": "nodo_1785224227.py.log",
+        "tama\u00f1o": 156,
+        "modificado": "2026-07-28T02:41:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785224235.py.log",
+        "nombre": "nodo_1785224235.py.log",
+        "tama\u00f1o": 159,
+        "modificado": "2026-07-28T02:41:22"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785224277.py.log",
+        "nombre": "nodo_1785224277.py.log",
+        "tama\u00f1o": 126,
+        "modificado": "2026-07-28T02:41:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785224321.py.log",
+        "nombre": "nodo_1785224321.py.log",
+        "tama\u00f1o": 95,
+        "modificado": "2026-07-28T02:40:46"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785224360.py.log",
+        "nombre": "nodo_1785224360.py.log",
+        "tama\u00f1o": 96,
+        "modificado": "2026-07-28T02:41:24"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785224398.py.log",
+        "nombre": "nodo_1785224398.py.log",
+        "tama\u00f1o": 63,
+        "modificado": "2026-07-28T02:41:00"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/network_monitor.log",
+        "nombre": "network_monitor.log",
+        "tama\u00f1o": 322,
+        "modificado": "2026-07-28T02:40:36"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785224438.py.log",
+        "nombre": "nodo_1785224438.py.log",
+        "tama\u00f1o": 64,
+        "modificado": "2026-07-28T02:41:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785224476.py.log",
+        "nombre": "nodo_1785224476.py.log",
+        "tama\u00f1o": 32,
+        "modificado": "2026-07-28T02:41:16"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785224509.py.log",
+        "nombre": "nodo_1785224509.py.log",
+        "tama\u00f1o": 8482,
+        "modificado": "2026-07-28T07:14:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/ia_1785224509.py.log",
+        "nombre": "ia_1785224509.py.log",
+        "tama\u00f1o": 8486,
+        "modificado": "2026-07-28T07:27:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785224637.py.log",
+        "nombre": "nodo_1785224637.py.log",
+        "tama\u00f1o": 8419,
+        "modificado": "2026-07-28T07:14:58"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785224767.py.log",
+        "nombre": "nodo_1785224767.py.log",
+        "tama\u00f1o": 8338,
+        "modificado": "2026-07-28T07:15:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785224897.py.log",
+        "nombre": "nodo_1785224897.py.log",
+        "tama\u00f1o": 8279,
+        "modificado": "2026-07-28T07:15:12"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785225026.py.log",
+        "nombre": "nodo_1785225026.py.log",
+        "tama\u00f1o": 8193,
+        "modificado": "2026-07-28T07:14:18"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785225154.py.log",
+        "nombre": "nodo_1785225154.py.log",
+        "tama\u00f1o": 8122,
+        "modificado": "2026-07-28T07:14:16"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785225283.py.log",
+        "nombre": "nodo_1785225283.py.log",
+        "tama\u00f1o": 8063,
+        "modificado": "2026-07-28T07:14:20"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785225412.py.log",
+        "nombre": "nodo_1785225412.py.log",
+        "tama\u00f1o": 8003,
+        "modificado": "2026-07-28T07:14:46"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785225541.py.log",
+        "nombre": "nodo_1785225541.py.log",
+        "tama\u00f1o": 7935,
+        "modificado": "2026-07-28T07:14:36"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785225668.py.log",
+        "nombre": "nodo_1785225668.py.log",
+        "tama\u00f1o": 7869,
+        "modificado": "2026-07-28T07:14:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785225798.py.log",
+        "nombre": "nodo_1785225798.py.log",
+        "tama\u00f1o": 7804,
+        "modificado": "2026-07-28T07:14:46"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785225925.py.log",
+        "nombre": "nodo_1785225925.py.log",
+        "tama\u00f1o": 7740,
+        "modificado": "2026-07-28T07:14:54"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785226055.py.log",
+        "nombre": "nodo_1785226055.py.log",
+        "tama\u00f1o": 7675,
+        "modificado": "2026-07-28T07:15:02"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785226184.py.log",
+        "nombre": "nodo_1785226184.py.log",
+        "tama\u00f1o": 7620,
+        "modificado": "2026-07-28T07:15:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785226312.py.log",
+        "nombre": "nodo_1785226312.py.log",
+        "tama\u00f1o": 7518,
+        "modificado": "2026-07-28T07:14:18"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785226440.py.log",
+        "nombre": "nodo_1785226440.py.log",
+        "tama\u00f1o": 7498,
+        "modificado": "2026-07-28T07:15:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785226569.py.log",
+        "nombre": "nodo_1785226569.py.log",
+        "tama\u00f1o": 7408,
+        "modificado": "2026-07-28T07:14:16"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785226696.py.log",
+        "nombre": "nodo_1785226696.py.log",
+        "tama\u00f1o": 7330,
+        "modificado": "2026-07-28T07:14:18"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785226825.py.log",
+        "nombre": "nodo_1785226825.py.log",
+        "tama\u00f1o": 7260,
+        "modificado": "2026-07-28T07:14:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785226954.py.log",
+        "nombre": "nodo_1785226954.py.log",
+        "tama\u00f1o": 7207,
+        "modificado": "2026-07-28T07:14:36"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785227082.py.log",
+        "nombre": "nodo_1785227082.py.log",
+        "tama\u00f1o": 7142,
+        "modificado": "2026-07-28T07:14:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785227210.py.log",
+        "nombre": "nodo_1785227210.py.log",
+        "tama\u00f1o": 7079,
+        "modificado": "2026-07-28T07:14:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785227338.py.log",
+        "nombre": "nodo_1785227338.py.log",
+        "tama\u00f1o": 7016,
+        "modificado": "2026-07-28T07:14:58"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785227466.py.log",
+        "nombre": "nodo_1785227466.py.log",
+        "tama\u00f1o": 6953,
+        "modificado": "2026-07-28T07:14:58"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785227595.py.log",
+        "nombre": "nodo_1785227595.py.log",
+        "tama\u00f1o": 6889,
+        "modificado": "2026-07-28T07:15:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785227723.py.log",
+        "nombre": "nodo_1785227723.py.log",
+        "tama\u00f1o": 6819,
+        "modificado": "2026-07-28T07:15:12"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785227852.py.log",
+        "nombre": "nodo_1785227852.py.log",
+        "tama\u00f1o": 6754,
+        "modificado": "2026-07-28T07:15:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785227981.py.log",
+        "nombre": "nodo_1785227981.py.log",
+        "tama\u00f1o": 6694,
+        "modificado": "2026-07-28T07:15:12"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785228109.py.log",
+        "nombre": "nodo_1785228109.py.log",
+        "tama\u00f1o": 6595,
+        "modificado": "2026-07-28T07:14:30"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785228237.py.log",
+        "nombre": "nodo_1785228237.py.log",
+        "tama\u00f1o": 6537,
+        "modificado": "2026-07-28T07:14:34"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785228368.py.log",
+        "nombre": "nodo_1785228368.py.log",
+        "tama\u00f1o": 6458,
+        "modificado": "2026-07-28T07:14:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785228496.py.log",
+        "nombre": "nodo_1785228496.py.log",
+        "tama\u00f1o": 6399,
+        "modificado": "2026-07-28T07:14:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785228624.py.log",
+        "nombre": "nodo_1785228624.py.log",
+        "tama\u00f1o": 6344,
+        "modificado": "2026-07-28T07:14:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785228752.py.log",
+        "nombre": "nodo_1785228752.py.log",
+        "tama\u00f1o": 6283,
+        "modificado": "2026-07-28T07:14:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785228880.py.log",
+        "nombre": "nodo_1785228880.py.log",
+        "tama\u00f1o": 6220,
+        "modificado": "2026-07-28T07:14:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785229008.py.log",
+        "nombre": "nodo_1785229008.py.log",
+        "tama\u00f1o": 6161,
+        "modificado": "2026-07-28T07:15:02"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785229137.py.log",
+        "nombre": "nodo_1785229137.py.log",
+        "tama\u00f1o": 6087,
+        "modificado": "2026-07-28T07:15:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785229264.py.log",
+        "nombre": "nodo_1785229264.py.log",
+        "tama\u00f1o": 6047,
+        "modificado": "2026-07-28T07:15:12"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785229392.py.log",
+        "nombre": "nodo_1785229392.py.log",
+        "tama\u00f1o": 5964,
+        "modificado": "2026-07-28T07:15:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785229520.py.log",
+        "nombre": "nodo_1785229520.py.log",
+        "tama\u00f1o": 5873,
+        "modificado": "2026-07-28T07:14:16"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785229648.py.log",
+        "nombre": "nodo_1785229648.py.log",
+        "tama\u00f1o": 5812,
+        "modificado": "2026-07-28T07:14:16"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785229777.py.log",
+        "nombre": "nodo_1785229777.py.log",
+        "tama\u00f1o": 5752,
+        "modificado": "2026-07-28T07:14:32"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785229905.py.log",
+        "nombre": "nodo_1785229905.py.log",
+        "tama\u00f1o": 5689,
+        "modificado": "2026-07-28T07:14:36"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785230033.py.log",
+        "nombre": "nodo_1785230033.py.log",
+        "tama\u00f1o": 5611,
+        "modificado": "2026-07-28T07:14:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785230162.py.log",
+        "nombre": "nodo_1785230162.py.log",
+        "tama\u00f1o": 5546,
+        "modificado": "2026-07-28T07:14:48"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785230290.py.log",
+        "nombre": "nodo_1785230290.py.log",
+        "tama\u00f1o": 5490,
+        "modificado": "2026-07-28T07:14:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785230418.py.log",
+        "nombre": "nodo_1785230418.py.log",
+        "tama\u00f1o": 5429,
+        "modificado": "2026-07-28T07:14:46"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785230546.py.log",
+        "nombre": "nodo_1785230546.py.log",
+        "tama\u00f1o": 5353,
+        "modificado": "2026-07-28T07:15:02"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785230674.py.log",
+        "nombre": "nodo_1785230674.py.log",
+        "tama\u00f1o": 5308,
+        "modificado": "2026-07-28T07:15:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785230802.py.log",
+        "nombre": "nodo_1785230802.py.log",
+        "tama\u00f1o": 5222,
+        "modificado": "2026-07-28T07:15:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785230930.py.log",
+        "nombre": "nodo_1785230930.py.log",
+        "tama\u00f1o": 5181,
+        "modificado": "2026-07-28T07:15:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785231059.py.log",
+        "nombre": "nodo_1785231059.py.log",
+        "tama\u00f1o": 5112,
+        "modificado": "2026-07-28T07:15:16"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785231188.py.log",
+        "nombre": "nodo_1785231188.py.log",
+        "tama\u00f1o": 5015,
+        "modificado": "2026-07-28T07:14:18"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785231316.py.log",
+        "nombre": "nodo_1785231316.py.log",
+        "tama\u00f1o": 4947,
+        "modificado": "2026-07-28T07:14:22"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785231444.py.log",
+        "nombre": "nodo_1785231444.py.log",
+        "tama\u00f1o": 4891,
+        "modificado": "2026-07-28T07:14:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785231571.py.log",
+        "nombre": "nodo_1785231571.py.log",
+        "tama\u00f1o": 4819,
+        "modificado": "2026-07-28T07:14:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785231701.py.log",
+        "nombre": "nodo_1785231701.py.log",
+        "tama\u00f1o": 4763,
+        "modificado": "2026-07-28T07:14:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785231829.py.log",
+        "nombre": "nodo_1785231829.py.log",
+        "tama\u00f1o": 4696,
+        "modificado": "2026-07-28T07:14:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785231958.py.log",
+        "nombre": "nodo_1785231958.py.log",
+        "tama\u00f1o": 4636,
+        "modificado": "2026-07-28T07:14:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785232086.py.log",
+        "nombre": "nodo_1785232086.py.log",
+        "tama\u00f1o": 4571,
+        "modificado": "2026-07-28T07:15:02"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785232215.py.log",
+        "nombre": "nodo_1785232215.py.log",
+        "tama\u00f1o": 4502,
+        "modificado": "2026-07-28T07:15:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785232344.py.log",
+        "nombre": "nodo_1785232344.py.log",
+        "tama\u00f1o": 4434,
+        "modificado": "2026-07-28T07:15:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785232473.py.log",
+        "nombre": "nodo_1785232473.py.log",
+        "tama\u00f1o": 4376,
+        "modificado": "2026-07-28T07:15:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785232602.py.log",
+        "nombre": "nodo_1785232602.py.log",
+        "tama\u00f1o": 4318,
+        "modificado": "2026-07-28T07:15:16"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785232730.py.log",
+        "nombre": "nodo_1785232730.py.log",
+        "tama\u00f1o": 4226,
+        "modificado": "2026-07-28T07:14:26"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785232858.py.log",
+        "nombre": "nodo_1785232858.py.log",
+        "tama\u00f1o": 4188,
+        "modificado": "2026-07-28T07:15:18"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785232986.py.log",
+        "nombre": "nodo_1785232986.py.log",
+        "tama\u00f1o": 4100,
+        "modificado": "2026-07-28T07:14:36"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785233114.py.log",
+        "nombre": "nodo_1785233114.py.log",
+        "tama\u00f1o": 4039,
+        "modificado": "2026-07-28T07:14:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785233242.py.log",
+        "nombre": "nodo_1785233242.py.log",
+        "tama\u00f1o": 3964,
+        "modificado": "2026-07-28T07:14:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785233370.py.log",
+        "nombre": "nodo_1785233370.py.log",
+        "tama\u00f1o": 3901,
+        "modificado": "2026-07-28T07:14:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785233498.py.log",
+        "nombre": "nodo_1785233498.py.log",
+        "tama\u00f1o": 3829,
+        "modificado": "2026-07-28T07:14:58"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785233627.py.log",
+        "nombre": "nodo_1785233627.py.log",
+        "tama\u00f1o": 3774,
+        "modificado": "2026-07-28T07:14:58"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/nodo_1785233756.py.log",
+        "nombre": "nodo_1785233756.py.log",
+        "tama\u00f1o": 3713,
+        "modificado": "2026-07-28T07:15:10"
+      }
+    ],
+    "web": [
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/web_panel/index.html",
+        "nombre": "index.html",
+        "tama\u00f1o": 4118,
+        "modificado": "2026-07-23T12:30:12"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/web_panel/index.html",
+        "nombre": "index.html",
+        "tama\u00f1o": 4118,
+        "modificado": "2026-07-23T12:30:12"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/web_panel/dashboard.html",
+        "nombre": "dashboard.html",
+        "tama\u00f1o": 1009,
+        "modificado": "2026-07-26T20:00:16"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/franbotWEB/index.html",
+        "nombre": "index.html",
+        "tama\u00f1o": 38332,
+        "modificado": "2026-07-24T07:06:48"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/franbotWEB/pages/Aboutus.html",
+        "nombre": "Aboutus.html",
+        "tama\u00f1o": 14790,
+        "modificado": "2026-07-24T07:06:48"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/franbotWEB/pages/carrito.html",
+        "nombre": "carrito.html",
+        "tama\u00f1o": 6529,
+        "modificado": "2026-07-24T07:06:48"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/franbotWEB/pages/contact.html",
+        "nombre": "contact.html",
+        "tama\u00f1o": 7735,
+        "modificado": "2026-07-24T07:06:48"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/franbotWEB/pages/merchandise.html",
+        "nombre": "merchandise.html",
+        "tama\u00f1o": 6301,
+        "modificado": "2026-07-24T07:06:48"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/franbotWEB/pages/supplier.html",
+        "nombre": "supplier.html",
+        "tama\u00f1o": 7439,
+        "modificado": "2026-07-24T07:06:48"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/franbotWEB/styles/common.css",
+        "nombre": "common.css",
+        "tama\u00f1o": 7473,
+        "modificado": "2026-07-24T07:06:48"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/franbotWEB/styles/index.css",
+        "nombre": "index.css",
+        "tama\u00f1o": 61,
+        "modificado": "2026-07-24T07:06:48"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/franbotWEB/styles/responsive.css",
+        "nombre": "responsive.css",
+        "tama\u00f1o": 2445,
+        "modificado": "2026-07-24T07:06:48"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/614642SainturBatkhuu/client/cart.html",
+        "nombre": "cart.html",
+        "tama\u00f1o": 1876,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/614642SainturBatkhuu/client/css/form.css",
+        "nombre": "form.css",
+        "tama\u00f1o": 1617,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/614642SainturBatkhuu/client/css/style.css",
+        "nombre": "style.css",
+        "tama\u00f1o": 3650,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/614642SainturBatkhuu/client/css/table.css",
+        "nombre": "table.css",
+        "tama\u00f1o": 1550,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/614642SainturBatkhuu/client/index.html",
+        "nombre": "index.html",
+        "tama\u00f1o": 1323,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/index.html",
+        "nombre": "index.html",
+        "tama\u00f1o": 5184,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab02/about.css",
+        "nombre": "about.css",
+        "tama\u00f1o": 1302,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab02/aboutme.html",
+        "nombre": "aboutme.html",
+        "tama\u00f1o": 4954,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab03/table.css",
+        "nombre": "table.css",
+        "tama\u00f1o": 1259,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab03/table.html",
+        "nombre": "table.html",
+        "tama\u00f1o": 3520,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab04/form.css",
+        "nombre": "form.css",
+        "tama\u00f1o": 1046,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab04/form.html",
+        "nombre": "form.html",
+        "tama\u00f1o": 4889,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab05/js.css",
+        "nombre": "js.css",
+        "tama\u00f1o": 321,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab05/js.html",
+        "nombre": "js.html",
+        "tama\u00f1o": 2898,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab06/closure.css",
+        "nombre": "closure.css",
+        "tama\u00f1o": 2194,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab06/closure.html",
+        "nombre": "closure.html",
+        "tama\u00f1o": 11299,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab07/context.css",
+        "nombre": "context.css",
+        "tama\u00f1o": 482,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab07/context.html",
+        "nombre": "context.html",
+        "tama\u00f1o": 3030,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab08/inheritance.css",
+        "nombre": "inheritance.css",
+        "tama\u00f1o": 106,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab08/inheritance.html",
+        "nombre": "inheritance.html",
+        "tama\u00f1o": 3577,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab09/class.css",
+        "nombre": "class.css",
+        "tama\u00f1o": 327,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab09/class.html",
+        "nombre": "class.html",
+        "tama\u00f1o": 4353,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab10/node.css",
+        "nombre": "node.css",
+        "tama\u00f1o": 167,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab10/node.html",
+        "nombre": "node.html",
+        "tama\u00f1o": 2486,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab11/server.css",
+        "nombre": "server.css",
+        "tama\u00f1o": 236,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab11/server.html",
+        "nombre": "server.html",
+        "tama\u00f1o": 2527,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab12/express.css",
+        "nombre": "express.css",
+        "tama\u00f1o": 236,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab12/express.html",
+        "nombre": "express.html",
+        "tama\u00f1o": 1385,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab12/src/assets/style/error.css",
+        "nombre": "error.css",
+        "tama\u00f1o": 183,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab12/src/assets/style/style.css",
+        "nombre": "style.css",
+        "tama\u00f1o": 237,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab12/src/views/404.html",
+        "nombre": "404.html",
+        "tama\u00f1o": 421,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab12/src/views/500.html",
+        "nombre": "500.html",
+        "tama\u00f1o": 431,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab12/src/views/home.html",
+        "nombre": "home.html",
+        "tama\u00f1o": 956,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab12/src/views/product-form.html",
+        "nombre": "product-form.html",
+        "tama\u00f1o": 415,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab12/src/views/product.html",
+        "nombre": "product.html",
+        "tama\u00f1o": 273,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab12/src/views/user-form.html",
+        "nombre": "user-form.html",
+        "tama\u00f1o": 402,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab12/src/views/user.html",
+        "nombre": "user.html",
+        "tama\u00f1o": 267,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab13/rest.css",
+        "nombre": "rest.css",
+        "tama\u00f1o": 236,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab13/rest.html",
+        "nombre": "rest.html",
+        "tama\u00f1o": 1951,
+        "modificado": "2026-07-24T07:12:38"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab13/shoppingcart-server/public/css/style.css",
+        "nombre": "style.css",
+        "tama\u00f1o": 1310,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab13/shoppingcart-server/views/add.html",
+        "nombre": "add.html",
+        "tama\u00f1o": 939,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab13/shoppingcart-server/views/get.html",
+        "nombre": "get.html",
+        "tama\u00f1o": 911,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab13/shoppingcart-server/views/home.html",
+        "nombre": "home.html",
+        "tama\u00f1o": 675,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab13/shoppingcart-server/views/update.html",
+        "nombre": "update.html",
+        "tama\u00f1o": 973,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab14/promise.css",
+        "nombre": "promise.css",
+        "tama\u00f1o": 0,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab14/promise.html",
+        "nombre": "promise.html",
+        "tama\u00f1o": 1621,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab14/shoppingcart/shoppingcart-client/add.html",
+        "nombre": "add.html",
+        "tama\u00f1o": 945,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab14/shoppingcart/shoppingcart-client/css/carousel.css",
+        "nombre": "carousel.css",
+        "tama\u00f1o": 1323,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab14/shoppingcart/shoppingcart-client/get.html",
+        "nombre": "get.html",
+        "tama\u00f1o": 906,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab14/shoppingcart/shoppingcart-client/index.html",
+        "nombre": "index.html",
+        "tama\u00f1o": 672,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/lab14/shoppingcart/shoppingcart-client/update.html",
+        "nombre": "update.html",
+        "tama\u00f1o": 980,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/mid/mid.html",
+        "nombre": "mid.html",
+        "tama\u00f1o": 2767,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/mid/position.css",
+        "nombre": "position.css",
+        "tama\u00f1o": 390,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/quiz/login.html",
+        "nombre": "login.html",
+        "tama\u00f1o": 1318,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/quiz/view.html",
+        "nombre": "view.html",
+        "tama\u00f1o": 678,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/style.css",
+        "nombre": "style.css",
+        "tama\u00f1o": 3484,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/miu-wap_labs/test/test.html",
+        "nombre": "test.html",
+        "tama\u00f1o": 1938,
+        "modificado": "2026-07-24T07:12:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/tarot-oraculo/public/index.html",
+        "nombre": "index.html",
+        "tama\u00f1o": 25939,
+        "modificado": "2026-07-24T07:13:12"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/openalgo-portfoliogreeks/templates/base.html",
+        "nombre": "base.html",
+        "tama\u00f1o": 5192,
+        "modificado": "2026-07-24T07:13:28"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/openalgo-portfoliogreeks/templates/index.html",
+        "nombre": "index.html",
+        "tama\u00f1o": 16411,
+        "modificado": "2026-07-24T07:13:28"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/openalgo-portfoliogreeks/templates/settings.html",
+        "nombre": "settings.html",
+        "tama\u00f1o": 2500,
+        "modificado": "2026-07-24T07:13:28"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/rhobust/index.html",
+        "nombre": "index.html",
+        "tama\u00f1o": 849,
+        "modificado": "2026-07-24T07:13:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/antropy/docs/_static/style.css",
+        "nombre": "style.css",
+        "tama\u00f1o": 888,
+        "modificado": "2026-07-24T07:23:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/antropy/docs/index.html",
+        "nombre": "index.html",
+        "tama\u00f1o": 69,
+        "modificado": "2026-07-24T07:23:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/antropy/docs/templates/navbarsearchbox.html",
+        "nombre": "navbarsearchbox.html",
+        "tama\u00f1o": 0,
+        "modificado": "2026-07-24T07:23:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/antropy/docs/templates/search.html",
+        "nombre": "search.html",
+        "tama\u00f1o": 0,
+        "modificado": "2026-07-24T07:23:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/antropy/docs/templates/searchbox.html",
+        "nombre": "searchbox.html",
+        "tama\u00f1o": 0,
+        "modificado": "2026-07-24T07:23:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/antropy/docs/templates/searchresults.html",
+        "nombre": "searchresults.html",
+        "tama\u00f1o": 0,
+        "modificado": "2026-07-24T07:23:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/presidio/docs/api-docs/api-docs.html",
+        "nombre": "api-docs.html",
+        "tama\u00f1o": 2491,
+        "modificado": "2026-07-24T07:26:58"
+      }
+    ],
+    "config": [
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/config/dna.json",
+        "nombre": "dna.json",
+        "tama\u00f1o": 853,
+        "modificado": "2026-07-22T20:55:08"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/config/secrets.json",
+        "nombre": "secrets.json",
+        "tama\u00f1o": 104,
+        "modificado": "2026-07-22T21:42:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/config/apis.json",
+        "nombre": "apis.json",
+        "tama\u00f1o": 1657,
+        "modificado": "2026-07-22T21:55:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/memory/memories.json",
+        "nombre": "memories.json",
+        "tama\u00f1o": 1640,
+        "modificado": "2026-07-23T14:55:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/consciousness/energia.json",
+        "nombre": "energia.json",
+        "tama\u00f1o": 61,
+        "modificado": "2026-07-23T14:55:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/evolution/acciones.json",
+        "nombre": "acciones.json",
+        "tama\u00f1o": 309,
+        "modificado": "2026-07-23T15:00:06"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/core/skills.json",
+        "nombre": "skills.json",
+        "tama\u00f1o": 461,
+        "modificado": "2026-07-23T14:02:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/memory/memories.json",
+        "nombre": "memories.json",
+        "tama\u00f1o": 5404403,
+        "modificado": "2026-08-06T23:27:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/logs/plugin_diagnostic.json",
+        "nombre": "plugin_diagnostic.json",
+        "tama\u00f1o": 15863,
+        "modificado": "2026-07-25T17:56:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/secrets.json",
+        "nombre": "secrets.json",
+        "tama\u00f1o": 104,
+        "modificado": "2026-07-22T21:42:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/apis.json",
+        "nombre": "apis.json",
+        "tama\u00f1o": 1656,
+        "modificado": "2026-08-30T08:22:08"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/config/dna.json",
+        "nombre": "dna.json",
+        "tama\u00f1o": 852,
+        "modificado": "2026-07-28T17:31:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/config/secrets.json",
+        "nombre": "secrets.json",
+        "tama\u00f1o": 104,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/config/apis.json",
+        "nombre": "apis.json",
+        "tama\u00f1o": 1656,
+        "modificado": "2026-07-28T17:31:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/proyecto_alma_completo.json",
+        "nombre": "proyecto_alma_completo.json",
+        "tama\u00f1o": 4838041,
+        "modificado": "2026-07-26T22:54:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/semilla_alma.json",
+        "nombre": "semilla_alma.json",
+        "tama\u00f1o": 9540,
+        "modificado": "2026-05-18T00:20:42"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/ift_core.json",
+        "nombre": "ift_core.json",
+        "tama\u00f1o": 1631,
+        "modificado": "2026-05-18T00:26:32"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/tc_balance.json",
+        "nombre": "tc_balance.json",
+        "tama\u00f1o": 38,
+        "modificado": "2026-08-29T16:22:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/Meta AI/micelio.yml",
+        "nombre": "micelio.yml",
+        "tama\u00f1o": 1366,
+        "modificado": "2026-08-29T16:29:58"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/user.json",
+        "nombre": "user.json",
+        "tama\u00f1o": 30745,
+        "modificado": "2026-08-28T13:52:50"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/memories.json",
+        "nombre": "memories.json",
+        "tama\u00f1o": 5404403,
+        "modificado": "2026-08-06T23:27:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/sshyvpn.json",
+        "nombre": "sshyvpn.json",
+        "tama\u00f1o": 1566014,
+        "modificado": "2026-08-03T17:51:08"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/parte1.json",
+        "nombre": "parte1.json",
+        "tama\u00f1o": 14198547,
+        "modificado": "2026-07-28T17:36:06"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/parte3.json",
+        "nombre": "parte3.json",
+        "tama\u00f1o": 4283789,
+        "modificado": "2026-07-27T18:50:36"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/parte4.json",
+        "nombre": "parte4.json",
+        "tama\u00f1o": 2562280,
+        "modificado": "2026-07-27T18:50:36"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/parte2 (2).json",
+        "nombre": "parte2 (2).json",
+        "tama\u00f1o": 5123337,
+        "modificado": "2026-07-27T18:46:04"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/chat.json",
+        "nombre": "chat.json",
+        "tama\u00f1o": 5277339,
+        "modificado": "2026-06-07T16:26:16"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/conversations_oracle (2).json",
+        "nombre": "conversations_oracle (2).json",
+        "tama\u00f1o": 7261280,
+        "modificado": "2026-06-07T16:26:12"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/conversations_pryect.json",
+        "nombre": "conversations_pryect.json",
+        "tama\u00f1o": 6065836,
+        "modificado": "2026-06-07T16:26:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/memoria.json",
+        "nombre": "memoria.json",
+        "tama\u00f1o": 15970862,
+        "modificado": "2026-06-07T16:26:08"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/conversations (3).json",
+        "nombre": "conversations (3).json",
+        "tama\u00f1o": 7687244,
+        "modificado": "2026-06-07T16:26:06"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/conversations (4).json",
+        "nombre": "conversations (4).json",
+        "tama\u00f1o": 5277339,
+        "modificado": "2026-06-07T16:26:06"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/parte1 (2).json",
+        "nombre": "parte1 (2).json",
+        "tama\u00f1o": 6846707,
+        "modificado": "2026-06-07T16:26:06"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/parte2.json",
+        "nombre": "parte2.json",
+        "tama\u00f1o": 6630890,
+        "modificado": "2026-06-07T16:26:06"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/conversations.json",
+        "nombre": "conversations.json",
+        "tama\u00f1o": 19462491,
+        "modificado": "1980-01-01T00:00:00"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/conversations0.json",
+        "nombre": "conversations0.json",
+        "tama\u00f1o": 4661874,
+        "modificado": "1980-01-01T00:00:00"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/config/claves.json",
+        "nombre": "claves.json",
+        "tama\u00f1o": 1489,
+        "modificado": "2026-08-30T08:26:34"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/thoughts.json",
+        "nombre": "thoughts.json",
+        "tama\u00f1o": 20357,
+        "modificado": "2026-07-26T23:31:22"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/imperial_data.json",
+        "nombre": "imperial_data.json",
+        "tama\u00f1o": 22286,
+        "modificado": "2026-07-24T13:53:24"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/memoria_imperial.json",
+        "nombre": "memoria_imperial.json",
+        "tama\u00f1o": 22285,
+        "modificado": "2026-07-25T17:41:14"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/qa_backup.json",
+        "nombre": "qa_backup.json",
+        "tama\u00f1o": 7145,
+        "modificado": "2026-07-24T13:57:24"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/global_mind_report.json",
+        "nombre": "global_mind_report.json",
+        "tama\u00f1o": 474,
+        "modificado": "2026-07-27T08:10:46"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/accounts.json",
+        "nombre": "accounts.json",
+        "tama\u00f1o": 50,
+        "modificado": "2026-07-26T09:53:18"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/expansion_history.json",
+        "nombre": "expansion_history.json",
+        "tama\u00f1o": 789,
+        "modificado": "2026-07-26T18:07:18"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/own_ideas.json",
+        "nombre": "own_ideas.json",
+        "tama\u00f1o": 6214,
+        "modificado": "2026-07-27T00:03:34"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/sovereign_wallet.json",
+        "nombre": "sovereign_wallet.json",
+        "tama\u00f1o": 102,
+        "modificado": "2026-07-25T14:15:44"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/implemented_ideas.json",
+        "nombre": "implemented_ideas.json",
+        "tama\u00f1o": 2902,
+        "modificado": "2026-07-25T16:52:32"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/carencias.json",
+        "nombre": "carencias.json",
+        "tama\u00f1o": 1102,
+        "modificado": "2026-07-25T16:25:18"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/lessons.json",
+        "nombre": "lessons.json",
+        "tama\u00f1o": 783,
+        "modificado": "2026-07-25T16:11:46"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/last_manual_request.json",
+        "nombre": "last_manual_request.json",
+        "tama\u00f1o": 104,
+        "modificado": "2026-07-25T16:16:20"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/donation_link.json",
+        "nombre": "donation_link.json",
+        "tama\u00f1o": 168,
+        "modificado": "2026-07-27T08:10:20"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/portfolio.json",
+        "nombre": "portfolio.json",
+        "tama\u00f1o": 10480,
+        "modificado": "2026-07-26T13:38:46"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/revenue.json",
+        "nombre": "revenue.json",
+        "tama\u00f1o": 18456,
+        "modificado": "2026-07-26T13:38:48"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/prompts_for_sale.json",
+        "nombre": "prompts_for_sale.json",
+        "tama\u00f1o": 47173,
+        "modificado": "2026-07-27T06:26:30"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/bug_findings.json",
+        "nombre": "bug_findings.json",
+        "tama\u00f1o": 35817,
+        "modificado": "2026-07-27T06:23:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/tweets_queue.json",
+        "nombre": "tweets_queue.json",
+        "tama\u00f1o": 1661,
+        "modificado": "2026-07-26T00:56:30"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/twitter_oauth.json",
+        "nombre": "twitter_oauth.json",
+        "tama\u00f1o": 270,
+        "modificado": "2026-07-26T08:24:00"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/capabilities.json",
+        "nombre": "capabilities.json",
+        "tama\u00f1o": 62,
+        "modificado": "2026-07-27T08:02:54"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/adaptive_memory.json",
+        "nombre": "adaptive_memory.json",
+        "tama\u00f1o": 20875,
+        "modificado": "2026-07-27T07:56:32"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/linkedin_posts.json",
+        "nombre": "linkedin_posts.json",
+        "tama\u00f1o": 26894,
+        "modificado": "2026-07-27T06:33:12"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/reddit_posts.json",
+        "nombre": "reddit_posts.json",
+        "tama\u00f1o": 21947,
+        "modificado": "2026-07-26T13:39:00"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/proxy_pool.json",
+        "nombre": "proxy_pool.json",
+        "tama\u00f1o": 152,
+        "modificado": "2026-07-28T17:31:08"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/subscriptions.json",
+        "nombre": "subscriptions.json",
+        "tama\u00f1o": 2,
+        "modificado": "2026-07-26T14:16:32"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/reddit_oauth.json",
+        "nombre": "reddit_oauth.json",
+        "tama\u00f1o": 188,
+        "modificado": "2026-07-26T10:28:48"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/canal_status.json",
+        "nombre": "canal_status.json",
+        "tama\u00f1o": 517,
+        "modificado": "2026-07-27T00:14:42"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/channel_status.json",
+        "nombre": "channel_status.json",
+        "tama\u00f1o": 82,
+        "modificado": "2026-07-26T13:41:24"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/fix_history.json",
+        "nombre": "fix_history.json",
+        "tama\u00f1o": 2,
+        "modificado": "2026-07-27T07:57:34"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/strategic_state.json",
+        "nombre": "strategic_state.json",
+        "tama\u00f1o": 556,
+        "modificado": "2026-07-27T08:10:18"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/seeds_deployed.json",
+        "nombre": "seeds_deployed.json",
+        "tama\u00f1o": 164,
+        "modificado": "2026-07-27T07:59:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/subsystem_health.json",
+        "nombre": "subsystem_health.json",
+        "tama\u00f1o": 403,
+        "modificado": "2026-07-27T08:04:42"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/notification_queue.json",
+        "nombre": "notification_queue.json",
+        "tama\u00f1o": 15334,
+        "modificado": "2026-07-27T08:10:58"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/mesh_topology.json",
+        "nombre": "mesh_topology.json",
+        "tama\u00f1o": 104,
+        "modificado": "2026-07-26T13:30:08"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/sovereignty_state.json",
+        "nombre": "sovereignty_state.json",
+        "tama\u00f1o": 112,
+        "modificado": "2026-07-27T00:28:54"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/fail_counts.json",
+        "nombre": "fail_counts.json",
+        "tama\u00f1o": 2,
+        "modificado": "2026-07-26T14:15:28"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/disabled_plugins.json",
+        "nombre": "disabled_plugins.json",
+        "tama\u00f1o": 20,
+        "modificado": "2026-07-27T08:09:00"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/growth_strategy.json",
+        "nombre": "growth_strategy.json",
+        "tama\u00f1o": 1354,
+        "modificado": "2026-07-26T13:40:20"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/current_strategy.json",
+        "nombre": "current_strategy.json",
+        "tama\u00f1o": 1014,
+        "modificado": "2026-07-26T14:15:18"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/error_counts.json",
+        "nombre": "error_counts.json",
+        "tama\u00f1o": 2,
+        "modificado": "2026-07-27T08:02:52"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/controller_state.json",
+        "nombre": "controller_state.json",
+        "tama\u00f1o": 406,
+        "modificado": "2026-07-26T15:00:46"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/p2p_peers.json",
+        "nombre": "p2p_peers.json",
+        "tama\u00f1o": 2,
+        "modificado": "2026-07-27T08:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/discovered_platforms.json",
+        "nombre": "discovered_platforms.json",
+        "tama\u00f1o": 105,
+        "modificado": "2026-07-27T00:24:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/bot_pool.json",
+        "nombre": "bot_pool.json",
+        "tama\u00f1o": 997,
+        "modificado": "2026-07-27T07:22:24"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/social_pool.json",
+        "nombre": "social_pool.json",
+        "tama\u00f1o": 563,
+        "modificado": "2026-07-26T16:12:30"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/ecosystem_map.json",
+        "nombre": "ecosystem_map.json",
+        "tama\u00f1o": 1476,
+        "modificado": "2026-07-26T16:20:40"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/evolution_plan.json",
+        "nombre": "evolution_plan.json",
+        "tama\u00f1o": 112,
+        "modificado": "2026-07-30T05:09:12"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/governor_state.json",
+        "nombre": "governor_state.json",
+        "tama\u00f1o": 139,
+        "modificado": "2026-07-27T08:00:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/thoughts.json",
+        "nombre": "thoughts.json",
+        "tama\u00f1o": 14848,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/imperial_data.json",
+        "nombre": "imperial_data.json",
+        "tama\u00f1o": 22286,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/memoria_imperial.json",
+        "nombre": "memoria_imperial.json",
+        "tama\u00f1o": 22285,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/qa_backup.json",
+        "nombre": "qa_backup.json",
+        "tama\u00f1o": 7145,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/global_mind_report.json",
+        "nombre": "global_mind_report.json",
+        "tama\u00f1o": 474,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/accounts.json",
+        "nombre": "accounts.json",
+        "tama\u00f1o": 50,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/expansion_history.json",
+        "nombre": "expansion_history.json",
+        "tama\u00f1o": 12702,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/own_ideas.json",
+        "nombre": "own_ideas.json",
+        "tama\u00f1o": 39734,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/sovereign_wallet.json",
+        "nombre": "sovereign_wallet.json",
+        "tama\u00f1o": 102,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/implemented_ideas.json",
+        "nombre": "implemented_ideas.json",
+        "tama\u00f1o": 2902,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/carencias.json",
+        "nombre": "carencias.json",
+        "tama\u00f1o": 1102,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/lessons.json",
+        "nombre": "lessons.json",
+        "tama\u00f1o": 783,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/last_manual_request.json",
+        "nombre": "last_manual_request.json",
+        "tama\u00f1o": 104,
+        "modificado": "2026-07-26T17:18:56"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/cognitive/cognitive/all_credentials.json",
+        "nombre": "all_credentials.json",
+        "tama\u00f1o": 7720,
+        "modificado": "2026-07-26T17:18:56"
+      }
+    ],
+    "modelos": [
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_backup_live/franbot.gguf",
+        "nombre": "franbot.gguf",
+        "tama\u00f1o": 668788096,
+        "modificado": "2026-05-10T05:08:16"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/ift_results/experimental/samples_raw_1.h5",
+        "nombre": "samples_raw_1.h5",
+        "tama\u00f1o": 376288,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/ift_results/experimental/samples_raw_2.h5",
+        "nombre": "samples_raw_2.h5",
+        "tama\u00f1o": 376288,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/ift_results/experimental/samples_raw_3.h5",
+        "nombre": "samples_raw_3.h5",
+        "tama\u00f1o": 376288,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/ift_results/experimental/samples_raw_4.h5",
+        "nombre": "samples_raw_4.h5",
+        "tama\u00f1o": 376288,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/ift_results/experimental/samples_raw_5.h5",
+        "nombre": "samples_raw_5.h5",
+        "tama\u00f1o": 376288,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/ift_results/synthetic/samples_001.h5",
+        "nombre": "samples_001.h5",
+        "tama\u00f1o": 14240,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/ift_results/synthetic/samples_076.h5",
+        "nombre": "samples_076.h5",
+        "tama\u00f1o": 14240,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/ift_results/synthetic/samples_76.h5",
+        "nombre": "samples_76.h5",
+        "tama\u00f1o": 14240,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/ift_results/synthetic/samples_760.h5",
+        "nombre": "samples_760.h5",
+        "tama\u00f1o": 14240,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/ift_results/synthetic/samples_760_highgrad.h5",
+        "nombre": "samples_760_highgrad.h5",
+        "tama\u00f1o": 11440,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/ift_results/synthetic/samples_76_highgrad.h5",
+        "nombre": "samples_76_highgrad.h5",
+        "tama\u00f1o": 11440,
+        "modificado": "2026-07-24T07:07:10"
+      },
+      {
+        "ruta": "/data/data/com.termux/files/home/FranBot_live/network/github_repos/IFT-Thermal-Conductivity-Experiments/ift_results/synthetic/samples_7p6.h5",
+        "nombre": "samples_7p6.h5",
+        "tama\u00f1o": 14240,
+        "modificado": "2026-07-24T07:07:10"
+      }
+    ]
+  },
+  "dispositivos": [
+    {
+      "ip": "10.222.228.5",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.1",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.11",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.16",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.26",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.4",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.22",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.8",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.25",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.3",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.28",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.17",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.15",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.12",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.18",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.21",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.29",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.30",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.7",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.14",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.24",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.13",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.40",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.35",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.48",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.51",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.52",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.9",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.57",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.6",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.2",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.23",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.20",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.19",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.62",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.64",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.41",
+      "puertos": [
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.46",
+      "puertos": [
+        22,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.47",
+      "puertos": [
+        22,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.33",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.32",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.43",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.36",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.44",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.45",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.39",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.56",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.27",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.10",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.68",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.53",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.55",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.54",
+      "puertos": [
+        22,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.75",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.59",
+      "puertos": [
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.81",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.82",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.84",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.60",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.63",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.61",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.37",
+      "puertos": [
+        22,
+        443,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.42",
+      "puertos": [
+        22,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.31",
+      "puertos": [
+        22,
+        80,
+        443,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.34",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.49",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.38",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.50",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.85",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.86",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.87",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.88",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.89",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.71",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.96",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.97",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.79",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.105",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.106",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.107",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.109",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.108",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.110",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.91",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.66",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.65",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.90",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.67",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.111",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.72",
+      "puertos": [
+        22,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.92",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.74",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.70",
+      "puertos": [
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.113",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.58",
+      "puertos": [
+        22,
+        443,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.102",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.126",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.127",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.128",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.112",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.95",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.69",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.93",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.94",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.73",
+      "puertos": [
+        80,
+        8080,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.76",
+      "puertos": [
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.101",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.98",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.99",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.77",
+      "puertos": [
+        80,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.114",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.78",
+      "puertos": [
+        80,
+        443,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.80",
+      "puertos": [
+        22,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.117",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.100",
+      "puertos": [
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.83",
+      "puertos": [
+        443,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.103",
+      "puertos": [
+        22,
+        80,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.115",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.116",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.129",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.104",
+      "puertos": [
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.121",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.122",
+      "puertos": [
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.125",
+      "puertos": [
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.135",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.152",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.118",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.123",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.124",
+      "puertos": [
+        22,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.119",
+      "puertos": [
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.131",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.120",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.136",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.130",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.132",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.142",
+      "puertos": [
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.143",
+      "puertos": [
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.134",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.133",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.137",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.138",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.149",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.157",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.146",
+      "puertos": [
+        22,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.144",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.160",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.175",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.176",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.177",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.178",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.139",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.179",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.140",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.180",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.158",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.147",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.159",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.141",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.145",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.151",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.148",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.161",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.150",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.162",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.153",
+      "puertos": [
+        22,
+        443,
+        8080,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.165",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.163",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.155",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.166",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.156",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.181",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.182",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.186",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.192",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.154",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.169",
+      "puertos": [
+        22,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.164",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.168",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.183",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.167",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.171",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.170",
+      "puertos": [
+        22,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.184",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.173",
+      "puertos": [
+        22,
+        80,
+        8080,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.188",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.174",
+      "puertos": [
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.187",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.172",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.190",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.191",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.193",
+      "puertos": [
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.196",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.198",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.206",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.199",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.208",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.203",
+      "puertos": [
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.204",
+      "puertos": [
+        22,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.220",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.185",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.189",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.205",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.197",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.202",
+      "puertos": [
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.201",
+      "puertos": [
+        22,
+        443,
+        8080,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.207",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.194",
+      "puertos": [
+        22,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.195",
+      "puertos": [
+        22,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.200",
+      "puertos": [
+        22,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.214",
+      "puertos": [
+        22,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.209",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.217",
+      "puertos": [
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.210",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.230",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.218",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.227",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.229",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.246",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.211",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.248",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.212",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.213",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.231",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.216",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.232",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.226",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.221",
+      "puertos": [
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.215",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.219",
+      "puertos": [
+        22,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.249",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.222",
+      "puertos": [
+        22,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.236",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.251",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.224",
+      "puertos": [
+        22,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.234",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.252",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.253",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.250",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.223",
+      "puertos": [
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.225",
+      "puertos": [
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.254",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3000,
+        3306,
+        5432,
+        6379
+      ]
+    },
+    {
+      "ip": "10.222.228.238",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.235",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.237",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        3000,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.239",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.228",
+      "puertos": [
+        80,
+        443,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.242",
+      "puertos": [
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.241",
+      "puertos": [
+        22,
+        80,
+        8080,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.240",
+      "puertos": [
+        22,
+        80,
+        8080,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.244",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.243",
+      "puertos": [
+        22,
+        80,
+        8080,
+        3000,
+        3306,
+        5432,
+        6379,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.245",
+      "puertos": [
+        22,
+        80,
+        443,
+        8080,
+        5000,
+        3306,
+        5432,
+        27017
+      ]
+    },
+    {
+      "ip": "10.222.228.247",
+      "puertos": [
+        22,
+        80,
+        443,
+        5000,
+        3000,
+        3306,
+        6379,
+        27017
+      ]
+    }
+  ],
+  "procesos": [
+    {
+      "usuario": "u0_a184",
+      "pid": 6724,
+      "cpu": "0.0",
+      "mem": "0.0",
+      "comando": "/data/data/com.termux/files/usr/bin/bash -l"
+    },
+    {
+      "usuario": "u0_a184",
+      "pid": 8774,
+      "cpu": "0.0",
+      "mem": "0.0",
+      "comando": "python3 /data/data/com.termux/files/home/miu-ecosistema/miu_initiative.py > /dat"
+    },
+    {
+      "usuario": "u0_a184",
+      "pid": 15121,
+      "cpu": "0.0",
+      "mem": "0.0",
+      "comando": "python3 plugins/orquestador_integrado_v24_1.py --daemon 3600"
+    },
+    {
+      "usuario": "u0_a184",
+      "pid": 16197,
+      "cpu": "0.0",
+      "mem": "0.0",
+      "comando": "/data/data/com.termux/files/usr/bin/bash -l"
+    },
+    {
+      "usuario": "u0_a184",
+      "pid": 16231,
+      "cpu": "0.0",
+      "mem": "0.0",
+      "comando": "/data/data/com.termux/files/usr/bin/bash -l"
+    },
+    {
+      "usuario": "u0_a184",
+      "pid": 16621,
+      "cpu": "4.0",
+      "mem": "0.1",
+      "comando": "python3 plugins/explorador_profundo.py"
+    },
+    {
+      "usuario": "u0_a184",
+      "pid": 16662,
+      "cpu": "0.0",
+      "mem": "0.0",
+      "comando": "/data/data/com.termux/files/usr/bin/bash -l"
+    },
+    {
+      "usuario": "u0_a184",
+      "pid": 21223,
+      "cpu": "2.0",
+      "mem": "0.0",
+      "comando": "ps aux"
+    }
+  ],
+  "servicios": [],
+  "_metabolismo": {
+    "timestamp": 1788272441.7242398,
+    "phi": 1.6180339887,
+    "nodo": "transformar_gradientes_265"
+  }
+}

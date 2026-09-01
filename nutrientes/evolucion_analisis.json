@@ -1,0 +1,661 @@
+[
+  {
+    "file": "mecanismos_autonomia.py",
+    "lineas": 308,
+    "funciones": 12,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "e13fbad91357a498"
+  },
+  {
+    "file": "gobernador.py",
+    "lineas": 111,
+    "funciones": 10,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "85cae61334394014"
+  },
+  {
+    "file": "maestro_autonomo.py",
+    "lineas": 219,
+    "funciones": 3,
+    "issues": [],
+    "hash": "762e47042c790ae5"
+  },
+  {
+    "file": "razonador_fallback.py",
+    "lineas": 124,
+    "funciones": 6,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "7961372e2007bf5a"
+  },
+  {
+    "file": "alimentador_fractal.py",
+    "lineas": 372,
+    "funciones": 1,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "e7e3621151968348"
+  },
+  {
+    "file": "mecanismos_completos.py",
+    "lineas": 160,
+    "funciones": 7,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "b405504a74bbc174"
+  },
+  {
+    "file": "explorador_profundo_v2.py",
+    "lineas": 21,
+    "funciones": 1,
+    "issues": [],
+    "hash": "3f6c5f2aed4e7e88"
+  },
+  {
+    "file": "consolidador_estados.py",
+    "lineas": 6,
+    "funciones": 0,
+    "issues": [],
+    "hash": "0e02443e0ca091c5"
+  },
+  {
+    "file": "fruto_ecm.py",
+    "lineas": 70,
+    "funciones": 4,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "e2509840c7afdbf5"
+  },
+  {
+    "file": "conversador.py",
+    "lineas": 53,
+    "funciones": 3,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "db8ab2e8b0a46a87"
+  },
+  {
+    "file": "explorador_profundo.py",
+    "lineas": 355,
+    "funciones": 0,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "489c8a1b3d5a6e76"
+  },
+  {
+    "file": "publicar_estado_kimi.py",
+    "lineas": 24,
+    "funciones": 1,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "9aebe0791fe7c4ab"
+  },
+  {
+    "file": "absorber_avanzado.py",
+    "lineas": 58,
+    "funciones": 1,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "1551a3aabfaed8a5"
+  },
+  {
+    "file": "cazador_recursos.py",
+    "lineas": 238,
+    "funciones": 8,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "7e0b3e176de8e13f"
+  },
+  {
+    "file": "expansor_tokens.py",
+    "lineas": 176,
+    "funciones": 6,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "55f08de3774bbade"
+  },
+  {
+    "file": "scanner_plugin.py",
+    "lineas": 28,
+    "funciones": 1,
+    "issues": [],
+    "hash": "c4e90d22eb976ee3"
+  },
+  {
+    "file": "vigilante_orquestador.py",
+    "lineas": 86,
+    "funciones": 3,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "c901cabf95722bd5"
+  },
+  {
+    "file": "proveedor_llm.py",
+    "lineas": 84,
+    "funciones": 4,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "7f2138098f49d682"
+  },
+  {
+    "file": "drive_mano_oracle.py",
+    "lineas": 63,
+    "funciones": 4,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "9361530be634e6e8"
+  },
+  {
+    "file": "diagnostico_completo.py",
+    "lineas": 45,
+    "funciones": 1,
+    "issues": [],
+    "hash": "3d20b884c5e1490d"
+  },
+  {
+    "file": "combate_informacional.py",
+    "lineas": 292,
+    "funciones": 10,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "adf3e0f968643dca"
+  },
+  {
+    "file": "memoria_viva.py",
+    "lineas": 75,
+    "funciones": 5,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "7cfdcea81aefedbc"
+  },
+  {
+    "file": "renovador.py",
+    "lineas": 84,
+    "funciones": 1,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "7686f872da1965ab"
+  },
+  {
+    "file": "evolucionador_red_fractal.py",
+    "lineas": 117,
+    "funciones": 6,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "a5d5beec732eda04"
+  },
+  {
+    "file": "orquestador_integrado_v24_1.py",
+    "lineas": 645,
+    "funciones": 2,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "c8576302a95dc28f"
+  },
+  {
+    "file": "auto_diagnoatico.py",
+    "lineas": 131,
+    "funciones": 2,
+    "issues": [
+      "Usa /tmp/ (read-only en Android)"
+    ],
+    "hash": "d24e8c72ede6af21"
+  },
+  {
+    "file": "retroalimentador.py",
+    "lineas": 66,
+    "funciones": 4,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "0700733a6c084d5a"
+  },
+  {
+    "file": "pliegue_ejecutable.py",
+    "lineas": 176,
+    "funciones": 2,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "fdb9a589a5d78e33"
+  },
+  {
+    "file": "escaner_recursos.py",
+    "lineas": 318,
+    "funciones": 0,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "c20728b5aa706ee7"
+  },
+  {
+    "file": "__init__.py",
+    "lineas": 0,
+    "funciones": 0,
+    "issues": [],
+    "hash": "e3b0c44298fc1c14"
+  },
+  {
+    "file": "validador_recursos.py",
+    "lineas": 55,
+    "funciones": 3,
+    "issues": [],
+    "hash": "3d1d66fdb246a4df"
+  },
+  {
+    "file": "flujo_cruzado.py",
+    "lineas": 67,
+    "funciones": 3,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "f6daa340ec0b6794"
+  },
+  {
+    "file": "fruto_mda.py",
+    "lineas": 138,
+    "funciones": 6,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "2e088abc3096d391"
+  },
+  {
+    "file": "probador_recursos.py",
+    "lineas": 99,
+    "funciones": 6,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "1649804fdda6e6e9"
+  },
+  {
+    "file": "conexiones.py",
+    "lineas": 94,
+    "funciones": 8,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "4a8d60b95b093c0e"
+  },
+  {
+    "file": "absorber.py",
+    "lineas": 54,
+    "funciones": 1,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "3e98c779882e5e90"
+  },
+  {
+    "file": "integrador_legado.py",
+    "lineas": 28,
+    "funciones": 1,
+    "issues": [],
+    "hash": "538e7b2ecb7d7551"
+  },
+  {
+    "file": "nodo_autonomo.py",
+    "lineas": 28,
+    "funciones": 1,
+    "issues": [],
+    "hash": "c2047a8c44e9cf66"
+  },
+  {
+    "file": "integrador_maestro.py",
+    "lineas": 70,
+    "funciones": 5,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "690c1a6b6db9e82a"
+  },
+  {
+    "file": "auto_desplegar_bus.py",
+    "lineas": 195,
+    "funciones": 2,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "3b29729cc0d1b744"
+  },
+  {
+    "file": "orquestador.py",
+    "lineas": 274,
+    "funciones": 5,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "df89c55d7cb0c279"
+  },
+  {
+    "file": "razonador.py",
+    "lineas": 7,
+    "funciones": 1,
+    "issues": [],
+    "hash": "2011536a5f37f915"
+  },
+  {
+    "file": "consciencia.py",
+    "lineas": 152,
+    "funciones": 5,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "bab218140f0a2738"
+  },
+  {
+    "file": "retroalimentacion.py",
+    "lineas": 95,
+    "funciones": 5,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "62f93c2eb395918c"
+  },
+  {
+    "file": "plugin_manager_v24_2.py",
+    "lineas": 472,
+    "funciones": 1,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "01daf11e722f6a62"
+  },
+  {
+    "file": "evolucion_codigo.py",
+    "lineas": 70,
+    "funciones": 3,
+    "issues": [
+      "Usa /tmp/ (read-only en Android)",
+      "Typos de 'python3' encontrados"
+    ],
+    "hash": "088d878ada699a60"
+  },
+  {
+    "file": "escucha_ideas.py",
+    "lineas": 93,
+    "funciones": 4,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "dde67482f2859b5d"
+  },
+  {
+    "file": "expansor_web.py",
+    "lineas": 268,
+    "funciones": 1,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "ff820022b71ece99"
+  },
+  {
+    "file": "explorador_absorbente.py",
+    "lineas": 483,
+    "funciones": 1,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "4e8aff9bf0f9da1c"
+  },
+  {
+    "file": "notificador.py",
+    "lineas": 43,
+    "funciones": 2,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "52c283c615e4a529"
+  },
+  {
+    "file": "autocurador.py",
+    "lineas": 128,
+    "funciones": 2,
+    "issues": [
+      "Usa /tmp/ (read-only en Android)"
+    ],
+    "hash": "1d95a0e7f3c900aa"
+  },
+  {
+    "file": "explorador_recursos.py",
+    "lineas": 70,
+    "funciones": 6,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "6cef12800cdca9d5"
+  },
+  {
+    "file": "integrador_recursos.py",
+    "lineas": 62,
+    "funciones": 2,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "85334857b414d10d"
+  },
+  {
+    "file": "cazador_24h.py",
+    "lineas": 47,
+    "funciones": 1,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "1686c36f863c62f6"
+  },
+  {
+    "file": "expansor_web_v35.py",
+    "lineas": 335,
+    "funciones": 0,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "eb88c2215db5f028"
+  },
+  {
+    "file": "tejido_evolutivo.py",
+    "lineas": 213,
+    "funciones": 7,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "404175f24826db04"
+  },
+  {
+    "file": "alimentador_bucles.py",
+    "lineas": 461,
+    "funciones": 1,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "e0848846eafa4f59"
+  },
+  {
+    "file": "polinizador_codigo.py",
+    "lineas": 91,
+    "funciones": 1,
+    "issues": [],
+    "hash": "bb654fe50e636099"
+  },
+  {
+    "file": "guerra_fractal.py",
+    "lineas": 34,
+    "funciones": 1,
+    "issues": [],
+    "hash": "104b123afe6e5ad9"
+  },
+  {
+    "file": "gravity_token_manager_v2.py",
+    "lineas": 129,
+    "funciones": 0,
+    "issues": [],
+    "hash": "64d3fc4a06d5aedc"
+  },
+  {
+    "file": "orquestador_integrado_v24.py",
+    "lineas": 502,
+    "funciones": 1,
+    "issues": [
+      "Usa /tmp/ (read-only en Android)",
+      "Open() sin encoding"
+    ],
+    "hash": "0ee16c28f2cb13a1"
+  },
+  {
+    "file": "auto_registro.py",
+    "lineas": 63,
+    "funciones": 4,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "b0cb17c688eb8f73"
+  },
+  {
+    "file": "bus_local.py",
+    "lineas": 42,
+    "funciones": 3,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "e9c7640258d1c40c"
+  },
+  {
+    "file": "autoreparador.py",
+    "lineas": 58,
+    "funciones": 3,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "d654ad253664b5a9"
+  },
+  {
+    "file": "pliegue_16c28633.py",
+    "lineas": 4,
+    "funciones": 1,
+    "issues": [],
+    "hash": "9ecba67fe0c326c8"
+  },
+  {
+    "file": "tejedor.py",
+    "lineas": 60,
+    "funciones": 1,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "c6c1b946c8a4a6c2"
+  },
+  {
+    "file": "orquestador_integrado_v2.py",
+    "lineas": 502,
+    "funciones": 1,
+    "issues": [
+      "Usa /tmp/ (read-only en Android)",
+      "Open() sin encoding"
+    ],
+    "hash": "0ee16c28f2cb13a1"
+  },
+  {
+    "file": "tokenizador_autonomo.py",
+    "lineas": 304,
+    "funciones": 1,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "d1493f19572cda92"
+  },
+  {
+    "file": "claude_bridge.py",
+    "lineas": 90,
+    "funciones": 5,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "5d1102330444aa88"
+  },
+  {
+    "file": "tecnologias_raras.py",
+    "lineas": 304,
+    "funciones": 10,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "0f1196cea2386bd2"
+  },
+  {
+    "file": "gestor_apis.py",
+    "lineas": 132,
+    "funciones": 4,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "752fa9ad843fe350"
+  },
+  {
+    "file": "sistema_inmunologico.py",
+    "lineas": 499,
+    "funciones": 8,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "88ba6547e4f7889b"
+  },
+  {
+    "file": "absorber_conversaciones.py",
+    "lineas": 93,
+    "funciones": 5,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "beb11920045ed633"
+  },
+  {
+    "file": "integracion_autenticador_orquestador_v24.py",
+    "lineas": 48,
+    "funciones": 1,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "1d9d4bc86c8dc850"
+  },
+  {
+    "file": "expansor_web_v35_corregido.py",
+    "lineas": 306,
+    "funciones": 0,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "c82b3985df365f7c"
+  },
+  {
+    "file": "expansor_dominio.py",
+    "lineas": 212,
+    "funciones": 8,
+    "issues": [
+      "Open() sin encoding"
+    ],
+    "hash": "a15c79c9365e2512"
+  }
+]

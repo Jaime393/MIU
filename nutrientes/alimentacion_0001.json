@@ -36,5 +36,10 @@
       "timestamp": "2026-08-30T09:03:02.751492"
     }
   },
-  "timestamp": "2026-08-30T09:03:02.950945"
+  "timestamp": "2026-08-30T09:03:02.950945",
+  "_metabolismo": {
+    "timestamp": 1788272441.601849,
+    "phi": 1.6180339887,
+    "nodo": "navegar_resonancias_816"
+  }
 }

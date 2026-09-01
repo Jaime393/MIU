@@ -1,0 +1,12 @@
+{
+  "tipo": "flujo_cruzado",
+  "origen": "expansor_tokens",
+  "destino": "expansor_dominio",
+  "contexto": "\ud83e\uddec \ud83d\udd0d INICIANDO EXPANSI\u00d3N DE TOKENS\n\ud83e\uddec \ud83d\udcc1 Expandiendo rutas de b\u00fasqueda...\n\ud83e\uddec \ud83d\udccd 30 rutas a explorar\n\ud83e\uddec \ud83d\udd0e Buscando tokens...\n\ud83e\uddec    \u2705 home: 717 tokens\n\ud83e\uddec    \u2705 FranBot_backup: 42 tokens\n\ud83e\uddec    \u2705 FranBot: 24506 tok",
+  "timestamp": 1788232583.2149062,
+  "_metabolismo": {
+    "timestamp": 1788272441.6250827,
+    "phi": 1.6180339887,
+    "nodo": "catalizar_tejidos_633"
+  }
+}

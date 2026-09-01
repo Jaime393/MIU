@@ -1,0 +1,15 @@
+{"timestamp": 1788219679.4302065, "tipo": "llm_local", "nombre": "ollama_termux", "estado": "no_instalado", "prioridad": "alta", "accion_sugerida": "registrar"}
+{"timestamp": 1788219679.430261, "tipo": "api_gratis", "nombre": "gemini", "estado": "token_faltante", "prioridad": "alta", "accion_sugerida": "configurar"}
+{"timestamp": 1788219679.4302783, "tipo": "storage", "nombre": "r2_free", "estado": "disponible", "prioridad": "media", "accion_sugerida": "registrar"}
+{"timestamp": 1788222627.1015038, "tipo": "llm_local", "nombre": "ollama_termux", "estado": "no_instalado", "prioridad": "baja", "accion_sugerida": "instalar"}
+{"timestamp": 1788222627.101559, "tipo": "storage", "nombre": "r2_free", "estado": "disponible", "prioridad": "baja", "accion_sugerida": "instalar"}
+{"timestamp": 1788222627.1015756, "tipo": "worker", "nombre": "cloudflare_workers", "estado": "disponible", "prioridad": "media", "accion_sugerida": "registrar"}
+{"timestamp": 1788223034.387758, "tipo": "vps", "nombre": "oracle_always_free", "estado": "requiere_registro", "prioridad": "baja", "accion_sugerida": "instalar"}
+{"timestamp": 1788223034.387808, "tipo": "api_gratis", "nombre": "groq", "estado": "token_faltante", "prioridad": "media", "accion_sugerida": "instalar"}
+{"timestamp": 1788223034.3878264, "tipo": "compute", "nombre": "github_actions", "estado": "disponible", "prioridad": "media", "accion_sugerida": "instalar"}
+{"timestamp": 1788228338.9961154, "tipo": "api_gratis", "nombre": "groq", "estado": "token_faltante", "prioridad": "alta", "accion_sugerida": "registrar"}
+{"timestamp": 1788228338.9961812, "tipo": "vps", "nombre": "oracle_always_free", "estado": "requiere_registro", "prioridad": "media", "accion_sugerida": "configurar"}
+{"timestamp": 1788228338.9962008, "tipo": "llm_local", "nombre": "ollama_termux", "estado": "no_instalado", "prioridad": "media", "accion_sugerida": "configurar"}
+{"timestamp": 1788232583.5372791, "tipo": "vps", "nombre": "oracle_always_free", "estado": "requiere_registro", "prioridad": "alta", "accion_sugerida": "configurar"}
+{"timestamp": 1788232583.5373223, "tipo": "api_gratis", "nombre": "gemini", "estado": "token_faltante", "prioridad": "media", "accion_sugerida": "registrar"}
+{"timestamp": 1788232583.5373375, "tipo": "api_gratis", "nombre": "groq", "estado": "token_faltante", "prioridad": "media", "accion_sugerida": "configurar"}

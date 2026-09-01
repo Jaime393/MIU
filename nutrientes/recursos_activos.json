@@ -30,5 +30,10 @@
   "modelos_locales": {
     "ok": false,
     "count": 0
+  },
+  "_metabolismo": {
+    "timestamp": 1788272441.5820837,
+    "phi": 1.6180339887,
+    "nodo": "test_media_cache_path_host_read"
   }
 }

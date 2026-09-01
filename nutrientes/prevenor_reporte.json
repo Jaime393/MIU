@@ -1,0 +1,26 @@
+{
+  "ok": false,
+  "acciones": [
+    {
+      "modulo": "plugins/orquestador.py",
+      "accion": "validado"
+    },
+    {
+      "modulo": "miu_control.py",
+      "accion": "bloquear",
+      "error": "miu_control.py: SyntaxError line 166: unexpected character after line continuation character"
+    }
+  ],
+  "stubs_generados": [],
+  "adaptaciones": [
+    {
+      "tipo": "tmpdir",
+      "valor": "_tmp"
+    }
+  ],
+  "_metabolismo": {
+    "timestamp": 1788272441.913685,
+    "phi": 1.6180339887,
+    "nodo": "test_install_rejects_existing_without_force"
+  }
+}

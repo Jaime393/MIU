@@ -14,5 +14,10 @@
       "phi": 0.30300000000000005
     }
   ],
-  "timestamp": "2026-08-30T10:10:28.072593"
+  "timestamp": "2026-08-30T10:10:28.072593",
+  "_metabolismo": {
+    "timestamp": 1788272441.6707222,
+    "phi": 1.6180339887,
+    "nodo": "test_install_rejects_existing_without_force"
+  }
 }

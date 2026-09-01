@@ -1,6 +1,6 @@
 {
   "HDI": {
-    "rho": 10.75268817204301
+    "rho": 10.638297872340425
   },
   "RUC": {
     "apto": false,
@@ -25,7 +25,7 @@
     "rho": 0.5
   },
   "EC": {
-    "hash": "78e0982c4724c4a2"
+    "hash": "9f845e9662b48ff0"
   },
   "TRF": {
     "ok": false,
@@ -37,10 +37,15 @@
   },
   "SLT": {
     "latido": true,
-    "intervalo": 1907.2088248729706
+    "intervalo": 4282.483926534653
   },
   "MIR": {
     "Phi": 25.0,
     "tasa": "normal"
+  },
+  "_metabolismo": {
+    "timestamp": 1788272441.8977842,
+    "phi": 1.6180339887,
+    "nodo": "_capture"
   }
 }

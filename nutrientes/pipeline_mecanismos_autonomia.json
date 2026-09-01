@@ -1,0 +1,12 @@
+{
+  "tipo": "flujo_cruzado",
+  "origen": "gobernador",
+  "destino": "mecanismos_autonomia",
+  "contexto": "\ud83e\udde0 \ud83e\udde0 Gobernador iniciado \u2014 an\u00e1lisis completo\n\ud83e\udde0 \ud83d\udcca Carencias detectadas: ['no_conversaciones']\n\ud83e\udde0 \ud83d\udd27 Resolviendo: no_conversaciones\n\ud83e\udde0 \ud83d\udcac Generando conversaci\u00f3n inicial...\n\ud83e\udde0 \ud83d\udccb Resumen: [{'carencia': 'no_conv",
+  "timestamp": 1788232583.2197053,
+  "_metabolismo": {
+    "timestamp": 1788272441.6595793,
+    "phi": 1.6180339887,
+    "nodo": "test_iterative_update_prompt_also_contains_anchoring_rule"
+  }
+}

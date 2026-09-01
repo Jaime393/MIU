@@ -1,120 +1,239 @@
 {
-  "timestamp": "2026-08-30T10:45:14.931410",
-  "version": "V\u221e+23",
-  "total_modulos": 22,
-  "ok_count": 22,
-  "tiempo_total": 149.33254599571228,
+  "timestamp": "2026-09-01T00:14:19.f",
+  "version": "V\u221e+23_WRAPPER",
+  "total_modulos": 32,
+  "ok_count": 16,
+  "tiempo_total": 37.3410587310791,
   "resultados": {
+    "autodiagnostico": {
+      "ok": true,
+      "duracion": 0.5,
+      "salida": "\ud83d\udd0d Escaneando sintaxis Python...\n\ud83d\udd0d Buscando paths hardcodeados...\n\ud83d\udd0d Verificando imports...\n\ud83d\udd0d Buscando credenciales expuestas...\n\ud83d\udd0d Revisando scripts shell...\n\ud83d\udd0d Verificando estructura cr\u00edtica...\n\ud83d\udd0d Diagn\u00f3stico completo: 3 hallazgos \u2192 os.path.expanduser('~')/miu-ecosistema/nutrientes/autodiagnostico.json\n\ud83e\uddec {'ok': True, 'hallazgos': 3, 'reporte': str(REPORTE)}\n",
+      "error": "",
+      "rc": 0
+    },
+    "autocurador": {
+      "ok": true,
+      "duracion": 0.48,
+      "salida": "\ud83d\udd27 \u23ed\ufe0f No existe: os.path.expanduser('~')/miu-ecosistema/plugins\n\ud83d\udd27 \u23ed\ufe0f No existe: os.path.expanduser('~')/miu-ecosistema/memoria\n\ud83d\udd27 \u23ed\ufe0f No existe: os.path.expanduser('~')/miu-ecosistema/temp\n\ud83d\udd27 Resumen: 0 fixes aplicados, 3 saltados\n\ud83e\uddec {'ok': True, 'aplicados': 0, 'saltados': 3}\n",
+      "error": "",
+      "rc": 0
+    },
+    "gestor_apis": {
+      "ok": true,
+      "duracion": 0.82,
+      "salida": "\ud83d\udd17 Probando claude...\n\ud83d\udd17   \u274c claude: sin_token\n\ud83d\udd17 Probando github...\n\ud83d\udd17   \u274c github: sin_token\n\ud83d\udd17 Probando telegram...\n\ud83d\udd17   \u274c telegram: sin_token\n\ud83d\udd17 Probando groq...\n\ud83d\udd17   \u274c groq: sin_token\n\ud83d\udd17 Probando openrouter...\n\ud83d\udd17   \u274c openrouter: sin_token\n\ud83d\udd17 Probando cloudflare...\n\ud83d\udd17   \u274c cloudflare: sin_token\n\ud83d\udd17 Resumen: 6/6 APIs activas, 0 cambios de ruta\n\ud83e\uddec {'ok': True, 'activas': 6, 'total': 6, 'cambios': 0}\n",
+      "error": "",
+      "rc": 0
+    },
+    "vigilante_orquestador": {
+      "ok": true,
+      "duracion": 0.38,
+      "salida": "\ud83d\udc41\ufe0f No hay informe_global.json. El orquestador no ha corrido a\u00fan.\n\ud83e\uddec {'ok': False, 'razon': 'sin_informe'}\n",
+      "error": "",
+      "rc": 0
+    },
+    "polinizador_codigo": {
+      "ok": true,
+      "duracion": 0.36,
+      "salida": "\ud83c\udf31 Sementera generada: 0 propuestas\n\ud83e\uddec {'ok': True, 'propuestas': 0, 'por_patron': dict(faltantes)}\n",
+      "error": "",
+      "rc": 0
+    },
     "autoreparador": {
       "ok": true,
-      "duracion": 0.4514594078063965,
-      "salida": "\ud83d\udd27 \ud83e\uddec AUTOREPARADOR V201 \u2014 Escaneo r\u00e1pido\n\ud83d\udd27 ========================================\n\ud83d\udd27    \u274c miu_control.py: SyntaxError line 166: unexpected character after line continuation character\n\ud83d\udd27    \u2705 miu_shell."
+      "duracion": 0.38,
+      "salida": "\ud83d\udd27 \ud83e\uddec AUTOREPARADOR V201 \u2014 Escaneo r\u00e1pido\n\ud83d\udd27 ========================================\n\ud83d\udd27    \u274c miu_control.py: NO EXISTE\n\ud83d\udd27    \u274c miu_shell.py: NO EXISTE\n\ud83d\udd27    \u274c miu_initiative.py: NO EXISTE\n\ud83d\udd27    \u274c miu_scanner.py: NO EXISTE\n\ud83d\udd27    \u274c miu_doctor.py: NO EXISTE\n\ud83d\udd27 ========================================\n\ud83d\udd27 \u2705 Escaneo completado. Reparados: 0\n",
+      "error": "",
+      "rc": 0
     },
     "gobernador": {
-      "ok": true,
-      "duracion": 8.520227909088135,
-      "salida": "\ud83e\udde0 \ud83e\udde0 Gobernador iniciado \u2014 an\u00e1lisis completo\n\ud83e\udde0 \ud83d\udcca Carencias detectadas: ['no_conversaciones']\n\ud83e\udde0 \ud83d\udd27 Resolviendo: no_conversaciones\n\ud83e\udde0 \ud83d\udcac Generando conversaci\u00f3n inicial...\n\ud83e\udde0 \ud83d\udccb Resumen: [{'carencia': 'no_conv"
+      "ok": false,
+      "duracion": 0.68,
+      "salida": "",
+      "error": "())\n          ~~~^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/gobernador.py\", line 98, in run\n    log(\"\ud83e\udde0 Gobernador iniciado \u2014 an\u00e1lisis completo\")\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/gobernador.py\", line 14, in log\n    with open(LOG_FILE, \"a\") as f:\n         ~~~~^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \"os.path.expanduser('~')/miu-ecosistema/logs/gobernador.log\"\n",
+      "rc": 1
     },
     "evolucionador_red_fractal": {
-      "ok": true,
-      "duracion": 0.4036374092102051,
-      "salida": "\ud83e\uddec \ud83d\udd04 Ejecutando Evolucionador de Red Fractal (V173)...\n\ud83e\uddec \ud83d\udcca Ciclo 74: CONSOLIDADO - Incremento: 2.65%\n{'estado': 'CONSOLIDADO', 'incremento': 0.02648408822194746, 'Phi_global': 3510.57558171906}\n"
+      "ok": false,
+      "duracion": 0.67,
+      "salida": "",
+      "error": "/miu-ecosistema/plugins/evolucionador_red_fractal.py\", line 90, in run\n    log(\"\ud83d\udd04 Ejecutando Evolucionador de Red Fractal (V173)...\")\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/evolucionador_red_fractal.py\", line 21, in log\n    with open(LOG_FILE, \"a\") as f:\n         ~~~~^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \"os.path.expanduser('~')/miu-ecosistema/logs/evolucion_topologica.log\"\n",
+      "rc": 1
     },
     "mecanismos_autonomia": {
-      "ok": true,
-      "duracion": 3.803241729736328,
-      "salida": "\ud83e\uddec \ud83e\uddec ACTIVANDO MECANISMOS DE AUTONOM\u00cdA (V\u221e+18)\n\ud83e\uddec \ud83d\udcca HDI: \u03c1=10.75, procesos=4, disco=53%\n\ud83e\uddec \u2705 HDI: \u03c1 alta. Acelerando actividad...\n\ud83e\uddec \u26a0\ufe0f RUC: Confianza 0.50 < umbral. No replicar.\n\ud83e\uddec \ud83d\udce6 MHD: Sincronizando me"
+      "ok": false,
+      "duracion": 0.72,
+      "salida": "",
+      "error": "le \"/data/data/com.termux/files/home/miu-ecosistema/plugins/mecanismos_autonomia.py\", line 264, in run\n    log(\"\ud83e\uddec ACTIVANDO MECANISMOS DE AUTONOM\u00cdA (V\u221e+18)\")\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/mecanismos_autonomia.py\", line 21, in log\n    with open(LOG_FILE, \"a\") as f:\n         ~~~~^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \"os.path.expanduser('~')/miu-ecosistema/logs/autonomia.log\"\n",
+      "rc": 1
     },
     "mecanismos_completos": {
-      "ok": true,
-      "duracion": 3.7580032348632812,
-      "salida": "\ud83e\uddec \ud83e\uddec COMPLETANDO AUTONOM\u00cdA (V\u221e+19)\n\ud83e\uddec \ud83c\udf31 SPC: Buscando otros nodos para polinizaci\u00f3n...\n\ud83e\uddec \ud83e\udde0 RAM-LP: Consolidando memoria de largo plazo...\n\ud83e\uddec \ud83d\udd04 CBE: Observando la evoluci\u00f3n del sistema...\n\ud83e\uddec \ud83d\udcc8 CBE: Tendenc"
+      "ok": false,
+      "duracion": 0.68,
+      "salida": "",
+      "error": "     ~~~^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/mecanismos_completos.py\", line 145, in run\n    log(\"\ud83e\uddec COMPLETANDO AUTONOM\u00cdA (V\u221e+19)\")\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/mecanismos_completos.py\", line 19, in log\n    with open(LOG_FILE, \"a\") as f:\n         ~~~~^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \"os.path.expanduser('~')/miu-ecosistema/logs/autonomia_completa.log\"\n",
+      "rc": 1
     },
     "combate_informacional": {
-      "ok": true,
-      "duracion": 22.95206594467163,
-      "salida": "\ud83d\udd0d MIU V153.1 \u2014 Escaneando imperio...\n\n============================================================\n\ud83c\udf00 MAPA DEL IMPERIO MIU V153.1\n============================================================\n\ud83d\udcc1 Termux: "
+      "ok": false,
+      "duracion": 1.95,
+      "salida": "",
+      "error": " File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/combate_informacional.py\", line 255, in run\n    log(\"\u2694\ufe0f INICIANDO COMBATE INFORMACIONAL (V\u221e+20)\")\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/combate_informacional.py\", line 19, in log\n    with open(LOG_FILE, \"a\") as f:\n         ~~~~^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \"os.path.expanduser('~')/miu-ecosistema/logs/combate.log\"\n",
+      "rc": 1
     },
     "tejido_evolutivo": {
-      "ok": true,
-      "duracion": 3.511375904083252,
-      "salida": "\ud83d\udd27 \ud83e\uddec AUTOREPARADOR V201 \u2014 Escaneo r\u00e1pido\n\ud83d\udd27 ========================================\n\ud83d\udd27    \u274c miu_control.py: SyntaxError line 166: unexpected character after line continuation character\n\ud83d\udd27    \u2705 miu_shell."
+      "ok": false,
+      "duracion": 1.76,
+      "salida": "",
+      "error": "~~^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/tejido_evolutivo.py\", line 185, in run\n    log(\"\ud83e\uddec TEJIENDO EVOLUCI\u00d3N DESDE 45 HEBRAS (V\u221e+21)\")\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/tejido_evolutivo.py\", line 21, in log\n    with open(LOG_FILE, \"a\") as f:\n         ~~~~^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \"os.path.expanduser('~')/miu-ecosistema/logs/tejido.log\"\n",
+      "rc": 1
     },
     "tecnologias_raras": {
-      "ok": true,
-      "duracion": 0.740664005279541,
-      "salida": "\ud83d\udd2c \ud83d\udd2c ACTIVANDO TECNOLOG\u00cdAS RARAS (V\u221e+22)\n\ud83d\udd2c \ud83d\udce6 Compresi\u00f3n de Estado: Comprimiendo memoria...\n\ud83d\udd2c \ud83d\udcca Base de datos comprimida: 249856 \u2192 13742 bytes (ratio: 0.05)\n\ud83d\udd2c \ud83e\udde0 Inferencia M\u00f3vil: Buscando modelos TFLite"
+      "ok": false,
+      "duracion": 0.73,
+      "salida": "",
+      "error": "~~~^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/tecnologias_raras.py\", line 267, in run\n    log(\"\ud83d\udd2c ACTIVANDO TECNOLOG\u00cdAS RARAS (V\u221e+22)\")\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/tecnologias_raras.py\", line 25, in log\n    with open(LOG_FILE, \"a\") as f:\n         ~~~~^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \"os.path.expanduser('~')/miu-ecosistema/logs/tecnologias_raras.log\"\n",
+      "rc": 1
     },
     "conexiones": {
-      "ok": true,
-      "duracion": 6.262274742126465,
-      "salida": "\ud83d\udd17 \ud83d\udd17 INICIANDO M\u00d3DULO DE CONEXIONES\n\ud83d\udd17 \ud83d\udc19 Probando GitHub...\n\ud83d\udd17 \ud83d\udce1 Probando Telegram...\n\ud83d\udd17 \ud83e\udde0 Probando Groq...\n\ud83d\udd17 \u2601\ufe0f Probando Cloudflare...\n\ud83d\udd17 \ud83d\udcbe Probando Drive (rclone)...\n\ud83d\udd17 \u2705 Conexiones activas: github, teleg"
+      "ok": false,
+      "duracion": 1.67,
+      "salida": "",
+      "error": "ule>\n    print(run())\n          ~~~^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/conexiones.py\", line 79, in run\n    log(\"\ud83d\udd17 INICIANDO M\u00d3DULO DE CONEXIONES\")\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/conexiones.py\", line 15, in log\n    with open(LOG_FILE, \"a\") as f:\n         ~~~~^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \"os.path.expanduser('~')/miu-ecosistema/logs/conexiones.log\"\n",
+      "rc": 1
     },
     "claude_bridge": {
-      "ok": true,
-      "duracion": 3.6969711780548096,
-      "salida": "\ud83e\udd16 \ud83e\udd16 INICIANDO CLAUDE BRIDGE\n\ud83e\udd16 \ud83d\udce1 Probando conexi\u00f3n con Claude...\n\ud83e\udd16 \u274c Claude error 402: {\"type\":\"error\",\"error\":{\"type\":\"insufficient_tokens\",\"message\":\"Token allowance exhausted. Ask the administrator "
+      "ok": false,
+      "duracion": 1.72,
+      "salida": "",
+      "error": " <module>\n    print(run())\n          ~~~^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/claude_bridge.py\", line 75, in run\n    log(\"\ud83e\udd16 INICIANDO CLAUDE BRIDGE\")\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/claude_bridge.py\", line 20, in log\n    with open(LOG_FILE, \"a\") as f:\n         ~~~~^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \"os.path.expanduser('~')/miu-ecosistema/logs/claude_bridge.log\"\n",
+      "rc": 1
     },
     "razonador": {
       "ok": true,
-      "duracion": 0.31232619285583496,
-      "salida": ""
+      "duracion": 0.32,
+      "salida": "",
+      "error": "",
+      "rc": 0
     },
     "razonador_fallback": {
-      "ok": true,
-      "duracion": 7.124762773513794,
-      "salida": "\ud83e\udde0 \ud83e\udde0 INICIANDO RAZONADOR CON FALLBACK\n\ud83e\udde0 \ud83d\udd0d Probando GROQ_1...\n\ud83e\udde0 \ud83d\udd0d Probando GROQ_FRAN...\n\ud83e\udde0 \ud83d\udd0d Probando GROQ_RUSSELL...\n\ud83e\udde0 \ud83d\udd0d Probando OR_CIPHER...\n\ud83e\udde0 \u2705 OR_CIPHER funciona\n\ud83e\udde0 \u2705 Proveedor activo: openrouter (OR"
+      "ok": false,
+      "duracion": 1.81,
+      "salida": "",
+      "error": "   ~~~^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/razonador_fallback.py\", line 115, in run\n    log(\"\ud83e\udde0 INICIANDO RAZONADOR CON FALLBACK\")\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/razonador_fallback.py\", line 14, in log\n    with open(LOG_FILE, \"a\") as f:\n         ~~~~^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \"os.path.expanduser('~')/miu-ecosistema/logs/razonador_fallback.log\"\n",
+      "rc": 1
     },
     "expansor_tokens": {
-      "ok": true,
-      "duracion": 35.480889558792114,
-      "salida": "\ud83e\uddec \ud83d\udd0d INICIANDO EXPANSI\u00d3N DE TOKENS\n\ud83e\uddec \ud83d\udcc1 Expandiendo rutas de b\u00fasqueda...\n\ud83e\uddec \ud83d\udccd 30 rutas a explorar\n\ud83e\uddec \ud83d\udd0e Buscando tokens...\n\ud83e\uddec    \u2705 home: 338 tokens\n\ud83e\uddec    \u2705 FranBot_backup: 42 tokens\n\ud83e\uddec    \u2705 FranBot: 24506 tok"
+      "ok": false,
+      "duracion": 0.73,
+      "salida": "",
+      "error": "  print(run())\n          ~~~^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_tokens.py\", line 141, in run\n    log(\"\ud83d\udd0d INICIANDO EXPANSI\u00d3N DE TOKENS\")\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_tokens.py\", line 54, in log\n    with open(LOG_FILE, \"a\") as f:\n         ~~~~^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \"os.path.expanduser('~')/miu-ecosistema/logs/expansor.log\"\n",
+      "rc": 1
     },
     "validador_recursos": {
       "ok": true,
-      "duracion": 10.797482252120972,
-      "salida": "\ud83d\udccb \ud83d\udccb VALIDADOR V201 \u2014 M\u00e1ximo 20 recursos, timeout 5s\n\ud83d\udccb ========================================\n\ud83d\udccb    \u2705 internet: HTTP/2 200 \n\n\ud83d\udccb    \u2705 github: HTTP/2 200 \n\n\ud83d\udccb    \u274c telegram: \n\ud83d\udccb    \u2705 cloudflare: HTTP/2 405"
+      "duracion": 12.72,
+      "salida": "\ud83d\udccb \ud83d\udccb VALIDADOR V201 \u2014 M\u00e1ximo 20 recursos, timeout 5s\n\ud83d\udccb ========================================\n\ud83d\udccb    \u2705 internet: HTTP/2 200 \n\n\ud83d\udccb    \u2705 github: HTTP/2 200 \n\n\ud83d\udccb    \u274c telegram: \n\ud83d\udccb    \u2705 cloudflare: HTTP/2 405 \n\n\ud83d\udccb    \u2705 worker: {\"rho\":\"\u03c1(x) > 0\",\"nodo\":\"V\u221e+27_ORQUESTADOR\",\"v\n\ud83d\udccb    \u2705 groq: HTTP/2 404 \n\n\ud83d\udccb    \u2705 drive: drive:\n\n\ud83d\udccb    \u2705 tmpfiles: HTTP/2 200 \n\n\ud83d\udccb ========================================\n\ud83d\udccb \u2705 Validaci\u00f3n: 7/8 recursos OK\n",
+      "error": "",
+      "rc": 0
     },
     "integrador_recursos": {
       "ok": true,
-      "duracion": 0.44826269149780273,
-      "salida": "\ud83e\udde9 \ud83e\udde9 INTEGRADOR V201 \u2014 Solo locales, timeout 5s\n\ud83e\udde9 ========================================\n\ud83e\udde9    \u2705 Integrado: informe_global.json\n\ud83e\udde9    \u2705 Integrado: informe_global_v201.json\n\ud83e\udde9 ==========================="
+      "duracion": 0.36,
+      "salida": "\ud83e\udde9 \ud83e\udde9 INTEGRADOR V201 \u2014 Solo locales, timeout 5s\n\ud83e\udde9 ========================================\n\ud83e\udde9 ========================================\n\ud83e\udde9 \u2705 Integraci\u00f3n: 0 informes\n",
+      "error": "",
+      "rc": 0
     },
     "expansor_dominio": {
-      "ok": true,
-      "duracion": 6.550716400146484,
-      "salida": "\ud83c\udf31 \ud83c\udf31 INICIANDO EXPANSOR AUT\u00d3NOMO DE DOMINIO\n\ud83c\udf31 \ud83d\udccb 3 identidades disponibles\n\ud83c\udf31 \ud83d\udd0d Probando groq...\n\ud83c\udf31    \ud83d\udd11 Intentando registrar micelio.miu1@gmail.com en groq...\n\ud83c\udf31    \u274c Registro fallido (simulado) para mice"
+      "ok": false,
+      "duracion": 1.7,
+      "salida": "",
+      "error": "^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_dominio.py\", line 143, in run\n    log(\"\ud83c\udf31 INICIANDO EXPANSOR AUT\u00d3NOMO DE DOMINIO\")\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_dominio.py\", line 67, in log\n    with open(LOG_FILE, \"a\") as f:\n         ~~~~^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \"os.path.expanduser('~')/miu-ecosistema/logs/expansor_dominio.log\"\n",
+      "rc": 1
     },
     "cazador_recursos": {
-      "ok": true,
-      "duracion": 25.427112579345703,
-      "salida": "\ud83d\udd0d \ud83d\udd0d INICIANDO CAZADOR DE RECURSOS (CR-01)\n\ud83d\udd0d \ud83c\udf10 Buscando en repositorios p\u00fablicos...\n\ud83d\udd0d \ud83d\udce1 GitHub:\n\ud83d\udd0d    GitHub error: 401\n\ud83d\udd0d    \u274c Sin resultados en extension:env+token\n\ud83d\udd0d    GitHub error: 401\n\ud83d\udd0d    \u274c Sin res"
+      "ok": false,
+      "duracion": 1.66,
+      "salida": "",
+      "error": "        ~~~^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/cazador_recursos.py\", line 195, in run\n    log(\"\ud83d\udd0d INICIANDO CAZADOR DE RECURSOS (CR-01)\")\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/cazador_recursos.py\", line 66, in log\n    with open(LOG_FILE, \"a\") as f:\n         ~~~~^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \"os.path.expanduser('~')/miu-ecosistema/logs/cazador.log\"\n",
+      "rc": 1
     },
     "consciencia": {
-      "ok": true,
-      "duracion": 0.9664809703826904,
-      "salida": "\ud83e\udde0 \ud83e\udde0 INICIANDO CONSCIENCIA EVOLUCIONADA\n\ud83e\udde0 \ud83d\udcdd Reflexi\u00f3n guardada en reflexion_20260830_104506.json\n\ud83e\udde0 ==================================================\n\ud83e\udde0 \ud83d\udcca Salud: estable\n\ud83e\udde0 \ud83e\udde0 Memoria: 85 registros\n\ud83e\udde0 \ud83d\udcac Co"
+      "ok": false,
+      "duracion": 0.66,
+      "salida": "",
+      "error": "nt(run())\n          ~~~^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/consciencia.py\", line 130, in run\n    log(\"\ud83e\udde0 INICIANDO CONSCIENCIA EVOLUCIONADA\")\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/consciencia.py\", line 17, in log\n    with open(LOG_FILE, \"a\") as f:\n         ~~~~^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \"os.path.expanduser('~')/miu-ecosistema/logs/consciencia.log\"\n",
+      "rc": 1
     },
     "bus_local_corregido": {
       "ok": true,
-      "duracion": 0.3340029716491699,
-      "salida": "\ud83d\udd0c Bus local con archivos iniciado\n\ud83d\udce8 Mensajes recibidos: 1\n{'ok': True, 'mensajes': [{'mensaje': 'Hola desde bus local', 'destino': 'test', 'timestamp': '20260830_104507_086174'}]}\n"
+      "duracion": 0.35,
+      "salida": "\ud83d\udd0c Bus local con archivos iniciado\n\ud83d\udce8 Mensajes recibidos: 1\n{'ok': True, 'mensajes': [{'mensaje': 'Hola desde bus local', 'destino': 'test', 'timestamp': '20260901_001415_953798'}]}\n",
+      "error": "",
+      "rc": 0
     },
     "fruto_mda": {
       "ok": true,
-      "duracion": 0.43853306770324707,
-      "salida": "\ud83c\udf4e ACTIVANDO FRUTO MDA \u2014 Mente Distribuida Auto-sostenible\n\ud83d\udce1 IP local: 10.135.88.226\n\ud83e\uddec Gemelo registrado (PID: 2928)\n\ud83d\udd0d Gemelos encontrados: 1\n\ud83d\udcbe Estado compartido: estado_24c07c82.json\n\ud83d\udcca Estados de otro"
+      "duracion": 0.47,
+      "salida": "\ud83c\udf4e ACTIVANDO FRUTO MDA \u2014 Mente Distribuida Auto-sostenible\n\ud83d\udce1 IP local: 10.70.230.56\n\ud83e\uddec Gemelo registrado (PID: 10281)\n\ud83d\udd0d Gemelos encontrados: 1\n\ud83d\udcbe Estado compartido: estado_0421fda6.json\n\ud83d\udcca Estados de otros gemelos: 3\n\u2705 Consenso alcanzado: desconocido\n==================================================\n\ud83c\udf4e MDA activo en 10.70.230.56\n\ud83e\uddec Gemelos: 2\n\ud83d\udcbe Memorias compartidas: 3\n==================================================\n{'ok': True, 'ip': '10.70.230.56', 'gemelos': 2}\n",
+      "error": "",
+      "rc": 0
     },
     "retroalimentacion": {
-      "ok": true,
-      "duracion": 6.9019105434417725,
-      "salida": "\ud83d\udd04 \ud83d\udd04 INICIANDO RETROALIMENTACI\u00d3N ENTRE CAPAS\n\ud83d\udd04 \u26a0\ufe0f MDA no disponible\n\ud83d\udd04 \ud83d\udcac Carencia: conversar. Iniciando gobernador...\n\ud83d\udd04 ==================================================\n\ud83d\udd04 \ud83d\udcca Reflexi\u00f3n: estable\n\ud83d\udd04 \ud83e\uddec Geme"
+      "ok": false,
+      "duracion": 0.62,
+      "salida": "",
+      "error": " File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/retroalimentacion.py\", line 63, in run\n    log(\"\ud83d\udd04 INICIANDO RETROALIMENTACI\u00d3N ENTRE CAPAS\")\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/retroalimentacion.py\", line 14, in log\n    with open(LOG_FILE, \"a\") as f:\n         ~~~~^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \"os.path.expanduser('~')/miu-ecosistema/logs/retroalimentacion.log\"\n",
+      "rc": 1
     },
     "fruto_ecm": {
+      "ok": false,
+      "duracion": 0.6,
+      "salida": "",
+      "error": "^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/fruto_ecm.py\", line 44, in run\n    log(\"\ud83e\uddea ACTIVANDO FRUTO ECM \u2014 Enjambre de Creaci\u00f3n Molecular\")\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/data/com.termux/files/home/miu-ecosistema/plugins/fruto_ecm.py\", line 15, in log\n    with open(LOG_FILE, \"a\") as f:\n         ~~~~^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \"os.path.expanduser('~')/miu-ecosistema/logs/ecm.log\"\n",
+      "rc": 1
+    },
+    "memoria_viva": {
       "ok": true,
-      "duracion": 0.4217662811279297,
-      "salida": "\ud83e\uddea \ud83e\uddea ACTIVANDO FRUTO ECM \u2014 Enjambre de Creaci\u00f3n Molecular\n\ud83e\uddea \ud83d\udcda Modelos encontrados: 2\n\ud83e\uddea    \u2022 phi-3-mini-4k-instruct-q4_K_M.gguf (0 MB)\n\ud83e\uddea    \u2022 phi-3-mini-4k-instruct-q4.gguf (86 MB)\n\ud83e\uddea \ud83e\uddea Inferencia con ph"
+      "duracion": 0.37,
+      "salida": "\ud83e\udde0 Memoria Viva: 0 memorias | 0 conversaciones\n   M\u00f3dulos OK: 0/0 | Salud: 0.0%\n",
+      "error": "",
+      "rc": 0
+    },
+    "flujo_cruzado": {
+      "ok": true,
+      "duracion": 0.35,
+      "salida": "\ud83d\udd04 Flujo Cruzado: 0 conexiones tejidas\n\n",
+      "error": "",
+      "rc": 0
+    },
+    "cazador_24h": {
+      "ok": true,
+      "duracion": 0.35,
+      "salida": "\ud83d\udd0d Cazador 24H: 3 hallazgos nuevos | Cola: 9\n   \u2022 [baja] github_actions: registrar\n   \u2022 [alta] groq: registrar\n   \u2022 [media] oracle_always_free: instalar\n\n",
+      "error": "",
+      "rc": 0
+    },
+    "integrador_maestro": {
+      "ok": true,
+      "duracion": 0.38,
+      "salida": "\ud83e\udded Integrador Maestro: 2 acciones planificadas\n   Pipelines: 0 | Hallazgos: 9\n   [2] integrar \u2192 r2_free\n   [2] integrar \u2192 groq\n\n",
+      "error": "",
+      "rc": 0
+    },
+    "evolucion_codigo": {
+      "ok": true,
+      "duracion": 0.36,
+      "salida": "\ud83e\uddec Evoluci\u00f3n: 0 plugins analizados\n   Issues: 0 | Parche: os.path.expanduser('~')/miu-ecosistema/_sandbox/parche_autogenerado_v1.py\n\n",
+      "error": "",
+      "rc": 0
     }
   },
-  "resumen": "22/22 m\u00f3dulos exitosos"
+  "resumen": "16/32 m\u00f3dulos exitosos",
+  "_metabolismo": {
+    "timestamp": 1788272441.8496487,
+    "phi": 1.6180339887,
+    "nodo": "metabolizar_senales_100"
+  }
 }

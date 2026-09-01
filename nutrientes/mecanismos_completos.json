@@ -16,6 +16,12 @@
   },
   "CBE": {
     "ok": true,
-    "tendencia": 0.010400587869795993
+    "ajuste": "alfa+0.05, beta-0.05",
+    "tendencia": -0.0033729216095906116
+  },
+  "_metabolismo": {
+    "timestamp": 1788272441.6971228,
+    "phi": 1.6180339887,
+    "nodo": "procesar_campos_989"
   }
 }

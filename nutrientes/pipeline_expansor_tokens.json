@@ -1,0 +1,12 @@
+{
+  "tipo": "flujo_cruzado",
+  "origen": "razonador_fallback",
+  "destino": "expansor_tokens",
+  "contexto": "\ud83e\udde0 \ud83e\udde0 INICIANDO RAZONADOR CON FALLBACK\n\ud83e\udde0 \ud83d\udd0d Probando GROQ_1...\n\ud83e\udde0 \ud83d\udd0d Probando GROQ_FRAN...\n\ud83e\udde0 \ud83d\udd0d Probando GROQ_RUSSELL...\n\ud83e\udde0 \ud83d\udd0d Probando OR_CIPHER...\n\ud83e\udde0 \u2705 OR_CIPHER funciona\n\ud83e\udde0 \u2705 Proveedor activo: openrouter (OR",
+  "timestamp": 1788232583.227969,
+  "_metabolismo": {
+    "timestamp": 1788272441.6787124,
+    "phi": 1.6180339887,
+    "nodo": "expandir_gradientes_124"
+  }
+}

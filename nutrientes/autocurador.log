@@ -1,0 +1,143 @@
+[2026-08-31T19:27:23.443801] No hay reporte de autodiagnostico. Correr autodiagnostico primero.
+[2026-08-31T19:34:17.953031] No hay reporte de autodiagnostico. Correr autodiagnostico primero.
+[2026-08-31T21:02:01.305545] No hay reporte de autodiagnostico. Correr autodiagnostico primero.
+[2026-08-31T22:13:26.872407] No hay reporte de autodiagnostico. Correr autodiagnostico primero.
+[2026-08-31T22:42:04.031834] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_control.py:166 normalizado chr(34)
+[2026-08-31T22:42:04.041259] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.045960] ✅ /data/data/com.termux/files/home/miu-ecosistema/agente_fran.py:17 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.050432] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_memory.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.054493] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_github.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.058984] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.059526] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py:50 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.065040] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_initiative.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.069366] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_gemelo_0d97d7c7.py:60 /tmp/ → _tmp/
+[2026-08-31T22:42:04.070150] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_gemelo_0d97d7c7.py:147 /tmp/ → _tmp/
+[2026-08-31T22:42:04.075893] ✅ /data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.079989] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_connection_test.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.084856] ✅ /data/data/com.termux/files/home/miu-ecosistema/MIU_SYNC_V2.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.090273] ✅ /data/data/com.termux/files/home/miu-ecosistema/MIU_CONNECTION_TEST.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.094941] ✅ /data/data/com.termux/files/home/miu-ecosistema/MIU_ORQUESTADOR_V200.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.099054] ✅ /data/data/com.termux/files/home/miu-ecosistema/retroalimentador.py:53 /tmp/ → _tmp/
+[2026-08-31T22:42:04.103745] ✅ /data/data/com.termux/files/home/miu-ecosistema/ORQUESTADOR_V201.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.107799] ✅ /data/data/com.termux/files/home/miu-ecosistema/MIU_KIMI_BRIDGE_V200.py:4 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.111685] ✅ /data/data/com.termux/files/home/miu-ecosistema/force_actions.py:6 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.116350] ✅ /data/data/com.termux/files/home/miu-ecosistema/puente_tokens_recolector.py:23 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.121890] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_vision.py:5 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.126141] ✅ /data/data/com.termux/files/home/miu-ecosistema/corregir_indentacion.py:8 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.131201] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_doctor.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.136457] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_autonomo_v∞+24.py:60 /tmp/ → _tmp/
+[2026-08-31T22:42:04.137203] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_autonomo_v∞+24.py:147 /tmp/ → _tmp/
+[2026-08-31T22:42:04.143386] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_plugin_manager.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.147929] ✅ /data/data/com.termux/files/home/miu-ecosistema/KIMI_BRIDGE_V201.py:3 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.153633] ✅ /data/data/com.termux/files/home/miu-ecosistema/gravity_token_manager_v2.py:43 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.154490] ✅ /data/data/com.termux/files/home/miu-ecosistema/gravity_token_manager_v2.py:226 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.165594] ✅ /data/data/com.termux/files/home/miu-ecosistema/recolector_credenciales_v2.py:33 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.166190] ✅ /data/data/com.termux/files/home/miu-ecosistema/recolector_credenciales_v2.py:46 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.172951] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_shell.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.177172] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_scanner.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.181277] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_selfmod.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.184961] ✅ /data/data/com.termux/files/home/miu-ecosistema/miu_control.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.188965] ✅ /data/data/com.termux/files/home/miu-ecosistema/bots/bot_miu_relay.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.193240] ✅ /data/data/com.termux/files/home/miu-ecosistema/protocolos/paf_01.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.196772] ✅ /data/data/com.termux/files/home/miu-ecosistema/protocolos/pcp_01.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.200232] ✅ /data/data/com.termux/files/home/miu-ecosistema/protocolos/pae_01.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.204296] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/mecanismos_autonomia.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.208499] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/gobernador.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.212574] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/maestro_autonomo.py:16 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.216881] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/razonador_fallback.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.221437] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/alimentador_fractal.py:16 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.226895] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/mecanismos_completos.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.231275] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/fruto_ecm.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.234538] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/conversador.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.238582] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/explorador_profundo.py:16 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.239269] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/explorador_profundo.py:202 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.243334] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/publicar_estado_kimi.py:5 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.243713] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/publicar_estado_kimi.py:7 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.247353] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/absorber_avanzado.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.251265] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/cazador_recursos.py:11 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.259520] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_tokens.py:11 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.260130] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_tokens.py:38 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.265508] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/scanner_plugin.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.268664] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/vigilante_orquestador.py:14 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.272393] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/proveedor_llm.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.275667] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/drive_mano_oracle.py:5 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.278922] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/diagnostico_completo.py:8 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.282892] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/combate_informacional.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.287130] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/memoria_viva.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.291848] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/renovador.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.295268] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/evolucionador_red_fractal.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.298921] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/auto_diagnoatico.py:5 /tmp/ → _tmp/
+[2026-08-31T22:42:04.299354] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/auto_diagnoatico.py:48 /tmp/ → _tmp/
+[2026-08-31T22:42:04.303121] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/auto_diagnoatico.py:13 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.308310] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/retroalimentador.py:8 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.312065] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/pliegue_ejecutable.py:17 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.316711] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/escaner_recursos.py:15 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.321269] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/validador_recursos.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.324636] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/flujo_cruzado.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.328487] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/fruto_mda.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.332865] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/probador_recursos.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.337042] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/conexiones.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.341587] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/absorber.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.345102] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/nodo_autonomo.py:8 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.348188] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/integrador_maestro.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.352620] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/auto_desplegar_bus.py:14 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.356965] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador.py:24 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.357594] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador.py:174 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.365363] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/consciencia.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.369045] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/retroalimentacion.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.373180] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/evolucion_codigo.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.376479] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/evolucion_codigo.py:19 /tmp/ → _tmp/
+[2026-08-31T22:42:04.376836] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/evolucion_codigo.py:20 /tmp/ → _tmp/
+[2026-08-31T22:42:04.377110] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/evolucion_codigo.py:42 /tmp/ → _tmp/
+[2026-08-31T22:42:04.377348] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/evolucion_codigo.py:43 /tmp/ → _tmp/
+[2026-08-31T22:42:04.382681] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/escucha_ideas.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.386370] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_web.py:16 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.391810] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/explorador_absorbente.py:16 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.392401] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/explorador_absorbente.py:128 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.397198] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/notificador.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.400737] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/autocurador.py:12 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.404768] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/autocurador.py:69 /tmp/ → _tmp/
+[2026-08-31T22:42:04.405144] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/autocurador.py:72 /tmp/ → _tmp/
+[2026-08-31T22:42:04.405394] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/autocurador.py:73 /tmp/ → _tmp/
+[2026-08-31T22:42:04.405644] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/autocurador.py:75 /tmp/ → _tmp/
+[2026-08-31T22:42:04.411910] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/explorador_recursos.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.415377] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/integrador_recursos.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.418698] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/cazador_24h.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.423258] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_web_v35.py:17 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.428327] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/tejido_evolutivo.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.434230] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/alimentador_bucles.py:17 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.439394] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/polinizador_codigo.py:12 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.442943] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/guerra_fractal.py:8 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.445981] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/gravity_token_manager_v2.py:11 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.449821] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador_integrado_v24.py:19 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.456322] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador_integrado_v24.py:38 /tmp/ → _tmp/
+[2026-08-31T22:42:04.457304] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador_integrado_v24.py:290 /tmp/ → _tmp/
+[2026-08-31T22:42:04.464753] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/auto_registro.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.468165] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/bus_local.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.471317] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/autoreparador.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.474788] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/tejedor.py:8 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.478539] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador_integrado_v2.py:19 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.484053] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador_integrado_v2.py:38 /tmp/ → _tmp/
+[2026-08-31T22:42:04.484750] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador_integrado_v2.py:290 /tmp/ → _tmp/
+[2026-08-31T22:42:04.491939] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/tokenizador_autonomo.py:15 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.492400] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/tokenizador_autonomo.py:21 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.496358] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/claude_bridge.py:10 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.500260] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/tecnologias_raras.py:19 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.504509] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/gestor_apis.py:12 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.509306] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/sistema_inmunologico.py:16 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.514415] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/absorber_conversaciones.py:9 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.518031] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/integracion_autenticador_orquestador_v24.py:8 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.518405] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/integracion_autenticador_orquestador_v24.py:35 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.523972] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_web_v35_corregido.py:17 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.528663] ✅ /data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_dominio.py:12 path absoluto → os.path.expanduser('~')
+[2026-08-31T22:42:04.533865] 📦 prevenor agregado a requirements_pendientes.txt
+[2026-08-31T22:42:04.535810] 📦 miu_github agregado a requirements_pendientes.txt
+[2026-08-31T22:42:04.537464] 📦 cryptography agregado a requirements_pendientes.txt
+[2026-08-31T22:42:04.547492] 📦 circuit_breaker agregado a requirements_pendientes.txt
+[2026-08-31T22:42:04.551484] 📦 miu_memory agregado a requirements_pendientes.txt
+[2026-08-31T22:42:04.557496] 📦 plugins agregado a requirements_pendientes.txt
+[2026-08-31T22:42:04.561147] 📦 orquestador_bridge agregado a requirements_pendientes.txt
+[2026-08-31T22:42:04.563788] 📦 msgpack agregado a requirements_pendientes.txt
+[2026-08-31T22:42:04.567594] ⏭️ No existe: /data/data/com.termux/files/home/miu-ecosistema/memoria
+[2026-08-31T22:42:04.568105] ⏭️ No existe: /data/data/com.termux/files/home/miu-ecosistema/temp
+[2026-08-31T22:42:04.568441] Resumen: 107 fixes aplicados, 42 saltados

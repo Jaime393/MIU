@@ -1,7 +1,7 @@
 {
   "compresion_estado": {
     "ok": true,
-    "ratio": 0.05499967981557377
+    "ratio": 0.04782976422991071
   },
   "inferencia_movil": {
     "ok": true,
@@ -10,7 +10,7 @@
   },
   "persistencia_local": {
     "ok": true,
-    "backup": "miu_brain_20260830_104329.db",
+    "backup": "miu_brain_20260831_221429.db",
     "total": 11
   },
   "edge_computing": {
@@ -35,5 +35,10 @@
   "compilacion_jit": {
     "ok": true,
     "compilados": 0
+  },
+  "_metabolismo": {
+    "timestamp": 1788272441.6291037,
+    "phi": 1.6180339887,
+    "nodo": "_format_offending_chars"
   }
 }

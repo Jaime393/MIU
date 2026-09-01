@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-08-31T11:44:01.583005+00:00",
+  "version": "V\u221e+24",
+  "acciones": [
+    {
+      "tipo": "autoreparar",
+      "ok": false,
+      "error": "[Errno 30] Read-only file system: '/tmp'"
+    },
+    {
+      "tipo": "analisis_llm",
+      "ok": true,
+      "proveedor": "razonador_fallback"
+    }
+  ],
+  "phi": 0,
+  "_metabolismo": {
+    "timestamp": 1788272441.5993214,
+    "phi": 1.6180339887,
+    "nodo": "test_task_detail_exposes_result_and_latest_summary_separately"
+  }
+}

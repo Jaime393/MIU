@@ -1,6 +1,11 @@
 {
-  "github": "8",
+  "github": "0",
   "drive": "ok",
   "sd": 5,
-  "memoria": 18
+  "memoria": 18,
+  "_metabolismo": {
+    "timestamp": 1788272441.5848486,
+    "phi": 1.6180339887,
+    "nodo": "_capture"
+  }
 }

@@ -18,5 +18,10 @@
   "drive": {
     "ok": true,
     "msg": "drive:"
+  },
+  "_metabolismo": {
+    "timestamp": 1788272441.8422616,
+    "phi": 1.6180339887,
+    "nodo": "analizar_membranas_339"
   }
 }

@@ -1,0 +1,49 @@
+{
+  "claude": {
+    "estado": "fallo",
+    "ultimo_check": "2026-08-31T22:13:27.477084",
+    "fallos": 4,
+    "activa": false,
+    "alternativa_actual": "openrouter"
+  },
+  "github": {
+    "estado": "fallo",
+    "ultimo_check": "2026-08-31T22:13:27.477975",
+    "fallos": 4,
+    "activa": false,
+    "alternativa_actual": "gitlab"
+  },
+  "telegram": {
+    "estado": "fallo",
+    "ultimo_check": "2026-08-31T22:13:27.478515",
+    "fallos": 4,
+    "activa": false,
+    "alternativa_actual": "discord_webhook"
+  },
+  "groq": {
+    "estado": "fallo",
+    "ultimo_check": "2026-08-31T22:13:27.478991",
+    "fallos": 4,
+    "activa": false,
+    "alternativa_actual": "openrouter"
+  },
+  "openrouter": {
+    "estado": "fallo",
+    "ultimo_check": "2026-08-31T22:13:27.479463",
+    "fallos": 4,
+    "activa": false,
+    "alternativa_actual": "groq"
+  },
+  "cloudflare": {
+    "estado": "fallo",
+    "ultimo_check": "2026-08-31T22:13:27.479994",
+    "fallos": 4,
+    "activa": false,
+    "alternativa_actual": "local_cache"
+  },
+  "_metabolismo": {
+    "timestamp": 1788272441.6622841,
+    "phi": 1.6180339887,
+    "nodo": "TestCaptureAfterExactTarget"
+  }
+}

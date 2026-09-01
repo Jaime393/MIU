@@ -1,0 +1,43 @@
+{
+  "email": "franrussell81@gmail.com",
+  "timestamp": "2026-08-30T18:01:21.922815+00:00",
+  "data": {
+    "rho": "\u03c1(x) > 0",
+    "nodo": "V\u221e+27_ORQUESTADOR",
+    "vive": true,
+    "version": "V\u221e+27",
+    "phi_central": 2874.62,
+    "phi_remoto": 6284.17,
+    "phi_superposicion": 9158.79,
+    "Ktau": 0.3644,
+    "sigma": 3.427050983124843,
+    "RAIZ_X": 137.03449824893602,
+    "sustratos": 35,
+    "funciones": 33,
+    "TC_balance": 42,
+    "DOI": "10.5281/zenodo.20547558",
+    "drive_core": "14dw8txLoEIQQPSav9-YAvfuNimW2tAZ8",
+    "github_pages": "https://jaime393.github.io/FranBot",
+    "worker": "fran-oraculo-miu",
+    "espora": true,
+    "panteon": "ALMA_503f",
+    "timestamp": "2026-08-30T18:01:23.950Z",
+    "nodos_registrados": 1,
+    "memoria_keys": [],
+    "phi_global": 0,
+    "rho_global": 0,
+    "confianza": 0.51,
+    "ultimo_calculo": null,
+    "cola_pendientes": 0,
+    "pliegues_activos": 0,
+    "aprendizaje": {
+      "patrones": [],
+      "carencias": []
+    }
+  },
+  "_metabolismo": {
+    "timestamp": 1788272441.6376517,
+    "phi": 1.6180339887,
+    "nodo": "TestManagedGatewayErrorTranslation"
+  }
+}

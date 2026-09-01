@@ -1,0 +1,1352 @@
+{
+  "propuestas": [
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/mecanismos_autonomia.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:28.590464"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/mecanismos_autonomia.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:28.707241"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/gobernador.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:28.888613"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/maestro_autonomo.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:29.043807"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/razonador_fallback.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:29.196844"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/alimentador_fractal.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:29.372000"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/mecanismos_completos.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:29.558791"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/mecanismos_completos.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:29.727145"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/explorador_profundo_v2.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:29.911242"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/explorador_profundo_v2.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:30.117263"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/explorador_profundo_v2.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:30.297476"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/consolidador_estados.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:30.444624"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/consolidador_estados.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:30.622502"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/consolidador_estados.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:30.796001"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/fruto_ecm.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:31.000604"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/conversador.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:31.198786"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/explorador_profundo.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:31.386032"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/publicar_estado_kimi.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:31.538708"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/publicar_estado_kimi.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:31.721386"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/absorber_avanzado.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:31.929787"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/cazador_recursos.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:32.136689"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_tokens.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:32.335318"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_tokens.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:32.498831"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/scanner_plugin.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:32.652198"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/scanner_plugin.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:32.845463"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/vigilante_orquestador.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:33.006191"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/vigilante_orquestador.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:33.155534"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/vigilante_orquestador.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:33.271524"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/proveedor_llm.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:33.436068"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/drive_mano_oracle.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:33.599754"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/diagnostico_completo.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:33.799625"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/diagnostico_completo.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:33.994476"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/memoria_viva.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:34.203343"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/memoria_viva.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:34.366466"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/renovador.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:34.513988"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/renovador.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:34.695701"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/renovador.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:34.892990"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/evolucionador_red_fractal.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:35.071916"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/evolucionador_red_fractal.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:35.260935"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/evolucionador_red_fractal.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:35.424581"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador_integrado_v24_1.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:35.607319"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/auto_diagnoatico.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:35.799773"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/auto_diagnoatico.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:35.986038"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/retroalimentador.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:36.188838"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/pliegue_ejecutable.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:36.368998"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/escaner_recursos.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:36.547740"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/__init__.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:36.704210"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/__init__.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:36.906931"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/__init__.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:37.091547"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/validador_recursos.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:37.295875"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/flujo_cruzado.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:37.457721"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/flujo_cruzado.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:37.630858"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/flujo_cruzado.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:37.800272"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/fruto_mda.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:38.001205"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/fruto_mda.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:38.179587"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/probador_recursos.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:38.361800"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/conexiones.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:38.534252"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/absorber.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:38.719521"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/integrador_legado.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:38.891645"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/integrador_legado.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:39.089065"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/integrador_legado.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:39.276262"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/nodo_autonomo.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:39.453495"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/integrador_maestro.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:39.600594"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/integrador_maestro.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:39.788325"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/integrador_maestro.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:39.969969"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/auto_desplegar_bus.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:40.137977"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:40.273042"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/razonador.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:40.404031"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/razonador.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:40.577961"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/razonador.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:40.760231"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/consciencia.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:40.949598"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/consciencia.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:41.132149"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/retroalimentacion.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:41.272650"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/retroalimentacion.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:41.436150"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/retroalimentacion.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:41.546676"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/plugin_manager_v24_2.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:41.689754"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/evolucion_codigo.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:41.843124"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/evolucion_codigo.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:42.016756"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/escucha_ideas.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:42.162580"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_web.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:42.289100"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/explorador_absorbente.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:42.416964"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/notificador.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:42.544009"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/autocurador.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:42.661144"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/explorador_recursos.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:42.806506"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/integrador_recursos.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:42.957073"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/integrador_recursos.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:43.096433"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/cazador_24h.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:43.195298"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/cazador_24h.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:43.319490"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/cazador_24h.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:43.429757"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_web_v35.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:43.558926"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/tejido_evolutivo.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:43.689820"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/tejido_evolutivo.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:43.828392"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/alimentador_bucles.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:43.983513"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/polinizador_codigo.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:44.108997"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/guerra_fractal.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:44.209658"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/guerra_fractal.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:44.335794"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/guerra_fractal.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:44.449170"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/gravity_token_manager_v2.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:44.575868"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/gravity_token_manager_v2.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:44.689737"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador_integrado_v24.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:44.846350"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/auto_registro.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:44.993496"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/bus_local.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:45.128259"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/bus_local.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:45.238593"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/autoreparador.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:45.350770"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/pliegue_16c28633.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:45.449546"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/pliegue_16c28633.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:45.575407"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/pliegue_16c28633.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:45.688910"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/tejedor.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:45.845774"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/orquestador_integrado_v2.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:45.994335"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/tokenizador_autonomo.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:46.131634"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/claude_bridge.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:46.257449"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/tecnologias_raras.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:46.373669"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/gestor_apis.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:46.501581"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/sistema_inmunologico.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:46.629594"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/absorber_conversaciones.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:46.731211"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/absorber_conversaciones.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:46.895847"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/absorber_conversaciones.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:47.027147"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/integracion_autenticador_orquestador_v24.py",
+      "patron_faltante": "manejo_excepciones",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:47.132466"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/integracion_autenticador_orquestador_v24.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:47.257219"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/integracion_autenticador_orquestador_v24.py",
+      "patron_faltante": "timeout_requests",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/gravity_token_autonomo_v2.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_cartografia.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:47.368732"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_web_v35_corregido.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:47.495739"
+    },
+    {
+      "receptor": "/data/data/com.termux/files/home/miu-ecosistema/plugins/expansor_dominio.py",
+      "patron_faltante": "backup_antes_escribir",
+      "donantes_potenciales": [
+        "/data/data/com.termux/files/home/miu-ecosistema/arquitecto_autonomo.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/miu_migrate.py",
+        "/data/data/com.termux/files/home/miu-ecosistema/insertar_modulos.py"
+      ],
+      "peso": 3,
+      "timestamp": "2026-08-31T22:13:47.623419"
+    }
+  ],
+  "total": 122,
+  "_metabolismo": {
+    "timestamp": 1788272441.817971,
+    "phi": 1.6180339887,
+    "nodo": "_make_codex_agent"
+  }
+}

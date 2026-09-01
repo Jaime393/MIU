@@ -1,0 +1,12 @@
+{
+  "total_gmail": 91,
+  "cuotas_gratis": {
+    "cloudflare_quick_tunnel": "ilimitado sin token",
+    "cloudflare_workers": "100k req/dia x cuenta",
+    "r2": "10GB gratis x cuenta",
+    "groq": "14k req/dia x token x 11 tokens",
+    "github_actions": "2000 min/mes x 8 cuentas",
+    "vercel": "100GB bandwidth x 3 cuentas"
+  },
+  "estrategia_flex": "usa cada Gmail como nodo: Gmail1 -> CF+R2+Groq, Gmail2 -> GitHub Actions que despliega Workers con cfat_ vivo, Gmail3-10 -> quick tunnels que exponen escuela/ 27 poderes"
+}

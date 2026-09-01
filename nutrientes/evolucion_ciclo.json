@@ -1,1 +1,9 @@
-{"ciclo": 3, "timestamp": "2026-08-30T11:03:28.557645"}
+{
+  "ciclo": 12,
+  "timestamp": "2026-08-31T05:25:18.999221",
+  "_metabolismo": {
+    "timestamp": 1788272441.5894344,
+    "phi": 1.6180339887,
+    "nodo": "expandir_senales_490"
+  }
+}

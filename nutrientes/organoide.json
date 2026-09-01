@@ -1,7 +1,12 @@
 {
-  "id": "7c9e9b9b",
-  "creado": "2026-08-30T10:43:26.806079",
+  "id": "d51b09c7",
+  "creado": "2026-08-31T22:14:25.765566",
   "estado": "activo",
-  "conexiones": 23,
-  "coherencia": 0.6386166236365958
+  "conexiones": 18,
+  "coherencia": 0.5855669601569302,
+  "_metabolismo": {
+    "timestamp": 1788272441.5949166,
+    "phi": 1.6180339887,
+    "nodo": "_FakeBlueBubblesRequest"
+  }
 }

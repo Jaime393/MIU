@@ -1,0 +1,130 @@
+{
+  "timestamp": 1788232583.8699577,
+  "acciones": [
+    {
+      "tipo": "reparar",
+      "target": "modulos_fallidos",
+      "prioridad": 1
+    },
+    {
+      "tipo": "integrar",
+      "target": "groq",
+      "prioridad": 2
+    },
+    {
+      "tipo": "integrar",
+      "target": "oracle_always_free",
+      "prioridad": 2
+    },
+    {
+      "tipo": "flujo",
+      "origen": "combate_informacional",
+      "destino": "consciencia",
+      "prioridad": 3
+    },
+    {
+      "tipo": "flujo",
+      "origen": "consciencia",
+      "destino": "retroalimentacion",
+      "prioridad": 3
+    },
+    {
+      "tipo": "flujo",
+      "origen": "expansor_tokens",
+      "destino": "expansor_dominio",
+      "prioridad": 3
+    },
+    {
+      "tipo": "flujo",
+      "origen": "autoreparador",
+      "destino": "conexiones",
+      "prioridad": 3
+    },
+    {
+      "tipo": "flujo",
+      "origen": "autoreparador",
+      "destino": "tecnologias_raras",
+      "prioridad": 3
+    },
+    {
+      "tipo": "flujo",
+      "origen": "gobernador",
+      "destino": "mecanismos_autonomia",
+      "prioridad": 3
+    },
+    {
+      "tipo": "flujo",
+      "origen": "fruto_mda",
+      "destino": "tejido_evolutivo",
+      "prioridad": 3
+    },
+    {
+      "tipo": "flujo",
+      "origen": "consciencia",
+      "destino": "gobernador",
+      "prioridad": 3
+    },
+    {
+      "tipo": "flujo",
+      "origen": "razonador_fallback",
+      "destino": "expansor_tokens",
+      "prioridad": 3
+    },
+    {
+      "tipo": "flujo",
+      "origen": "conexiones",
+      "destino": "claude_bridge",
+      "prioridad": 3
+    },
+    {
+      "tipo": "flujo",
+      "origen": "fruto_mda",
+      "destino": "fruto_ecm",
+      "prioridad": 3
+    },
+    {
+      "tipo": "flujo",
+      "origen": "gobernador",
+      "destino": "mecanismos_completos",
+      "prioridad": 3
+    },
+    {
+      "tipo": "flujo",
+      "origen": "conexiones",
+      "destino": "validador_recursos",
+      "prioridad": 3
+    },
+    {
+      "tipo": "flujo",
+      "origen": "razonador_fallback",
+      "destino": "cazador_recursos",
+      "prioridad": 3
+    },
+    {
+      "tipo": "flujo",
+      "origen": "cazador_recursos",
+      "destino": "integrador_recursos",
+      "prioridad": 3
+    },
+    {
+      "tipo": "evolucionar",
+      "target": "codigo_propio",
+      "prioridad": 4
+    }
+  ],
+  "estado_base": {
+    "timestamp": 1788232582.8800733,
+    "memorias": 129,
+    "conversaciones": 0,
+    "modulos_activos": 31,
+    "modulos_fallidos": 1,
+    "salud": 0.96875
+  },
+  "n_hallazgos": 10,
+  "n_pipelines": 15,
+  "_metabolismo": {
+    "timestamp": 1788272441.8936493,
+    "phi": 1.6180339887,
+    "nodo": "sintetizar_flujos_949"
+  }
+}
