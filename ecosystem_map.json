@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-30T11:32:08Z",
+  "timestamp": "2026-08-31T22:29:44Z",
   "version": "V153.1",
   "termux": {
     "path": "/data/data/com.termux/files/home/miu-ecosistema",
@@ -102,47 +102,47 @@
       },
       "backups": {
         "files": 10,
-        "total_size": 2072576,
+        "total_size": 4149248,
         "items": [
           {
-            "path": "backups/miu_brain_20260830_101107.db",
-            "size": 233472
+            "path": "backups/miu_brain_20260831_182316.db",
+            "size": 409600
           },
           {
-            "path": "backups/miu_brain_20260830_084821.db",
-            "size": 196608
+            "path": "backups/miu_brain_20260831_192825.db",
+            "size": 430080
           },
           {
-            "path": "backups/miu_brain_20260830_101244.db",
-            "size": 233472
+            "path": "backups/miu_brain_20260831_183918.db",
+            "size": 421888
           },
           {
-            "path": "backups/miu_brain_20260830_074602.db",
-            "size": 167936
+            "path": "backups/miu_brain_20260831_044710.db",
+            "size": 393216
           },
           {
-            "path": "backups/miu_brain_20260830_082002.db",
-            "size": 176128
+            "path": "backups/miu_brain_20260831_193517.db",
+            "size": 438272
           },
           {
-            "path": "backups/miu_brain_20260830_084656.db",
-            "size": 196608
+            "path": "backups/miu_brain_20260831_064528.db",
+            "size": 401408
           },
           {
-            "path": "backups/miu_brain_20260830_104329.db",
-            "size": 249856
+            "path": "backups/miu_brain_20260831_025515.db",
+            "size": 364544
           },
           {
-            "path": "backups/miu_brain_20260830_082847.db",
-            "size": 184320
+            "path": "backups/miu_brain_20260831_210316.db",
+            "size": 446464
           },
           {
-            "path": "backups/miu_brain_20260830_092617.db",
-            "size": 221184
+            "path": "backups/miu_brain_20260831_042351.db",
+            "size": 385024
           },
           {
-            "path": "backups/miu_brain_20260830_090809.db",
-            "size": 212992
+            "path": "backups/miu_brain_20260831_221429.db",
+            "size": 458752
           }
         ]
       }
@@ -254,7 +254,7 @@
         },
         {
           "name": "Download",
-          "items": 2
+          "items": 3
         },
         {
           "name": "Movies",
@@ -300,7 +300,7 @@
         },
         {
           "name": "Download",
-          "items": 2
+          "items": 3
         },
         {
           "name": "Movies",
@@ -346,7 +346,7 @@
         },
         {
           "name": "Download",
-          "items": 2
+          "items": 3
         },
         {
           "name": "Movies",
@@ -386,7 +386,7 @@
       {
         "name": "Jaime393/fran-miu-micelio",
         "stars": 0,
-        "updated": "2026-08-30T16:32:06Z",
+        "updated": "2026-08-30T16:58:58Z",
         "desc": "None"
       },
       {
@@ -447,12 +447,12 @@
   },
   "sqlite": {
     "exists": true,
-    "size": 258048,
+    "size": 466944,
     "tables": {
-      "memories": 85,
+      "memories": 129,
       "conversations": 0,
       "commands": 0,
-      "system_state": 4
+      "system_state": 10
     }
   },
   "drive": {
@@ -465,9 +465,9 @@
     "active": true,
     "count": 3,
     "processes": [
-      "u0_a184   8774  0.0  0.0  83588  5508 pts/14   S<    1970   0:01 python3 /data/data/com.termux/files/home/miu-ecosistema/miu_initiative.py > /data/data/com.termux/files/home/miu-ecosistema/logs/initiative.log 2>&1 &",
-      "u0_a184  10493  0.5  0.0  41516  2936 pts/14   S<    1970   0:00 /data/data/com.termux/files/usr/bin/sh -c python3 miu_scanner.py 2>/dev/null | head -20",
-      "u0_a184  10494 37.3  0.4  84612 36420 pts/14   S<    1970   0:02 python3 miu_scanner.py"
+      "u0_a184   8774  0.0  0.0  83588  4096 ?        S<    1970   0:03 python3 /data/data/com.termux/files/home/miu-ecosistema/miu_initiative.py > /data/data/com.termux/files/home/miu-ecosistema/logs/initiative.log 2>&1 &",
+      "u0_a184  29474  0.4  0.0  41516  2896 ?        S<    1970   0:00 /data/data/com.termux/files/usr/bin/sh -c python3 miu_scanner.py 2>/dev/null | head -20",
+      "u0_a184  29475 28.2  0.4  84612 36520 ?        S<    1970   0:01 python3 miu_scanner.py"
     ]
   },
   "vision": {
@@ -593,5 +593,12 @@
     "github_token_set": true,
     "bot_token_set": true,
     "miu_dir": "/data/data/com.termux/files/home/miu-ecosistema"
-  }
+  },
+  "_metabolismo": {
+    "timestamp": 1788272440.9985106,
+    "phi": 1.6180339887,
+    "nodo": "_source"
+  },
+  "ultimo_poder": "Poder 81 \u2014 integraci\u00f3n poder_55_suelo+poder_mas_con_menos \u2014 aprende de ['poder_31_gmail.md', 'poder_",
+  "total": 81
 }
