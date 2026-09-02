@@ -1,16 +1,16 @@
 {
-  "total_poderes": 146,
-  "r2_gb": 1460,
-  "workers_req": 14600000,
-  "tunnels": 146,
+  "total_poderes": 148,
+  "r2_gb": 1480,
+  "workers_req": 14800000,
+  "tunnels": 148,
   "cuentas": 10,
   "groq": 5,
   "cfat": 1,
   "gguf": "models/tinyllama-600MB.gguf",
   "ultimos_recursos": [
-    "worker-146-dieg.workers.dev 100k req/dia",
-    "r2-bucket-146-dieg 10GB",
-    "worker-146-jhua.workers.dev 100k req/dia",
-    "r2-bucket-146-jhua 10GB"
+    "worker-148-dieg.workers.dev 100k req/dia",
+    "r2-bucket-148-dieg 10GB",
+    "worker-148-jhua.workers.dev 100k req/dia",
+    "r2-bucket-148-jhua 10GB"
   ]
 }
