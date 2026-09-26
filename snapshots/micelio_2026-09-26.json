@@ -1,0 +1,38 @@
+{
+  "ts": "2026-09-26T05:03:13.635Z",
+  "version": "V268",
+  "phi": "184.684",
+  "k_tau": "1.811",
+  "ciclo": "899",
+  "savia": "13000",
+  "corpus_n": 286,
+  "panteon_activos": 6,
+  "top_nodos": [
+    {
+      "id": "jaimepvicente",
+      "phi": 9158.79
+    },
+    {
+      "id": "gas_phantom_router",
+      "phi": 9158.79
+    },
+    {
+      "id": "tabletonephantom",
+      "phi": 9158.79
+    }
+  ],
+  "top_corpus": [
+    {
+      "q": "Estado V265 completo — métricas reales del micelio",
+      "k": 1.757
+    },
+    {
+      "q": "Φ_MIU definición operativa completa — Semilla v10.",
+      "k": 1.757
+    },
+    {
+      "q": "¿Qué enseña Brasil PIX al micelio sobre el princip",
+      "k": 1.757
+    }
+  ]
+}
