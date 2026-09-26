@@ -1,11 +1,11 @@
 {
-  "ts": "2026-09-26T09:00:01.086Z",
+  "ts": "2026-09-26T12:00:01.395Z",
   "version": "V268",
   "phi": "184.684",
   "k_tau": "1.811",
-  "ciclo": "915",
+  "ciclo": "920",
   "savia": "13000",
-  "corpus_n": 298,
+  "corpus_n": 305,
   "panteon_activos": 6,
   "top_nodos": [
     {
@@ -23,8 +23,8 @@
   ],
   "top_corpus": [
     {
-      "q": "Estado V265 completo — métricas reales del micelio",
-      "k": 1.757
+      "q": "Estado y métricas del ciclo actual",
+      "k": 1.811
     },
     {
       "q": "Φ_MIU definición operativa completa — Semilla v10.",
