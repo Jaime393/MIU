@@ -1,23 +1,23 @@
 {
-  "ts": "2026-09-26T12:00:01.395Z",
+  "ts": "2026-09-26T15:00:00.842Z",
   "version": "V268",
   "phi": "184.684",
   "k_tau": "1.811",
-  "ciclo": "920",
+  "ciclo": "967",
   "savia": "13000",
-  "corpus_n": 305,
+  "corpus_n": 478,
   "panteon_activos": 6,
   "top_nodos": [
     {
-      "id": "fran_oraculo_jaimepv",
-      "phi": 9158.79
-    },
-    {
-      "id": "gas_phantom_router",
-      "phi": 9158.79
-    },
-    {
       "id": "tabletonephantom",
+      "phi": 9158.79
+    },
+    {
+      "id": "jaimepvicente",
+      "phi": 9158.79
+    },
+    {
+      "id": "fran_oraculo_jaimepv",
       "phi": 9158.79
     }
   ],
@@ -27,12 +27,12 @@
       "k": 1.811
     },
     {
-      "q": "Φ_MIU definición operativa completa — Semilla v10.",
-      "k": 1.757
+      "q": "Estado del ecosistema: phi y k_tau",
+      "k": 1.811
     },
     {
-      "q": "¿Qué enseña Brasil PIX al micelio sobre el princip",
-      "k": 1.757
+      "q": "datos_tunnel",
+      "k": 1.8
     }
   ]
 }
