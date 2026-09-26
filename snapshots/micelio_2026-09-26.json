@@ -1,23 +1,23 @@
 {
-  "ts": "2026-09-26T18:00:00.747Z",
+  "ts": "2026-09-26T21:00:01.486Z",
   "version": "V268",
-  "phi": "184.684",
+  "phi": "0.5",
   "k_tau": "1.811",
-  "ciclo": "1008",
+  "ciclo": "912",
   "savia": "13100",
-  "corpus_n": 517,
+  "corpus_n": 575,
   "panteon_activos": 6,
   "top_nodos": [
+    {
+      "id": "gas_phantom_router",
+      "phi": 9158.79
+    },
     {
       "id": "fran_oraculo_jaimepv",
       "phi": 9158.79
     },
     {
       "id": "tabletonephantom",
-      "phi": 9158.79
-    },
-    {
-      "id": "jaimepvicente",
       "phi": 9158.79
     }
   ],
