@@ -1,0 +1,38 @@
+{
+  "ts": "2026-09-27T00:00:02.409Z",
+  "version": "V268",
+  "phi": "0.5",
+  "k_tau": "1.811",
+  "ciclo": "956",
+  "savia": "13100",
+  "corpus_n": 622,
+  "panteon_activos": 6,
+  "top_nodos": [
+    {
+      "id": "tabletonephantom",
+      "phi": 9158.79
+    },
+    {
+      "id": "jaimepvicente",
+      "phi": 9158.79
+    },
+    {
+      "id": "fran_oraculo_jaimepv",
+      "phi": 9158.79
+    }
+  ],
+  "top_corpus": [
+    {
+      "q": "¿Qué revela el patrón gossip sobre la comunicación",
+      "k": 1.811
+    },
+    {
+      "q": "¿Cuál es el estado actual de coherencia y robustez",
+      "k": 1.811
+    },
+    {
+      "q": "Estado y métricas del ciclo actual",
+      "k": 1.811
+    }
+  ]
+}
