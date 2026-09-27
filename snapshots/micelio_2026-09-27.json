@@ -1,11 +1,11 @@
 {
-  "ts": "2026-09-27T15:00:01.491Z",
+  "ts": "2026-09-27T18:00:01.178Z",
   "version": "V268",
-  "phi": "195",
+  "phi": "197",
   "k_tau": "1.811",
-  "ciclo": "1197",
+  "ciclo": "1274",
   "savia": "12",
-  "corpus_n": 1023,
+  "corpus_n": 1101,
   "panteon_activos": 6,
   "top_nodos": [
     {
@@ -13,18 +13,18 @@
       "phi": 9158.79
     },
     {
-      "id": "tabletonephantom",
+      "id": "gas_phantom_router",
       "phi": 9158.79
     },
     {
-      "id": "jaimepvicente",
+      "id": "tabletonephantom",
       "phi": 9158.79
     }
   ],
   "top_corpus": [
     {
-      "q": "¿Qué revela el patrón gossip sobre la comunicación",
-      "k": 1.811
+      "q": "¿Qué nuevas variables de micelio pueden ser monito",
+      "k": 1.82
     },
     {
       "q": "¿Cuál es el estado actual de coherencia y robustez",
