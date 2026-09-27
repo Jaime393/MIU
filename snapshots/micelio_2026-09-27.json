@@ -1,37 +1,37 @@
 {
-  "ts": "2026-09-27T18:00:01.178Z",
+  "ts": "2026-09-27T21:00:01.231Z",
   "version": "V268",
-  "phi": "197",
-  "k_tau": "1.811",
-  "ciclo": "1274",
-  "savia": "12",
-  "corpus_n": 1101,
+  "phi": "202",
+  "k_tau": "1.891",
+  "ciclo": "1373",
+  "savia": "12.96",
+  "corpus_n": 1161,
   "panteon_activos": 6,
   "top_nodos": [
-    {
-      "id": "fran_oraculo_jaimepv",
-      "phi": 9158.79
-    },
     {
       "id": "gas_phantom_router",
       "phi": 9158.79
     },
     {
-      "id": "tabletonephantom",
+      "id": "fran_oraculo_jaimepv",
+      "phi": 9158.79
+    },
+    {
+      "id": "jaimepvicente",
       "phi": 9158.79
     }
   ],
   "top_corpus": [
+    {
+      "q": "¿Qué significa phi en MIU?",
+      "k": 1.85
+    },
     {
       "q": "¿Qué nuevas variables de micelio pueden ser monito",
       "k": 1.82
     },
     {
       "q": "¿Cuál es el estado actual de coherencia y robustez",
-      "k": 1.811
-    },
-    {
-      "q": "Estado y métricas del ciclo actual",
       "k": 1.811
     }
   ]
