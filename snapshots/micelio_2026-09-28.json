@@ -1,15 +1,15 @@
 {
-  "ts": "2026-09-28T06:00:01.747Z",
+  "ts": "2026-09-28T09:00:00.787Z",
   "version": "V269",
-  "phi": "225",
-  "k_tau": "1.891",
-  "ciclo": "4",
-  "savia": "57000000",
-  "corpus_n": 1457,
+  "phi": "242",
+  "k_tau": "1.905",
+  "ciclo": "163",
+  "savia": "57500000",
+  "corpus_n": 1621,
   "panteon_activos": 6,
   "top_nodos": [
     {
-      "id": "jaimepvicente",
+      "id": "fran_oraculo_jaimepv",
       "phi": 9158.79
     },
     {
@@ -23,16 +23,16 @@
   ],
   "top_corpus": [
     {
-      "q": "Genera nueva pieza de conocimiento sobre la Ley de",
+      "q": "Distribución de corpus por categoría",
       "k": 1.891
     },
     {
-      "q": "¿Requiere generar un nuevo corpus MIU con huesos s",
+      "q": "Configuración de relay y modelos",
       "k": 1.891
     },
     {
-      "q": "¿Qué significa phi en MIU?",
-      "k": 1.85
+      "q": "Estado general del sistema",
+      "k": 1.891
     }
   ]
 }
