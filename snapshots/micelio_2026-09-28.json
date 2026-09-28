@@ -1,15 +1,15 @@
 {
-  "ts": "2026-09-28T12:00:02.546Z",
+  "ts": "2026-09-28T15:00:01.353Z",
   "version": "V269",
-  "phi": "246",
+  "phi": "245",
   "k_tau": "1.905",
-  "ciclo": "318",
-  "savia": "57500000",
-  "corpus_n": 1766,
+  "ciclo": "475",
+  "savia": "58000000",
+  "corpus_n": 1903,
   "panteon_activos": 6,
   "top_nodos": [
     {
-      "id": "tabletonephantom",
+      "id": "jaimepvicente",
       "phi": 9158.79
     },
     {
@@ -17,7 +17,7 @@
       "phi": 9158.79
     },
     {
-      "id": "fran_oraculo_jaimepv",
+      "id": "tabletonephantom",
       "phi": 9158.79
     }
   ],
