@@ -1,11 +1,11 @@
 {
-  "ts": "2026-09-28T15:00:01.353Z",
+  "ts": "2026-09-28T18:00:01.284Z",
   "version": "V269",
-  "phi": "245",
-  "k_tau": "1.905",
-  "ciclo": "475",
+  "phi": "255",
+  "k_tau": "1.950",
+  "ciclo": "624",
   "savia": "58000000",
-  "corpus_n": 1903,
+  "corpus_n": 2031,
   "panteon_activos": 6,
   "top_nodos": [
     {
@@ -13,22 +13,22 @@
       "phi": 9158.79
     },
     {
-      "id": "gas_phantom_router",
+      "id": "tabletonephantom",
       "phi": 9158.79
     },
     {
-      "id": "tabletonephantom",
+      "id": "fran_oraculo_jaimepv",
       "phi": 9158.79
     }
   ],
   "top_corpus": [
     {
-      "q": "Actualizar registro de phi con valor 245",
+      "q": "Generar nuevo corpus MIU con parámetros phi, rho, ",
       "k": 1.905
     },
     {
-      "q": "Distribución de corpus por categoría",
-      "k": 1.891
+      "q": "Actualizar registro de phi con valor 245",
+      "k": 1.905
     },
     {
       "q": "Estado general del sistema",
