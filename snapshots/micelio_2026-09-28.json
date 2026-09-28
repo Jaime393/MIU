@@ -1,15 +1,15 @@
 {
-  "ts": "2026-09-28T09:00:00.787Z",
+  "ts": "2026-09-28T12:00:02.546Z",
   "version": "V269",
-  "phi": "242",
+  "phi": "246",
   "k_tau": "1.905",
-  "ciclo": "163",
+  "ciclo": "318",
   "savia": "57500000",
-  "corpus_n": 1621,
+  "corpus_n": 1766,
   "panteon_activos": 6,
   "top_nodos": [
     {
-      "id": "fran_oraculo_jaimepv",
+      "id": "tabletonephantom",
       "phi": 9158.79
     },
     {
@@ -17,17 +17,17 @@
       "phi": 9158.79
     },
     {
-      "id": "tabletonephantom",
+      "id": "fran_oraculo_jaimepv",
       "phi": 9158.79
     }
   ],
   "top_corpus": [
     {
-      "q": "Distribución de corpus por categoría",
-      "k": 1.891
+      "q": "Actualizar registro de phi con valor 245",
+      "k": 1.905
     },
     {
-      "q": "Configuración de relay y modelos",
+      "q": "Distribución de corpus por categoría",
       "k": 1.891
     },
     {
