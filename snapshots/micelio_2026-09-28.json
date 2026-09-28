@@ -1,11 +1,11 @@
 {
-  "ts": "2026-09-28T00:00:05.582Z",
+  "ts": "2026-09-28T03:00:02.365Z",
   "version": "V268",
-  "phi": "215",
+  "phi": "220",
   "k_tau": "1.891",
-  "ciclo": "1475",
+  "ciclo": "1581",
   "savia": "15.0",
-  "corpus_n": 1254,
+  "corpus_n": 1353,
   "panteon_activos": 6,
   "top_nodos": [
     {
@@ -13,7 +13,7 @@
       "phi": 9158.79
     },
     {
-      "id": "jaimepvicente",
+      "id": "gas_phantom_router",
       "phi": 9158.79
     },
     {
@@ -23,16 +23,16 @@
   ],
   "top_corpus": [
     {
+      "q": "Genera nueva pieza de conocimiento sobre la Ley de",
+      "k": 1.891
+    },
+    {
       "q": "¿Qué significa phi en MIU?",
       "k": 1.85
     },
     {
       "q": "¿Qué nuevas variables de micelio pueden ser monito",
       "k": 1.82
-    },
-    {
-      "q": "¿Cuál es el estado actual de coherencia y robustez",
-      "k": 1.811
     }
   ]
 }
