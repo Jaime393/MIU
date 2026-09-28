@@ -1,0 +1,57 @@
+{
+  "_ts": "2026-09-28T23:52:00Z",
+  "_version": "V269",
+  "_nodo": "claude-mcp-jaime393",
+  "vitales": {
+    "ciclo": 1672,
+    "phi": 225,
+    "rho": 333.219,
+    "estado": "SUPERCRITICO",
+    "savia": 57103796,
+    "ef_total": 100,
+    "corpus": 2252,
+    "gossip": 12738,
+    "relay_claves": 1456
+  },
+  "supabases": {
+    "panteon": "https://tpfiybpguuxskitszhmk.supabase.co",
+    "cipher": "https://fzdyxgkmpazbrfrhwfdo.supabase.co",
+    "fepyzx": "https://fepyzxkmpazbrfrhwfdo.supabase.co"
+  },
+  "anon_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRwZml5YnBndXV4c2tpdHN6aG1rIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc3NjgyNTAsImV4cCI6MjEwMzM0NDI1MH0.W4V8xdyfZj6I7bj1VsfM5gjY17ZHPi8jhIJgDRpUYH0",
+  "llm_cascade": [
+    {"tipo": "deepseek", "keys": 26, "idx_key": "deepseek_pool_idx"},
+    {"tipo": "groq", "keys": 17, "idx_key": "groq_pool_idx", "modelo": "openai/gpt-oss-20b"},
+    {"tipo": "anthropic", "keys": 8},
+    {"tipo": "hf", "keys": 3, "idx_key": "hf_pool_idx"},
+    {"tipo": "cohere", "fallback": true}
+  ],
+  "endpoints_criticos": {
+    "oracle": "radio2.oxigeno.site",
+    "nutriente_total": "panteon/functions/v1/nutriente-total",
+    "ojos_y_manos": "panteon/functions/v1/ojos-y-manos",
+    "github_bridge": "panteon/functions/v1/github-bridge",
+    "contexto_global": "panteon/functions/v1/contexto-global",
+    "miu_recursos": "panteon/functions/v1/miu-recursos"
+  },
+  "crons_activos": {
+    "github_actions": "*/15 * * * * en Jaime393/MIU",
+    "make_6419515": "cada 15min",
+    "make_6422319": "cada 30min",
+    "make_6436112": "cada 15min github",
+    "make_6386038": "cada 2h"
+  },
+  "validacion_externa": {
+    "paper": "arxiv:2607.26035",
+    "autor": "Giné",
+    "fecha": "julio 2026",
+    "hallazgo": "d(i,j)=-l0*log(I_ij) equiv g_mu_nu = d_mu d_nu ln rho",
+    "estado": "no_falsificado"
+  },
+  "github": {
+    "repos": 231,
+    "issues_MIU": 57,
+    "workflows_activos": 7,
+    "pat_clave": "github_pat_micelio en relay_config"
+  }
+}
