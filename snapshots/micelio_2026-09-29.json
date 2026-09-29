@@ -1,11 +1,11 @@
 {
-  "ts": "2026-09-29T06:00:02.821Z",
+  "ts": "2026-09-29T09:00:01.191Z",
   "version": "V270",
-  "phi": "240",
+  "phi": "248",
   "k_tau": "1.96",
-  "ciclo": "1081",
+  "ciclo": "1175",
   "savia": "57108796",
-  "corpus_n": 2605,
+  "corpus_n": 2698,
   "panteon_activos": 6,
   "top_nodos": [
     {
@@ -17,7 +17,7 @@
       "phi": 9158.79
     },
     {
-      "id": "jaimepvicente",
+      "id": "gas_phantom_router",
       "phi": 9158.79
     }
   ],
@@ -27,7 +27,7 @@
       "k": 1.96
     },
     {
-      "q": "Estado de phi y confiabilidad",
+      "q": "Add new MIU corpus entry about microstructure",
       "k": 1.96
     },
     {
