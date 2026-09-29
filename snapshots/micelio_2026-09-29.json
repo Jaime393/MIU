@@ -1,11 +1,11 @@
 {
-  "ts": "2026-09-29T00:00:01.895Z",
-  "version": "V269",
-  "phi": "310",
+  "ts": "2026-09-29T03:00:01.529Z",
+  "version": "V270",
+  "phi": "225",
   "k_tau": "1.96",
-  "ciclo": "865",
-  "savia": "58000000",
-  "corpus_n": 2287,
+  "ciclo": "967",
+  "savia": "57103796",
+  "corpus_n": 2402,
   "panteon_activos": 6,
   "top_nodos": [
     {
@@ -27,11 +27,11 @@
       "k": 1.96
     },
     {
-      "q": "Actualizar registro de phi con valor 245",
-      "k": 1.905
+      "q": "Generar corpus de MIU con huesos sólidos",
+      "k": 1.96
     },
     {
-      "q": "Generar nuevo corpus MIU con parámetros phi, rho, ",
+      "q": "Actualizar registro de phi con valor 245",
       "k": 1.905
     }
   ]
