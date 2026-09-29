@@ -1,9 +1,5 @@
 {
-  "origen": "nutriente-total-V269b",
-  "ciclo": 1741,
-  "phi": 4343810,
-  "gossip_n": null,
-  "corpus_n": 190,
-  "ts": "2026-09-29T11:47:43.313Z",
+  "origen": "make_github_V269",
+  "ts": "2026-09-29T11:47:57.737Z",
   "version": "V270"
 }
