@@ -1,11 +1,11 @@
 {
-  "ts": "2026-09-29T03:00:01.529Z",
+  "ts": "2026-09-29T06:00:02.821Z",
   "version": "V270",
-  "phi": "225",
+  "phi": "240",
   "k_tau": "1.96",
-  "ciclo": "967",
-  "savia": "57103796",
-  "corpus_n": 2402,
+  "ciclo": "1081",
+  "savia": "57108796",
+  "corpus_n": 2605,
   "panteon_activos": 6,
   "top_nodos": [
     {
@@ -13,15 +13,19 @@
       "phi": 9158.79
     },
     {
-      "id": "jaimepvicente",
+      "id": "tabletonephantom",
       "phi": 9158.79
     },
     {
-      "id": "tabletonephantom",
+      "id": "jaimepvicente",
       "phi": 9158.79
     }
   ],
   "top_corpus": [
+    {
+      "q": "Genera un corpus MIU centrado en los huesos sólido",
+      "k": 1.96
+    },
     {
       "q": "Estado de phi y confiabilidad",
       "k": 1.96
@@ -29,10 +33,6 @@
     {
       "q": "Generar corpus de MIU con huesos sólidos",
       "k": 1.96
-    },
-    {
-      "q": "Actualizar registro de phi con valor 245",
-      "k": 1.905
     }
   ]
 }
