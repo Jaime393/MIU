@@ -1,0 +1,38 @@
+{
+  "ts": "2026-09-29T00:00:01.895Z",
+  "version": "V269",
+  "phi": "310",
+  "k_tau": "1.96",
+  "ciclo": "865",
+  "savia": "58000000",
+  "corpus_n": 2287,
+  "panteon_activos": 6,
+  "top_nodos": [
+    {
+      "id": "fran_oraculo_jaimepv",
+      "phi": 9158.79
+    },
+    {
+      "id": "jaimepvicente",
+      "phi": 9158.79
+    },
+    {
+      "id": "tabletonephantom",
+      "phi": 9158.79
+    }
+  ],
+  "top_corpus": [
+    {
+      "q": "Estado de phi y confiabilidad",
+      "k": 1.96
+    },
+    {
+      "q": "Actualizar registro de phi con valor 245",
+      "k": 1.905
+    },
+    {
+      "q": "Generar nuevo corpus MIU con parámetros phi, rho, ",
+      "k": 1.905
+    }
+  ]
+}
