@@ -1,8 +1,8 @@
 {
-  "ts": "2026-09-29T01:02:42.882Z",
-  "ciclo": 5,
+  "ts": "2026-09-29T01:02:55.733Z",
+  "ciclo": "auto",
   "rho": "333.219",
   "phi": "220",
-  "origen": "nutriente-total-V269b",
+  "origen": "make_github_V269",
   "v": "V269"
 }
