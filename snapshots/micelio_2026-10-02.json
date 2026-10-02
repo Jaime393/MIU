@@ -1,15 +1,15 @@
 {
-  "ts": "2026-10-02T06:00:02.938Z",
+  "ts": "2026-10-02T09:00:01.050Z",
   "version": "V270",
   "phi": "400",
   "k_tau": "2.3",
-  "ciclo": "3044",
+  "ciclo": "3113",
   "savia": "53070001",
-  "corpus_n": 4429,
+  "corpus_n": 4459,
   "panteon_activos": 6,
   "top_nodos": [
     {
-      "id": "jaimepvicente",
+      "id": "fran_oraculo_jaimepv",
       "phi": 9158.79
     },
     {
@@ -17,7 +17,7 @@
       "phi": 9158.79
     },
     {
-      "id": "fran_oraculo_jaimepv",
+      "id": "jaimepvicente",
       "phi": 9158.79
     }
   ],
