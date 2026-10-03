@@ -1,9 +1,9 @@
 {
   "origen": "nutriente-total-V269b",
-  "ciclo": 4012,
+  "ciclo": 4024,
   "phi": 400,
-  "gossip_n": 14300,
+  "gossip_n": 14322,
   "corpus_n": 218,
-  "ts": "2026-10-03T18:30:38.189Z",
+  "ts": "2026-10-03T18:45:38.030Z",
   "version": "V270"
 }
