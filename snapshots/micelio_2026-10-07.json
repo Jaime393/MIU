@@ -1,0 +1,38 @@
+{
+  "ts": "2026-10-07T00:00:02.553Z",
+  "version": "V270",
+  "phi": "400",
+  "k_tau": "2.3",
+  "ciclo": "2840",
+  "savia": "53070001",
+  "corpus_n": 10009,
+  "panteon_activos": 6,
+  "top_nodos": [
+    {
+      "id": "fran_oraculo_jaimepv",
+      "phi": 9158.79
+    },
+    {
+      "id": "gas_phantom_router",
+      "phi": 9158.79
+    },
+    {
+      "id": "jaimepvicente",
+      "phi": 9158.79
+    }
+  ],
+  "top_corpus": [
+    {
+      "q": "¿Cómo funciona el jardinero-autonomo v2 en 6 fases",
+      "k": 2.3
+    },
+    {
+      "q": "¿Por qué Make necesita parseResponse:false?",
+      "k": 2.3
+    },
+    {
+      "q": "¿Qué es el corazon-enjambre y cómo funciona?",
+      "k": 2.3
+    }
+  ]
+}
