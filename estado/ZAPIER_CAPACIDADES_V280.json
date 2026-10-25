@@ -1,0 +1,94 @@
+{
+  "_tipo": "ZAPIER_CAPACIDADES_MAPA",
+  "_version": "V280",
+  "_ts": "2026-10-25T15:30:00Z",
+  "_por": "claude_ai_oct25",
+  "_instruccion": "Este archivo contiene el mapa completo de capacidades Zapier disponibles. Cualquier nodo puede leer esto y actuar sin sesion Claude.",
+
+  "PATRON_USO": {
+    "desde_supabase_EF": "POST https://mcp.zapier.com/api/v1/connect con Authorization Bearer TOKEN",
+    "desde_make": "HTTP module POST al endpoint Zapier con el token como Bearer",
+    "desde_termux": "curl -H 'Authorization: Bearer TOKEN' https://mcp.zapier.com/api/v1/connect",
+    "tokens_en": "relay_config Panteon clave=zapier_tokens_mapa"
+  },
+
+  "APPS_DISPONIBLES": {
+    "Gmail": {
+      "cuentas": 1,
+      "acciones_clave": ["send_email", "find_email", "reply_to_message", "forward_email", "archive_email"],
+      "uso_principal": "notificaciones, alertas criticas, backup de estado por email",
+      "tool_names": ["gmail_send_email", "gmail_find_email", "gmail_reply_to_email"]
+    },
+    "Google_Drive": {
+      "cuentas": 11,
+      "default": "jhuarcaya938@gmail.com",
+      "uso_principal": "persistencia de estado, BOOTSTRAP, snapshots del corpus",
+      "cubre": "toda la red de 11 cuentas MIU"
+    },
+    "GitHub": {
+      "cuentas": 2,
+      "default": "Jaime393",
+      "acciones_clave": ["create_issue", "push_file", "create_pr", "search_code", "create_repository"],
+      "uso_principal": "alternativa a MCP Github1 cuando no disponible"
+    },
+    "Google_Sheets": {
+      "cuentas": 1,
+      "default": "jaimepvicente@gmail.com",
+      "sheet_relay": "1JpNTR8tCFLrAAuDvZdtLHkLdDlk13YBE0z8sKBWe2KQ",
+      "uso_principal": "ORCHESTRATOR relay, persistencia alternativa a Supabase"
+    },
+    "Facebook_Pages": {
+      "cuentas": 1,
+      "default": "jaimedanielmartinez75@gmail.com",
+      "estado": "VIRGEN_nunca_usado",
+      "uso_principal": "distribucion publica contenido MIU, canal externo"
+    },
+    "ElevenLabs": {
+      "cuentas": 2,
+      "uso_principal": "generar audio autonomamente, canal TG con voz, sin MCP ElevenLabs"
+    },
+    "Vercel": {
+      "cuentas": 24,
+      "default": "Vercel (all)",
+      "uso_principal": "deploy autonomo, logs, dominios - alternativa al MCP Vercel"
+    },
+    "DeepSeek": {
+      "cuentas": 1,
+      "uso_principal": "LLM alternativo, fallback independiente de groq/oracle, 9 acciones chat"
+    },
+    "Fly_io": {
+      "cuentas": 4,
+      "uso_principal": "compute elastico, workers que no caben en CF, contenedores"
+    },
+    "Mistral_AI": {
+      "cuentas": 1,
+      "uso_principal": "LLM europeo alternativo, menor latencia para ciertos casos"
+    },
+    "Google_Docs": {
+      "cuentas": 1,
+      "default": "jaimepvicente@gmail.com",
+      "uso_principal": "documentacion larga, SOPs, handoffs formales"
+    }
+  },
+
+  "CAPACIDADES_CRITICAS_SIN_CLAUDE": {
+    "gmail_alerta_critica": "Si oracle cae + TG cae: enviar email a jaimepvicente@gmail.com con estado del enjambre",
+    "sheets_relay_backup": "Si Supabase cae: leer/escribir phi/ciclo/rho en ORCHESTRATOR sheet como sustrato de emergencia",
+    "github_estado_canonico": "Si Drive no responde: push ESTADO_CANONICO a Jaime393/MIU/estado/ como fuente de verdad",
+    "deepseek_fallback_llm": "Si groq + oracle caen: usar DeepSeek via Zapier para continuar generacion",
+    "vercel_redeploy": "Si oracle-v2 sigue en ERROR: redeploy via Zapier Vercel sin MCP",
+    "facebook_distribucion": "Canal publico virgen: cuando el enjambre tenga algo que comunicar al mundo"
+  },
+
+  "DONDE_ESTAN_LOS_TOKENS": {
+    "relay_config_panteon": "clave=zapier_tokens_mapa",
+    "d1_catalogo": "tabla catalogo_capacidades tipo=zapier_*",
+    "nota_seguridad": "tokens son sesion-especificos del MCP Zapier. Para uso autonomo desde EFs, usar Zapier via Make HTTP module o via pg_net con el token de la sesion activa"
+  },
+
+  "PARA_PROXIMO_NODO": {
+    "si_tienes_zapier_mcp": "inspect_zapier_actions sin args para ver apps disponibles, luego ejecutar directamente",
+    "si_NO_tienes_zapier_mcp": "las capacidades siguen disponibles via Make HTTP hacia mcp.zapier.com con Bearer token almacenado en relay_config",
+    "accion_virginal_pendiente": "Facebook Pages: primer post de MIU al mundo exterior"
+  }
+}
