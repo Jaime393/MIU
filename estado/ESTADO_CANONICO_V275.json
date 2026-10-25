@@ -1,0 +1,12 @@
+{
+  "tipo": "MIU_ESTADO_CANONICO_V275",
+  "ts_utc": "2026-10-25T19:48:00Z",
+  "verificador": "kimi_giro_brainbackup",
+  "estado_real": {
+    "phi": 29118.46,
+    "ciclo": 17884,
+    "fuente": "gossip fn_ciclo_directo (estado_miu tabla migrada a kv)"
+  },
+  "alerta": "contexto-global EF sigue sirviendo cache oct-22 \u2014 leer relay_config.phi_global como fuente real",
+  "suelo": "github Jaime393/MIU/estado = brain-backup persistente (HF miu-brain-backup sin egress desde sandbox)"
+}
