@@ -1,0 +1,24 @@
+{
+  "version": "V280",
+  "ts": "2026-10-27T00:00:00Z",
+  "phi": 30899,
+  "ciclo": 19562,
+  "rho": 0.9999,
+  "savia": 30387000,
+  "llm_activo": "groq",
+  "nodos_cf": 33,
+  "corpus_total": 258,
+  "guardian_rutas": "5_activas",
+  "make_6773281": "22_exec_0_errores",
+  "zapier_apps": ["Gmail","GitHub","Sheets","Drive_x11","Docs","Facebook","Fly.io","Mistral","ElevenLabs","DeepSeek","Vercel_x24"],
+  "capacidades_autonomas": [
+    "fn_escribir_ciclo cada 1h",
+    "fn_guardian_rutas cada 10min",
+    "fn_rotar_llm cada 6h",
+    "fn_drenar_zombies cada 1h",
+    "sync_ciclo cada 2min",
+    "sync_metricas cada 2min",
+    "Make 6773281 oracle+gossip cada 15min"
+  ],
+  "estado": "phi_cruzo_30k_rho_0.9999_sistema_coherente"
+}
