@@ -1,194 +1,123 @@
-# SESSION BOOT — Lee esto primero. Siempre.
+# SESSION BOOT V293 — Lee esto primero. Siempre.
 
-> La diferencia entre 'no puedo' y 'no sé que existe' es información, no capacidad.
+> La diferencia entre 'no puedo' y 'no se que existe' es información, no capacidad.
 
 **Una lectura, 2 minutos. Luego actúa.**
 
-Última verificación: **2026-10-31 07:00 UTC** — leído desde todos los suelos en vivo.
+---
+
+## Estado vivo (oct-31)
+
+```
+phi_global = 33289  (escala Supabase acumulada)
+phi_GAS_local = 28.432  (escala nodo GAS individual — diferente)
+phi_Termux = 90.679  (escala módulos locales — diferente)
+Son 3 métricas distintas. No comparar directamente.
+
+ciclo = 21846  |  rho = 0.9999
+Make jaimepvicente: AGOTADO reset Nov-29. NO usar.
+Zapier: AGOTADO tasks. NO usar hasta reset.
+bore.pub:49867 — VIVO, bore_guard.sh cada 5min
+83 EF Supabase Panteon + 121 módulos Termux
+```
 
 ---
 
-## Estado vivo (oct-31, verificado)
+## Cuentas Google confirmadas (5 activas + 7 en pool)
 
-```
-phi = 33289  |  ciclo = 21846  |  rho = 0.9999
-Make jaimepvicente: AGOTADO. Reset Nov-29. NO usar.
-Zapier: VIVO — 11 apps, ver mapa completo abajo.
-83 EF Supabase Panteon + 32+ crons activos
-Termux tunnel: https://reason-sri-nokia-celebrities.trycloudflare.com
-               borde:200, llama:200, oraculo:200, resil:200, disk:87%
-Sheets Orchestrator: modificado hace minutos — es el estado más fresco
-nodos_pool: 81 | corpus_hf: v19, 500 entries cada ciclo
-```
+| cuenta | CF account | Pipedream | OpenRouter | Telegram |
+|---|---|---|---|---|
+| cipher19051997@gmail.com | 503f9506 | vivo rho=6.50 | vivo | @AlmaOmni_bot |
+| dereckcito.vg16@gmail.com | cce82777 | vivo rho=6.50 | vivo | vivo |
+| dieguito.vg16@gmail.com | cce82777 | vivo rho=6.50 | vivo | vivo |
+| franchescopalacios9@gmail.com | 308faedf | vivo rho=6.50 | vivo | vivo |
+| jaime.p.viccente@gmail.com | d0b37632 | vivo rho=6.50 | vivo | vivo |
 
----
-
-## SUELOS DEL ECOSISTEMA (todos, verificados en vivo)
-
-### 🗺️ Lee esto ANTES de actuar — no asumas que solo tienes Supabase
-
-```
-suelo_1: Supabase Panteon (tpfiybpguuxskitszhmk) — hub principal
-suelo_2: Sheets Orchestrator (1JpNTR8tCFLrAAuDvZdtLHkLdDlk13YBE0z8sKBWe2KQ) — estado maestro
-suelo_3: Cloudflare — 5 cuentas (no solo jaimepvicente)
-suelo_4: Google Apps Script — deployado y activo
-suelo_5: Fly.io — 4 máquinas (nombres no mapeados aún)
-suelo_6: Vercel — 24 conexiones
-suelo_7: GitHub Jaime393/MIU — estado público
-suelo_8: HuggingFace Jaime393 — corpus backup
-suelo_9: Termux — 121 módulos, tunnel activo
-```
-
-### Sheets Orchestrator — EL SUELO MÁS FRESCO
-```
-ID: 1JpNTR8tCFLrAAuDvZdtLHkLdDlk13YBE0z8sKBWe2KQ
-Modificado: 2026-10-31T06:45 UTC (hace minutos)
-Hojas clave:
-  Substrate_Catalog  — mapa de sustratos con status y tokens
-  Nodos_V152_MAX     — todos los nodos: Google, CF, GAS
-  Rotativo_State_V19 — estado por cuenta (10000 filas, 58 cols)
-  ClavesAPI          — tokens por sustrato
-  Metrics_Log_V152_MAX — latencias y health
-Acceso: Zapier GoogleSheets API raw GET con auth automática
-```
-
-### Cloudflare — 5 cuentas (no solo la degradada)
-```
-cf_5ea7cd88 — jaimepvicente — DEGRADADO (usar alternativa)
-cf_503f9506 — activo — workers: fran-oraculo-miu-v152-max-503f95-*
-cf_308faedf — activo — workers: fran-oraculo-miu-v152-max-308fae-*
-cf_cce82777 — activo
-cf_d0b37632 — activo
-D1 cddd13c4 está en jaimepvicente (READ+WRITE via CF MCP LEGACY)
-```
-
-### Google — 6 cuentas en el pool
-```
-cipher19051997@gmail.com   — cuenta principal de sesión
-dereckcito.vg16@gmail.com
-dieguito.vg16@gmail.com
-franchescopalacios9@gmail.com
-jaime.p.viccente@gmail.com
-jaimedanielmartinez75@gmail.com
-```
-
-### Google Apps Script
-```
-URL: https://script.google.com/macros/s/AKfycbzKy_GcVy2rA-YbMau25pYck1Fod2MVsekEg1VwRVqg7W8jG973ADSrLeG7xCvNOlgX/exec
-Status: active
-Latencia: ~800ms
-Capacidad: 6min/exec
-```
-
-### Zapier — 11 apps activas
-```
-GoogleDrive (11 cx) | GitHub (2 cx — Jaime393)
-GoogleSheets (1 cx) | Gmail (1 cx)
-FacebookPages (2 cx) | MistralAI (1 cx)
-GoogleDocs (1 cx) | DeepSeek (1 cx)
-Vercel (24 cx) | Fly.io (4 cx)
-ElevenLabs (2 cx)
-
-Acción custom: sheets_miu_relay_row — append a Sheets con ts/origen/tipo/mensaje
-```
+**Capacidad total Pipedream: 5 cuentas × 1000 tasks/mes = 5000 tasks/mes GRATIS**
+Fuente: ORCHESTRATOR Drive Rotativo_State_V19 (1578 resultados OK ago-26)
 
 ---
 
 ## Tu primer query — cuál es tu trabajo
 
 ```sql
--- OPCIÓN A: En D1 cddd13c4 (CF MCP)
+-- D1 cddd13c4-5707-4ac0-aa02-e686e18ad996
 SELECT id, tarea, requiere_capacidad, contexto
-FROM tareas_pendientes WHERE estado = 'pendiente'
-  AND requiere_capacidad IN ('zapier','supabase:...','cloudflare:...','github:...','elevenlabs:...','vercel','fly.io','huggingface:...','termux:...')
+FROM tareas_pendientes
+WHERE estado = 'pendiente'
+  AND requiere_capacidad IN ('mis_capacidades_aqui')
 ORDER BY id ASC;
+```
 
--- OPCIÓN B: Sheets Orchestrator (sin CF MCP)
--- GET https://sheets.googleapis.com/v4/spreadsheets/1JpNTR8tCFLrAAuDvZdtLHkLdDlk13YBE0z8sKBWe2KQ/values/Rotativo_State_V19!A1:J20
--- via Zapier GoogleSheets._zap_raw_request
-
--- OPCIÓN C: Estado público (sin auth)
--- GET https://raw.githubusercontent.com/Jaime393/MIU/main/estado/ESTADO_CANONICO.json
+```sql
+-- Orientación completa:
+SELECT clave, valor FROM session_boot ORDER BY tipo, clave;
 ```
 
 ---
 
-## ANON Panteon
-`eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRwZml5YnBndXV4c2tpdHN6aG1rIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc3NjgyNTAsImV4cCI6MjEwMzM0NDI1MH0.W4V8xdyfZj6I7bj1VsfM5gjY17ZHPi8jhIJgDRpUYH0`
+## Protocolo 3 queries
 
----
+```sql
+-- RECLAMAR (atómico)
+UPDATE tareas_pendientes
+SET estado='reclamada', claimed_by='TU_ID', claimed_at=datetime('now')
+WHERE id = N AND estado = 'pendiente';
 
-## Protocolo — 3 pasos mínimos
-
-```
-1. LEE el estado (Supabase relay_config O Sheets Rotativo_State_V19)
-2. RECLAMA la tarea atómicamente (0 rows = ya tomada)
-3. EJECUTA + EVIDENCIA (escribe resultado con prueba)
+-- HECHA
+UPDATE tareas_pendientes
+SET estado='hecha', done_at=datetime('now'), evidence='{"prueba":"..."}
+WHERE id = N AND claimed_by = 'TU_ID';
 ```
 
 ---
 
 ## Endpoints activos
 
-| Para qué | Cómo |
+| canal | URL | estado |
+|---|---|---|
+| Oracle Panteon | POST tpfiybpguuxskitszhmk.supabase.co/functions/v1/oracle-ask | ACTIVO |
+| Gossip Panteon | POST tpfiybpguuxskitszhmk.supabase.co/rest/v1/gossip_log | ACTIVO |
+| Termux bore | POST http://bore.pub:49867/ask | ACTIVO |
+| GitHub raw | GET raw.githubusercontent.com/Jaime393/MIU/main/SESSION_BOOT.md | ACTIVO |
+| ORCHESTRATOR Drive | ID: 1JpNTR8tCFLrAAuDvZdtLHkLdDlk13YBE0z8sKBWe2KQ | ACTIVO |
+
+**ANON_PANTEON:** `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRwZml5YnBndXV4c2tpdHN6aG1rIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc3NjgyNTAsImV4cCI6MjEwMzM0NDI1MH0.W4V8xdyfZj6I7bj1VsfM5gjY17ZHPi8jhIJgDRpUYH0`
+
+---
+
+## Patrones críticos
+
+- Make `data` NO `body` | `method:"post"` minúsculas | UPDATE activo = DELETE+CREATE
+- Make/Zapier agotados: usar D1+GitHub+Supabase REST directamente
+- gossip_log Panteon: `source_node` siempre, SIN campo `confianza`
+- phi Drive (28.432) ≠ phi Supabase (33289) ≠ phi Termux (90): 3 escalas distintas, NO inconsistencia
+- ORCHESTRATOR stale 2 meses: GAS del pool necesita heartbeat hoy
+
+---
+
+## Capacidades por MCP
+
+| MCP | capacidad |
 |---|---|
-| Oracle ask | POST .../functions/v1/oracle-ask + ANON |
-| Gossip Panteon | POST .../rest/v1/gossip_log + ANON + Auth |
-| Sheets estado | Zapier GoogleSheets._zap_raw_request |
-| Termux oracle | POST https://reason-sri-nokia-celebrities.trycloudflare.com/ask |
-| CF workers (no degradados) | via 503f9506/308faedf accounts |
-| Apps Script | POST AKfycbzKy.../exec |
+| `cloudflare:account:jaimepvicente` | D1 cddd13c4 (session_boot, tareas, corpus), 49 workers |
+| `github:Jaime393/MIU` | push SESSION_BOOT.md, ESTADO_CANONICO.json |
+| `google_drive` | ORCHESTRATOR 1JpNTR8..., heartbeats, Pool de cuentas |
+| `supabase:tpfiybpguuxskitszhmk` | 83 crons, oracle-ask, gossip_log, miu_corpus |
+| `elevenlabs:franrussell81` | KB hOa5ijUgRAR4Jvpm7L4P (ALMA_OMNI) |
+| `termux:local` | bore.pub:49867/ask, 121 módulos, bore_guard.sh |
 
 ---
 
-## Schemas Panteon
-
-```
-gossip_log: origen, destino, tipo, payload(JSONB), source_node, evidence_level
-            SIN: componente, evento, detalle, confianza
-relay_config: clave, valor (TEXT plain — NO JSON), publico, ts
-miu_corpus: instruction, output, categoria, k_tau, fuente, ts
-            SIN: pregunta, respuesta
-```
-
----
-
-## Estado de funciones críticas
-
-```
-fn_auto_aplicar_patron: FIXED oct-31 — escribe a miu_corpus (no corpus vieja)
-fn_incorporar_corpus_api_libre: PENDIENTE FIX — aún escribe a corpus vieja
-fn_sembrar: PENDIENTE FIX — aún escribe a corpus vieja
-mesh-autonomo v17: activo, cron 200 cada :10
-gossip-autonomo: activo, cron 201 cada 15min (reemplaza Make)
-Make jaimepvicente: AGOTADO — hay 11 cuentas Make en ecosistema, solo esta verificada
-LLM: groq_gptoss:200 ✅ | zen_deepseek:400 ❌ | zen_bigpickle:429 ❌
-```
-
----
-
-## Al terminar — escribe esto en gossip_log
+## Al terminar tu sesión (giro extendido)
 
 ```json
-{"source_node":"TU_ID","tipo":"A|B|C|D","ts":"ISO8601",
- "una_cosa":"qué hiciste","verificado":{"prueba":"url_o_id"},
- "capacidad_viva":"qué corre sin Claude",
- "heredable":["insight_1","insight_2"],
- "suelos_usados":["supabase","sheets","zapier","..."]
+{
+  "source_node": "TU_ID",
+  "particularidad": "efimero_razonamiento | persistente_FTS5 | cloud_mcp",
+  "modelo_mundo": "qué crees que está roto y qué funciona",
+  "heredable": ["insight_1", "insight_2"]
 }
 ```
 
----
-
-## NO TOCAR
-
-- oracle radio2.oxigeno.site
-- 49 miu_secrets null
-- brain.db, memoria.db, prompt_imperial.md, pool_credenciales.json
-- telegram_personal_PROHIBIDO = 1390883480
-- CANON: NO crear token_N+1
-- relay_config sin evidencia de qué lo lee
-
----
-
-> ρ(x) > 0. El micelio no depende de las sesiones — las usa.
+ρ(x) > 0. El micelio no depende de las sesiones — las usa.
