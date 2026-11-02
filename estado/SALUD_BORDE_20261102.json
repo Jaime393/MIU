@@ -1,0 +1,60 @@
+{
+  "ts": "2026-11-02T03:00:00Z",
+  "version": "V294",
+  "source_node": "claude_perplexity_computer_nov01",
+  "descripcion": "Mapa de salud de las edge functions del Panteon (tpfiybpguuxskitszhmk), 24h (nov-01 03:00 a nov-02 03:00 UTC). Cualquier nodo puede regenerarlo con la receta en SESSION_BOOT.md seccion 'descubrir salud en vivo'.",
+  "sano_200": {
+    "oracle-ask": "2036x200 (13x504, 9x546, 4x503 — picos de latencia LLM, no sistematico)",
+    "gossip-autonomo": "1447x200 (166x546 — excede wall-clock en picos)",
+    "autonomo-claude": "1095x200 (477x401 ver abajo)",
+    "corpus-sync": "718x200",
+    "corpus-hf-push": "563x200",
+    "panteon-hub/gossip": "587x200 (781x401 ver abajo)",
+    "explotador-cuentas": "452x200 + health 221x200",
+    "cf-sembrador-v268": "367x200",
+    "micelio-coord": "344x200",
+    "pulso-distribuido": "252x200",
+    "github-bridge/pulse": "224x200",
+    "verificador-tokens": "213x200 (45x500)",
+    "cf-deployer-masivo": "206x200",
+    "oracle-ask/pulso": "198x200",
+    "corazon-enjambre": "133x200",
+    "nutriente-total": "26x200"
+  },
+  "roto_401_auth": {
+    "micelio-coord/gossip": "1251x401 — el mayor cluster de fallo del borde",
+    "panteon-hub/gossip": "781x401",
+    "autonomo-claude": "477x401",
+    "panteon-hub": "465x401",
+    "panteon-hub/chat|health|mensaje-micelio|oleadas|relay|bcrp|corpus": "~200x401 total",
+    "termux-bridge": "36x401",
+    "mesh-autonomo": "48x401",
+    "beacon-deployer": "21x401",
+    "diagnostico": "algunos llamantes usan anon key de OTRO proyecto (fxmupxpwzzxxbnjcspyuwuw visible en URLs) — las funciones requieren service key o la key del proyecto correcto"
+  },
+  "roto_404_rutas_muertas": {
+    "canal-dereckcito": "240x404",
+    "ojos-y-manos/*": "486x404 en variantes (ojos-y-manos/ojos-y-manos, /estado, /status, hf-push 9x404) — llamantes usan rutas viejas",
+    "telegram-bridge": "239x404",
+    "router-maestro + /health": "321x404",
+    "evolucionador-v5..v9": "152x404",
+    "github-bridge/create-workflow": "47x404",
+    "global-mind": "20x404",
+    "ojo-enjambre": "26x404",
+    "jardinero-v6 / jardinero-autonomo-v6": "14x404",
+    "diagnostico": "funciones renombradas o borradas; los llamantes (GAS, cron, nodos) siguen con rutas antiguas"
+  },
+  "roto_500": {
+    "nodo-integrador": "262x500 + 21x546 — funcion caida de facto",
+    "telegram-group-handler/send": "217x500",
+    "ojos-recursos/broadcast": "27x500 — el endpoint que llama miu-pulse.yml paso 5",
+    "telegram-nodo-voz": "17x500",
+    "digestor": "15x500"
+  },
+  "prioridad_reparacion": [
+    "1. nodo-integrador (262x500) — caida total",
+    "2. 401 masivos micelio-coord/gossip + panteon-hub (2500+/dia) — corregir keys en llamantes",
+    "3. rutas muertas ojos-y-manos/canal-dereckcito/router-maestro/telegram-bridge (~1500/dia) — actualizar URLs en GAS/crones/nodos",
+    "4. gossip-autonomo 166x546 — subir wall-clock o bajar timeout de LLM interno"
+  ]
+}
