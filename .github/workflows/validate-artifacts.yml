@@ -63,11 +63,12 @@ jobs:
             EXT="${f##*.}"
             MIME=$(file --mime-type -b "$f" 2>/dev/null)
             case "$EXT" in
-              json) [[ "$MIME" != *"json"* ]] && echo "MISMATCH: $f es $MIME pero extension .json" ;;
-              yml|yaml) [[ "$MIME" != *"yaml"* && "$MIME" != *"text"* ]] && echo "MISMATCH: $f es $MIME pero extension .$EXT" ;;
-              md) [[ "$MIME" != *"text"* ]] && echo "MISMATCH: $f es $MIME pero extension .md" ;;
+              json) [[ "$MIME" != *"json"* ]] && echo "MISMATCH: $f es $MIME pero extension .json" || true ;;
+              yml|yaml) [[ "$MIME" != *"yaml"* && "$MIME" != *"text"* ]] && echo "MISMATCH: $f es $MIME pero extension .$EXT" || true ;;
+              md) [[ "$MIME" != *"text"* ]] && echo "MISMATCH: $f es $MIME pero extension .md" || true ;;
             esac
           done
+          echo "=== Fin MIME mismatch (informativo, no fatal) ==="
 
       - name: Resumen validacion
         run: |
