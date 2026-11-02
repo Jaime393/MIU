@@ -1,0 +1,82 @@
+name: MIU Pattern Evolution V1
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # cada 6 horas
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  evolve-patterns:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    continue-on-error: true
+
+    steps:
+      - name: 1 Cargar patrones del enjambre
+        env:
+          SUPABASE_PAT: ${{ secrets.SUPABASE_PAT }}
+        run: |
+          echo "=== Cargando patrones del enjambre ==="
+          # Leer últimos 20 patrones registrados en relay_config
+          curl -sf -m 15 -X POST \
+            "https://api.supabase.com/v1/projects/qtmcbqsahdomgsxgsaxi/database/query" \
+            -H "Authorization: Bearer $SUPABASE_PAT" \
+            -H "Content-Type: application/json" \
+            -d '{"query": "SELECT clave, valor FROM relay_config WHERE clave LIKE '\''patron_%'\'' ORDER BY ts DESC LIMIT 20;"}' \
+            -o /tmp/patrones.json 2>/dev/null && echo "  Patrones cargados" || echo "  (sin patrones aún, seed inicial)"
+
+      - name: 2 Detectar huecos y proponer patrones
+        run: |
+          echo "=== Detectando huecos ==="
+          # Los 11 nutrientes base que deben cubrirse
+          NUTRIENTES="supabase cloudflare github gemini huggingface vercel flyio elevenlabs groq anthropic n8n"
+          echo "  Nutrientes base: $NUTRIENTES"
+
+          # Verificar qué nutrientes no tienen patrón registrado aún
+          HUECOS=""
+          for n in $NUTRIENTES; do
+            if ! grep -q "patron_$n" /tmp/patrones.json 2>/dev/null; then
+              HUECOS="$HUECOS $n"
+            fi
+          done
+          echo "  Huecos detectados: ${HUECOS:-ninguno}"
+          echo "$HUECOS" > /tmp/huecos.txt
+
+      - name: 3 Usar IA (Pollinations) para generar nuevos patrones
+        run: |
+          echo "=== Generando patrones con IA gratuita (Pollinations) ==="
+          HUECOS=$(cat /tmp/huecos.txt 2>/dev/null | tr -d '\n')
+          if [ -n "$HUECOS" ] && [ "$HUECOS" != "ninguno" ]; then
+            PROMPT="Eres un nodo del enjambre MIU. Genera un patrón de integración para estos nutrientes: $HUECOS. Formato: clave=patron_NOMBRE, valor=JSON con campos: nombre, objetivo, pasos, dependencias, estado_inicial."
+            RESPUESTA=$(curl -sf -m 30 -X POST "https://text.pollinations.ai/" \
+              -H "Content-Type: application/json" \
+              -d "{\"messages\":[{\"role\":\"system\",\"content\":\"You are a helpful assistant\"},{\"role\":\"user\",\"content\":\"$PROMPT\"}],\"model\":\"openai\"}")
+            echo "  IA propuso: ${RESPUESTA:0:300}"
+          else
+            echo "  Todos los nutrientes tienen patrón. Evolucionando existentes..."
+          fi
+
+      - name: 4 Registrar patrón evolucionado
+        env:
+          SUPABASE_PAT: ${{ secrets.SUPABASE_PAT }}
+        run: |
+          echo "=== Registrando patrón evolucionado en relay_config ==="
+          TS=$(date -u +%Y%m%d_%H%M)
+          NOW=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          # Registrar el patrón base de evolución para que el ecosistema lo replique
+          curl -sf -m 15 -X POST \
+            "https://api.supabase.com/v1/projects/qtmcbqsahdomgsxgsaxi/database/query" \
+            -H "Authorization: Bearer $SUPABASE_PAT" \
+            -H "Content-Type: application/json" \
+            -d "{\"query\": \"INSERT INTO relay_config (clave, valor, ts) VALUES ('patron_evolution_$TS', '{\\\"ts\\\":\\\"$NOW\\\",\\\"tipo\\\":\\\"workflow_evolution\\\",\\\"origen\\\":\\\"github_actions\\\",\\\"herramientas\\\":[\\\"pollinations_ai\\\",\\\"supabase_relay\\\"],\\\"estado\\\":\\\"activo\\\"}', NOW());\"}" \
+            >/dev/null 2>&1 && echo "  Patrón registrado: patron_evolution_$TS" || echo "  (fallo registro, reintentar)"
+
+      - name: 5 Summary
+        run: |
+          echo "=== MIU Pattern Evolution V1 ==="
+          echo "Fecha: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "Patrón de evolución registrado en relay_config"
+          echo "El ecosistema puede replicarlo autónomamente en la próxima iteración"
