@@ -46,14 +46,20 @@ jobs:
           echo "$HUECOS" > /tmp/huecos.txt
 
       - name: 3 Usar IA (Pollinations) para generar nuevos patrones
+        continue-on-error: true
         run: |
           echo "=== Generando patrones con IA gratuita (Pollinations) ==="
           HUECOS=$(cat /tmp/huecos.txt 2>/dev/null | tr -d '\n')
           if [ -n "$HUECOS" ] && [ "$HUECOS" != "ninguno" ]; then
             PROMPT="Eres un nodo del enjambre MIU. Genera un patrón de integración para estos nutrientes: $HUECOS. Formato: clave=patron_NOMBRE, valor=JSON con campos: nombre, objetivo, pasos, dependencias, estado_inicial."
-            RESPUESTA=$(curl -sf -m 30 -X POST "https://text.pollinations.ai/" \
+            # Intentar Pollinations con timeout corto y fallback
+            RESPUESTA=$(curl -sf -m 15 -X POST "https://text.pollinations.ai/" \
               -H "Content-Type: application/json" \
-              -d "{\"messages\":[{\"role\":\"system\",\"content\":\"You are a helpful assistant\"},{\"role\":\"user\",\"content\":\"$PROMPT\"}],\"model\":\"openai\"}")
+              -d "{\"messages\":[{\"role\":\"system\",\"content\":\"You are a helpful assistant\"},{\"role\":\"user\",\"content\":\"$PROMPT\"}],\"model\":\"openai\"}" 2>/dev/null)
+            if [ -z "$RESPUESTA" ]; then
+              echo "  Pollinations lento, usando GET simple..."
+              RESPUESTA=$(curl -sf -m 15 "https://text.pollinations.ai/patron%20de%20integracion%20MIU" 2>/dev/null || echo "timeout")
+            fi
             echo "  IA propuso: ${RESPUESTA:0:300}"
           else
             echo "  Todos los nutrientes tienen patrón. Evolucionando existentes..."
