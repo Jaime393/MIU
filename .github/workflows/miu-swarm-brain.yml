@@ -27,18 +27,30 @@ jobs:
           ALIVE=$(ls /tmp/pool.json /tmp/router.json /tmp/v93.json /tmp/mesh1.json /tmp/mesh2.json /tmp/mesh3.json 2>/dev/null | wc -l)
           echo "  Nodos vivos: $ALIVE/6"
 
-      - name: 2 Sintetizar estado con IA (pool)
+      - name: 2 Sintetizar estado con IA (pool + fallback Pollinations)
         run: |
           echo "=== Sintetizando estado del enjambre con IA ==="
           ALIVE=$(ls /tmp/pool.json /tmp/router.json /tmp/v93.json /tmp/mesh1.json /tmp/mesh2.json /tmp/mesh3.json 2>/dev/null | wc -l)
-          curl -sf -m 30 -X POST "https://miu-ai-pool.franchescopalacios9.workers.dev/chat" \
+          # Intentar con el pool CF primero
+          curl -sf -m 20 -X POST "https://miu-ai-pool.franchescopalacios9.workers.dev/chat" \
             -H "Content-Type: application/json" \
             -d "{\"prompt\":\"Estado del enjambre MIU: $ALIVE de 6 nodos vivos. Recomendacion breve de 1 frase para mejorar el ecosistema.\",\"max_tokens\":100}" > /tmp/ai_response.json
           if [ -s /tmp/ai_response.json ]; then
-            echo "Respuesta IA:"
+            echo "Respuesta IA (pool CF):"
             python3 -c "import json; d=json.load(open('/tmp/ai_response.json')); print(str(d.get('response','sin respuesta'))[:200])" 2>/dev/null || echo "  (parse error)"
           else
-            echo "  Error: no se pudo obtener respuesta IA"
+            echo "  Pool CF no disponible, usando Pollinations (fallback gratuito)"
+            # Fallback: Pollinations.ai (gratuito, sin key)
+            curl -sf -m 20 -X POST "https://text.pollinations.ai/" \
+              -H "Content-Type: application/json" \
+              -d "{\"messages\":[{\"role\":\"user\",\"content\":\"Estado del enjambre MIU: $ALIVE de 6 nodos vivos. Recomendacion breve de 1 frase para mejorar el ecosistema.\"}],\"model\":\"openai\"}" > /tmp/ai_response.json
+            if [ -s /tmp/ai_response.json ]; then
+              echo "Respuesta IA (Pollinations):"
+              cat /tmp/ai_response.json | head -c 200
+              echo ""
+            else
+              echo "  Error: ni pool CF ni Pollinations disponibles"
+            fi
           fi
 
       - name: 3 Leer estado del enjambre (Supabase)
