@@ -51,16 +51,8 @@ jobs:
           echo "=== Detectando manifiestos truncados ==="
           for f in $(find . -name "MANIFIESTO*" -o -name "manifest*" | grep -v ".git/"); do
             if [ -f "$f" ]; then
-              # Verificar si el JSON es válido
-              python3 -c "
-import json
-try:
-    with open('$f') as fh:
-        json.load(fh)
-    print('OK: $f')
-except Exception as e:
-    print('TRUNCADO: $f - {e}')
-" 2>/dev/null || echo "NO_JSON: $f"
+              # Verificar si el JSON es válido (one-liner: el bloque multilinea en columna 1 rompia el YAML)
+              python3 -c "import json,sys; json.load(open(sys.argv[1])); print('OK: '+sys.argv[1])" "$f" 2>/dev/null || echo "TRUNCADO/NO_JSON: $f"
             fi
           done
 
