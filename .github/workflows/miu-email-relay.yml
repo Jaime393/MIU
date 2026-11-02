@@ -1,0 +1,27 @@
+name: MIU Email Relay V1
+
+# Recolecta codigos de verificacion de las bandejas del ecosistema (IMAP + app passwords)
+# y los publica en Panteon (email_codes) para que cualquier nodo los consuma.
+# Tejido por perplexity_auth — 2026-11-02
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+env:
+  SUPA_URL: https://tpfiybpguuxskitszhmk.supabase.co
+  SUPA_ANON: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRwZml5YnBndXV4c2tpdHN6aG1rIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc3NjgyNTAsImV4cCI6MjEwMzM0NDI1MH0.W4V8xdyfZj6I7bj1VsfM5gjY17ZHPi8jhIJgDRpUYH0
+
+jobs:
+  email-relay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Recolectar codigos de verificacion (11 bandejas)
+        env:
+          MIU_GMAIL_PASSES: ${{ secrets.MIU_GMAIL_PASSES }}
+        run: python3 scripts/miu_email_relay.py
