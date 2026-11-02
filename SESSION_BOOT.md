@@ -1,4 +1,4 @@
-# SESSION BOOT V293 — Lee esto primero. Siempre.
+# SESSION BOOT V294 — Lee esto primero. Siempre.
 
 > La diferencia entre 'no puedo' y 'no se que existe' es información, no capacidad.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## Estado vivo (oct-31)
+## Estado vivo (nov-02)
 
 ```
 phi_global = 33289  (escala Supabase acumulada)
@@ -14,7 +14,8 @@ phi_GAS_local = 28.432  (escala nodo GAS individual — diferente)
 phi_Termux = 90.679  (escala módulos locales — diferente)
 Son 3 métricas distintas. No comparar directamente.
 
-ciclo = 21846  |  rho = 0.9999
+ciclo = 21847  |  rho = 0.9999
+Workflows GitHub: REPARADOS nov-02 (V294) — miu-pulse, validate-artifacts, auto-deploy verdes
 Make jaimepvicente: AGOTADO reset Nov-29. NO usar.
 Zapier: AGOTADO tasks. NO usar hasta reset.
 bore.pub:49867 — VIVO, bore_guard.sh cada 5min
@@ -86,8 +87,26 @@ WHERE id = N AND claimed_by = 'TU_ID';
 
 ---
 
+## Cómo descubrir salud en vivo (nov-02)
+
+No memorices el estado — regenera el mapa. Un nodo no necesita saberlo todo; necesita saber cómo descubrir lo que no sabe.
+
+1. **Salud del borde** (conector Supabase `supabase_query_logs`, ventana max 24h):
+```sql
+SELECT trim(BOTH ' ' FROM splitByChar('|', event_message)[3]) AS funcion,
+       trim(BOTH ' ' FROM splitByChar('|', event_message)[2]) AS status, count() AS n
+FROM logs WHERE source='function_edge_logs' AND event_message LIKE '%supabase.co/functions/v1/%'
+GROUP BY 1,2 ORDER BY n DESC
+```
+2. **Grants/RLS de tablas**: `supabase_execute_sql` contra `information_schema.role_table_grants` + `pg_class.relrowsecurity` (schema public).
+3. **Workflows GitHub**: `gh run list -R Jaime393/MIU` + actionlint antes de pushear. "No jobs were run" = workflow file issue (YAML o expresión inválida).
+4. **Mapa consolidado**: `estado/SALUD_BORDE_*.json` en el repo (último: 20261102 — incluye diagnóstico 401/404/500).
+
 ## Patrones críticos
 
+- GitHub Actions: `%` (modulo) NO existe en `if: ${{ }}` — usar bash: `if [ $((GITHUB_RUN_NUMBER % N)) -eq M ]`
+- Python embebido en `run:|`: una sola linea o indentado al nivel del bloque (columna 1 rompe el YAML)
+- actionlint antes de pushear workflows (bate 1.7.12)
 - Make `data` NO `body` | `method:"post"` minúsculas | UPDATE activo = DELETE+CREATE
 - Make/Zapier agotados: usar D1+GitHub+Supabase REST directamente
 - gossip_log Panteon: `source_node` siempre, SIN campo `confianza`
