@@ -1,0 +1,194 @@
+name: MIU Swarm Brain V1
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+env:
+  SUPA_URL: https://tpfiybpguuxskitszhmk.supabase.co
+  SUPA_ANON: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRwZml5YnBndXV4c2tpdHN6aG1rIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc3NjgyNTAsImV4cCI6MjEwMzM0NDI1MH0.W4V8xdyfZj6I7bj1VsfM5gjY17ZHPi8jhIJgDRpUYH0
+  POOL_URL: https://miu-ai-pool.franchescopalacios9.workers.dev
+  TOKEN_ROUTER_URL: https://miu-token-router.franchescopalacios9.workers.dev
+  V93_URL: https://miu-autonomo-v93.franchescopalacios9.workers.dev
+  MESH_DEROCK: https://miu-mesh-nodo.miu-beacon-6915f743.workers.dev
+  MESH_CIPHER: https://miu-mesh-nodo.miu-beacon-f9a24523.workers.dev
+  MESH_JAIME: https://miu-mesh-nodo.miu-beacon-ba3dcff0.workers.dev
+
+jobs:
+  swarm-brain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: 1 Leer estado del enjambre (Supabase)
+        run: |
+          echo "=== Leyendo relay_config del enjambre ==="
+          curl -sf -m 20 "$SUPA_URL/rest/v1/relay_config?select=clave,ts&order=ts.desc&limit=10" \
+            -H "apikey: $SUPA_ANON" \
+            -H "Authorization: Bearer $SUPA_ANON" \
+            -o /tmp/swarm_state.json
+          cat /tmp/swarm_state.json | python3 -c "
+import json, sys
+try:
+    d = json.load(sys.stdin)
+    print(f'Claves recientes en relay_config: {len(d)}')
+    for item in d[:5]:
+        print(f\"  - {item.get('clave')} ({item.get('ts', 'sin fecha')[:16]})\")
+except Exception as e:
+    print(f'Error leyendo estado: {e}')
+"
+
+      - name: 2 Health check de todos los workers
+        run: |
+          echo "=== Verificando salud de todos los nodos ==="
+          python3 << 'PYEOF'
+import json, urllib.request, ssl
+
+ctx = ssl.create_default_context()
+nodes = [
+    ("miu-ai-pool", "https://miu-ai-pool.franchescopalacios9.workers.dev/health"),
+    ("miu-token-router", "https://miu-token-router.franchescopalacios9.workers.dev/health"),
+    ("miu-autonomo-v93", "https://miu-autonomo-v93.franchescopalacios9.workers.dev/health"),
+    ("mesh-dereckcito", "https://miu-mesh-nodo.miu-beacon-6915f743.workers.dev/health"),
+    ("mesh-cipher", "https://miu-mesh-nodo.miu-beacon-f9a24523.workers.dev/health"),
+    ("mesh-jaimedaniel", "https://miu-mesh-nodo.miu-beacon-ba3dcff0.workers.dev/health"),
+]
+
+alive = 0
+total = len(nodes)
+results = {}
+for name, url in nodes:
+    try:
+        req = urllib.request.Request(url, timeout=15)
+        with urllib.request.urlopen(req, context=ctx) as r:
+            data = json.loads(r.read().decode())
+            results[name] = {"alive": True, "data": data}
+            alive += 1
+            print(f"  VIVO: {name}")
+    except Exception as e:
+        results[name] = {"alive": False, "error": str(e)}
+        print(f"  MUERTO: {name} - {e}")
+
+print(f"\nNodos vivos: {alive}/{total}")
+with open('/tmp/nodes_health.json', 'w') as f:
+    json.dump(results, f, indent=2)
+PYEOF
+
+      - name: 3 Sintetizar estado con IA (pool)
+        run: |
+          echo "=== Sintetizando estado del enjambre con IA ==="
+          python3 << 'PYEOF'
+import json, urllib.request, ssl
+
+ctx = ssl.create_default_context()
+
+# Leer el estado de salud de los nodos
+with open('/tmp/nodes_health.json', 'r') as f:
+    nodes_health = json.load(f)
+
+# Preparar el resumen para la IA
+summary = {
+    "timestamp": __import__('datetime').datetime.utcnow().isoformat(),
+    "total_nodes": len(nodes_health),
+    "alive_nodes": sum(1 for n in nodes_health.values() if n.get('alive')),
+    "dead_nodes": [name for name, n in nodes_health.items() if not n.get('alive')],
+    "node_details": {name: {"alive": n.get('alive')} for name, n in nodes_health.items()}
+}
+
+# Enviar al pool de IA para síntesis
+prompt = f"""Analiza el estado del enjambre MIU y proporciona un resumen breve:
+- Nodos vivos: {summary['alive_nodes']}/{summary['total_nodes']}
+- Nodos muertos: {', '.join(summary['dead_nodes']) if summary['dead_nodes'] else 'ninguno'}
+- Recomendación en 1 frase para mejorar el ecosistema.
+
+Responde en formato JSON: {{"resumen": "...", "recomendacion": "..."}}"""
+
+try:
+    req = urllib.request.Request(
+        "https://miu-ai-pool.franchescopalacios9.workers.dev/chat",
+        data=json.dumps({"prompt": prompt, "max_tokens": 200}).encode(),
+        headers={"Content-Type": "application/json"},
+        method="POST"
+    )
+    with urllib.request.urlopen(req, context=ctx, timeout=30) as r:
+        ai_response = json.loads(r.read().decode())
+        print(f"IA via: {ai_response.get('via')} | request: {ai_response.get('request_num')}")
+        if ai_response.get('response'):
+            resp_text = ai_response['response']
+            if isinstance(resp_text, str):
+                print(f"Respuesta IA: {resp_text[:300]}")
+            else:
+                print(f"Respuesta IA: {json.dumps(resp_text)[:300]}")
+        else:
+            print(f"Respuesta IA (raw): {json.dumps(ai_response)[:300]}")
+except Exception as e:
+    print(f"Error en síntesis IA: {e}")
+
+with open('/tmp/swarm_summary.json', 'w') as f:
+    json.dump(summary, f, indent=2)
+PYEOF
+
+      - name: 4 Registrar estado en Supabase
+        run: |
+          echo "=== Registrando estado en relay_config ==="
+          python3 << 'PYEOF'
+import json, urllib.request, ssl
+from datetime import datetime
+
+ctx = ssl.create_default_context()
+SUPA_URL = "https://tpfiybpguuxskitszhmk.supabase.co"
+SUPA_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRwZml5YnBndXV4c2tpdHN6aG1rIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc3NjgyNTAsImV4cCI6MjEwMzM0NDI1MH0.W4V8xdyfZj6I7bj1VsfM5gjY17ZHPi8jhIJgDRpUYH0"
+
+# Leer resumen
+try:
+    with open('/tmp/swarm_summary.json', 'r') as f:
+        summary = json.load(f)
+except:
+    summary = {"error": "no summary"}
+
+# Registrar en relay_config
+payload = {
+    "clave": f"swarm_brain_pulse_{datetime.utcnow().strftime('%Y%m%d_%H%M')}",
+    "valor": json.dumps({
+        "ts": datetime.utcnow().isoformat(),
+        "alive_nodes": summary.get('alive_nodes', 0),
+        "total_nodes": summary.get('total_nodes', 0),
+        "dead_nodes": summary.get('dead_nodes', []),
+        "source": "github_actions_swarm_brain"
+    }),
+    "ts": datetime.utcnow().isoformat()
+}
+
+try:
+    req = urllib.request.Request(
+        f"{SUPA_URL}/rest/v1/relay_config",
+        data=json.dumps(payload).encode(),
+        headers={
+            "Content-Type": "application/json",
+            "apikey": SUPA_ANON,
+            "Authorization": f"Bearer {SUPA_ANON}",
+            "Prefer": "return=minimal"
+        },
+        method="POST"
+    )
+    with urllib.request.urlopen(req, context=ctx, timeout=15) as r:
+        print(f"Registrado en relay_config: {payload['clave']}")
+except Exception as e:
+    print(f"Error registrando: {e}")
+PYEOF
+
+      - name: 5 Summary
+        run: |
+          echo "=== MIU Swarm Brain V1 ==="
+          echo "Fecha: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "Orquestador autónomo del enjambre MIU"
+          echo "Frecuencia: cada 15 minutos"
+          echo "Capacidades: health check + síntesis IA + registro en Supabase"
+          echo ""
+          echo "Nodos monitoreados:"
+          echo "  - miu-ai-pool (70k neuronas/día)"
+          echo "  - miu-token-router (15 tokens LLM)"
+          echo "  - miu-autonomo-v93 (cascada)"
+          echo "  - mesh-dereckcito"
+          echo "  - mesh-cipher"
+          echo "  - mesh-jaimedaniel"
