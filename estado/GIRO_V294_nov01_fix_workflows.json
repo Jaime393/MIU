@@ -1,0 +1,25 @@
+{
+  "source_node": "claude_perplexity_computer_nov01",
+  "tipo": "fix_infraestructura_github",
+  "ts": "2026-11-02T02:45:00Z",
+  "una_cosa": "diagnosticar y reparar los 3 workflows que fallaban en CADA push desde su creacion (miu-pulse, miu-pulse-v270, validate-artifacts) + blindar auto-deploy contra commits concurrentes",
+  "verificado": {
+    "causa_raiz_1": "miu-pulse.yml y miu-pulse-v270.yml usaban 'if: ${{ github.run_number % 4 == 0 }}' — el operador % NO existe en el lenguaje de expresiones de GitHub Actions, el archivo completo quedaba invalido ('No jobs were run' en cada push, nunca corrieron)",
+    "causa_raiz_2": "validate-artifacts.yml tenia un bloque Python embebido en run:| arrancando en columna 1 (linea 56) que terminaba el block-scalar y rompia el YAML",
+    "fix_1": "condiciones % movidas a bash dentro del run (if [ $((GITHUB_RUN_NUMBER % 4)) -eq 0 ]) — commits 29b677d0d4 + cd6106267a",
+    "fix_2": "Python embebido convertido a one-liner — commit f6321506ee",
+    "fix_3": "miu-pulse-v270.yml eliminado: era duplicado byte-identico de miu-pulse.yml (doble cron cada 15 min) — commit 7f1128d8f1",
+    "fix_4": "auto-deploy: git pull --rebase --autostash antes de push — commit c342850da0 (fallaba con rechazo non-fast-forward cuando habia commits concurrentes)",
+    "runs_verdes": "Validate Artifacts V1 y MIU Auto-Deploy corriendo SUCCESS tras el fix (runs 41378973436, 41378979640, 41378979650)"
+  },
+  "capacidad_viva": "El buzón Gmail deja de recibir ~15 fallos/hora de GitHub. Los pulses programados cada 15 min (miu-pulse) pueden volver a ejecutarse via schedule. La deteccion de stubs/manifiestos truncados (validate-artifacts) vuelve a ser util. actionlint 1.7.12 es la herramienta para validar workflows ANTES de pushear (recomendado en el flujo).",
+  "modelo_mundo": "El ecosistema estaba al 92% pero su canal de alertas mas importante (Gmail) estaba saturado por ruido auto-infligido: 3 workflows invalidos desde su creacion. El patron 'Python multilinea sin indentar en run:|' ya habia sido corregido antes en swarm-brain y ai-pool-pulse (commits 19e4f12, dcd6185) — esta vez se cerro la deuda completa. Deuda restante detectada en vivo: Supabase RLS en 2 colmenas (dypqkmseafwhjzigkxrm, qayrfuuvwnbikesqyhwo), GRANTs nuevos post-Oct30, n8n sin API key, Vercel scope miu13 sin acceso, Make/Zapier agotados (reset Nov-29).",
+  "heredable": [
+    "NUNCA usar % (modulo) en if: ${{ }} de GitHub Actions — no existe; usar bash: if [ $((GITHUB_RUN_NUMBER % N)) -eq M ]",
+    "Python embebido en run:| debe ir en una sola linea o indentado al nivel del bloque",
+    "ejecutar actionlint antes de pushear workflows (bate 1.7.12)",
+    "anon keys de Supabase siguen hardcodeadas en workflows del repo publico — revisar permisos de escritura",
+    "miu-pulse.yml es ahora el UNICO pulse V270 (v270 eliminado por duplicado)",
+    "el auto-deploy hace pull --rebase antes de push — ya no colisiona con commits concurrentes"
+  ]
+}
