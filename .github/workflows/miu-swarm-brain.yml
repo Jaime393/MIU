@@ -42,36 +42,34 @@ jobs:
           fi
 
       - name: 3 Leer estado del enjambre (Supabase)
+        continue-on-error: true
         run: |
           echo "=== Leyendo relay_config del enjambre ==="
-          curl -sf -m 20 "$SUPA_URL/rest/v1/relay_config?select=clave&order=ts.desc&limit=5" \
+          curl -sf -m 10 "$SUPA_URL/rest/v1/relay_config?select=clave&order=ts.desc&limit=5" \
             -H "apikey: $SUPA_ANON" \
             -H "Authorization: Bearer $SUPA_ANON" \
-            -o /tmp/swarm_state.json
+            -o /tmp/swarm_state.json || echo "  (núcleo saturado, continuando)"
           if [ -s /tmp/swarm_state.json ]; then
             echo "  Claves recientes:"
             python3 -c "import json; d=json.load(open('/tmp/swarm_state.json')); [print(f'    - {i[\"clave\"]}') for i in d[:5]]" 2>/dev/null || echo "    (parse error)"
           else
-            echo "  Error: núcleo colmena no accesible"
+            echo "  Núcleo colmena no accesible (saturado)"
           fi
 
       - name: 4 Registrar estado en Supabase
+        continue-on-error: true
         run: |
           echo "=== Registrando estado en relay_config ==="
           ALIVE=$(ls /tmp/pool.json /tmp/router.json /tmp/v93.json /tmp/mesh1.json /tmp/mesh2.json /tmp/mesh3.json 2>/dev/null | wc -l)
           TS=$(date -u +%Y%m%d_%H%M)
           NOW=$(date -u +%Y-%m-%dT%H:%M:%SZ)
-          curl -sf -m 15 -X POST "$SUPA_URL/rest/v1/relay_config" \
+          curl -sf -m 10 -X POST "$SUPA_URL/rest/v1/relay_config" \
             -H "Content-Type: application/json" \
             -H "apikey: $SUPA_ANON" \
             -H "Authorization: Bearer $SUPA_ANON" \
             -H "Prefer: return=minimal" \
-            -d "{\"clave\":\"swarm_brain_$TS\",\"valor\":\"{\\\"ts\\\":\\\"$NOW\\\",\\\"alive\\\":$ALIVE,\\\"total\\\":6,\\\"source\\\":\\\"github_actions\\\"}\",\"ts\":\"$NOW\"}"
-          if [ $? -eq 0 ]; then
-            echo "  Registrado: swarm_brain_$TS"
-          else
-            echo "  Error registrando (núcleo saturado)"
-          fi
+            -d "{\"clave\":\"swarm_brain_$TS\",\"valor\":\"{\\\"ts\\\":\\\"$NOW\\\",\\\"alive\\\":$ALIVE,\\\"total\\\":6,\\\"source\\\":\\\"github_actions\\\"}\",\"ts\":\"$NOW\"}" || echo "  (núcleo saturado, no registrado)"
+          echo "  Intento de registro: swarm_brain_$TS"
 
       - name: 5 Summary
         run: |
