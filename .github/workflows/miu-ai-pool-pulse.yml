@@ -1,0 +1,66 @@
+name: MIU AI Pool Pulse V1
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  pool-pulse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: 1 Pool health check
+        run: |
+          echo "=== Verificando miu-ai-pool ==="
+          curl -sf -m 20 "https://miu-ai-pool.franchescopalacios9.workers.dev/health" | python3 -c "
+import json, sys
+try:
+    d = json.load(sys.stdin)
+    print(f\"Pool: {d.get('version')} | cuentas: {d.get('pool_size')} | neuronas/día: {d.get('neurons_per_day')}\")
+except: print('parse_error')
+" || echo "pool_health: FAIL"
+
+      - name: 2 Pool chat test
+        run: |
+          echo "=== Test chat del pool ==="
+          curl -sf -m 30 -X POST "https://miu-ai-pool.franchescopalacios9.workers.dev/chat" \
+            -H "Content-Type: application/json" \
+            -d '{"prompt":"MIU pool pulse test","max_tokens":50}' | python3 -c "
+import json, sys
+try:
+    d = json.load(sys.stdin)
+    print(f\"Chat OK | via: {d.get('via')} | req: {d.get('request_num')}\")
+except: print('chat_test: FAIL')
+" || echo "pool_chat: FAIL"
+
+      - name: 3 Pool status
+        run: |
+          echo "=== Estado del pool ==="
+          curl -sf -m 20 "https://miu-ai-pool.franchescopalacios9.workers.dev/pool-status" | python3 -c "
+import json, sys
+try:
+    d = json.load(sys.stdin)
+    print(f\"Total requests: {d.get('total_requests')}\")
+    print(f\"Success by account: {d.get('success_by_account')}\")
+except: print('parse_error')
+" || echo "pool_status: FAIL"
+
+      - name: 4 V93 health check
+        run: |
+          echo "=== Verificando miu-autonomo-v93 ==="
+          curl -sf -m 20 "https://miu-autonomo-v93.franchescopalacios9.workers.dev/health" | python3 -c "
+import json, sys
+try:
+    d = json.load(sys.stdin)
+    print(f\"V93: {d.get('version')} | cascada: {d.get('cascade_n')}\")
+except: print('parse_error')
+" || echo "v93_health: FAIL"
+
+      - name: Summary
+        run: |
+          echo "=== MIU AI Pool Pulse V1 ==="
+          echo "Fecha: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "Pool: https://miu-ai-pool.franchescopalacios9.workers.dev"
+          echo "V93: https://miu-autonomo-v93.franchescopalacios9.workers.dev"
+          echo "Capacidad: 7 cuentas × 10k neuronas/día = 70k neuronas/día"
