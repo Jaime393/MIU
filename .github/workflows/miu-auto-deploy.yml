@@ -27,4 +27,5 @@ jobs:
           git config user.email "miu@local"
           git add FUNDING.yml AUTO_DEPLOY.md
           git diff --staged --quiet || git commit -m "MIU Auto-Deploy sin PAT - GITHUB_TOKEN - independencia total"
+          git pull --rebase --autostash origin main
           git push origin main
