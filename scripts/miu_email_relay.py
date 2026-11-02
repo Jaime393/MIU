@@ -22,7 +22,36 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parseaddr
 
 CODE_RE = re.compile(r"\b(\d{4,8})\b")
+KEYWORD_RE = re.compile(r"(?i)(c[oó]digo|verificaci[oó]n|verification|confirm|login|security alert|2fa|otp)")
+# Falsos positivos típicos: años, dirección/zip de Google HQ, dígitos repetidos
+BLACKLIST = {"1600", "94043", "20261031"}
 SKIP_SENDERS = ("noreply@notify.cloudflare.com",)
+
+
+def is_valid_code(code):
+    if code in BLACKLIST:
+        return False
+    if code.isdigit() and 1990 <= int(code) <= 2035:  # años
+        return False
+    if len(set(code)) == 1:  # 000000, 999999...
+        return False
+    if len(code) >= 4 and len(set(code[i : i + 2] for i in range(0, len(code) - 1, 2))) == 1:  # ABABAB
+        return False
+    return True
+
+
+def extract_codes(text):
+    """Solo códigos que aparecen en líneas cerca de palabras clave (código/verification/...)."""
+    lines = text.splitlines()
+    codes = set()
+    for idx, line in enumerate(lines):
+        if not KEYWORD_RE.search(line):
+            continue
+        window = " ".join(lines[idx : idx + 3])
+        for code in CODE_RE.findall(window):
+            if is_valid_code(code):
+                codes.add(code)
+    return codes
 
 
 def supa_post(path, payload):
@@ -90,20 +119,17 @@ def harvest(mail_addr, password):
                 body = (msg.get_payload(decode=True) or b"").decode("utf-8", "ignore")
             text = f"{subject}\n{body}"
             service = sender.split("@")[1].split(".")[0] if "@" in sender else "desconocido"
-            if re.search(r"(?i)(c[oó]digo|verificaci[oó]n|verification|confirm|login|security alert|2fa|otp)", text):
-                for code in set(CODE_RE.findall(text)):
-                    if len(code) < 4:
-                        continue
-                    if not code_exists(alias, code):
-                        row = {
-                            "alias": alias,
-                            "email": mail_addr,
-                            "codigo": code,
-                            "servicio": service,
-                            "usado": False,
-                        }
-                        if supa_post("email_codes", row):
-                            found.append((service, code))
+            for code in extract_codes(text):
+                if not code_exists(alias, code):
+                    row = {
+                        "alias": alias,
+                        "email": mail_addr,
+                        "codigo": code,
+                        "servicio": service,
+                        "usado": False,
+                    }
+                    if supa_post("email_codes", row):
+                        found.append((service, code))
             m.store(i, "+FLAGS", "\\Seen")
         m.logout()
     except Exception as e:
@@ -118,7 +144,6 @@ def main():
     ok_accounts = 0
     for mail_addr, password in passes.items():
         found = harvest(mail_addr, password)
-        status = "OK" if True else ""
         if found:
             print(f"  [{mail_addr}] {len(found)} códigos -> Panteón: {found}")
             total += len(found)
