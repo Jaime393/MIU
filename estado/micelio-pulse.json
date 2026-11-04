@@ -1,6 +1,9 @@
 {
-  "modo": "completo",
-  "origen": "orquestador-maestro-v2",
-  "ts": "2026-11-04T21:03:54.544Z",
+  "origen": "nutriente-total-V269b",
+  "ciclo": 24144,
+  "phi": 34967.8,
+  "gossip_n": 7691,
+  "corpus_n": 13017,
+  "ts": "2026-11-04T21:05:04.126Z",
   "version": "V270"
 }
