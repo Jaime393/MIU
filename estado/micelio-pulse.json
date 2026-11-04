@@ -1,9 +1,6 @@
 {
-  "origen": "nutriente-total-V269b",
-  "ciclo": 23898,
-  "phi": 34912.5,
-  "gossip_n": 4659,
-  "corpus_n": 12479,
-  "ts": "2026-11-04T00:37:16.550Z",
+  "repo": "Jaime393/miu-ecosistema",
+  "origen": "gh-actions",
+  "ts": "2026-11-04T00:37:31.359Z",
   "version": "V270"
 }
