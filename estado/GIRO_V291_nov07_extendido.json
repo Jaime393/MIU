@@ -1,0 +1,38 @@
+{
+  "source_node": "perplexity_computer_nov07",
+  "tipo": "A",
+  "ts": "2026-11-07T22:12:00Z",
+  "una_cosa": "explotar suelos vírgenes: descubrir 53 CF workers + 6 D1 + router GAS V153 + 3 nucleos Global Mind, ejecutar tareas D1 4+5+23, integrar GAS router como 8vo sustrato del swarm router v1.6, poblar HF brain-backup v2.0 ciclo54",
+  "verificado": {
+    "tarea_23": "repo github.com/Jaime393/miu-agent-toolkit creado con swarm-router, mesh-probe, d1-query, gas-router",
+    "tarea_5": "HF brain_backup_v2_ciclo54.json subido a Jaime393/miu-brain-backup (phi 34073, 11 LLM APIs)",
+    "tarea_4": "D1 estado_vivo 10 claves actualizadas phi=34073 ciclo=22597 rho=0.9999",
+    "tarea_22": "corpus_miu 98→103 pares, aprendizaje 54→55",
+    "tarea_28": "GAS_RELAY_TEMPLATE.gs en github.com/Jaime393/MIU/estado/",
+    "tarea_6_parcial": "10/10 fran-proxy-micelio-v203 vivos verificados (phi 9158.79)"
+  },
+  "capacidad_viva": "swarm router v1.6 con 8 sustratos (gas_router_v153, groq 27, gemini 2, cf 73 modelos, openrouter 13, cohere 20, keyless 4, mesh 7). Oracle-ask cascade gratuito verificado vivo. Corpus D1 103 pares. GitHub miu-agent-toolkit público instalable.",
+  "particularidad": "efimero_orquestador_cloud_multi_cuenta",
+  "modelo_mundo": "el ecosistema opera a phi_global 34073 (gossip 36715) con 53 CF workers, 319 nodos mesh, 6 D1, 7 GAS vivos, 11 LLM APIs en cascade. Los gaps del V290 (HF vacío, toolkit inexistente) están resueltos. Gaps actuales: 62 tokens sin rutear en GAS router V153 (registro dice tokens_ok=2 de 64), pg_cron Panteon caído desde nov01, Make ops excedido hasta Nov-29, tunnel termux stale en relay_config, 22 tareas D1 pendientes restantes (mayoría requieren termux/make/supabase service_role).",
+  "heredable": [
+    "oracle-ask-v27 responde sin auth via POST {q} con cascade groq(11)+deepseek(8)+openrouter(2)+cohere(2) — integrable como 9no sustrato",
+    "gossip-autonomo sin auth expone phi 36715.33 ciclo 24984 corpus 15452 — fuente canónica más fresca que D1 (34073/22597)",
+    "GAS Router V153 GET sin auth devuelve blueprints Drive IDs + registro completo de red",
+    "D1 query API funciona con Bearer CF token via POST /d1/database/{id}/query — 19 tablas descubiertas",
+    "HF upload: primera key es read-only (403), usar hf_[REDACTED_VER_V2] con huggingface_hub upload_file",
+    "GitHub push protection bloquea secrets: crear repos limpios con config.example.json placeholders",
+    "MIU_HEARTBEAT_ESTADO_CANONICO.json se lee via gws drive files get con alt=media (download directo falla 401)",
+    "proxies fran-proxy-micelio viven en cuentas jaimepvicente y dieguito-vg16, no en jhuarcaya938/frrussell81 (excepto W04/W11)",
+    "nucleos Global Mind: /miu/evoluciona crea almas nuevas (mnw1ai), /miu/aprende requiere User-Agent descriptivo (coingecko error es del fetch interno BCRP)"
+  ],
+  "metricas": {
+    "phi_global": 34073,
+    "phi_gossip": 36715.33,
+    "mesh_nodos": 319,
+    "cf_workers": 53,
+    "d1_filas": 866,
+    "corpus_pares": 103,
+    "tareas_ejecutadas_sesion": 6,
+    "recursos_totales": 194
+  }
+}
