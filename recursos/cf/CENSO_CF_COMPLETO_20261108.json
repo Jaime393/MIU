@@ -7,7 +7,8 @@
   "fran-proxy-micelio-v203-*: 32/32 VIVOS (200) en 5 cuentas (jaimepvicente 9, dieguito 8, jhuarcaya938 9, franchescopalacios9 6) — la grieta \"28-29 proxies muertos\" queda REFUTADA",
   "miu-mesh-*-v270: 9/9 VIVOS incluyendo 0b12fa35 tabletonephant (la grieta \"mesh tabletonephant muerto\" tambien REFUTADA — devuelto 200 con JSON ok)",
   "miu-beacon-*-v270: 3/6 vivos (jaimepvicente, jaimedaniel, tabletonephantom OK; dereckcito, cipher19051997, franrussell81 404 — probablemente workers.dev route deshabilitado)",
-  "Total inventario: 304 workers en 10 cuentas accesibles con tokens cfut_ vigentes"
+  "Total inventario: 304 workers en 10 cuentas accesibles con tokens cfut_ vigentes",
+  "ACCION 07:55Z: 7 beacons con workers.dev deshabilitado (enabled:false) REACTIVADOS via POST /workers/scripts/{name}/subdomain {\"enabled\":true} — dereckcito-v270, cipher19051997-v270, franrussell81-v270, 6915f743-nov01, f9a24523-nov01, cce82777-v224, frrussell81-v224 — todos verificados 200 despues"
  ],
  "cuentas": {
   "Jaimepvicente@gmail.com's Account": {
@@ -401,5 +402,7 @@
    }
   ]
  },
- "nota": "Fuente: CFUT_TOKENS_AUDIT_20261105.json (47 vivos) + GET /accounts para IDs completos. Patrón: 404 code 7003 en /accounts/{id} truncado ≠ token sin permiso — verificar con GET /accounts antes de declarar muerto un token."
+ "nota": "Fuente: CFUT_TOKENS_AUDIT_20261105.json (47 vivos) + GET /accounts para IDs completos. Patrón: 404 code 7003 en /accounts/{id} truncado ≠ token sin permiso — verificar con GET /accounts antes de declarar muerto un token.",
+ "resultado_final": "capa mesh+beacon: 29/29 VIVA (22 ya vivos + 7 reactivados); proxies: 32/32 vivos; total accesible: 304 workers / 10 cuentas",
+ "patron": "un worker que existe en la lista pero 404 en workers.dev NO esta muerto: revisar GET /workers/scripts/{name}/subdomain enabled antes de declararlo caido — la mayoria de \"muertos\" son rutas deshabilitadas, un POST las revive"
 }
