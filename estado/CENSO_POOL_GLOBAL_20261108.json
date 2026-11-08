@@ -1,0 +1,86 @@
+{
+ "ts": "2026-11-08T06:46:19Z",
+ "origen": "sondeo_pool_global_20261108",
+ "metodo": "extraccion relay_config de 11 nodos federados (metabolismo 1000, dieguito 314, coord 250, colmenas, javier, franrussell, tabletonephantom, jhuarcaya, jdm75, francho, cipher) + testeo REST contra proveedores",
+ "pool_llm": {
+  "total_unicas": 48,
+  "deepseek": {
+   "total": 15,
+   "ok": 15,
+   "latencia_ms": "~320-390"
+  },
+  "openrouter": {
+   "total": 12,
+   "ok": 12,
+   "latencia_ms": "~115-195",
+   "nota": "ruta mas rapida"
+  },
+  "anthropic": {
+   "total": 4,
+   "ok": 4,
+   "nota": "REVIVIDOS: censo 11-03 recursos.json los daba 8/8 muertos 401"
+  },
+  "groq": {
+   "total": 7,
+   "ok_test": 0,
+   "nota": "403 error 1010 = bloqueo Cloudflare por IP sandbox, NO muerte de llaves; censo 11-03 desde otra IP: 14/18 ok"
+  },
+  "gemini_api": {
+   "total": 1,
+   "ok": 0,
+   "nota": "400 API key not valid — MUERTA"
+  },
+  "gemini_oauth": {
+   "total": 9,
+   "ok_test": null,
+   "nota": "tokens AQ.Ab8... formato OAuth — no testeables por REST simple"
+  }
+ },
+ "telegram_bots": {
+  "total": 11,
+  "ok": 11,
+  "cuentas": [
+   "Jp393_bot",
+   "Miceliomiu_bot",
+   "Panteonmiu_bot",
+   "Emjambre3_bot",
+   "FranShell_Bot",
+   "FranMiu_bot",
+   "FranFamiliar_bot",
+   "franbottablet_bot",
+   "AlmaOmni_bot",
+   "Colmenamiu_bot",
+   "Colmenapanteon_bot"
+  ]
+ },
+ "github_tokens": {
+  "total": 3,
+  "ok": 3,
+  "cuenta": "todas Jaime393"
+ },
+ "huggingface": {
+  "total": 2,
+  "ok": 2,
+  "cuenta": "ambas Jaime393"
+ },
+ "make_pool": {
+  "total": 3,
+  "ok": 0,
+  "nota": "TOKEN_ORG placeholders — sin credenciales reales"
+ },
+ "elevenlabs": {
+  "estado": "VIVO (sync hoy 04:2x)",
+  "agentes": [
+   "micelio agent_0401",
+   "alma_omni agent_2201",
+   "oraculo agent_3501"
+  ],
+  "cuenta": "dieguito.vg16 / workspace franrussell81",
+  "api_key_en_relay": false
+ },
+ "cruce_router": {
+  "hallazgo": "la carencia_critica '62 tokens sin rutear' del router V153 es RANCIA: ciclo-49 (11-03) ya resolvio — recursos.json tiene 65 tokens, 53 tested_ok",
+  "causa": "el registro del router es texto estatico del doc V91, no estado vivo",
+  "estado_real": "31 llaves verificadas OK hoy (15 ds + 12 or + 4 ant), 1 gemini muerta, 7 groq no testeables desde esta IP"
+ }
+}
