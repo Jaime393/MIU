@@ -1,0 +1,63 @@
+{
+ "id": "ORACULO_PREDICCIONES_20261108",
+ "ts": "2026-11-08T06:05:33.685968+00:00",
+ "tipo": "prediccion_evaluada",
+ "nota": "verificacion de las 9 predicciones selladas (miu-ref D1) contra literatura 2025-2026; solo hechos verificados con fuente y fecha",
+ "sembrado_en": [
+  "cipher_replica gossip id=19118",
+  "metabolismo intencion fe623a1e"
+ ],
+ "evaluacion": [
+  {
+   "id": "P1_wa_DESI",
+   "variable": "wa",
+   "valor_miu": -0.21,
+   "incertidumbre": 0.07,
+   "estado_actual": "DESI DR2 (2025-26): DESI+CMB wa=-1.75+/-0.58 (3.1sigma evolucion); con SNe recalibradas wa=-0.72+/-0.21; DES Y6+DESI wa=-0.53+/-0.28",
+   "veredicto": "TENSION_SUAVE",
+   "detalle": "valores centrales actuales mas negativos que -0.21; prediccion dentro de ~2sigma; decisivo: DESI Y3/DR4 2027-2028",
+   "fuente": "desi.lbl.gov DR2; arXiv 2504.06118"
+  },
+  {
+   "id": "P2_S8_Euclid",
+   "variable": "S8",
+   "valor_miu": 0.79,
+   "incertidumbre": 0.016,
+   "estado_actual": "Euclid DR1 retrasado: DR1-Foundation 12-nov-2026 solo datos calibrados, cosmologia oficial mid-2027; DES Y6 (ene-2026) S8=0.794+/-0.009; KiDS-Legacy 0.815+/-0.016; CMB combinado 0.836+/-0.012",
+   "veredicto": "APOYO_PARCIAL_FUERTE",
+   "detalle": "DES Y6 2026 confirma 0.79 a 0.4sigma; verificacion formal Euclid mid-2027",
+   "fuente": "arXiv 2602.12238 (S8 tension review 2026); telescoper.blog euclid timeline; euclid-ec.org"
+  },
+  {
+   "id": "P3_gamma_BepiColombo",
+   "variable": "gamma_minus_1",
+   "valor_miu": -3.1e-05,
+   "incertidumbre": 1.2e-05,
+   "estado_actual": "Cassini 2003 sigue estado del arte: gamma-1=(2.1+/-2.3)e-5; BepiColombo MOI nov-2026, orbita cientifica 10-mar-2027 (ESA QLA), MORE 2027-2028 con exactitud esperada 5-7.6e-6",
+   "veredicto": "PENDIENTE_MAS_FALSABLE",
+   "detalle": "predice desviacion NEGATIVA de RG; si BepiColombo confirma gamma=1 a 6e-6 la prediccion queda REFUTADA (|−3.1e-5| >> 6e-6); ventana abre 2027",
+   "fuente": "bepicolombo.esac.esa.int/bscs-qla; tesis di Stefano uniroma1 (gamma 3x mas preciso que Cassini)"
+  },
+  {
+   "id": "P4_nu_PTOLEMY",
+   "variable": "sum_nu_meV",
+   "valor_miu": 60.8,
+   "incertidumbre": 0.5,
+   "estado_actual": "KATRIN (Science abr-2025): m<450 meV 90%CL, best fit m2=-0.14 eV2 consistente con cero; DESI 2025: suma<72 meV; PTOLEMY demostrador LNGS en construccion, Fase-0 2027 validacion, sensibilidad demostrador 150 meV",
+   "veredicto": "CONSISTENTE_PRESIONADA",
+   "detalle": "60.8 meV dentro de todos los limites pero a 0.7sigma del borde DESI (72 meV); PTOLEMY no alcanza 60.8 en 2027; verificacion realista: Euclid DR1 cosmologia mid-2027 / DESI DR4 2028",
+   "fuente": "kit.edu KATRIN PI 2025; Science 388:180 (DOI 10.1126/science.adq9592); indico.cern.ch PTOLEMY LP2025; arXiv 2505.10697"
+  },
+  {
+   "id": "P5_Ktau_GRACE",
+   "variable": "K_tau",
+   "valor_miu": 0.3644,
+   "incertidumbre": 0.005,
+   "estado_actual": "sin verificacion web (constante LOD especializada GRACE RL07)",
+   "veredicto": "PENDIENTE",
+   "detalle": "requiere literatura geodesica dedicada; verificacion 2027 GRACE RL07",
+   "fuente": "-"
+  }
+ ],
+ "resumen": "2 de 5 con senal externa 2026: S8=0.79 respaldado por DES Y6 (0.794+/-0.009) a 0.4sigma; suma neutrinos 60.8 meV consistente pero a 0.7sigma del limite DESI. gamma BepiColombo es la prediccion mas falsable (desviacion de RG); abre 2027 con MOI nov-2026 y orbita cientifica mar-2027. PTOLEMY no puede verificar 60.8 meV en 2027 (demostrador 150 meV); la ruta realista es cosmologia Euclid/DESI."
+}
