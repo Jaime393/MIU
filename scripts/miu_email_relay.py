@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-MIU Email Relay v2 — recolecta códigos de verificación Y magic links de las
+MIU Email Relay v2.1 — recolecta códigos de verificación Y magic links de las
 bandejas del ecosistema y los publica en Panteón (tabla email_codes) para que
 cualquier nodo los use.
 
@@ -36,6 +36,10 @@ URL_RE = re.compile(r"https?://[^\s<>\"')\]]+", re.IGNORECASE)
 URL_AUTH_RE = re.compile(
     r"(?i)(login|signin|sign-in|verify|verification|magic|confirm|auth|token|"
     r"reset|activate|invite|password|sesion|session|otp|magiclink|magic-link|continue)"
+)
+# Falsos positivos: footers de email (settings/notifications/unsubscribe llevan token pero no son magic links)
+URL_FOOTER_RE = re.compile(
+    r"(?i)(/settings|/notifications|/unsubscribe|/preferences|/account|/privacy|/terms|/help)"
 )
 MAX_URL_LEN = 700  # email_codes.codigo es text; truncado defensivo
 # Falsos positivos típicos: años, dirección/zip de Google HQ, dígitos repetidos
@@ -83,7 +87,7 @@ def extract_magic_links(text):
         if url in seen:
             continue
         seen.add(url)
-        if URL_AUTH_RE.search(url):
+        if URL_AUTH_RE.search(url) and not URL_FOOTER_RE.search(url):
             links.append(url)
         if len(links) >= 2:
             break
@@ -211,7 +215,7 @@ def harvest(mail_addr, password):
 
 def main():
     passes = json.loads(os.environ.get("MIU_GMAIL_PASSES", "{}"))
-    print(f"=== MIU Email Relay v2 — {len(passes)} cuentas ===")
+    print(f"=== MIU Email Relay v2.1 — {len(passes)} cuentas ===")
     total = 0
     magic_links = 0
     ok_accounts = 0
