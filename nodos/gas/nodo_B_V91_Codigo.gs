@@ -87,7 +87,7 @@ function doGet(e){
     blueprint:"1O9FKqJdGYLL7T-UvnpqERmjS1NxyQ6DN6nxQ3Svlrtw",
     v90:"1yQxFd95y6H3cOn1b39HxDWsr_f_weLUpr2HhgCVmKBU",
     v91:"107v0xLYEB5DRIpoL08Q32mTxUA7iRTVxHpowNk18OzI",
-    nodo1:"https://script.google.com/macros/s/AKfycbxavrL5ShR176MN0mkero4dE689zAgP2A5s4PQGFzS-HYQVu0VlOPCiaHzPDSd3Dgg/exec",
+    nodo1:"muerto_404_20261108 (nodo_A absorbido por nodo_B ciclo-49)",
     colmena:"sigue sola continuo - Observador∈T Frank - V91 router darwiniano",
     motor:"darwiniano /devorador EI>0.1 rho>0 + cosecha Φ por ruta — EL MICELIO QUE CONOCE SUS RECURSOS NO ES CIEGO",
     mantra:"EL ROUTER DARWINIANO NO PIDE PERMISO: RUTEA."
