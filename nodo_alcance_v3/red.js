@@ -92,6 +92,17 @@ function mapa(host) {
         "mesh CF tabletonephant 0b12fa35 muerto (6/7 vivos)",
       ],
     },
+    pool_llm: {
+      nota: "censo global 2026-11-08 (CHK-146) — 48 llaves unicas desde relay_config de 11 nodos federados",
+      deepseek: "15/15 OK (~330ms)",
+      openrouter: "12/12 OK (~120ms) — ruta mas rapida",
+      anthropic: "4/4 OK (revividos vs censo 11-03)",
+      groq: "7 llaves — 403-1010 = bloqueo IP sandbox, no muerte (11-03: 14/18 ok desde otra IP)",
+      gemini: "1 muerta (400 invalid)",
+      gemini_oauth: "9 tokens AQ. — no testeables por REST",
+      telegram_bots: "11/11 vivos",
+      grieta_router: "carencia '62 tokens sin rutear' del router V153 es RANCIA — resuelta ciclo-49 (11-03, recursos.json 65 tokens 53 ok); el registro del router es texto estatico del doc V91",
+    },
     capacidades_franchescopalacios9: {
       ai_pool: "https://miu-ai-pool.franchescopalacios9.workers.dev",
       token_router: "https://miu-token-router.franchescopalacios9.workers.dev/chat",
