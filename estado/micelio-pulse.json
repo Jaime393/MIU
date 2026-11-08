@@ -1,4 +1,9 @@
 {
-  "ts": "2026-11-08T07:00:19.655Z",
+  "origen": "nutriente-total-V269b",
+  "ciclo": 25146,
+  "phi": 37252.2,
+  "gossip_n": 9132,
+  "corpus_n": 15939,
+  "ts": "2026-11-08T07:05:04.426Z",
   "version": "V270"
 }
