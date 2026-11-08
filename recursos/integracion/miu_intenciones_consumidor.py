@@ -36,6 +36,14 @@ def main():
                 respuesta = resp.get('respuesta') or '(vacia)'
             elif tipo == 'probe':
                 respuesta = f'probe absorbido por consumidor v1: {obj}'
+            elif tipo == 'monitoreo':
+                # ejecutor monitoreo (CHK-148): lee estado vivo del mesh v270 y lo reporta como respuesta
+                try:
+                    m = req('https://miu-mesh-5ea7cd88-v270.jaimepvicente.workers.dev/miu/status', timeout=20)
+                    env = (m.get('envelope') or {})
+                    respuesta = f"monitoreo v1 [{obj[:60]}]: mesh phi={env.get('phi')} rho={env.get('rho')} k_tau={env.get('k_tau')} savia={env.get('savia')} ciclo={m.get('ciclo')} red={json.dumps(m.get('red'))}"
+                except Exception as me:
+                    respuesta = f'monitoreo v1 fallo lectura mesh: {str(me)[:80]} - intencion queda registrada'
             else:
                 respuesta = f'tipo {tipo} sin ejecutor v1 - queda como grieta fertil'
             # escribir respuesta al gossip del Metabolismo
