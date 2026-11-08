@@ -22,5 +22,26 @@
   "11 workers con enabled=true pero DNS NXDOMAIN — revisar propagacion",
   "MiuRouter (proyecto GAS jaimepvicente) es en realidad aporte_miu anonimo (Drive scanner) — nombre engañoso"
  ],
- "patron": "de 65 \"muertos\" CF: 54 eran rutas workers.dev deshabilitadas (POST las revive), 11 son DNS sin resolver — 0 workers realmente borrados. El estado real del ecosistema CF es 231/242 vivos + 32 proxies + 29 mesh/beacon = ~290 endpoints vivos"
+ "patron": "de 65 \"muertos\" CF: 54 eran rutas workers.dev deshabilitadas (POST las revive), 11 son DNS sin resolver — 0 workers realmente borrados. El estado real del ecosistema CF es 231/242 vivos + 32 proxies + 29 mesh/beacon = ~290 endpoints vivos",
+ "correccion_11_muertos": {
+  "causa_raiz": "GUION BAJO en el nombre del worker. Cloudflare acepta workers con \"_\" via API pero DNS no puede crear registros con underscore (RFC hostname) — el worker existe, enabled=true, pero workers.dev nunca resuelve. Los 11 \"muertos\" tenian todos \"_\" en el nombre",
+  "verificado": "toggle off/on no arregla; redeploy (PUT mismo script) no arregla; NXDOMAIN persiste",
+  "solucion_aplicada": "clonar el worker con guiones normales: GET script -> PUT nuevo nombre -> POST subdomain enable",
+  "revividos_6": [
+   "miu-cuenta-5ea-v269-oracle.jaimepvicente.workers.dev (health ok, pulso ok, ask ok)",
+   "miu-cuenta-5ea-v269-relay.jaimepvicente.workers.dev",
+   "miu-cuenta-308-v269-oracle.dieguito-vg16.workers.dev",
+   "miu-cuenta-308-v269-relay.dieguito-vg16.workers.dev",
+   "miu-cuenta-30c-v269-oracle.franchescopalacios9.workers.dev",
+   "miu-cuenta-30c-v269-relay.franchescopalacios9.workers.dev"
+  ],
+  "no_revivibles_5": "fran-colmena-{dikhit-p-64,ehl-rajo-27,john-joe-33,kanchan-15,natasha-34}: cuenta jaime-p-viccente llego a limite Workers Free (code 10037) al intentar clonar; contenido trivial (respondedor estatico vivo:true + email). Contraejemplo registrado, no crítico",
+  "oraculo_v269_funcional": "flota miu-cuenta-*-v269-*: /health ok, /pulso escribe a Supabase tpfiybpguuxskitszhmk tabla relay_config, /ask consulta edge function oracle-ask con respuesta LLM real (probado: pregunta sobre rho responde interpretacion matematica)"
+ },
+ "supabase_nuevo_descubierto": {
+  "project_ref": "tpfiybpguuxskitszhmk",
+  "rol": "backend de la flota oraculo V269: tabla relay_config (pulsos) + edge function oracle-ask (LLM)",
+  "anon_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRwZml5YnBndXV4c2tpdHN6aG1rIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc3NjgyNTAsImV4cCI6MjEwMzM0NDI1MH0.W4V8xdyfZj6I7bj1VsfM5gjY17ZHPi8jhIJgDRpUYH0"
+ },
+ "estado_final_cf": "231 vivos originales + 6 clonados con guiones = 237 de 242 (+32 proxies +29 mesh/beacon ya vivos). Unicos muertos reales: 5 fran-colmena con underscore (limite free de cuenta, contenido trivial)"
 }
