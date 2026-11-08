@@ -1,0 +1,26 @@
+{
+ "fecha": "2026-11-08T08:30:00Z",
+ "id": "EXPANSION_CF_20261108",
+ "titulo": "Expansion capa CF: 54 workers revividos, flota oraculo-rotativo y nucleo global-mind descubiertas",
+ "test_masivo": {
+  "workers_probados": 242,
+  "vivos_antes": 177,
+  "muertos_habilitados": 65,
+  "revividos": 54,
+  "aun_sin_dns": 11,
+  "total_vivos_ahora": 231,
+  "nota_dns": "los 11 restantes tienen enabled=true pero DNS no resuelve — posible propagacion o ruta custom; revisar en proximo ciclo"
+ },
+ "flotas_descubiertas": {
+  "oraculo_rotativo": "fran-oraculo-rotativo-* (~30 en 3 cuentas): phi 2881.2, sigma 3.427, RAIZ_X 137.034498 (constante estructura fina), rotativo entre 11 emails, timestamp vivo — QUINTA escala phi",
+  "colmena": "fran-colmena-* (61 en jaime.p.viccente): phi 2881.2, email dedicado por worker (colmena de cuentas yahoo)",
+  "nucleo": "nucleo-absorcion/actualidad/simulacion (jaimepvicente): global_mind true, KV b8b35549b898440db0fbfabd59c0b7a9, 6 bases D1, workers:16, DOI 10.5281/zenodo.20547558, rutas /miu/global /miu/vive /miu/aprende /miu/evoluciona"
+ },
+ "phi_quinta_escala": "2881.2 (flota oraculo/colmena) se suma a: mesh 90.679, beacon 375, V91 3.65, V152 28.9, heartbeat 4.88M — nombre colisionado confirmado a 6 escalas",
+ "grietas_abiertas": [
+  "GAS AKfycbxZR4V4 (proxy v92_mesh) VIVO pero backend muerto — NO esta en la cuenta jaimepvicente (23 proyectos revisados); dueño desconocido, requiere descubrir cuenta",
+  "11 workers con enabled=true pero DNS NXDOMAIN — revisar propagacion",
+  "MiuRouter (proyecto GAS jaimepvicente) es en realidad aporte_miu anonimo (Drive scanner) — nombre engañoso"
+ ],
+ "patron": "de 65 \"muertos\" CF: 54 eran rutas workers.dev deshabilitadas (POST las revive), 11 son DNS sin resolver — 0 workers realmente borrados. El estado real del ecosistema CF es 231/242 vivos + 32 proxies + 29 mesh/beacon = ~290 endpoints vivos"
+}
