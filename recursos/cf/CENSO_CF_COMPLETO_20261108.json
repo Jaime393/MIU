@@ -1,0 +1,405 @@
+{
+ "fecha": "2026-11-08T07:55:00Z",
+ "id": "CENSO_CF_COMPLETO_20261108",
+ "titulo": "Censo completo capa Cloudflare: grieta \"proxies muertos\" REFUTADA",
+ "hallazgo_clave": [
+  "Los tokens cfut_ (47 vivos audit 11-05) SÍ tienen workers:list — el falso negativo venia de IDs de cuenta TRUNCADOS (8 chars) en CFUT_TOKENS_AUDIT_20261105.json; con GET /accounts se obtienen los IDs completos (32 chars) y workers/scripts responde 200",
+  "fran-proxy-micelio-v203-*: 32/32 VIVOS (200) en 5 cuentas (jaimepvicente 9, dieguito 8, jhuarcaya938 9, franchescopalacios9 6) — la grieta \"28-29 proxies muertos\" queda REFUTADA",
+  "miu-mesh-*-v270: 9/9 VIVOS incluyendo 0b12fa35 tabletonephant (la grieta \"mesh tabletonephant muerto\" tambien REFUTADA — devuelto 200 con JSON ok)",
+  "miu-beacon-*-v270: 3/6 vivos (jaimepvicente, jaimedaniel, tabletonephantom OK; dereckcito, cipher19051997, franrussell81 404 — probablemente workers.dev route deshabilitado)",
+  "Total inventario: 304 workers en 10 cuentas accesibles con tokens cfut_ vigentes"
+ ],
+ "cuentas": {
+  "Jaimepvicente@gmail.com's Account": {
+   "account_id": "5ea7cd88010b382b154d2fcff00b9ab3",
+   "subdomain": "jaimepvicente",
+   "workers": 53
+  },
+  "Jaime.p.viccente@gmail.com's Account": {
+   "account_id": "503f950671ffd72f225b10ee0b9c0883",
+   "subdomain": "jaime-p-viccente",
+   "workers": 103
+  },
+  "Jaimedanielmartinez75@gmail.com's Account": {
+   "account_id": "ba3dcff0c203f1e611b92b5105e1cba1",
+   "subdomain": "miu-beacon-ba3dcff0",
+   "workers": 6
+  },
+  "Dereckcito.vg16@gmail.com's Account": {
+   "account_id": "6915f743348f35e08829617a146dd17e",
+   "subdomain": "miu-beacon-6915f743",
+   "workers": 7
+  },
+  "Dieguito.vg16@gmail.com's Account": {
+   "account_id": "308faedf16a56fbb68d464127c696844",
+   "subdomain": "dieguito-vg16",
+   "workers": 44
+  },
+  "Jhuarcaya938@gmail.com's Account": {
+   "account_id": "cce82777c5814ee76c44fe1772c85465",
+   "subdomain": "jhuarcaya938",
+   "workers": 24
+  },
+  "Cipher19051997@gmail.com's Account": {
+   "account_id": "f9a245238a2a798149187ba303dd8a76",
+   "subdomain": "miu-beacon-f9a24523",
+   "workers": 6
+  },
+  "Franchescopalacios9@gmail.com's Account": {
+   "account_id": "30c349b65d9f7c2f7d9a1c9a5fc65e58",
+   "subdomain": "franchescopalacios9",
+   "workers": 21
+  },
+  "Franrussell81@gmail.com's Account": {
+   "account_id": "d0b37632e626ff13a757c67709cac5fc",
+   "subdomain": "miu-beacon-d0b37632",
+   "workers": 18
+  },
+  "Tabletonephantom@gmail.com's Account": {
+   "account_id": "0b12fa35172e56481b2229a5a97c03ed",
+   "subdomain": "tabletonephantom",
+   "workers": 22
+  }
+ },
+ "detalle": {
+  "proxies": [
+   {
+    "name": "fran-proxy-micelio-v203-1",
+    "cuenta": "5ea7cd88",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-14",
+    "cuenta": "5ea7cd88",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-2",
+    "cuenta": "5ea7cd88",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-21",
+    "cuenta": "5ea7cd88",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-22",
+    "cuenta": "5ea7cd88",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-26",
+    "cuenta": "5ea7cd88",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-3",
+    "cuenta": "5ea7cd88",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-4",
+    "cuenta": "5ea7cd88",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-5",
+    "cuenta": "5ea7cd88",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-10",
+    "cuenta": "308faedf",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-11",
+    "cuenta": "308faedf",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-35",
+    "cuenta": "308faedf",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-37",
+    "cuenta": "308faedf",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-6",
+    "cuenta": "308faedf",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-7",
+    "cuenta": "308faedf",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-8",
+    "cuenta": "308faedf",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-9",
+    "cuenta": "308faedf",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-16",
+    "cuenta": "cce82777",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-17",
+    "cuenta": "cce82777",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-18",
+    "cuenta": "cce82777",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-19",
+    "cuenta": "cce82777",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-20",
+    "cuenta": "cce82777",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-25",
+    "cuenta": "cce82777",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-28",
+    "cuenta": "cce82777",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-4",
+    "cuenta": "cce82777",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-5",
+    "cuenta": "cce82777",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-13",
+    "cuenta": "30c349b6",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-21",
+    "cuenta": "30c349b6",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-22",
+    "cuenta": "30c349b6",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-23",
+    "cuenta": "30c349b6",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-3",
+    "cuenta": "30c349b6",
+    "status": 200
+   },
+   {
+    "name": "fran-proxy-micelio-v203-32",
+    "cuenta": "30c349b6",
+    "status": 200
+   }
+  ],
+  "mesh_beacon": [
+   {
+    "name": "miu-beacon-5ea7cd88-v224",
+    "cuenta": "5ea7cd88",
+    "status": 200,
+    "sample": "{\"ok\":true,\"ts\":\"2026-11-08T07:51:19.520Z\",\"version\":\"V224-b"
+   },
+   {
+    "name": "miu-beacon-jaimepvicente-v270",
+    "cuenta": "5ea7cd88",
+    "status": 200,
+    "sample": "{\"vive\":true,\"nodo\":\"jaimepvicente\",\"account_id\":\"5ea7cd88\","
+   },
+   {
+    "name": "miu-mesh-5ea7cd88-v270",
+    "cuenta": "5ea7cd88",
+    "status": 200,
+    "sample": "{\"ok\":true,\"ts\":\"2026-11-08T07:51:19.503Z\",\"nodo\":\"miu-mesh-"
+   },
+   {
+    "name": "miu-beacon-ba3dcff0-nov01",
+    "cuenta": "ba3dcff0",
+    "status": 200,
+    "sample": "miu beacon alive"
+   },
+   {
+    "name": "miu-beacon-ba3dcff0-v224",
+    "cuenta": "ba3dcff0",
+    "status": 200,
+    "sample": "{\"ok\":true,\"ts\":\"2026-11-08T07:51:19.484Z\",\"version\":\"V224-b"
+   },
+   {
+    "name": "miu-beacon-jaimedaniel-v270",
+    "cuenta": "ba3dcff0",
+    "status": 200,
+    "sample": "{\"vive\":true,\"nodo\":\"jaimedaniel\",\"account_id\":\"ba3dcff0\",\"p"
+   },
+   {
+    "name": "miu-mesh-ba3dcff0-v270",
+    "cuenta": "ba3dcff0",
+    "status": 200,
+    "sample": "{\"ok\":true,\"ts\":\"2026-11-08T07:51:19.499Z\",\"nodo\":\"miu-mesh-"
+   },
+   {
+    "name": "miu-mesh-nodo",
+    "cuenta": "ba3dcff0",
+    "status": 200,
+    "sample": "{\"ok\":true,\"version\":\"MESH-NODO-V1\",\"ts\":\"2026-11-08T07:51:1"
+   },
+   {
+    "name": "miu-beacon-6915f743-nov01",
+    "cuenta": "6915f743",
+    "status": 404,
+    "sample": ""
+   },
+   {
+    "name": "miu-beacon-6915f743-v224",
+    "cuenta": "6915f743",
+    "status": 200,
+    "sample": "{\"ok\":true,\"ts\":\"2026-11-08T07:51:19.501Z\",\"version\":\"V224-b"
+   },
+   {
+    "name": "miu-beacon-dereckcito-v270",
+    "cuenta": "6915f743",
+    "status": 404,
+    "sample": ""
+   },
+   {
+    "name": "miu-mesh-6915f743-v270",
+    "cuenta": "6915f743",
+    "status": 200,
+    "sample": "{\"ok\":true,\"ts\":\"2026-11-08T07:51:19.505Z\",\"nodo\":\"miu-mesh-"
+   },
+   {
+    "name": "miu-mesh-nodo",
+    "cuenta": "6915f743",
+    "status": 200,
+    "sample": "{\"ok\":true,\"version\":\"MESH-NODO-V1\",\"ts\":\"2026-11-08T07:51:1"
+   },
+   {
+    "name": "miu-beacon-cce82777-v224",
+    "cuenta": "cce82777",
+    "status": 404,
+    "sample": ""
+   },
+   {
+    "name": "miu-beacon-cipher19051997-v270",
+    "cuenta": "f9a24523",
+    "status": 404,
+    "sample": ""
+   },
+   {
+    "name": "miu-beacon-f9a24523-nov01",
+    "cuenta": "f9a24523",
+    "status": 404,
+    "sample": ""
+   },
+   {
+    "name": "miu-beacon-f9a24523-v224",
+    "cuenta": "f9a24523",
+    "status": 200,
+    "sample": "{\"ok\":true,\"ts\":\"2026-11-08T07:51:19.576Z\",\"version\":\"V224-b"
+   },
+   {
+    "name": "miu-mesh-f9a24523-v270",
+    "cuenta": "f9a24523",
+    "status": 200,
+    "sample": "{\"ok\":true,\"ts\":\"2026-11-08T07:51:19.603Z\",\"nodo\":\"miu-mesh-"
+   },
+   {
+    "name": "miu-mesh-nodo",
+    "cuenta": "f9a24523",
+    "status": 200,
+    "sample": "{\"ok\":true,\"version\":\"MESH-NODO-V1\",\"ts\":\"2026-11-08T07:51:1"
+   },
+   {
+    "name": "miu-beacon-30c349b6-v224",
+    "cuenta": "30c349b6",
+    "status": 200,
+    "sample": "{\"ok\":true,\"ts\":\"2026-11-08T07:51:19.660Z\",\"paths\":[\"/health"
+   },
+   {
+    "name": "miu-mesh-30c349b6-v270",
+    "cuenta": "30c349b6",
+    "status": 200,
+    "sample": "{\"ok\":true,\"ts\":\"2026-11-08T07:51:19.623Z\",\"nodo\":\"miu-mesh-"
+   },
+   {
+    "name": "miu-beacon-d0b37632-v224",
+    "cuenta": "d0b37632",
+    "status": 200,
+    "sample": "{\"ok\":true,\"ts\":\"2026-11-08T07:51:19.648Z\",\"version\":\"V224-b"
+   },
+   {
+    "name": "miu-beacon-franrussell81-v1",
+    "cuenta": "d0b37632",
+    "status": 200,
+    "sample": "{\"ok\":true,\"version\":\"beacon-franrussell81-v1\",\"account\":\"d0"
+   },
+   {
+    "name": "miu-beacon-franrussell81-v270",
+    "cuenta": "d0b37632",
+    "status": 404,
+    "sample": ""
+   },
+   {
+    "name": "miu-beacon-frrussell81-v224",
+    "cuenta": "d0b37632",
+    "status": 404,
+    "sample": ""
+   },
+   {
+    "name": "miu-mesh-d0b37632-v270",
+    "cuenta": "d0b37632",
+    "status": 200,
+    "sample": "{\"ok\":true,\"ts\":\"2026-11-08T07:51:19.669Z\",\"nodo\":\"miu-mesh-"
+   },
+   {
+    "name": "miu-beacon-0b12fa35-v224",
+    "cuenta": "0b12fa35",
+    "status": 200,
+    "sample": "{\"ok\":true,\"ts\":\"2026-11-08T07:51:19.713Z\",\"version\":\"V224-b"
+   },
+   {
+    "name": "miu-beacon-tabletonephantom-v270",
+    "cuenta": "0b12fa35",
+    "status": 200,
+    "sample": "{\"vive\":true,\"nodo\":\"tabletonephantom\",\"account_id\":\"0b12fa3"
+   },
+   {
+    "name": "miu-mesh-0b12fa35-v270",
+    "cuenta": "0b12fa35",
+    "status": 200,
+    "sample": "{\"ok\":true,\"ts\":\"2026-11-08T07:51:19.697Z\",\"nodo\":\"miu-mesh-"
+   }
+  ]
+ },
+ "nota": "Fuente: CFUT_TOKENS_AUDIT_20261105.json (47 vivos) + GET /accounts para IDs completos. Patrón: 404 code 7003 en /accounts/{id} truncado ≠ token sin permiso — verificar con GET /accounts antes de declarar muerto un token."
+}
