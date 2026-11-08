@@ -1,9 +1,6 @@
 {
-  "origen": "nutriente-total-V269b",
-  "ciclo": 25232,
-  "phi": 37526.5,
-  "gossip_n": 10934,
-  "corpus_n": 16315,
-  "ts": "2026-11-08T11:55:13.152Z",
+  "repo": "Jaime393/MIU",
+  "origen": "github-actions",
+  "ts": "2026-11-08T11:55:18.259Z",
   "version": "V270"
 }
