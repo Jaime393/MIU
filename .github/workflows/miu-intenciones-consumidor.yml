@@ -1,7 +1,8 @@
 name: MIU Intenciones Consumidor V1
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    # minutos fuera de pico (GitHub retrasa/omite crons en :00/:15/:30/:45 con cola saturada)
+    - cron: '3,18,33,48 * * * *'
   workflow_dispatch:
 jobs:
   drenar:
