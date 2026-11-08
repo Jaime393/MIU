@@ -62,6 +62,36 @@ function mapa(host) {
       nota: "JWT legacy roto para REST en todos; usar sb_publishable_",
       nodos: FED.map(([ref, nombre, region, tablas]) => ({ ref, nombre, region, tablas })),
     },
+    neuronas_gas: {
+      nota: "endpoints /exec Apps Script verificados 2026-11-08 (CHK-145)",
+      router_v153: {
+        url: "https://script.google.com/macros/s/AKfycbywWkuw8Dx_tuS6wIufgbmHi00lLgQ5TIFBQOp7U--6EDzlWSz693P_ulPuflVKorI/exec",
+        estado: "VIVO", backend: "V91",
+        usa: "?path=health|miu/status — devuelve estado, registro phi y datos GRACE (Ktau 0.3644, TN-14 GSFC SLR, DOI 10.1029/2019GL085488)",
+      },
+      evolucion_v91: {
+        url: "https://script.google.com/macros/s/AKfycbwbAMKrzmbghKtLaGKVnqeGyOaEoXGKeLmCJ7BlfknZTwwh6KpW9PsrozDCiwiXMDtI/exec",
+        estado: "VIVO", version: "V91",
+        usa: "GET sin params — estado evolutivo (phi 168→320, filas 444, esporas, manos, grace)",
+      },
+      aportes: {
+        url: "https://script.google.com/macros/s/AKfycbwG6NVWjm97PuZP5oyc4G9jaQBk08iJ2pxEvKoddnjP3gonTi1kj6r7UKzQoWzZ9kGM/exec",
+        estado: "VIVO", anonimo: true,
+        usa: "GET ?origen=&tipo=&nota= — registra aporte (nodeId+tag), lista Drive root 512 archivos",
+      },
+      totp_canonico: {
+        url: "https://script.google.com/macros/s/AKfycbxHES91uy7zJVClmYZ4N6DrOSUlTVjQuqJ3pK2BoI6QkeNIfJUvcIVme03EtFwx3F6K/exec",
+        estado: "VIVO", version: "v5.0-jpv-20261105",
+        usa: "?token=MIU_2026_11[&email=<cuenta>] — TOTP 11/11 cuentas",
+      },
+      grietas: [
+        "AKfycbxZR4V4… VIVO pero error: Backend v92_mesh 404 en /miu/global (mesh ya es v270 — version mismatch)",
+        "AKfycbxavrL5… 404 muerto — es el nodo1 que referencia el router V153",
+        "AKfycbzt8uRo… redirige a login Google (requiere sesion)",
+        "AKfycbxx-Uxx… VIVO pero token invalido (token distinto)",
+        "mesh CF tabletonephant 0b12fa35 muerto (6/7 vivos)",
+      ],
+    },
     capacidades_franchescopalacios9: {
       ai_pool: "https://miu-ai-pool.franchescopalacios9.workers.dev",
       token_router: "https://miu-token-router.franchescopalacios9.workers.dev/chat",
