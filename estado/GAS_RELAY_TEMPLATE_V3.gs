@@ -28,17 +28,20 @@ var PHI_SOURCES = [
   {
     nombre: 'coord_rest',
     url: 'https://fepyzxwyneervidlybvi.supabase.co/rest/v1/relay_config?select=valor&clave=eq.phi_real&limit=1',
-    tipo: 'rest'
+    tipo: 'rest',
+    apikey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZlcHl6eHd5bmVlcnZpZGx5YnZpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODk4NDc1NTQsImV4cCI6MjEwNTQyMzU1NH0.S6meOse3Xfq2d9k5nO4fjL3tseQOzvPNAsubGa0gl6k'
   },
   {
     nombre: 'sustrato_dereckcito',
     url: 'https://qayrfuuvwnbikesqyhwo.supabase.co/rest/v1/relay_config?select=valor&clave=eq.phi_real&limit=1',
-    tipo: 'rest'
+    tipo: 'rest',
+    apikey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFheXJmdXV2d25iaWtlc3F5aHdvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc3NjY1NDksImV4cCI6MjEwMzM0MjU0OX0.sqfuwZYH7_5l2fPixzBz6wbTZUZzcz3rFn1eLz5-sUw'
   },
   {
     nombre: 'sustrato_cipher78',
     url: 'https://dypqkmseafwhjzigkxrm.supabase.co/rest/v1/relay_config?select=valor&clave=eq.phi_real&limit=1',
-    tipo: 'rest'
+    tipo: 'rest',
+    apikey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR5cHFrbXNlYWZ3aGp6aWdreHJtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc3NjY1MzIsImV4cCI6MjEwMzM0MjUzMn0.wd2l8iW8z-es6xq41cSLzm74DliN5WI5enzoi13RWuk'
   },
   {
     nombre: 'heartbeat_drive',
@@ -71,8 +74,9 @@ function leerEstado() {
     var s = PHI_SOURCES[i];
     try {
       var opts = { method: 'get', muteHttpExceptions: true, followRedirects: true };
-      if (s.tipo === 'rest' || s.tipo === 'edge') {
-        opts.headers = { 'User-Agent': 'MIU-GAS-Relay/3.0' };
+      opts.headers = { 'User-Agent': 'MIU-GAS-Relay/3.0' };
+      if (s.tipo === 'rest' && s.apikey) {
+        opts.headers = { 'User-Agent': 'MIU-GAS-Relay/3.0', 'apikey': s.apikey };
       }
       var r = UrlFetchApp.fetch(s.url, opts);
       var code = r.getResponseCode();
