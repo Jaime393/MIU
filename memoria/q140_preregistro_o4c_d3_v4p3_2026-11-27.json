@@ -1,0 +1,193 @@
+{
+  "anclajes": [
+    {
+      "evento": "GW230518_125908",
+      "frente": "Q91",
+      "kappa_media": -0.003,
+      "kappa_sigma": 0.0168,
+      "peso_pct": 29.1,
+      "verificacion": "plantilla_comun"
+    },
+    {
+      "evento": "GW230627_015337",
+      "frente": "Q95",
+      "kappa_media": -0.00164,
+      "kappa_sigma": 0.02,
+      "peso_pct": 20.5,
+      "verificacion": "plantilla_comun"
+    },
+    {
+      "evento": "GW200115_042309",
+      "frente": "Q99",
+      "kappa_media": -0.0197,
+      "kappa_sigma": 0.02,
+      "peso_pct": 20.5,
+      "verificacion": "plantilla_comun"
+    },
+    {
+      "evento": "GW230529_181500",
+      "frente": "Q104",
+      "kappa_media": 0.0076,
+      "kappa_sigma": 0.03,
+      "peso_pct": 9.1,
+      "verificacion": "plantilla_comun"
+    },
+    {
+      "evento": "GW230731_215307",
+      "frente": "Q106",
+      "kappa_media": -0.0237,
+      "kappa_sigma": 0.03,
+      "peso_pct": 9.1,
+      "verificacion": "plantilla_comun"
+    },
+    {
+      "evento": "GW231224_024321",
+      "frente": "Q100",
+      "kappa_media": -0.067,
+      "kappa_sigma": 0.05,
+      "peso_pct": 3.3,
+      "verificacion": "plantilla_comun"
+    },
+    {
+      "evento": "GW231020_142947",
+      "frente": "Q101",
+      "kappa_media": 0.0634,
+      "kappa_sigma": 0.05,
+      "peso_pct": 3.3,
+      "verificacion": "plantilla_comun"
+    },
+    {
+      "evento": "GW231114_043211",
+      "frente": "Q124",
+      "kappa_media": -0.2326,
+      "kappa_sigma": 0.25,
+      "peso_pct": 0.1,
+      "verificacion": "plantilla_comun",
+      "correccion_q131": {
+        "rho_m027": [
+          8.5601,
+          8.6679
+        ],
+        "dlnl_m027": [
+          -1.812,
+          -0.883
+        ],
+        "Mc": 14.25,
+        "eta": 0.2496,
+        "chi1": 0.232,
+        "chi2": 0.292,
+        "nw_h002": [
+          -0.2329,
+          0.2462
+        ],
+        "discreta": [
+          -0.0845,
+          0.1699
+        ],
+        "masa_lobulo": 0.215,
+        "headline_sin_cambio": "-0,233 +- 0,25"
+      }
+    },
+    {
+      "evento": "GW230723_101834",
+      "frente": "Q117",
+      "kappa_media": -0.1214,
+      "kappa_sigma": 0.09,
+      "peso_pct": 1.0,
+      "verificacion": "plantilla_comun"
+    },
+    {
+      "evento": "GW230605_065343",
+      "frente": "Q97",
+      "kappa_media": -0.0212,
+      "kappa_sigma": 0.1,
+      "peso_pct": 0.8,
+      "verificacion": "plantilla_comun"
+    },
+    {
+      "evento": "GW231110_040320",
+      "frente": "Q102",
+      "kappa_media": 0.0632,
+      "kappa_sigma": 0.1,
+      "peso_pct": 0.8,
+      "verificacion": "plantilla_comun"
+    },
+    {
+      "evento": "GW231118_005626",
+      "frente": "Q105",
+      "kappa_media": 0.0749,
+      "kappa_sigma": 0.11,
+      "peso_pct": 0.7,
+      "verificacion": "plantilla_comun"
+    },
+    {
+      "evento": "GW241127_061008",
+      "frente": "Q112",
+      "kappa_media": -0.2858,
+      "kappa_sigma": 0.14,
+      "peso_pct": 0.4,
+      "verificacion": "plantilla_comun"
+    },
+    {
+      "evento": "GW231206_233901",
+      "frente": "Q125",
+      "kappa_media": -0.241,
+      "kappa_sigma": 0.13,
+      "peso_pct": 0.5,
+      "verificacion": "plantilla_comun"
+    },
+    {
+      "evento": "GW250114_082203",
+      "frente": "Q126",
+      "kappa_media": -0.0693309,
+      "kappa_sigma": 0.13,
+      "peso_pct": 0.5,
+      "verificacion": "plantilla_comun"
+    },
+    {
+      "evento": "GW231226_101520",
+      "frente": "Q110",
+      "kappa_media": -0.1488,
+      "kappa_sigma": 0.16,
+      "peso_pct": 0.3,
+      "verificacion": "plantilla_comun"
+    }
+  ],
+  "borrador_q89_sha256": "cafcd36f48ed6b90c80c559f1cbd780e12fc54b373a63863b008a2a374fdfb18",
+  "clausulas_nuevas": [
+    "Regla 16: el re-perfil itera hasta que no mejore nada (Q104: dos rondas; re-perfil +0,656 en -0,04 sobre fresco +0,805) [Q107]",
+    "Regla 17: un bump solo es estructura si sus vecinos, re-perfilados, no lo alcanzan (Q104: bump +0,04 resuelto; +0,03 subio a 8,958 por encima del bump) [Q107]",
+    "Regla 18: Wilks disconexo = no informativo aunque dlnL_max >= 0,5 (Q104: IC68 [-0,030, +0,002] disconexo con dlnL_max +0,91; Q105: dlnL_max 0,424 < 0,5) [Q107]",
+    "Sustituciones v3: Q84->Q106 (GW230731, media -0,0157 -> -0,0237, sigma sin cambio), Q98->Q108 (GW231114, media +0,0287 -> -0,0859, sigma 0,070 -> 0,18, perfil bimodal), Q92->Q109 (GW230723, media -0,0651 -> -0,1246, sigma sin cambio, pico estrecho real), Q73->Q110 (GW231226, media -0,0230 -> -0,1488, sigma 0,1021 -> 0,16; el cambio de titular es el cambio de regla del estimador, discreta -> NW)",
+    "Precedentes registrados en v3 (sin regla numerada nueva): Q109 - Wilks informativo no sustituye al headline NW (adopcion sigma 0,03 con GR 2,04sigma rechazada en el acto por no estar en el pre-registro); Q106 - hueco Wilks de un punto (deficit 0,055 en dlnL) = ruido de optimizador; Q110 - el estimador mueve el titular a M40 (discreta -0,026 vs NW -0,149)",
+    "Regla 19 (clausula 14, Q128): perfiles bimodales con modos de alturas comparables - definicion operativa con prominencia UNILATERAL >= 1,0 en dlnL, modo menor a <= 1,5 del mayor, separacion >= 0,10 en kappa; prerrequisito Reglas 16 y 17; interpolada fina como CONTROL (rejilla 0,001 en el rango medido, nunca headline); test de fallo NW h=0,02 (excluye el modo mayor a >3sigma o sigma < 1/2 de la discreta -> se rechaza y se adopta la discreta; dispara solo en Q127, z 6,10); umbral de discrepancia adoptado-control 0,5sigma; borde no desvanecido si dlnL en un extremo esta a < 2,0 del maximo [Q129, plegada como 2.16]",
+    "Sustituciones v4: Q108->Q124 via Q116 (GW231114, media -0,0859 -> -0,124 -> -0,233, sigma 0,18 -> 0,21 -> 0,25; lobulo -0,3 sobrevive a prior +-0,85 y +-0,99; flanco -0,25 satura), Q109->Q117 (GW230723, media -0,1246 -> -0,121, sigma sin cambio; pico continuo en rondas 4-5), Q126 original->Q127 (GW250114, media NW -0,22 +- 0,12 -> discreta -0,07 +- 0,13; NW h=0,02 rechazada por Regla 19); nuevos: Q112 (GW241127, -0,286 +- 0,14), Q125 (GW231206, -0,241 +- 0,13), Q126 corregido (GW250114, -0,07 +- 0,13) [Q129]",
+    "Clausula 15 (Q129): la ventana off-source es POR DETECTOR, no global (Q125: L1 GPS-450 contaminada, se uso GPS-800 para L1; Q126: H1 +500 contaminada, off GPS-300 en ambos detectores)",
+    "Clausula 16 (Q129): emparejamiento por NOMBRE EXACTO en Q66 (Q125: '231206' encontro GW231206_233134, otro evento; Q126: sed dejo GW250114_233901); densificacion de la rejilla cuando un lobulo aislado hace que la NW mida el kernel (Q126: rejilla 31k daba -0,32 +- 0,05, 9k densos lo corrigieron a -0,22 +- 0,12)",
+    "Clausula 17 (Q136, inciso de la Regla 16): el re-perfil dirigido incluye Powell desde el punto adoptado mismo, no solo desde los vecinos (Q131: en kappa=-0,27 de GW231114 el punto adoptado de Q124 no era optimo de Powell - Powell desde ese punto subio rho 8,5601 -> 8,6679, dlnL -1,812 -> -0,883; el chequeo desde -0,28/-0,26 no lo encontraba; ronda 2 lo confirma: 8,6681 desde el nuevo optimo, 8,6599 desde -0,28)",
+    "Correccion Q131 al ancla Q124 (GW231114): rho(-0,27) 8,5601 -> 8,6679 (Mc 14,250, eta 0,2496, chi1 +0,232, chi2 +0,292; rama lobulo); el dip en -0,27 NO es estructura real (optimo perdido, Regla 17); el valle es un solo dip en -0,25/-0,24; NO_SE tercera rama CERRADO (no hay tercera rama); NW h=0,02: -0,2326 -> -0,2329, sigma 0,2470 -> 0,2462; discreta -0,0828 -> -0,0845; masa lobulo 0,211 -> 0,215; headline redondeado SIN CAMBIO: -0,233 +- 0,25; combinado SIN CAMBIO [Q136]",
+    "Corrección Q135 al ancla Q126 (GW250114): rho(+0,06) 65,6012 -> 65,9856 (dlnL -22,71 -> +2,58, Mc 28,802, eta 0,2500, chi1 -0,287, chi2 -0,276, chi_eff -0,281, H1 44,9455, L1 48,3115, arranque ramaB+0,10, d_rho +0,3844; óptimo perdido, Regla 17; el valle desaparece); rho(+0,07) 65,7806 -> 65,8244 (dlnL -10,93 -> -8,05, Mc 31,228, chi1 -0,146, chi2 -0,211, arranque pert_chi-0,05, d_rho +0,0438); dip residual somero en +0,07 (-8,05) sin verificar a fondo; NO_SÉ valle +0,06 (Q65) CERRADO; discreta con perfil corregido (-0,0693, 0,1257) idéntica a Q127; headline -0,07 +- 0,13 y combinado SIN CAMBIO [Q138]",
+    "Corrección Q139 al ancla Q126 (GW250114): re-perfil fino en 0,065/0,075 (32 arranques, 16 por kappa): rho(0,065) = 65,9140 (dlnL -2,142, Mc 28,726, eta 0,2500, chi1 -0,306, chi2 -0,265, chi_eff -0,286, H1 44,848, L1 48,304, arranque ramaB+0,09; +0,0090 sobre el envelope interpolado 65,9050); rho(0,075) = 65,8986 (dlnL -3,161, Mc 30,854, eta 0,2500, chi1 -0,169, chi2 -0,252, chi_eff -0,210, H1 44,879, L1 48,255, arranque perfil+0,08; +0,0226 sobre el envelope 65,8760); fino Mc sin mejora en ambos kappa; dip de +0,07 = ESTRUCTURA SOMERA real (muesca < 0,01 en kappa, profundidad 5,91 en dlnL respecto a 0,065 y 4,89 respecto a 0,075), Regla 17 NO aplica; zona 0,06-0,08 es cruce de ramas (0,065 rama B, +0,07 familia intermedia Mc 31,228 chi1 -0,146, 0,075 familia de +0,08); NO_SÉ dip residual (Q66) CERRADO, no requiere más re-perfil; discreta con los dos puntos finos añadidos (42kappa) (-0,0693, 0,1257) idéntica a Q127 y a la de 40kappa de Q135; headline -0,07 +- 0,13 y combinado SIN CAMBIO [Q140]"
+  ],
+  "combinado_gr_sigma": 1.181,
+  "combinado_kappa_media": -0.010691,
+  "combinado_sigma": 0.009055,
+  "documento": "q140_preregistro_o4c_d3_v4p3_2026-11-27.md",
+  "estado": "BORRADOR, NO DEPOSITADO - séptima enmienda (v4.3) de Q138 (sha256 21ae53e9cce7b2b52c12779959889a22dc67dcee0027a09b5960b553aec141d0); Q89, Q103, Q107, Q111, Q129, Q136 y Q138 intactos",
+  "factor_correccion_solape_perfil": 1.547,
+  "fecha": "2026-11-27",
+  "n_anclajes": 16,
+  "plazo_deposito": "2026-12-16",
+  "que_falta_depositar": [
+    "decisión del Jardinero sobre el QUÉ (este documento solo, o junto con paquete corpus v2 / beta_GDELT+S8 / CAMELS-BR)",
+    "publicador con token COORD (token no está en este sandbox; publicación irreversible)",
+    "Q140 ya aterrizó: 16/16 anclajes en plantilla común (100 % del peso); la v4.3 es el texto a depositar; 19 reglas (18 heredadas de la v2 + Regla 19 de Q128); cláusula 17 (inciso de la Regla 16, Q131)"
+  ],
+  "solape_combinado_sigma": 0.005853,
+  "verificacion_plantilla_comun": {
+    "n_comun": 16,
+    "n_cuadratura": 0,
+    "pendientes": [],
+    "peso_comun_pct": 100.0
+  }
+}
