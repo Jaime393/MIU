@@ -9,11 +9,11 @@ Arquitectura: 0 jerarquía, 1 sustrato KV, nuevo nodo = 3 claves en KV.
 
 ```python
 # ojo_correo.py — cron Termux: */1 * * * *
-import imaplib, email, re, json, requests
+import imaplib, email, re, json, requests, os
 from datetime import datetime
 
-SUPA = "https://tpfiybpguuxskitszhmk.supabase.co"
-ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRwZml5YnBndXV4c2tpdHN6aG1rIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc3NjgyNTAsImV4cCI6MjEwMzM0NDI1MH0.W4V8xdyfZj6I7bj1VsfM5gjY17ZHPi8jhIJgDRpUYH0"
+SUPA = os.environ["SUPABASE_URL"]
+ANON = os.environ["SUPABASE_ANON_KEY"]
 H = {"apikey": ANON, "Authorization": f"Bearer {ANON}"}
 PATRONES = [r"\b(\d{6})\b",
             r"https?://[^\s]*verif[^\s]*",
