@@ -1,1477 +1,1491 @@
 {
- "aristas": [
-  {
-   "a": "comparator_cerro",
-   "de": "rh_vigilancia",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "zeng_contrareplica",
-   "de": "rh_vigilancia",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "rubinstein_v2_265",
-   "de": "rh_vigilancia",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "sernau_condensado",
-   "de": "rh_vigilancia",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "clay_unsolved",
-   "de": "rh_vigilancia",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "everglades_158",
-   "de": "q39_segunda_foto",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "rodales_varian",
-   "de": "q39_segunda_foto",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "west_lake_neumatoforos",
-   "de": "q39_segunda_foto",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "celestun_sin_foto",
-   "de": "q39_segunda_foto",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "correcciones_repo",
-   "de": "q41_test_real",
-   "tipo": "frente ejecuta"
-  },
-  {
-   "a": "lalsuite_802",
-   "de": "q41_test_real",
-   "tipo": "frente ejecuta"
-  },
-  {
-   "a": "kappa_map_menos0005",
-   "de": "q41_test_real",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "perfil_gana_fisher",
-   "de": "q41_test_real",
-   "tipo": "frente adjudica"
-  },
-  {
-   "a": "masas_fijas_artefacto",
-   "de": "q41_test_real",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "irfft_bug",
-   "de": "q41_test_real",
-   "tipo": "frente corrige"
-  },
-  {
-   "a": "f1_no_se",
-   "de": "q42_f1_f6",
-   "tipo": "frente ejecuta"
-  },
-  {
-   "a": "f2_no_se",
-   "de": "q42_f1_f6",
-   "tipo": "frente ejecuta"
-  },
-  {
-   "a": "f3_degenerado",
-   "de": "q42_f1_f6",
-   "tipo": "frente ejecuta"
-  },
-  {
-   "a": "f4_no_confirma",
-   "de": "q42_f1_f6",
-   "tipo": "frente ejecuta"
-  },
-  {
-   "a": "f5_falsificado",
-   "de": "q42_f1_f6",
-   "tipo": "frente ejecuta"
-  },
-  {
-   "a": "f6_confirma",
-   "de": "q42_f1_f6",
-   "tipo": "frente ejecuta"
-  },
-  {
-   "a": "c11",
-   "de": "comparator_cerro",
-   "tipo": "E1 completado, C11 sigue abierto"
-  },
-  {
-   "a": "c11",
-   "de": "zeng_contrareplica",
-   "tipo": "E6/E7/E8, debate sin resolver"
-  },
-  {
-   "a": "c11",
-   "de": "clay_unsolved",
-   "tipo": "sin cambio, premio imposible antes de 2028"
-  },
-  {
-   "a": "c50",
-   "de": "kappa_map_menos0005",
-   "tipo": "perfil vs Fisher"
-  },
-  {
-   "a": "c50",
-   "de": "perfil_gana_fisher",
-   "tipo": "Fisher refutada ~30-40x"
-  },
-  {
-   "a": "c44",
-   "de": "correcciones_repo",
-   "tipo": "residuo cerrado"
-  },
-  {
-   "a": "c47",
-   "de": "f4_no_confirma",
-   "tipo": "claves corregidas y ejecutadas"
-  },
-  {
-   "a": "c48",
-   "de": "f3_degenerado",
-   "tipo": "lista de 11 épocas, test degenerado"
-  },
-  {
-   "a": "c38",
-   "de": "everglades_158",
-   "tipo": "D_f espacial medido, §8.4 no se reabre"
-  },
-  {
-   "a": "c38",
-   "de": "rodales_varian",
-   "tipo": "el D_f mismo varía entre rodales"
-  },
-  {
-   "a": "q46_rederivacion",
-   "de": "perfil_gana_fisher",
-   "tipo": "re-derivar cota combinada"
-  },
-  {
-   "a": "q47_gw230529",
-   "de": "kappa_map_menos0005",
-   "tipo": "segundo evento"
-  },
-  {
-   "a": "q48_h1l1",
-   "de": "kappa_map_menos0005",
-   "tipo": "H1+L1 con spins y mareas"
-  },
-  {
-   "a": "q49_shark_river",
-   "de": "everglades_158",
-   "tipo": "sitio Q31 exacto + barra de escala"
-  },
-  {
-   "a": "q50_detail_bahia",
-   "de": "west_lake_neumatoforos",
-   "tipo": "tercer sitio candidato"
-  },
-  {
-   "a": "q49_shark_river",
-   "de": "celestun_sin_foto",
-   "tipo": "Celestún sin foto, falta el sitio"
-  },
-  {
-   "a": "q38_openalex",
-   "de": "rh_vigilancia",
-   "tipo": "arXiv 429, reintentar tras reseteo"
-  },
-  {
-   "a": "kappa_map_menos0005",
-   "de": "perfil_gana_fisher",
-   "tipo": "X-C55 perfil refuta Fisher"
-  },
-  {
-   "a": "rodales_varian",
-   "de": "everglades_158",
-   "tipo": "X-C56 dos rodales, dos D_f"
-  },
-  {
-   "a": "kappa_map_menos0005",
-   "de": "lalsuite_802",
-   "tipo": "LALSuite hace posible el test real"
-  },
-  {
-   "a": "perfil_gana_fisher",
-   "de": "masas_fijas_artefacto",
-   "tipo": "perfilado obligatorio"
-  },
-  {
-   "a": "kappa_map_menos0005",
-   "de": "irfft_bug",
-   "tipo": "rho corregido 2x"
-  },
-  {
-   "a": "f6_confirma",
-   "de": "f5_falsificado",
-   "tipo": "X-C61 EEG falsifica, HRV confirma"
-  },
-  {
-   "a": "q46_rederivacion",
-   "de": "c50",
-   "tipo": "conflicto abierto exige re-derivación"
-  },
-  {
-   "a": "c50_resuelto",
-   "de": "q66_catalogo",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "c50_resuelto",
-   "de": "q82_tension",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "c50_resuelto",
-   "de": "q85_cuenca",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "c50_resuelto",
-   "de": "q86_dk",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "c50_resuelto",
-   "de": "q88_mc56",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "c50",
-   "de": "c50_resuelto",
-   "tipo": "resuelve"
-  },
-  {
-   "a": "factor_154",
-   "de": "q82_tension",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "factor_154",
-   "de": "q91_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "factor_154",
-   "de": "q99_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "factor_154",
-   "de": "q104_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "c50",
-   "de": "factor_154",
-   "tipo": "corrige"
-  },
-  {
-   "a": "sesgo_cuadratura",
-   "de": "q91_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "sesgo_cuadratura",
-   "de": "q95_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "sesgo_cuadratura",
-   "de": "q99_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "sesgo_cuadratura",
-   "de": "q100_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "sesgo_cuadratura",
-   "de": "q101_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "sesgo_cuadratura",
-   "de": "q104_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "sesgo_cuadratura",
-   "de": "q106_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "c54",
-   "de": "sesgo_cuadratura",
-   "tipo": "funda"
-  },
-  {
-   "a": "c53",
-   "de": "q97_denso",
-   "tipo": "funda"
-  },
-  {
-   "a": "c53",
-   "de": "q99_red_comun",
-   "tipo": "funda"
-  },
-  {
-   "a": "c53",
-   "de": "q100_red_comun",
-   "tipo": "funda"
-  },
-  {
-   "a": "c53",
-   "de": "q106_red_comun",
-   "tipo": "funda"
-  },
-  {
-   "a": "c52",
-   "de": "q79_lobulo",
-   "tipo": "funda"
-  },
-  {
-   "a": "plateau_sobrevive",
-   "de": "q101_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "combinado_13",
-   "de": "plateau_sobrevive",
-   "tipo": "alimenta"
-  },
-  {
-   "a": "bump_artefacto",
-   "de": "q104_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "combinado_13",
-   "de": "bump_artefacto",
-   "tipo": "alimenta"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q91_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q95_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q99_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q100_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q101_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q104_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q106_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q97_denso",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q102_15_20",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q105_15_20",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "c50",
-   "de": "combinado_13",
-   "tipo": "alimenta"
-  },
-  {
-   "a": "ley_beta",
-   "de": "q102_15_20",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "ley_beta",
-   "de": "q105_15_20",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "combinado_13",
-   "de": "ley_beta",
-   "tipo": "alimenta"
-  },
-  {
-   "a": "series_cerradas",
-   "de": "q102_15_20",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "series_cerradas",
-   "de": "q105_15_20",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "series_cerradas",
-   "de": "q97_denso",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "series_cerradas",
-   "de": "q106_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "combinado_13",
-   "de": "series_cerradas",
-   "tipo": "alimenta"
-  },
-  {
-   "a": "q103_enmienda",
-   "de": "q89_preregistro",
-   "tipo": "enmienda"
-  },
-  {
-   "a": "q107_v2",
-   "de": "q103_enmienda",
-   "tipo": "enmienda"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q107_v2",
-   "tipo": "recoge"
-  },
-  {
-   "a": "c51",
-   "de": "q40_retiro",
-   "tipo": "funda"
-  },
-  {
-   "a": "q49_shark_river",
-   "de": "q90_so",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "q49_shark_river",
-   "de": "q75_luz",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "q49_shark_river",
-   "de": "q76_banda",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "q49_shark_river",
-   "de": "q77_escala",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "c38",
-   "de": "q45a_toscana",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "c38",
-   "de": "q44_gdelt",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "q38_openalex",
-   "de": "q38_comeau",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "sesgo_cuadratura",
-   "de": "q108_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "c54",
-   "de": "q108_red_comun",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q108_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "series_cerradas",
-   "de": "q108_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "sesgo_cuadratura",
-   "de": "q109_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "c54",
-   "de": "q109_red_comun",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q109_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "series_cerradas",
-   "de": "q109_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "c53",
-   "de": "q109_red_comun",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "sesgo_cuadratura",
-   "de": "q110_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "c54",
-   "de": "q110_red_comun",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q110_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "ley_beta",
-   "de": "q110_red_comun",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "c53",
-   "de": "q110_red_comun",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q111_preregistro_v3",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "ley_beta",
-   "de": "q111_preregistro_v3",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "q107_v2",
-   "de": "q111_preregistro_v3",
-   "tipo": "enmienda"
-  },
-  {
-   "a": "c53",
-   "de": "q111_preregistro_v3",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "factor_154",
-   "de": "q111_preregistro_v3",
-   "tipo": "corrige"
-  },
-  {
-   "a": "c51",
-   "de": "q113_c708_aplicada",
-   "tipo": "resuelve"
-  },
-  {
-   "a": "q40_retiro",
-   "de": "q113_c708_aplicada",
-   "tipo": "corrige"
-  },
-  {
-   "a": "c52",
-   "de": "q115_lobulo_masa_igual",
-   "tipo": "resuelve"
-  },
-  {
-   "a": "q79_lobulo",
-   "de": "q115_lobulo_masa_igual",
-   "tipo": "explica"
-  },
-  {
-   "a": "q90_so",
-   "de": "q114_tercer_punto_so",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "q77_escala",
-   "de": "q114_tercer_punto_so",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "q76_banda",
-   "de": "q114_tercer_punto_so",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "q109_red_comun",
-   "de": "q117_reperfil_ronda4",
-   "tipo": "sustituye"
-  },
-  {
-   "a": "c52",
-   "de": "q117_reperfil_ronda4",
-   "tipo": "cierra reserva"
-  },
-  {
-   "a": "q40_retiro",
-   "de": "q118_agregados_stale",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q113_c708_aplicada",
-   "de": "q118_agregados_stale",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "q113_c708_aplicada",
-   "de": "q119_nutrientes_otros_suelos",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "q118_agregados_stale",
-   "de": "q119_nutrientes_otros_suelos",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "q118_agregados_stale",
-   "de": "q120_agregados_stale_pase2",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q40_retiro",
-   "de": "q120_agregados_stale_pase2",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "q120_agregados_stale_pase2",
-   "de": "q121_agregados_stale_pase3",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q113_c708_aplicada",
-   "de": "q121_agregados_stale_pase3",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "q120_agregados_stale_pase2",
-   "de": "q122_simulacion_mezcla_vigente",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q118_agregados_stale",
-   "de": "q122_simulacion_mezcla_vigente",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "q108_red_comun",
-   "de": "q116_gw231114_prior_085",
-   "tipo": "sustituye"
-  },
-  {
-   "a": "c52",
-   "de": "q116_gw231114_prior_085",
-   "tipo": "cierra reserva"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q112_segundo_ancla_30_40",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "ley_beta",
-   "de": "q112_segundo_ancla_30_40",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "q116_gw231114_prior_085",
-   "de": "q124_gw231114_prior_099",
-   "tipo": "sustituye"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q124_gw231114_prior_099",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q125_tercer_ancla_30_40",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "ley_beta",
-   "de": "q125_tercer_ancla_30_40",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q126_cuarto_ancla_30_40",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "ley_beta",
-   "de": "q126_cuarto_ancla_30_40",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "q126_cuarto_ancla_30_40",
-   "de": "q127_reperfil_denso_q126",
-   "tipo": "sustituye"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q127_reperfil_denso_q126",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "q111_preregistro_v3",
-   "de": "q128_regla_bimodal_d3",
-   "tipo": "enmienda"
-  },
-  {
-   "a": "q127_reperfil_denso_q126",
-   "de": "q128_regla_bimodal_d3",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q111_preregistro_v3",
-   "de": "q129_preregistro_v4",
-   "tipo": "enmienda"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q129_preregistro_v4",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "q127_reperfil_denso_q126",
-   "de": "q130_valle_006",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q126_cuarto_ancla_30_40",
-   "de": "q130_valle_006",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q124_gw231114_prior_099",
-   "de": "q131_tercera_rama",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q127_reperfil_denso_q126",
-   "de": "q131_tercera_rama",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q121_agregados_stale_pase3",
-   "de": "q132_resync_paquete_v2",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q113_c708_aplicada",
-   "de": "q132_resync_paquete_v2",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q113_c708_aplicada",
-   "de": "q133_adenda_c708",
-   "tipo": "enmienda"
-  },
-  {
-   "a": "q40_retiro",
-   "de": "q133_adenda_c708",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q114_tercer_punto_so",
-   "de": "q134_serie_manglares",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q90_so",
-   "de": "q134_serie_manglares",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "q126_cuarto_ancla_30_40",
-   "de": "q135_reperfil_valle_006",
-   "tipo": "corrige"
-  },
-  {
-   "a": "q130_valle_006",
-   "de": "q135_reperfil_valle_006",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q129_preregistro_v4",
-   "de": "q136_preregistro_v4p1",
-   "tipo": "enmienda"
-  },
-  {
-   "a": "q131_tercera_rama",
-   "de": "q136_preregistro_v4p1",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q133_adenda_c708",
-   "de": "q137_resync_paquete_v2",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q132_resync_paquete_v2",
-   "de": "q137_resync_paquete_v2",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q136_preregistro_v4p1",
-   "de": "q138_preregistro_v4p2",
-   "tipo": "enmienda"
-  },
-  {
-   "a": "q135_reperfil_valle_006",
-   "de": "q138_preregistro_v4p2",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q135_reperfil_valle_006",
-   "de": "q139_reperfil_fino",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q126_cuarto_ancla_30_40",
-   "de": "q139_reperfil_fino",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "q138_preregistro_v4p2",
-   "de": "q140_preregistro_v4p3",
-   "tipo": "enmienda"
-  },
-  {
-   "a": "q139_reperfil_fino",
-   "de": "q140_preregistro_v4p3",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q140_preregistro_v4p3",
-   "de": "q141_verificacion_persistencia_red",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q133_adenda_c708",
-   "de": "q141_verificacion_persistencia_red",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q140_preregistro_v4p3",
-   "de": "q142_verificacion_que_cuatro_paquetes",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q137_resync_paquete_v2",
-   "de": "q142_verificacion_que_cuatro_paquetes",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q133_adenda_c708",
-   "de": "q143_gemelo_digital_cruce_corpus",
-   "tipo": "recoge"
-  },
-  {
-   "a": "q38_comeau",
-   "de": "q143_gemelo_digital_cruce_corpus",
-   "tipo": "refuerza"
-  },
-  {
-   "a": "q126_cuarto_ancla_30_40",
-   "de": "q144_quinto_ancla_cribado",
-   "tipo": "recoge"
-  },
-  {
-   "a": "ley_beta",
-   "de": "q144_quinto_ancla_cribado",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q145_quinto_ancla_gw240920",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "ley_beta",
-   "de": "q145_quinto_ancla_gw240920",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "q145_quinto_ancla_gw240920",
-   "de": "q146_densificacion_flanco_q145",
-   "tipo": "corrige"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q146_densificacion_flanco_q145",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "q140_preregistro_v4p3",
-   "de": "q147_preregistro_v4p4",
-   "tipo": "enmienda"
-  },
-  {
-   "a": "q146_densificacion_flanco_q145",
-   "de": "q147_preregistro_v4p4",
-   "tipo": "recoge"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q148_sexto_ancla_gw240621",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "ley_beta",
-   "de": "q148_sexto_ancla_gw240621",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "q147_preregistro_v4p4",
-   "de": "q150_preregistro_v4p5",
-   "tipo": "enmienda"
-  },
-  {
-   "a": "q148_sexto_ancla_gw240621",
-   "de": "q150_preregistro_v4p5",
-   "tipo": "recoge"
-  },
-  {
-   "a": "combinado_13",
-   "de": "q151_septimo_ancla_gw240615",
-   "tipo": "frente mide"
-  },
-  {
-   "a": "ley_beta",
-   "de": "q151_septimo_ancla_gw240615",
-   "tipo": "frente mide"
-  }
- ],
- "fecha": "2026-11-26",
- "huerfanos": [],
- "n_aristas": 199,
- "n_nodos": 118,
- "nodos": [
-  {
-   "id": "rh_vigilancia",
-   "tipo": "frente"
-  },
-  {
-   "id": "q39_segunda_foto",
-   "tipo": "frente"
-  },
-  {
-   "id": "q41_test_real",
-   "tipo": "frente"
-  },
-  {
-   "id": "q42_f1_f6",
-   "tipo": "frente"
-  },
-  {
-   "id": "comparator_cerro",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "zeng_contrareplica",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "rubinstein_v2_265",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "sernau_condensado",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "clay_unsolved",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "everglades_158",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "rodales_varian",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "west_lake_neumatoforos",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "celestun_sin_foto",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "correcciones_repo",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "lalsuite_802",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "kappa_map_menos0005",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "perfil_gana_fisher",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "masas_fijas_artefacto",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "irfft_bug",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "f1_no_se",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "f2_no_se",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "f3_degenerado",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "f4_no_confirma",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "f5_falsificado",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "f6_confirma",
-   "tipo": "ladrillo"
-  },
-  {
-   "id": "c11",
-   "tipo": "conflicto"
-  },
-  {
-   "id": "c50",
-   "tipo": "conflicto"
-  },
-  {
-   "id": "c44",
-   "tipo": "conflicto"
-  },
-  {
-   "id": "c47",
-   "tipo": "conflicto"
-  },
-  {
-   "id": "c48",
-   "tipo": "conflicto"
-  },
-  {
-   "id": "c38",
-   "tipo": "conflicto"
-  },
-  {
-   "id": "q46_rederivacion",
-   "tipo": "pendiente"
-  },
-  {
-   "id": "q47_gw230529",
-   "tipo": "pendiente"
-  },
-  {
-   "id": "q48_h1l1",
-   "tipo": "pendiente"
-  },
-  {
-   "id": "q49_shark_river",
-   "tipo": "pendiente"
-  },
-  {
-   "id": "q50_detail_bahia",
-   "tipo": "pendiente"
-  },
-  {
-   "id": "q38_openalex",
-   "tipo": "pendiente"
-  },
-  {
-   "id": "q66_catalogo",
-   "tipo": "frente"
-  },
-  {
-   "id": "q82_tension",
-   "tipo": "frente"
-  },
-  {
-   "id": "q85_cuenca",
-   "tipo": "frente"
-  },
-  {
-   "id": "q86_dk",
-   "tipo": "frente"
-  },
-  {
-   "id": "q88_mc56",
-   "tipo": "frente"
-  },
-  {
-   "id": "q91_red_comun",
-   "tipo": "frente"
-  },
-  {
-   "id": "q95_red_comun",
-   "tipo": "frente"
-  },
-  {
-   "id": "q99_red_comun",
-   "tipo": "frente"
-  },
-  {
-   "id": "q100_red_comun",
-   "tipo": "frente"
-  },
-  {
-   "id": "q101_red_comun",
-   "tipo": "frente"
-  },
-  {
-   "id": "q104_red_comun",
-   "tipo": "frente"
-  },
-  {
-   "id": "q106_red_comun",
-   "tipo": "frente"
-  },
-  {
-   "id": "q97_denso",
-   "tipo": "frente"
-  },
-  {
-   "id": "q102_15_20",
-   "tipo": "frente"
-  },
-  {
-   "id": "q105_15_20",
-   "tipo": "frente"
-  },
-  {
-   "id": "q79_lobulo",
-   "tipo": "frente"
-  },
-  {
-   "id": "q89_preregistro",
-   "tipo": "frente"
-  },
-  {
-   "id": "q103_enmienda",
-   "tipo": "frente"
-  },
-  {
-   "id": "q107_v2",
-   "tipo": "frente"
-  },
-  {
-   "id": "q90_so",
-   "tipo": "frente"
-  },
-  {
-   "id": "q75_luz",
-   "tipo": "frente"
-  },
-  {
-   "id": "q76_banda",
-   "tipo": "frente"
-  },
-  {
-   "id": "q77_escala",
-   "tipo": "frente"
-  },
-  {
-   "id": "q40_retiro",
-   "tipo": "frente"
-  },
-  {
-   "id": "q45a_toscana",
-   "tipo": "frente"
-  },
-  {
-   "id": "q38_comeau",
-   "tipo": "frente"
-  },
-  {
-   "id": "q44_gdelt",
-   "tipo": "frente"
-  },
-  {
-   "id": "q108_red_comun",
-   "tipo": "frente"
-  },
-  {
-   "id": "c50_resuelto",
-   "tipo": "resultado"
-  },
-  {
-   "id": "factor_154",
-   "tipo": "resultado"
-  },
-  {
-   "id": "ley_beta",
-   "tipo": "resultado"
-  },
-  {
-   "id": "sesgo_cuadratura",
-   "tipo": "resultado"
-  },
-  {
-   "id": "plateau_sobrevive",
-   "tipo": "resultado"
-  },
-  {
-   "id": "bump_artefacto",
-   "tipo": "resultado"
-  },
-  {
-   "id": "combinado_13",
-   "tipo": "resultado"
-  },
-  {
-   "id": "series_cerradas",
-   "tipo": "resultado"
-  },
-  {
-   "id": "c51",
-   "tipo": "conflicto"
-  },
-  {
-   "id": "c52",
-   "tipo": "conflicto"
-  },
-  {
-   "id": "c53",
-   "tipo": "conflicto"
-  },
-  {
-   "id": "c54",
-   "tipo": "conflicto"
-  },
-  {
-   "id": "q109_red_comun",
-   "tipo": "frente"
-  },
-  {
-   "id": "q110_red_comun",
-   "tipo": "frente"
-  },
-  {
-   "id": "q111_preregistro_v3",
-   "tipo": "frente"
-  },
-  {
-   "id": "q113_c708_aplicada",
-   "tipo": "frente"
-  },
-  {
-   "id": "q115_lobulo_masa_igual",
-   "tipo": "frente"
-  },
-  {
-   "id": "q114_tercer_punto_so",
-   "tipo": "frente"
-  },
-  {
-   "id": "q117_reperfil_ronda4",
-   "tipo": "frente"
-  },
-  {
-   "id": "q118_agregados_stale",
-   "tipo": "frente"
-  },
-  {
-   "id": "q119_nutrientes_otros_suelos",
-   "tipo": "frente"
-  },
-  {
-   "id": "q120_agregados_stale_pase2",
-   "tipo": "frente"
-  },
-  {
-   "id": "q121_agregados_stale_pase3",
-   "tipo": "frente"
-  },
-  {
-   "id": "q122_simulacion_mezcla_vigente",
-   "tipo": "frente"
-  },
-  {
-   "id": "q116_gw231114_prior_085",
-   "tipo": "frente"
-  },
-  {
-   "id": "q112_segundo_ancla_30_40",
-   "tipo": "frente"
-  },
-  {
-   "id": "q124_gw231114_prior_099",
-   "tipo": "frente"
-  },
-  {
-   "id": "q125_tercer_ancla_30_40",
-   "tipo": "frente"
-  },
-  {
-   "id": "q126_cuarto_ancla_30_40",
-   "tipo": "frente"
-  },
-  {
-   "id": "q127_reperfil_denso_q126",
-   "tipo": "frente"
-  },
-  {
-   "id": "q128_regla_bimodal_d3",
-   "tipo": "frente"
-  },
-  {
-   "id": "q129_preregistro_v4",
-   "tipo": "frente"
-  },
-  {
-   "id": "q130_valle_006",
-   "tipo": "frente"
-  },
-  {
-   "id": "q131_tercera_rama",
-   "tipo": "frente"
-  },
-  {
-   "id": "q132_resync_paquete_v2",
-   "tipo": "frente"
-  },
-  {
-   "id": "q133_adenda_c708",
-   "tipo": "frente"
-  },
-  {
-   "id": "q134_serie_manglares",
-   "tipo": "frente"
-  },
-  {
-   "id": "q135_reperfil_valle_006",
-   "tipo": "frente"
-  },
-  {
-   "id": "q136_preregistro_v4p1",
-   "tipo": "frente"
-  },
-  {
-   "id": "q137_resync_paquete_v2",
-   "tipo": "frente"
-  },
-  {
-   "id": "q138_preregistro_v4p2",
-   "tipo": "frente"
-  },
-  {
-   "id": "q139_reperfil_fino",
-   "tipo": "frente"
-  },
-  {
-   "id": "q140_preregistro_v4p3",
-   "tipo": "frente"
-  },
-  {
-   "id": "q141_verificacion_persistencia_red",
-   "tipo": "frente"
-  },
-  {
-   "id": "q142_verificacion_que_cuatro_paquetes",
-   "tipo": "frente"
-  },
-  {
-   "id": "q143_gemelo_digital_cruce_corpus",
-   "tipo": "frente"
-  },
-  {
-   "id": "q144_quinto_ancla_cribado",
-   "tipo": "frente"
-  },
-  {
-   "id": "q145_quinto_ancla_gw240920",
-   "tipo": "frente"
-  },
-  {
-   "id": "q146_densificacion_flanco_q145",
-   "tipo": "frente"
-  },
-  {
-   "id": "q147_preregistro_v4p4",
-   "tipo": "frente"
-  },
-  {
-   "id": "q148_sexto_ancla_gw240621",
-   "tipo": "frente"
-  },
-  {
-   "id": "q150_preregistro_v4p5",
-   "tipo": "frente"
-  },
-  {
-   "id": "q151_septimo_ancla_gw240615",
-   "tipo": "frente"
-  }
- ]
+  "aristas": [
+    {
+      "a": "comparator_cerro",
+      "de": "rh_vigilancia",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "zeng_contrareplica",
+      "de": "rh_vigilancia",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "rubinstein_v2_265",
+      "de": "rh_vigilancia",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "sernau_condensado",
+      "de": "rh_vigilancia",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "clay_unsolved",
+      "de": "rh_vigilancia",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "everglades_158",
+      "de": "q39_segunda_foto",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "rodales_varian",
+      "de": "q39_segunda_foto",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "west_lake_neumatoforos",
+      "de": "q39_segunda_foto",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "celestun_sin_foto",
+      "de": "q39_segunda_foto",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "correcciones_repo",
+      "de": "q41_test_real",
+      "tipo": "frente ejecuta"
+    },
+    {
+      "a": "lalsuite_802",
+      "de": "q41_test_real",
+      "tipo": "frente ejecuta"
+    },
+    {
+      "a": "kappa_map_menos0005",
+      "de": "q41_test_real",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "perfil_gana_fisher",
+      "de": "q41_test_real",
+      "tipo": "frente adjudica"
+    },
+    {
+      "a": "masas_fijas_artefacto",
+      "de": "q41_test_real",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "irfft_bug",
+      "de": "q41_test_real",
+      "tipo": "frente corrige"
+    },
+    {
+      "a": "f1_no_se",
+      "de": "q42_f1_f6",
+      "tipo": "frente ejecuta"
+    },
+    {
+      "a": "f2_no_se",
+      "de": "q42_f1_f6",
+      "tipo": "frente ejecuta"
+    },
+    {
+      "a": "f3_degenerado",
+      "de": "q42_f1_f6",
+      "tipo": "frente ejecuta"
+    },
+    {
+      "a": "f4_no_confirma",
+      "de": "q42_f1_f6",
+      "tipo": "frente ejecuta"
+    },
+    {
+      "a": "f5_falsificado",
+      "de": "q42_f1_f6",
+      "tipo": "frente ejecuta"
+    },
+    {
+      "a": "f6_confirma",
+      "de": "q42_f1_f6",
+      "tipo": "frente ejecuta"
+    },
+    {
+      "a": "c11",
+      "de": "comparator_cerro",
+      "tipo": "E1 completado, C11 sigue abierto"
+    },
+    {
+      "a": "c11",
+      "de": "zeng_contrareplica",
+      "tipo": "E6/E7/E8, debate sin resolver"
+    },
+    {
+      "a": "c11",
+      "de": "clay_unsolved",
+      "tipo": "sin cambio, premio imposible antes de 2028"
+    },
+    {
+      "a": "c50",
+      "de": "kappa_map_menos0005",
+      "tipo": "perfil vs Fisher"
+    },
+    {
+      "a": "c50",
+      "de": "perfil_gana_fisher",
+      "tipo": "Fisher refutada ~30-40x"
+    },
+    {
+      "a": "c44",
+      "de": "correcciones_repo",
+      "tipo": "residuo cerrado"
+    },
+    {
+      "a": "c47",
+      "de": "f4_no_confirma",
+      "tipo": "claves corregidas y ejecutadas"
+    },
+    {
+      "a": "c48",
+      "de": "f3_degenerado",
+      "tipo": "lista de 11 épocas, test degenerado"
+    },
+    {
+      "a": "c38",
+      "de": "everglades_158",
+      "tipo": "D_f espacial medido, §8.4 no se reabre"
+    },
+    {
+      "a": "c38",
+      "de": "rodales_varian",
+      "tipo": "el D_f mismo varía entre rodales"
+    },
+    {
+      "a": "q46_rederivacion",
+      "de": "perfil_gana_fisher",
+      "tipo": "re-derivar cota combinada"
+    },
+    {
+      "a": "q47_gw230529",
+      "de": "kappa_map_menos0005",
+      "tipo": "segundo evento"
+    },
+    {
+      "a": "q48_h1l1",
+      "de": "kappa_map_menos0005",
+      "tipo": "H1+L1 con spins y mareas"
+    },
+    {
+      "a": "q49_shark_river",
+      "de": "everglades_158",
+      "tipo": "sitio Q31 exacto + barra de escala"
+    },
+    {
+      "a": "q50_detail_bahia",
+      "de": "west_lake_neumatoforos",
+      "tipo": "tercer sitio candidato"
+    },
+    {
+      "a": "q49_shark_river",
+      "de": "celestun_sin_foto",
+      "tipo": "Celestún sin foto, falta el sitio"
+    },
+    {
+      "a": "q38_openalex",
+      "de": "rh_vigilancia",
+      "tipo": "arXiv 429, reintentar tras reseteo"
+    },
+    {
+      "a": "kappa_map_menos0005",
+      "de": "perfil_gana_fisher",
+      "tipo": "X-C55 perfil refuta Fisher"
+    },
+    {
+      "a": "rodales_varian",
+      "de": "everglades_158",
+      "tipo": "X-C56 dos rodales, dos D_f"
+    },
+    {
+      "a": "kappa_map_menos0005",
+      "de": "lalsuite_802",
+      "tipo": "LALSuite hace posible el test real"
+    },
+    {
+      "a": "perfil_gana_fisher",
+      "de": "masas_fijas_artefacto",
+      "tipo": "perfilado obligatorio"
+    },
+    {
+      "a": "kappa_map_menos0005",
+      "de": "irfft_bug",
+      "tipo": "rho corregido 2x"
+    },
+    {
+      "a": "f6_confirma",
+      "de": "f5_falsificado",
+      "tipo": "X-C61 EEG falsifica, HRV confirma"
+    },
+    {
+      "a": "q46_rederivacion",
+      "de": "c50",
+      "tipo": "conflicto abierto exige re-derivación"
+    },
+    {
+      "a": "c50_resuelto",
+      "de": "q66_catalogo",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "c50_resuelto",
+      "de": "q82_tension",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "c50_resuelto",
+      "de": "q85_cuenca",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "c50_resuelto",
+      "de": "q86_dk",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "c50_resuelto",
+      "de": "q88_mc56",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "c50",
+      "de": "c50_resuelto",
+      "tipo": "resuelve"
+    },
+    {
+      "a": "factor_154",
+      "de": "q82_tension",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "factor_154",
+      "de": "q91_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "factor_154",
+      "de": "q99_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "factor_154",
+      "de": "q104_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "c50",
+      "de": "factor_154",
+      "tipo": "corrige"
+    },
+    {
+      "a": "sesgo_cuadratura",
+      "de": "q91_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "sesgo_cuadratura",
+      "de": "q95_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "sesgo_cuadratura",
+      "de": "q99_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "sesgo_cuadratura",
+      "de": "q100_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "sesgo_cuadratura",
+      "de": "q101_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "sesgo_cuadratura",
+      "de": "q104_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "sesgo_cuadratura",
+      "de": "q106_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "c54",
+      "de": "sesgo_cuadratura",
+      "tipo": "funda"
+    },
+    {
+      "a": "c53",
+      "de": "q97_denso",
+      "tipo": "funda"
+    },
+    {
+      "a": "c53",
+      "de": "q99_red_comun",
+      "tipo": "funda"
+    },
+    {
+      "a": "c53",
+      "de": "q100_red_comun",
+      "tipo": "funda"
+    },
+    {
+      "a": "c53",
+      "de": "q106_red_comun",
+      "tipo": "funda"
+    },
+    {
+      "a": "c52",
+      "de": "q79_lobulo",
+      "tipo": "funda"
+    },
+    {
+      "a": "plateau_sobrevive",
+      "de": "q101_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "plateau_sobrevive",
+      "tipo": "alimenta"
+    },
+    {
+      "a": "bump_artefacto",
+      "de": "q104_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "bump_artefacto",
+      "tipo": "alimenta"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q91_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q95_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q99_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q100_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q101_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q104_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q106_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q97_denso",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q102_15_20",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q105_15_20",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "c50",
+      "de": "combinado_13",
+      "tipo": "alimenta"
+    },
+    {
+      "a": "ley_beta",
+      "de": "q102_15_20",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "ley_beta",
+      "de": "q105_15_20",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "ley_beta",
+      "tipo": "alimenta"
+    },
+    {
+      "a": "series_cerradas",
+      "de": "q102_15_20",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "series_cerradas",
+      "de": "q105_15_20",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "series_cerradas",
+      "de": "q97_denso",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "series_cerradas",
+      "de": "q106_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "series_cerradas",
+      "tipo": "alimenta"
+    },
+    {
+      "a": "q103_enmienda",
+      "de": "q89_preregistro",
+      "tipo": "enmienda"
+    },
+    {
+      "a": "q107_v2",
+      "de": "q103_enmienda",
+      "tipo": "enmienda"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q107_v2",
+      "tipo": "recoge"
+    },
+    {
+      "a": "c51",
+      "de": "q40_retiro",
+      "tipo": "funda"
+    },
+    {
+      "a": "q49_shark_river",
+      "de": "q90_so",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "q49_shark_river",
+      "de": "q75_luz",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "q49_shark_river",
+      "de": "q76_banda",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "q49_shark_river",
+      "de": "q77_escala",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "c38",
+      "de": "q45a_toscana",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "c38",
+      "de": "q44_gdelt",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "q38_openalex",
+      "de": "q38_comeau",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "sesgo_cuadratura",
+      "de": "q108_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "c54",
+      "de": "q108_red_comun",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q108_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "series_cerradas",
+      "de": "q108_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "sesgo_cuadratura",
+      "de": "q109_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "c54",
+      "de": "q109_red_comun",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q109_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "series_cerradas",
+      "de": "q109_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "c53",
+      "de": "q109_red_comun",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "sesgo_cuadratura",
+      "de": "q110_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "c54",
+      "de": "q110_red_comun",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q110_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "ley_beta",
+      "de": "q110_red_comun",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "c53",
+      "de": "q110_red_comun",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q111_preregistro_v3",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "ley_beta",
+      "de": "q111_preregistro_v3",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "q107_v2",
+      "de": "q111_preregistro_v3",
+      "tipo": "enmienda"
+    },
+    {
+      "a": "c53",
+      "de": "q111_preregistro_v3",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "factor_154",
+      "de": "q111_preregistro_v3",
+      "tipo": "corrige"
+    },
+    {
+      "a": "c51",
+      "de": "q113_c708_aplicada",
+      "tipo": "resuelve"
+    },
+    {
+      "a": "q40_retiro",
+      "de": "q113_c708_aplicada",
+      "tipo": "corrige"
+    },
+    {
+      "a": "c52",
+      "de": "q115_lobulo_masa_igual",
+      "tipo": "resuelve"
+    },
+    {
+      "a": "q79_lobulo",
+      "de": "q115_lobulo_masa_igual",
+      "tipo": "explica"
+    },
+    {
+      "a": "q90_so",
+      "de": "q114_tercer_punto_so",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "q77_escala",
+      "de": "q114_tercer_punto_so",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "q76_banda",
+      "de": "q114_tercer_punto_so",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "q109_red_comun",
+      "de": "q117_reperfil_ronda4",
+      "tipo": "sustituye"
+    },
+    {
+      "a": "c52",
+      "de": "q117_reperfil_ronda4",
+      "tipo": "cierra reserva"
+    },
+    {
+      "a": "q40_retiro",
+      "de": "q118_agregados_stale",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q113_c708_aplicada",
+      "de": "q118_agregados_stale",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "q113_c708_aplicada",
+      "de": "q119_nutrientes_otros_suelos",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "q118_agregados_stale",
+      "de": "q119_nutrientes_otros_suelos",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "q118_agregados_stale",
+      "de": "q120_agregados_stale_pase2",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q40_retiro",
+      "de": "q120_agregados_stale_pase2",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "q120_agregados_stale_pase2",
+      "de": "q121_agregados_stale_pase3",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q113_c708_aplicada",
+      "de": "q121_agregados_stale_pase3",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "q120_agregados_stale_pase2",
+      "de": "q122_simulacion_mezcla_vigente",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q118_agregados_stale",
+      "de": "q122_simulacion_mezcla_vigente",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "q108_red_comun",
+      "de": "q116_gw231114_prior_085",
+      "tipo": "sustituye"
+    },
+    {
+      "a": "c52",
+      "de": "q116_gw231114_prior_085",
+      "tipo": "cierra reserva"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q112_segundo_ancla_30_40",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "ley_beta",
+      "de": "q112_segundo_ancla_30_40",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "q116_gw231114_prior_085",
+      "de": "q124_gw231114_prior_099",
+      "tipo": "sustituye"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q124_gw231114_prior_099",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q125_tercer_ancla_30_40",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "ley_beta",
+      "de": "q125_tercer_ancla_30_40",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q126_cuarto_ancla_30_40",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "ley_beta",
+      "de": "q126_cuarto_ancla_30_40",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "q126_cuarto_ancla_30_40",
+      "de": "q127_reperfil_denso_q126",
+      "tipo": "sustituye"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q127_reperfil_denso_q126",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "q111_preregistro_v3",
+      "de": "q128_regla_bimodal_d3",
+      "tipo": "enmienda"
+    },
+    {
+      "a": "q127_reperfil_denso_q126",
+      "de": "q128_regla_bimodal_d3",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q111_preregistro_v3",
+      "de": "q129_preregistro_v4",
+      "tipo": "enmienda"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q129_preregistro_v4",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "q127_reperfil_denso_q126",
+      "de": "q130_valle_006",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q126_cuarto_ancla_30_40",
+      "de": "q130_valle_006",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q124_gw231114_prior_099",
+      "de": "q131_tercera_rama",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q127_reperfil_denso_q126",
+      "de": "q131_tercera_rama",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q121_agregados_stale_pase3",
+      "de": "q132_resync_paquete_v2",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q113_c708_aplicada",
+      "de": "q132_resync_paquete_v2",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q113_c708_aplicada",
+      "de": "q133_adenda_c708",
+      "tipo": "enmienda"
+    },
+    {
+      "a": "q40_retiro",
+      "de": "q133_adenda_c708",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q114_tercer_punto_so",
+      "de": "q134_serie_manglares",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q90_so",
+      "de": "q134_serie_manglares",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "q126_cuarto_ancla_30_40",
+      "de": "q135_reperfil_valle_006",
+      "tipo": "corrige"
+    },
+    {
+      "a": "q130_valle_006",
+      "de": "q135_reperfil_valle_006",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q129_preregistro_v4",
+      "de": "q136_preregistro_v4p1",
+      "tipo": "enmienda"
+    },
+    {
+      "a": "q131_tercera_rama",
+      "de": "q136_preregistro_v4p1",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q133_adenda_c708",
+      "de": "q137_resync_paquete_v2",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q132_resync_paquete_v2",
+      "de": "q137_resync_paquete_v2",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q136_preregistro_v4p1",
+      "de": "q138_preregistro_v4p2",
+      "tipo": "enmienda"
+    },
+    {
+      "a": "q135_reperfil_valle_006",
+      "de": "q138_preregistro_v4p2",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q135_reperfil_valle_006",
+      "de": "q139_reperfil_fino",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q126_cuarto_ancla_30_40",
+      "de": "q139_reperfil_fino",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "q138_preregistro_v4p2",
+      "de": "q140_preregistro_v4p3",
+      "tipo": "enmienda"
+    },
+    {
+      "a": "q139_reperfil_fino",
+      "de": "q140_preregistro_v4p3",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q140_preregistro_v4p3",
+      "de": "q141_verificacion_persistencia_red",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q133_adenda_c708",
+      "de": "q141_verificacion_persistencia_red",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q140_preregistro_v4p3",
+      "de": "q142_verificacion_que_cuatro_paquetes",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q137_resync_paquete_v2",
+      "de": "q142_verificacion_que_cuatro_paquetes",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q133_adenda_c708",
+      "de": "q143_gemelo_digital_cruce_corpus",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q38_comeau",
+      "de": "q143_gemelo_digital_cruce_corpus",
+      "tipo": "refuerza"
+    },
+    {
+      "a": "q126_cuarto_ancla_30_40",
+      "de": "q144_quinto_ancla_cribado",
+      "tipo": "recoge"
+    },
+    {
+      "a": "ley_beta",
+      "de": "q144_quinto_ancla_cribado",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q145_quinto_ancla_gw240920",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "ley_beta",
+      "de": "q145_quinto_ancla_gw240920",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "q145_quinto_ancla_gw240920",
+      "de": "q146_densificacion_flanco_q145",
+      "tipo": "corrige"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q146_densificacion_flanco_q145",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "q140_preregistro_v4p3",
+      "de": "q147_preregistro_v4p4",
+      "tipo": "enmienda"
+    },
+    {
+      "a": "q146_densificacion_flanco_q145",
+      "de": "q147_preregistro_v4p4",
+      "tipo": "recoge"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q148_sexto_ancla_gw240621",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "ley_beta",
+      "de": "q148_sexto_ancla_gw240621",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "q147_preregistro_v4p4",
+      "de": "q150_preregistro_v4p5",
+      "tipo": "enmienda"
+    },
+    {
+      "a": "q148_sexto_ancla_gw240621",
+      "de": "q150_preregistro_v4p5",
+      "tipo": "recoge"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q151_septimo_ancla_gw240615",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "ley_beta",
+      "de": "q151_septimo_ancla_gw240615",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q154_octavo_ancla_gw200311",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "ley_beta",
+      "de": "q154_octavo_ancla_gw200311",
+      "tipo": "frente mide"
+    }
+  ],
+  "fecha": "2026-11-26",
+  "huerfanos": [],
+  "n_aristas": 201,
+  "n_nodos": 119,
+  "nodos": [
+    {
+      "id": "rh_vigilancia",
+      "tipo": "frente"
+    },
+    {
+      "id": "q39_segunda_foto",
+      "tipo": "frente"
+    },
+    {
+      "id": "q41_test_real",
+      "tipo": "frente"
+    },
+    {
+      "id": "q42_f1_f6",
+      "tipo": "frente"
+    },
+    {
+      "id": "comparator_cerro",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "zeng_contrareplica",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "rubinstein_v2_265",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "sernau_condensado",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "clay_unsolved",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "everglades_158",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "rodales_varian",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "west_lake_neumatoforos",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "celestun_sin_foto",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "correcciones_repo",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "lalsuite_802",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "kappa_map_menos0005",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "perfil_gana_fisher",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "masas_fijas_artefacto",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "irfft_bug",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "f1_no_se",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "f2_no_se",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "f3_degenerado",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "f4_no_confirma",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "f5_falsificado",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "f6_confirma",
+      "tipo": "ladrillo"
+    },
+    {
+      "id": "c11",
+      "tipo": "conflicto"
+    },
+    {
+      "id": "c50",
+      "tipo": "conflicto"
+    },
+    {
+      "id": "c44",
+      "tipo": "conflicto"
+    },
+    {
+      "id": "c47",
+      "tipo": "conflicto"
+    },
+    {
+      "id": "c48",
+      "tipo": "conflicto"
+    },
+    {
+      "id": "c38",
+      "tipo": "conflicto"
+    },
+    {
+      "id": "q46_rederivacion",
+      "tipo": "pendiente"
+    },
+    {
+      "id": "q47_gw230529",
+      "tipo": "pendiente"
+    },
+    {
+      "id": "q48_h1l1",
+      "tipo": "pendiente"
+    },
+    {
+      "id": "q49_shark_river",
+      "tipo": "pendiente"
+    },
+    {
+      "id": "q50_detail_bahia",
+      "tipo": "pendiente"
+    },
+    {
+      "id": "q38_openalex",
+      "tipo": "pendiente"
+    },
+    {
+      "id": "q66_catalogo",
+      "tipo": "frente"
+    },
+    {
+      "id": "q82_tension",
+      "tipo": "frente"
+    },
+    {
+      "id": "q85_cuenca",
+      "tipo": "frente"
+    },
+    {
+      "id": "q86_dk",
+      "tipo": "frente"
+    },
+    {
+      "id": "q88_mc56",
+      "tipo": "frente"
+    },
+    {
+      "id": "q91_red_comun",
+      "tipo": "frente"
+    },
+    {
+      "id": "q95_red_comun",
+      "tipo": "frente"
+    },
+    {
+      "id": "q99_red_comun",
+      "tipo": "frente"
+    },
+    {
+      "id": "q100_red_comun",
+      "tipo": "frente"
+    },
+    {
+      "id": "q101_red_comun",
+      "tipo": "frente"
+    },
+    {
+      "id": "q104_red_comun",
+      "tipo": "frente"
+    },
+    {
+      "id": "q106_red_comun",
+      "tipo": "frente"
+    },
+    {
+      "id": "q97_denso",
+      "tipo": "frente"
+    },
+    {
+      "id": "q102_15_20",
+      "tipo": "frente"
+    },
+    {
+      "id": "q105_15_20",
+      "tipo": "frente"
+    },
+    {
+      "id": "q79_lobulo",
+      "tipo": "frente"
+    },
+    {
+      "id": "q89_preregistro",
+      "tipo": "frente"
+    },
+    {
+      "id": "q103_enmienda",
+      "tipo": "frente"
+    },
+    {
+      "id": "q107_v2",
+      "tipo": "frente"
+    },
+    {
+      "id": "q90_so",
+      "tipo": "frente"
+    },
+    {
+      "id": "q75_luz",
+      "tipo": "frente"
+    },
+    {
+      "id": "q76_banda",
+      "tipo": "frente"
+    },
+    {
+      "id": "q77_escala",
+      "tipo": "frente"
+    },
+    {
+      "id": "q40_retiro",
+      "tipo": "frente"
+    },
+    {
+      "id": "q45a_toscana",
+      "tipo": "frente"
+    },
+    {
+      "id": "q38_comeau",
+      "tipo": "frente"
+    },
+    {
+      "id": "q44_gdelt",
+      "tipo": "frente"
+    },
+    {
+      "id": "q108_red_comun",
+      "tipo": "frente"
+    },
+    {
+      "id": "c50_resuelto",
+      "tipo": "resultado"
+    },
+    {
+      "id": "factor_154",
+      "tipo": "resultado"
+    },
+    {
+      "id": "ley_beta",
+      "tipo": "resultado"
+    },
+    {
+      "id": "sesgo_cuadratura",
+      "tipo": "resultado"
+    },
+    {
+      "id": "plateau_sobrevive",
+      "tipo": "resultado"
+    },
+    {
+      "id": "bump_artefacto",
+      "tipo": "resultado"
+    },
+    {
+      "id": "combinado_13",
+      "tipo": "resultado"
+    },
+    {
+      "id": "series_cerradas",
+      "tipo": "resultado"
+    },
+    {
+      "id": "c51",
+      "tipo": "conflicto"
+    },
+    {
+      "id": "c52",
+      "tipo": "conflicto"
+    },
+    {
+      "id": "c53",
+      "tipo": "conflicto"
+    },
+    {
+      "id": "c54",
+      "tipo": "conflicto"
+    },
+    {
+      "id": "q109_red_comun",
+      "tipo": "frente"
+    },
+    {
+      "id": "q110_red_comun",
+      "tipo": "frente"
+    },
+    {
+      "id": "q111_preregistro_v3",
+      "tipo": "frente"
+    },
+    {
+      "id": "q113_c708_aplicada",
+      "tipo": "frente"
+    },
+    {
+      "id": "q115_lobulo_masa_igual",
+      "tipo": "frente"
+    },
+    {
+      "id": "q114_tercer_punto_so",
+      "tipo": "frente"
+    },
+    {
+      "id": "q117_reperfil_ronda4",
+      "tipo": "frente"
+    },
+    {
+      "id": "q118_agregados_stale",
+      "tipo": "frente"
+    },
+    {
+      "id": "q119_nutrientes_otros_suelos",
+      "tipo": "frente"
+    },
+    {
+      "id": "q120_agregados_stale_pase2",
+      "tipo": "frente"
+    },
+    {
+      "id": "q121_agregados_stale_pase3",
+      "tipo": "frente"
+    },
+    {
+      "id": "q122_simulacion_mezcla_vigente",
+      "tipo": "frente"
+    },
+    {
+      "id": "q116_gw231114_prior_085",
+      "tipo": "frente"
+    },
+    {
+      "id": "q112_segundo_ancla_30_40",
+      "tipo": "frente"
+    },
+    {
+      "id": "q124_gw231114_prior_099",
+      "tipo": "frente"
+    },
+    {
+      "id": "q125_tercer_ancla_30_40",
+      "tipo": "frente"
+    },
+    {
+      "id": "q126_cuarto_ancla_30_40",
+      "tipo": "frente"
+    },
+    {
+      "id": "q127_reperfil_denso_q126",
+      "tipo": "frente"
+    },
+    {
+      "id": "q128_regla_bimodal_d3",
+      "tipo": "frente"
+    },
+    {
+      "id": "q129_preregistro_v4",
+      "tipo": "frente"
+    },
+    {
+      "id": "q130_valle_006",
+      "tipo": "frente"
+    },
+    {
+      "id": "q131_tercera_rama",
+      "tipo": "frente"
+    },
+    {
+      "id": "q132_resync_paquete_v2",
+      "tipo": "frente"
+    },
+    {
+      "id": "q133_adenda_c708",
+      "tipo": "frente"
+    },
+    {
+      "id": "q134_serie_manglares",
+      "tipo": "frente"
+    },
+    {
+      "id": "q135_reperfil_valle_006",
+      "tipo": "frente"
+    },
+    {
+      "id": "q136_preregistro_v4p1",
+      "tipo": "frente"
+    },
+    {
+      "id": "q137_resync_paquete_v2",
+      "tipo": "frente"
+    },
+    {
+      "id": "q138_preregistro_v4p2",
+      "tipo": "frente"
+    },
+    {
+      "id": "q139_reperfil_fino",
+      "tipo": "frente"
+    },
+    {
+      "id": "q140_preregistro_v4p3",
+      "tipo": "frente"
+    },
+    {
+      "id": "q141_verificacion_persistencia_red",
+      "tipo": "frente"
+    },
+    {
+      "id": "q142_verificacion_que_cuatro_paquetes",
+      "tipo": "frente"
+    },
+    {
+      "id": "q143_gemelo_digital_cruce_corpus",
+      "tipo": "frente"
+    },
+    {
+      "id": "q144_quinto_ancla_cribado",
+      "tipo": "frente"
+    },
+    {
+      "id": "q145_quinto_ancla_gw240920",
+      "tipo": "frente"
+    },
+    {
+      "id": "q146_densificacion_flanco_q145",
+      "tipo": "frente"
+    },
+    {
+      "id": "q147_preregistro_v4p4",
+      "tipo": "frente"
+    },
+    {
+      "id": "q148_sexto_ancla_gw240621",
+      "tipo": "frente"
+    },
+    {
+      "id": "q150_preregistro_v4p5",
+      "tipo": "frente"
+    },
+    {
+      "id": "q151_septimo_ancla_gw240615",
+      "tipo": "frente"
+    },
+    {
+      "id": "q154_octavo_ancla_gw200311",
+      "tipo": "frente"
+    }
+  ]
 }
