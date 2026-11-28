@@ -1094,12 +1094,72 @@
       "a": "q158_noveno_ancla_gw230628",
       "de": "q169_decimo_ancla_gw241129",
       "tipo": "recoge"
+    },
+    {
+      "a": "q165_persistencia_v48_tejido30",
+      "de": "q172_persistencia_v49_tejido31",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q169_decimo_ancla_gw241129",
+      "de": "q172_persistencia_v49_tejido31",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q166_decimo_ancla_cribado",
+      "de": "q173_undecimo_ancla_gw241130",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q169_decimo_ancla_gw241129",
+      "de": "q173_undecimo_ancla_gw241130",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q164_actualizacion_drive_v48",
+      "de": "q174_actualizacion_drive_v49",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q172_persistencia_v49_tejido31",
+      "de": "q174_actualizacion_drive_v49",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q161_preregistro_v4p8",
+      "de": "q170_preregistro_o4c_d3_v4p9",
+      "tipo": "enmienda"
+    },
+    {
+      "a": "q169_decimo_ancla_gw241129",
+      "de": "q170_preregistro_o4c_d3_v4p9",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q172_persistencia_v49_tejido31",
+      "de": "q175_adenda_32",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q173_undecimo_ancla_gw241130",
+      "de": "q175_adenda_32",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q170_preregistro_o4c_d3_v4p9",
+      "de": "q175_preregistro_o4c_d3_v5p0",
+      "tipo": "enmienda"
+    },
+    {
+      "a": "q173_undecimo_ancla_gw241130",
+      "de": "q175_preregistro_o4c_d3_v5p0",
+      "tipo": "recoge"
     }
   ],
   "fecha": "2026-11-26",
   "huerfanos": [],
-  "n_aristas": 219,
-  "n_nodos": 128,
+  "n_aristas": 231,
+  "n_nodos": 134,
   "nodos": [
     {
       "id": "rh_vigilancia",
@@ -1611,6 +1671,30 @@
     },
     {
       "id": "q169_decimo_ancla_gw241129",
+      "tipo": "frente"
+    },
+    {
+      "id": "q172_persistencia_v49_tejido31",
+      "tipo": "frente"
+    },
+    {
+      "id": "q173_undecimo_ancla_gw241130",
+      "tipo": "frente"
+    },
+    {
+      "id": "q174_actualizacion_drive_v49",
+      "tipo": "frente"
+    },
+    {
+      "id": "q170_preregistro_o4c_d3_v4p9",
+      "tipo": "frente"
+    },
+    {
+      "id": "q175_adenda_32",
+      "tipo": "frente"
+    },
+    {
+      "id": "q175_preregistro_o4c_d3_v5p0",
       "tipo": "frente"
     }
   ]
