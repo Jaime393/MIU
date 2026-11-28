@@ -1,12 +1,12 @@
 {
-  "apartados_nuevos": 37,
-  "apartados_total": 85,
+  "apartados_nuevos": 38,
+  "apartados_total": 86,
   "conflictos_abiertos": 4,
   "conflictos_nuevos": 4,
   "conflictos_resueltos": 40,
   "conflictos_total": 44,
-  "cruces_nuevos": 61,
-  "cruces_total": 123,
+  "cruces_nuevos": 65,
+  "cruces_total": 127,
   "fecha": "2026-11-26",
   "frentes": [
     "q38_comeau_reintento",
@@ -125,10 +125,14 @@
     "q161_preregistro_v4p8",
     "q162_pdf_v4p8",
     "q163_limpieza_metadatos_c28_beta",
-    "q164_actualizacion_drive_v48"
+    "q164_actualizacion_drive_v48",
+    "q165_persistencia_v48_tejido30",
+    "q166_decimo_ancla_cribado",
+    "q168_verificacion_cadena_q161_q164",
+    "q169_decimo_ancla_gw241129"
   ],
-  "ladrillos_nuevos": 84,
-  "ladrillos_total": 300,
+  "ladrillos_nuevos": 88,
+  "ladrillos_total": 304,
   "pendientes_nuevos": 17,
   "pendientes_total": 67,
   "tanda": "Tanda 8 — síntesis y cierre"

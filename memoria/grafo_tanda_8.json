@@ -1054,12 +1054,52 @@
       "a": "q162_pdf_v4p8",
       "de": "q164_actualizacion_drive_v48",
       "tipo": "recoge"
+    },
+    {
+      "a": "q161_preregistro_v4p8",
+      "de": "q165_persistencia_v48_tejido30",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q164_actualizacion_drive_v48",
+      "de": "q165_persistencia_v48_tejido30",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q158_noveno_ancla_gw230628",
+      "de": "q166_decimo_ancla_cribado",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q161_preregistro_v4p8",
+      "de": "q166_decimo_ancla_cribado",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q161_preregistro_v4p8",
+      "de": "q168_verificacion_cadena_q161_q164",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q162_pdf_v4p8",
+      "de": "q168_verificacion_cadena_q161_q164",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q166_decimo_ancla_cribado",
+      "de": "q169_decimo_ancla_gw241129",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q158_noveno_ancla_gw230628",
+      "de": "q169_decimo_ancla_gw241129",
+      "tipo": "recoge"
     }
   ],
   "fecha": "2026-11-26",
   "huerfanos": [],
-  "n_aristas": 211,
-  "n_nodos": 124,
+  "n_aristas": 219,
+  "n_nodos": 128,
   "nodos": [
     {
       "id": "rh_vigilancia",
@@ -1555,6 +1595,22 @@
     },
     {
       "id": "q164_actualizacion_drive_v48",
+      "tipo": "frente"
+    },
+    {
+      "id": "q165_persistencia_v48_tejido30",
+      "tipo": "frente"
+    },
+    {
+      "id": "q166_decimo_ancla_cribado",
+      "tipo": "frente"
+    },
+    {
+      "id": "q168_verificacion_cadena_q161_q164",
+      "tipo": "frente"
+    },
+    {
+      "id": "q169_decimo_ancla_gw241129",
       "tipo": "frente"
     }
   ]
