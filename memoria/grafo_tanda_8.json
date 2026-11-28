@@ -1004,12 +1004,62 @@
       "a": "ley_beta",
       "de": "q154_octavo_ancla_gw200311",
       "tipo": "frente mide"
+    },
+    {
+      "a": "combinado_13",
+      "de": "q158_noveno_ancla_gw230628",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "ley_beta",
+      "de": "q158_noveno_ancla_gw230628",
+      "tipo": "frente mide"
+    },
+    {
+      "a": "q150_preregistro_v4p5",
+      "de": "q161_preregistro_v4p8",
+      "tipo": "enmienda"
+    },
+    {
+      "a": "q158_noveno_ancla_gw230628",
+      "de": "q161_preregistro_v4p8",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q161_preregistro_v4p8",
+      "de": "q162_pdf_v4p8",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q158_noveno_ancla_gw230628",
+      "de": "q162_pdf_v4p8",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q137_resync_paquete_v2",
+      "de": "q163_limpieza_metadatos_c28_beta",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q142_verificacion_que_cuatro_paquetes",
+      "de": "q163_limpieza_metadatos_c28_beta",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q163_limpieza_metadatos_c28_beta",
+      "de": "q164_actualizacion_drive_v48",
+      "tipo": "recoge"
+    },
+    {
+      "a": "q162_pdf_v4p8",
+      "de": "q164_actualizacion_drive_v48",
+      "tipo": "recoge"
     }
   ],
   "fecha": "2026-11-26",
   "huerfanos": [],
-  "n_aristas": 201,
-  "n_nodos": 119,
+  "n_aristas": 211,
+  "n_nodos": 124,
   "nodos": [
     {
       "id": "rh_vigilancia",
@@ -1485,6 +1535,26 @@
     },
     {
       "id": "q154_octavo_ancla_gw200311",
+      "tipo": "frente"
+    },
+    {
+      "id": "q158_noveno_ancla_gw230628",
+      "tipo": "frente"
+    },
+    {
+      "id": "q161_preregistro_v4p8",
+      "tipo": "frente"
+    },
+    {
+      "id": "q162_pdf_v4p8",
+      "tipo": "frente"
+    },
+    {
+      "id": "q163_limpieza_metadatos_c28_beta",
+      "tipo": "frente"
+    },
+    {
+      "id": "q164_actualizacion_drive_v48",
       "tipo": "frente"
     }
   ]
