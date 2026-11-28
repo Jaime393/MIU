@@ -706,201 +706,300 @@
    "tipo": "refuerza"
   },
   {
-   "de": "q116_gw231114_prior_085",
    "a": "q108_red_comun",
+   "de": "q116_gw231114_prior_085",
    "tipo": "sustituye"
   },
   {
-   "de": "q116_gw231114_prior_085",
    "a": "c52",
+   "de": "q116_gw231114_prior_085",
    "tipo": "cierra reserva"
   },
   {
-   "de": "q112_segundo_ancla_30_40",
    "a": "combinado_13",
-   "tipo": "frente mide"
-  },
-  {
    "de": "q112_segundo_ancla_30_40",
-   "a": "ley_beta",
    "tipo": "frente mide"
   },
   {
-   "de": "q124_gw231114_prior_099",
+   "a": "ley_beta",
+   "de": "q112_segundo_ancla_30_40",
+   "tipo": "frente mide"
+  },
+  {
    "a": "q116_gw231114_prior_085",
-   "tipo": "sustituye"
-  },
-  {
    "de": "q124_gw231114_prior_099",
-   "a": "combinado_13",
-   "tipo": "frente mide"
-  },
-  {
-   "de": "q125_tercer_ancla_30_40",
-   "a": "combinado_13",
-   "tipo": "frente mide"
-  },
-  {
-   "de": "q125_tercer_ancla_30_40",
-   "a": "ley_beta",
-   "tipo": "frente mide"
-  },
-  {
-   "de": "q126_cuarto_ancla_30_40",
-   "a": "combinado_13",
-   "tipo": "frente mide"
-  },
-  {
-   "de": "q126_cuarto_ancla_30_40",
-   "a": "ley_beta",
-   "tipo": "frente mide"
-  },
-  {
-   "de": "q127_reperfil_denso_q126",
-   "a": "q126_cuarto_ancla_30_40",
    "tipo": "sustituye"
   },
   {
-   "de": "q127_reperfil_denso_q126",
    "a": "combinado_13",
+   "de": "q124_gw231114_prior_099",
    "tipo": "frente mide"
   },
   {
-   "de": "q128_regla_bimodal_d3",
-   "a": "q111_preregistro_v3",
-   "tipo": "enmienda"
-  },
-  {
-   "de": "q128_regla_bimodal_d3",
-   "a": "q127_reperfil_denso_q126",
-   "tipo": "recoge"
-  }
-,
-  {
-   "de": "q129_preregistro_v4",
-   "a": "q111_preregistro_v3",
-   "tipo": "enmienda"
-  },
-  {
-   "de": "q129_preregistro_v4",
    "a": "combinado_13",
+   "de": "q125_tercer_ancla_30_40",
    "tipo": "frente mide"
   },
   {
-   "de": "q130_valle_006",
-   "a": "q127_reperfil_denso_q126",
-   "tipo": "recoge"
+   "a": "ley_beta",
+   "de": "q125_tercer_ancla_30_40",
+   "tipo": "frente mide"
   },
   {
-   "de": "q130_valle_006",
+   "a": "combinado_13",
+   "de": "q126_cuarto_ancla_30_40",
+   "tipo": "frente mide"
+  },
+  {
+   "a": "ley_beta",
+   "de": "q126_cuarto_ancla_30_40",
+   "tipo": "frente mide"
+  },
+  {
    "a": "q126_cuarto_ancla_30_40",
-   "tipo": "recoge"
+   "de": "q127_reperfil_denso_q126",
+   "tipo": "sustituye"
   },
   {
-   "de": "q131_tercera_rama",
-   "a": "q124_gw231114_prior_099",
-   "tipo": "recoge"
+   "a": "combinado_13",
+   "de": "q127_reperfil_denso_q126",
+   "tipo": "frente mide"
   },
   {
-   "de": "q131_tercera_rama",
-   "a": "q127_reperfil_denso_q126",
-   "tipo": "recoge"
-  },
-  {
-   "de": "q132_resync_paquete_v2",
-   "a": "q121_agregados_stale_pase3",
-   "tipo": "recoge"
-  },
-  {
-   "de": "q132_resync_paquete_v2",
-   "a": "q113_c708_aplicada",
-   "tipo": "recoge"
-  },
-  {
-   "de": "q133_adenda_c708",
-   "a": "q113_c708_aplicada",
+   "a": "q111_preregistro_v3",
+   "de": "q128_regla_bimodal_d3",
    "tipo": "enmienda"
   },
   {
+   "a": "q127_reperfil_denso_q126",
+   "de": "q128_regla_bimodal_d3",
+   "tipo": "recoge"
+  },
+  {
+   "a": "q111_preregistro_v3",
+   "de": "q129_preregistro_v4",
+   "tipo": "enmienda"
+  },
+  {
+   "a": "combinado_13",
+   "de": "q129_preregistro_v4",
+   "tipo": "frente mide"
+  },
+  {
+   "a": "q127_reperfil_denso_q126",
+   "de": "q130_valle_006",
+   "tipo": "recoge"
+  },
+  {
+   "a": "q126_cuarto_ancla_30_40",
+   "de": "q130_valle_006",
+   "tipo": "recoge"
+  },
+  {
+   "a": "q124_gw231114_prior_099",
+   "de": "q131_tercera_rama",
+   "tipo": "recoge"
+  },
+  {
+   "a": "q127_reperfil_denso_q126",
+   "de": "q131_tercera_rama",
+   "tipo": "recoge"
+  },
+  {
+   "a": "q121_agregados_stale_pase3",
+   "de": "q132_resync_paquete_v2",
+   "tipo": "recoge"
+  },
+  {
+   "a": "q113_c708_aplicada",
+   "de": "q132_resync_paquete_v2",
+   "tipo": "recoge"
+  },
+  {
+   "a": "q113_c708_aplicada",
    "de": "q133_adenda_c708",
+   "tipo": "enmienda"
+  },
+  {
    "a": "q40_retiro",
+   "de": "q133_adenda_c708",
    "tipo": "recoge"
   },
   {
-   "de": "q134_serie_manglares",
    "a": "q114_tercer_punto_so",
+   "de": "q134_serie_manglares",
    "tipo": "recoge"
   },
   {
-   "de": "q134_serie_manglares",
    "a": "q90_so",
+   "de": "q134_serie_manglares",
    "tipo": "refuerza"
   },
   {
-   "de": "q135_reperfil_valle_006",
    "a": "q126_cuarto_ancla_30_40",
+   "de": "q135_reperfil_valle_006",
    "tipo": "corrige"
   },
   {
-   "de": "q135_reperfil_valle_006",
    "a": "q130_valle_006",
+   "de": "q135_reperfil_valle_006",
    "tipo": "recoge"
   },
   {
-   "de": "q136_preregistro_v4p1",
    "a": "q129_preregistro_v4",
-   "tipo": "enmienda"
-  },
-  {
    "de": "q136_preregistro_v4p1",
-   "a": "q131_tercera_rama",
-   "tipo": "recoge"
-  },
-  {
-   "de": "q137_resync_paquete_v2",
-   "a": "q133_adenda_c708",
-   "tipo": "recoge"
-  },
-  {
-   "de": "q137_resync_paquete_v2",
-   "a": "q132_resync_paquete_v2",
-   "tipo": "recoge"
-  },
-  {
-   "de": "q138_preregistro_v4p2",
-   "a": "q136_preregistro_v4p1",
    "tipo": "enmienda"
   },
   {
+   "a": "q131_tercera_rama",
+   "de": "q136_preregistro_v4p1",
+   "tipo": "recoge"
+  },
+  {
+   "a": "q133_adenda_c708",
+   "de": "q137_resync_paquete_v2",
+   "tipo": "recoge"
+  },
+  {
+   "a": "q132_resync_paquete_v2",
+   "de": "q137_resync_paquete_v2",
+   "tipo": "recoge"
+  },
+  {
+   "a": "q136_preregistro_v4p1",
    "de": "q138_preregistro_v4p2",
+   "tipo": "enmienda"
+  },
+  {
    "a": "q135_reperfil_valle_006",
+   "de": "q138_preregistro_v4p2",
    "tipo": "recoge"
   },
   {
-   "de": "q139_reperfil_fino",
    "a": "q135_reperfil_valle_006",
+   "de": "q139_reperfil_fino",
    "tipo": "recoge"
   },
   {
-   "de": "q139_reperfil_fino",
    "a": "q126_cuarto_ancla_30_40",
+   "de": "q139_reperfil_fino",
    "tipo": "refuerza"
   },
   {
-   "de": "q140_preregistro_v4p3",
    "a": "q138_preregistro_v4p2",
+   "de": "q140_preregistro_v4p3",
    "tipo": "enmienda"
   },
   {
-   "de": "q140_preregistro_v4p3",
    "a": "q139_reperfil_fino",
+   "de": "q140_preregistro_v4p3",
    "tipo": "recoge"
+  },
+  {
+   "a": "q140_preregistro_v4p3",
+   "de": "q141_verificacion_persistencia_red",
+   "tipo": "recoge"
+  },
+  {
+   "a": "q133_adenda_c708",
+   "de": "q141_verificacion_persistencia_red",
+   "tipo": "recoge"
+  },
+  {
+   "a": "q140_preregistro_v4p3",
+   "de": "q142_verificacion_que_cuatro_paquetes",
+   "tipo": "recoge"
+  },
+  {
+   "a": "q137_resync_paquete_v2",
+   "de": "q142_verificacion_que_cuatro_paquetes",
+   "tipo": "recoge"
+  },
+  {
+   "a": "q133_adenda_c708",
+   "de": "q143_gemelo_digital_cruce_corpus",
+   "tipo": "recoge"
+  },
+  {
+   "a": "q38_comeau",
+   "de": "q143_gemelo_digital_cruce_corpus",
+   "tipo": "refuerza"
+  },
+  {
+   "a": "q126_cuarto_ancla_30_40",
+   "de": "q144_quinto_ancla_cribado",
+   "tipo": "recoge"
+  },
+  {
+   "a": "ley_beta",
+   "de": "q144_quinto_ancla_cribado",
+   "tipo": "frente mide"
+  },
+  {
+   "a": "combinado_13",
+   "de": "q145_quinto_ancla_gw240920",
+   "tipo": "frente mide"
+  },
+  {
+   "a": "ley_beta",
+   "de": "q145_quinto_ancla_gw240920",
+   "tipo": "frente mide"
+  },
+  {
+   "a": "q145_quinto_ancla_gw240920",
+   "de": "q146_densificacion_flanco_q145",
+   "tipo": "corrige"
+  },
+  {
+   "a": "combinado_13",
+   "de": "q146_densificacion_flanco_q145",
+   "tipo": "frente mide"
+  },
+  {
+   "a": "q140_preregistro_v4p3",
+   "de": "q147_preregistro_v4p4",
+   "tipo": "enmienda"
+  },
+  {
+   "a": "q146_densificacion_flanco_q145",
+   "de": "q147_preregistro_v4p4",
+   "tipo": "recoge"
+  },
+  {
+   "a": "combinado_13",
+   "de": "q148_sexto_ancla_gw240621",
+   "tipo": "frente mide"
+  },
+  {
+   "a": "ley_beta",
+   "de": "q148_sexto_ancla_gw240621",
+   "tipo": "frente mide"
+  },
+  {
+   "a": "q147_preregistro_v4p4",
+   "de": "q150_preregistro_v4p5",
+   "tipo": "enmienda"
+  },
+  {
+   "a": "q148_sexto_ancla_gw240621",
+   "de": "q150_preregistro_v4p5",
+   "tipo": "recoge"
+  },
+  {
+   "a": "combinado_13",
+   "de": "q151_septimo_ancla_gw240615",
+   "tipo": "frente mide"
+  },
+  {
+   "a": "ley_beta",
+   "de": "q151_septimo_ancla_gw240615",
+   "tipo": "frente mide"
   }
  ],
  "fecha": "2026-11-26",
  "huerfanos": [],
- "n_aristas": 179,
- "n_nodos": 108,
+ "n_aristas": 199,
+ "n_nodos": 118,
  "nodos": [
   {
    "id": "rh_vigilancia",
@@ -1332,6 +1431,46 @@
   },
   {
    "id": "q140_preregistro_v4p3",
+   "tipo": "frente"
+  },
+  {
+   "id": "q141_verificacion_persistencia_red",
+   "tipo": "frente"
+  },
+  {
+   "id": "q142_verificacion_que_cuatro_paquetes",
+   "tipo": "frente"
+  },
+  {
+   "id": "q143_gemelo_digital_cruce_corpus",
+   "tipo": "frente"
+  },
+  {
+   "id": "q144_quinto_ancla_cribado",
+   "tipo": "frente"
+  },
+  {
+   "id": "q145_quinto_ancla_gw240920",
+   "tipo": "frente"
+  },
+  {
+   "id": "q146_densificacion_flanco_q145",
+   "tipo": "frente"
+  },
+  {
+   "id": "q147_preregistro_v4p4",
+   "tipo": "frente"
+  },
+  {
+   "id": "q148_sexto_ancla_gw240621",
+   "tipo": "frente"
+  },
+  {
+   "id": "q150_preregistro_v4p5",
+   "tipo": "frente"
+  },
+  {
+   "id": "q151_septimo_ancla_gw240615",
    "tipo": "frente"
   }
  ]
